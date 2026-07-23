@@ -1,0 +1,528 @@
+/* KPSS Ön Lisans 2026 — Çalışma Platformu
+   Tüm veriler tarayıcının yerel veritabanında (IndexedDB) saklanır.
+   İnternet/sunucu/API gerekmez. */
+
+(function () {
+  "use strict";
+
+  // ---------- IndexedDB yardımcıları ----------
+  const DB_NAME = "kpss_onlisans";
+  const DB_VERSION = 1;
+  let db = null;
+
+  function openDB() {
+    return new Promise((resolve, reject) => {
+      const req = indexedDB.open(DB_NAME, DB_VERSION);
+      req.onupgradeneeded = (e) => {
+        const d = e.target.result;
+        if (!d.objectStoreNames.contains("questions")) {
+          const s = d.createObjectStore("questions", { keyPath: "id" });
+          s.createIndex("topicKey", "topicKey", { unique: false });
+        }
+        if (!d.objectStoreNames.contains("videos")) {
+          const s = d.createObjectStore("videos", { keyPath: "id" });
+          s.createIndex("topicKey", "topicKey", { unique: false });
+        }
+        if (!d.objectStoreNames.contains("meta")) {
+          d.createObjectStore("meta", { keyPath: "key" });
+        }
+      };
+      req.onsuccess = () => resolve(req.result);
+      req.onerror = () => reject(req.error);
+    });
+  }
+
+  function tx(store, mode) {
+    return db.transaction(store, mode).objectStore(store);
+  }
+  function dbAll(store, indexName, value) {
+    return new Promise((resolve, reject) => {
+      const os = tx(store, "readonly");
+      const src = indexName ? os.index(indexName) : os;
+      const req = value !== undefined ? src.getAll(value) : src.getAll();
+      req.onsuccess = () => resolve(req.result);
+      req.onerror = () => reject(req.error);
+    });
+  }
+  function dbPut(store, obj) {
+    return new Promise((resolve, reject) => {
+      const req = tx(store, "readwrite").put(obj);
+      req.onsuccess = () => resolve();
+      req.onerror = () => reject(req.error);
+    });
+  }
+  function dbDelete(store, id) {
+    return new Promise((resolve, reject) => {
+      const req = tx(store, "readwrite").delete(id);
+      req.onsuccess = () => resolve();
+      req.onerror = () => reject(req.error);
+    });
+  }
+  function metaGet(key, fallback) {
+    return new Promise((resolve) => {
+      const req = tx("meta", "readonly").get(key);
+      req.onsuccess = () => resolve(req.result ? req.result.value : fallback);
+      req.onerror = () => resolve(fallback);
+    });
+  }
+  function metaSet(key, value) {
+    return dbPut("meta", { key, value });
+  }
+
+  // ---------- Durum ----------
+  const state = {
+    subject: null,
+    topic: null,
+    tab: "questions",
+    who: "O",
+    examDate: "2026-10-03"
+  };
+  const topicKey = (subject, topic) => subject + "||" + topic;
+  const uid = () => Date.now().toString(36) + Math.random().toString(36).slice(2, 8);
+  const esc = (s) => (s || "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+  // ---------- Görsel küçültme ----------
+  function fileToResizedDataURL(file, maxDim = 1400, quality = 0.82) {
+    return new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onload = () => {
+        const img = new Image();
+        img.onload = () => {
+          let { width, height } = img;
+          if (width > maxDim || height > maxDim) {
+            const r = Math.min(maxDim / width, maxDim / height);
+            width = Math.round(width * r);
+            height = Math.round(height * r);
+          }
+          const canvas = document.createElement("canvas");
+          canvas.width = width; canvas.height = height;
+          canvas.getContext("2d").drawImage(img, 0, 0, width, height);
+          resolve(canvas.toDataURL("image/jpeg", quality));
+        };
+        img.onerror = reject;
+        img.src = reader.result;
+      };
+      reader.onerror = reject;
+      reader.readAsDataURL(file);
+    });
+  }
+
+  // ---------- YouTube ----------
+  function parseYouTube(url) {
+    if (!url) return null;
+    url = url.trim();
+    let m;
+    if ((m = url.match(/[?&]list=([\w-]+)/))) {
+      // önce oynatma listesi (bir video da içerebilir ama listeyi önceliyoruz)
+      const vid = (url.match(/[?&]v=([\w-]+)/) || [])[1];
+      return { type: "playlist", id: m[1], videoId: vid || null };
+    }
+    if ((m = url.match(/youtu\.be\/([\w-]+)/))) return { type: "video", id: m[1] };
+    if ((m = url.match(/[?&]v=([\w-]+)/))) return { type: "video", id: m[1] };
+    if ((m = url.match(/youtube\.com\/embed\/([\w-]+)/))) return { type: "video", id: m[1] };
+    if ((m = url.match(/youtube\.com\/shorts\/([\w-]+)/))) return { type: "video", id: m[1] };
+    return null;
+  }
+  function ytEmbedSrc(parsed) {
+    if (parsed.type === "playlist") return "https://www.youtube.com/embed/videoseries?list=" + parsed.id;
+    return "https://www.youtube.com/embed/" + parsed.id;
+  }
+
+  // ---------- Elemanlar ----------
+  const el = (id) => document.getElementById(id);
+  const subjectBar = el("subjectBar");
+  const topicList = el("topicList");
+  const panel = el("panel");
+
+  // ---------- Ders çubuğu ----------
+  function renderSubjects() {
+    subjectBar.innerHTML = "";
+    Object.entries(window.SUBJECT_GROUPS).forEach(([group, subjects]) => {
+      const label = document.createElement("span");
+      label.className = "subject-group-label";
+      label.textContent = group;
+      subjectBar.appendChild(label);
+      subjects.forEach((subj) => {
+        const chip = document.createElement("button");
+        chip.className = "subject-chip" + (subj === state.subject ? " active" : "");
+        chip.textContent = subj;
+        chip.onclick = () => selectSubject(subj);
+        subjectBar.appendChild(chip);
+      });
+    });
+  }
+
+  async function counts(subject) {
+    const [qs, vs] = await Promise.all([dbAll("questions"), dbAll("videos")]);
+    const map = {};
+    const add = (arr, k) => arr.forEach((x) => {
+      if (x.subject !== subject) return;
+      map[x.topic] = map[x.topic] || { q: 0, v: 0 };
+      map[x.topic][k]++;
+    });
+    add(qs, "q"); add(vs, "v");
+    return map;
+  }
+
+  async function renderTopics() {
+    el("currentSubjectTitle").textContent = state.subject || "Konular";
+    topicList.innerHTML = "";
+    if (!state.subject) return;
+    const cmap = await counts(state.subject);
+    (window.SYLLABUS[state.subject] || []).forEach((topic) => {
+      const li = document.createElement("li");
+      li.className = "topic-item" + (topic === state.topic ? " active" : "");
+      const c = cmap[topic] || { q: 0, v: 0 };
+      const badge = (c.q || c.v) ? `<span class="topic-badge">${c.q}📝 ${c.v}🎬</span>` : "";
+      li.innerHTML = `<span>${esc(topic)}</span>${badge}`;
+      li.onclick = () => selectTopic(topic);
+      topicList.appendChild(li);
+    });
+  }
+
+  // ---------- Sunucudan konu bazlı yükleme ----------
+  // Served over http(s) the app can fetch its own question packs, so there is nothing to
+  // import by hand. On file:// fetch is blocked by CORS, so İçe Aktar stays the route.
+  let manifest = null;
+
+  async function loadManifest() {
+    if (location.protocol === "file:") return null;
+    try {
+      const r = await fetch("data/manifest.json", { cache: "no-cache" });
+      if (!r.ok) return null;
+      return await r.json();
+    } catch (e) { return null; }
+  }
+
+  async function ensureSubjectLoaded(subject) {
+    if (!manifest) return;
+    const entry = (manifest.subjects || []).find((s) => s.subject === subject);
+    if (!entry) return;
+    const ver = manifest.version || 1;
+    if ((await metaGet("loaded:" + subject, 0)) >= ver) return;
+    panel.innerHTML = `<div class="empty"><p>⏳ <b>${esc(subject)}</b> soruları indiriliyor…</p>
+      <p class="hint">${entry.count} soru • ${entry.mb} MB • yalnızca ilk seferde</p></div>`;
+    try {
+      const data = await (await fetch(entry.file)).json();
+      await new Promise((res, rej) => {
+        const tx = db.transaction("questions", "readwrite");
+        const os = tx.objectStore("questions");
+        for (const q of data.questions) os.put(q);
+        tx.oncomplete = res;
+        tx.onerror = () => rej(tx.error);
+      });
+      await metaSet("loaded:" + subject, ver);
+    } catch (err) {
+      panel.innerHTML = `<div class="empty"><p class="danger-text">${esc(subject)} yüklenemedi.</p>
+        <p class="hint">${esc(err.message)}</p></div>`;
+    }
+  }
+
+  async function selectSubject(subj) {
+    state.subject = subj;
+    state.topic = null;
+    renderSubjects();
+    el("topicTitle").textContent = "Bir konu seç";
+    el("breadcrumb").textContent = subj;
+    el("tabs").hidden = true;
+    el("toolbar").hidden = true;
+    panel.innerHTML = `<div class="empty"><p>👈 <b>${esc(subj)}</b> için bir konu seç.</p></div>`;
+    await ensureSubjectLoaded(subj);
+    renderTopics();
+    if (!state.topic && state.subject === subj) {
+      panel.innerHTML = `<div class="empty"><p>👈 <b>${esc(subj)}</b> için bir konu seç.</p></div>`;
+    }
+  }
+
+  function selectTopic(topic) {
+    state.topic = topic;
+    state.tab = "questions";
+    renderTopics();
+    el("topicTitle").textContent = topic;
+    el("breadcrumb").textContent = state.subject + " › " + topic;
+    el("tabs").hidden = false;
+    el("toolbar").hidden = false;
+    document.querySelectorAll(".tab").forEach((t) => t.classList.toggle("active", t.dataset.tab === "questions"));
+    renderContent();
+  }
+
+  // ---------- İçerik ----------
+  async function renderContent() {
+    if (!state.topic) return;
+    const key = topicKey(state.subject, state.topic);
+    const [qs, vs] = await Promise.all([
+      dbAll("questions", "topicKey", key),
+      dbAll("videos", "topicKey", key)
+    ]);
+    el("qCount").textContent = qs.length;
+    el("vCount").textContent = vs.length;
+    el("addQuestionBtn").hidden = state.tab !== "questions";
+    el("addVideoBtn").hidden = state.tab !== "videos";
+
+    panel.innerHTML = "";
+    const items = state.tab === "questions" ? qs : vs;
+    if (items.length === 0) {
+      panel.innerHTML = `<div class="empty"><p>Bu konuda henüz ${state.tab === "questions" ? "soru" : "video"} yok.</p>
+        <p class="hint">Yukarıdaki <b>+ ${state.tab === "questions" ? "Soru" : "Video"} Ekle</b> ile başla.</p></div>`;
+      return;
+    }
+    items.sort((a, b) => b.createdAt - a.createdAt);
+    if (state.tab === "questions") items.forEach(renderQuestionCard);
+    else items.forEach(renderVideoCard);
+  }
+
+  function whoBadge(who) {
+    const label = who === "O" ? "O 💗" : (who || "Ben");
+    return `<span class="who-badge">${esc(label)}</span>`;
+  }
+
+  function renderQuestionCard(q) {
+    const card = document.createElement("div");
+    card.className = "card";
+    let html = `<div class="card-top"><span class="card-tag">📝 Soru ${whoBadge(q.who)}</span></div>`;
+    if (q.image) html += `<img class="q-image" src="${q.image}" alt="soru" data-full="${q.image}">`;
+    if (q.text) html += `<div class="q-text">${esc(q.text)}</div>`;
+    if (q.answer) html += `<div class="answer-box hidden-answer" title="Cevabı görmek için tıkla"><b>Cevap:</b> ${esc(q.answer)}</div>`;
+    if (q.notes) html += `<div class="note-box">🗒️ ${esc(q.notes)}</div>`;
+    if (q.ref) html += `<div class="q-ref">${esc(q.ref)}</div>`;
+    html += `<div class="card-actions">
+      <button class="btn ghost small" data-move>↔ Konu Değiştir</button>
+      <button class="btn ghost small danger-text" data-del>Sil</button>
+    </div>`;
+    card.innerHTML = html;
+    const img = card.querySelector(".q-image");
+    if (img) img.onclick = () => openLightbox(img.dataset.full);
+    const ans = card.querySelector(".answer-box");
+    if (ans) ans.onclick = () => ans.classList.toggle("hidden-answer");
+    card.querySelector("[data-move]").onclick = () => openMover(card, q);
+    card.querySelector("[data-del]").onclick = async () => {
+      if (!confirm("Bu soru silinsin mi?")) return;
+      await dbDelete("questions", q.id);
+      renderContent(); renderTopics();
+    };
+    panel.appendChild(card);
+  }
+
+  function renderVideoCard(v) {
+    const card = document.createElement("div");
+    card.className = "card video-card";
+    const parsed = { type: v.ytType, id: v.ytId };
+    card.innerHTML = `
+      <div class="card-top"><span class="card-tag">🎬 Video ${whoBadge(v.who)}</span></div>
+      <iframe src="${ytEmbedSrc(parsed)}" allowfullscreen loading="lazy"></iframe>
+      <div class="video-meta">
+        ${v.title ? `<h4>${esc(v.title)}</h4>` : ""}
+        ${v.notes ? `<div class="note-box">🗒️ ${esc(v.notes)}</div>` : ""}
+        <div class="card-actions">
+          <a class="btn ghost small" href="${esc(v.url)}" target="_blank" rel="noopener">YouTube'da Aç ↗</a>
+          <button class="btn ghost small danger-text" data-del>Sil</button>
+        </div>
+      </div>`;
+    card.querySelector("[data-del]").onclick = async () => {
+      if (!confirm("Bu video silinsin mi?")) return;
+      await dbDelete("videos", v.id);
+      renderContent(); renderTopics();
+    };
+    panel.appendChild(card);
+  }
+
+  function openLightbox(src) {
+    el("lightboxImg").src = src;
+    el("lightbox").hidden = false;
+  }
+
+  // Move a question to a different subject/topic (fixes stray tags without re-import)
+  function openMover(card, q) {
+    if (card.querySelector(".mover")) return;
+    const subjects = Object.values(window.SUBJECT_GROUPS).flat();
+    const subjOpts = subjects.map((s) =>
+      `<option value="${esc(s)}"${s === q.subject ? " selected" : ""}>${esc(s)}</option>`).join("");
+    const div = document.createElement("div");
+    div.className = "mover";
+    div.innerHTML = `
+      <span class="mover-label">Taşı →</span>
+      <select class="mv-subject">${subjOpts}</select>
+      <select class="mv-topic"></select>
+      <button class="btn primary small mv-save">Kaydet</button>
+      <button class="btn ghost small mv-cancel">İptal</button>`;
+    card.appendChild(div);
+    const subjSel = div.querySelector(".mv-subject");
+    const topSel = div.querySelector(".mv-topic");
+    const fillTopics = (subject, selected) => {
+      topSel.innerHTML = (window.SYLLABUS[subject] || []).map((t) =>
+        `<option value="${esc(t)}"${t === selected ? " selected" : ""}>${esc(t)}</option>`).join("");
+    };
+    fillTopics(q.subject, q.topic);
+    subjSel.onchange = () => fillTopics(subjSel.value, null);
+    div.querySelector(".mv-cancel").onclick = () => div.remove();
+    div.querySelector(".mv-save").onclick = async () => {
+      const ns = subjSel.value, nt = topSel.value;
+      if (!nt) return;
+      q.subject = ns; q.topic = nt; q.topicKey = topicKey(ns, nt);
+      await dbPut("questions", q);
+      renderContent(); renderTopics();
+    };
+  }
+
+  // ---------- Soru modalı ----------
+  let pendingImage = null;
+  function openQuestionModal() {
+    if (!state.topic) return;
+    pendingImage = null;
+    el("qImageInput").value = "";
+    el("qText").value = ""; el("qAnswer").value = ""; el("qNotes").value = "";
+    el("qImagePreviewWrap").hidden = true;
+    el("questionModal").hidden = false;
+  }
+  el("qImageInput").onchange = async (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+    pendingImage = await fileToResizedDataURL(file);
+    el("qImagePreview").src = pendingImage;
+    el("qImagePreviewWrap").hidden = false;
+  };
+  el("qImageClear").onclick = () => {
+    pendingImage = null;
+    el("qImageInput").value = "";
+    el("qImagePreviewWrap").hidden = true;
+  };
+  el("qSaveBtn").onclick = async () => {
+    const text = el("qText").value.trim();
+    if (!pendingImage && !text) { alert("En az bir fotoğraf ya da soru metni ekle."); return; }
+    await dbPut("questions", {
+      id: uid(),
+      subject: state.subject, topic: state.topic, topicKey: topicKey(state.subject, state.topic),
+      image: pendingImage, text,
+      answer: el("qAnswer").value.trim(),
+      notes: el("qNotes").value.trim(),
+      who: state.who, createdAt: Date.now()
+    });
+    el("questionModal").hidden = true;
+    renderContent(); renderTopics();
+  };
+
+  // ---------- Video modalı ----------
+  function openVideoModal() {
+    if (!state.topic) return;
+    el("vUrl").value = ""; el("vTitle").value = ""; el("vNotes").value = "";
+    el("vHint").textContent = "";
+    el("videoModal").hidden = false;
+  }
+  el("vUrl").oninput = () => {
+    const p = parseYouTube(el("vUrl").value);
+    el("vHint").textContent = p
+      ? (p.type === "playlist" ? "✔ Oynatma listesi algılandı." : "✔ Video algılandı.")
+      : (el("vUrl").value ? "⚠ Geçerli bir YouTube bağlantısı görünmüyor." : "");
+  };
+  el("vSaveBtn").onclick = async () => {
+    const url = el("vUrl").value.trim();
+    const p = parseYouTube(url);
+    if (!p) { alert("Geçerli bir YouTube bağlantısı yapıştır."); return; }
+    await dbPut("videos", {
+      id: uid(),
+      subject: state.subject, topic: state.topic, topicKey: topicKey(state.subject, state.topic),
+      url, ytType: p.type, ytId: p.id,
+      title: el("vTitle").value.trim(),
+      notes: el("vNotes").value.trim(),
+      who: state.who, createdAt: Date.now()
+    });
+    el("videoModal").hidden = true;
+    renderContent(); renderTopics();
+  };
+
+  // ---------- Dışa / İçe aktarma ----------
+  async function exportData() {
+    const [questions, videos] = await Promise.all([dbAll("questions"), dbAll("videos")]);
+    const blob = new Blob([JSON.stringify({ app: "kpss_onlisans", version: 1, exportedAt: Date.now(), questions, videos }, null, 2)], { type: "application/json" });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = "kpss-yedek-" + new Date().toISOString().slice(0, 10) + ".json";
+    a.click();
+    URL.revokeObjectURL(a.href);
+  }
+  async function importData(file) {
+    const data = JSON.parse(await file.text());
+    if (!data || data.app !== "kpss_onlisans") throw new Error(file.name + ": bu uygulamaya ait bir dosya değil");
+    let added = 0;
+    for (const q of (data.questions || [])) { if (q && q.id) { await dbPut("questions", q); added++; } }
+    for (const v of (data.videos || [])) { if (v && v.id) { await dbPut("videos", v); added++; } }
+    return added;
+  }
+  async function importFiles(files) {
+    let total = 0, ok = 0, errors = [];
+    for (const f of files) {
+      try { total += await importData(f); ok++; }
+      catch (err) { errors.push(err.message); }
+    }
+    let msg = ok + " dosyadan toplam " + total + " kayıt içe aktarıldı.";
+    if (errors.length) msg += "\n\nAtlanan: " + errors.join("\n");
+    alert(msg);
+    renderTopics(); if (state.topic) renderContent();
+  }
+
+  // ---------- Geri sayım ----------
+  function updateCountdown() {
+    const today = new Date(); today.setHours(0, 0, 0, 0);
+    const exam = new Date(state.examDate + "T00:00:00");
+    const diff = Math.round((exam - today) / 86400000);
+    el("cdNum").textContent = diff >= 0 ? diff : "0";
+    el("countdown").title = "Sınav: " + state.examDate + " (değiştirmek için tıkla)";
+  }
+
+  // ---------- Olaylar ----------
+  document.querySelectorAll(".tab").forEach((t) => {
+    t.onclick = () => {
+      state.tab = t.dataset.tab;
+      document.querySelectorAll(".tab").forEach((x) => x.classList.toggle("active", x === t));
+      renderContent();
+    };
+  });
+  el("addQuestionBtn").onclick = openQuestionModal;
+  el("addVideoBtn").onclick = openVideoModal;
+  document.querySelectorAll("[data-close]").forEach((b) => b.onclick = () => {
+    el("questionModal").hidden = true; el("videoModal").hidden = true;
+  });
+  document.querySelectorAll(".overlay").forEach((o) => o.addEventListener("click", (e) => {
+    if (e.target === o) o.hidden = true;
+  }));
+  el("lightbox").onclick = () => { el("lightbox").hidden = true; };
+  el("exportBtn").onclick = exportData;
+  el("importBtn").onclick = () => el("importFile").click();
+  el("importFile").onchange = (e) => { if (e.target.files.length) importFiles([...e.target.files]); e.target.value = ""; };
+
+  el("whoSelect").onchange = async (e) => { state.who = e.target.value; await metaSet("who", state.who); };
+
+  el("countdown").onclick = async () => {
+    const v = prompt("Sınav tarihi (YYYY-AA-GG):", state.examDate);
+    if (v && /^\d{4}-\d{2}-\d{2}$/.test(v)) {
+      state.examDate = v; await metaSet("examDate", v); updateCountdown();
+    } else if (v) {
+      alert("Tarih formatı: 2026-10-03 gibi olmalı.");
+    }
+  };
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") {
+      el("questionModal").hidden = true; el("videoModal").hidden = true; el("lightbox").hidden = true;
+    }
+  });
+
+  // ---------- Başlat ----------
+  (async function init() {
+    try {
+      db = await openDB();
+    } catch (err) {
+      alert("Veritabanı açılamadı. Lütfen Chrome/Edge ile açmayı dene.\n\n" + err);
+      return;
+    }
+    state.who = await metaGet("who", "O");
+    state.examDate = await metaGet("examDate", "2026-10-03");
+    el("whoSelect").value = state.who;
+    updateCountdown();
+    setInterval(updateCountdown, 3600000);
+    manifest = await loadManifest();
+    renderSubjects();
+    // ilk dersi otomatik seç
+    await selectSubject(window.SUBJECT_GROUPS["Genel Yetenek"][0]);
+  })();
+})();

@@ -1,0 +1,54 @@
+{
+ "version": 1,
+ "subjects": [
+  {
+   "subject": "Türkçe",
+   "slug": "turkce",
+   "file": "data/turkce.json",
+   "count": 456,
+   "mb": 19.4
+  },
+  {
+   "subject": "Tarih",
+   "slug": "tarih",
+   "file": "data/tarih.json",
+   "count": 399,
+   "mb": 9.7
+  },
+  {
+   "subject": "Matematik",
+   "slug": "matematik",
+   "file": "data/matematik.json",
+   "count": 394,
+   "mb": 7.3
+  },
+  {
+   "subject": "Coğrafya",
+   "slug": "cografya",
+   "file": "data/cografya.json",
+   "count": 252,
+   "mb": 7.0
+  },
+  {
+   "subject": "Vatandaşlık",
+   "slug": "vatandaslik",
+   "file": "data/vatandaslik.json",
+   "count": 128,
+   "mb": 2.8
+  },
+  {
+   "subject": "Güncel Bilgiler",
+   "slug": "guncel",
+   "file": "data/guncel.json",
+   "count": 60,
+   "mb": 1.3
+  },
+  {
+   "subject": "Geometri",
+   "slug": "geometri",
+   "file": "data/geometri.json",
+   "count": 48,
+   "mb": 1.3
+  }
+ ]
+}

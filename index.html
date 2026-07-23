@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KPSS Ön Lisans 2026 — Çalışma Platformu</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo">📘</span>
+      <div>
+        <h1>KPSS Ön Lisans 2026</h1>
+        <p class="subtitle">Kişisel Çalışma Platformu</p>
+      </div>
+    </div>
+    <div class="topbar-right">
+      <div class="countdown" id="countdown" title="Sınav tarihini değiştirmek için tıkla">
+        <span class="cd-num" id="cdNum">–</span>
+        <span class="cd-label">gün kaldı</span>
+      </div>
+      <div class="who">
+        <label for="whoSelect">Ekleyen:</label>
+        <select id="whoSelect">
+          <option value="O">O 💗</option>
+          <option value="Ben">Ben</option>
+        </select>
+      </div>
+      <div class="io-buttons">
+        <button id="exportBtn" class="btn ghost" title="İçeriği dosya olarak kaydet">⬇ Dışa Aktar</button>
+        <button id="importBtn" class="btn ghost" title="Dosyadan içerik yükle">⬆ İçe Aktar</button>
+        <input type="file" id="importFile" accept="application/json" multiple hidden>
+      </div>
+    </div>
+  </header>
+
+  <nav class="subject-bar" id="subjectBar"></nav>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <div class="sidebar-head">
+        <h2 id="currentSubjectTitle">Konular</h2>
+      </div>
+      <ul class="topic-list" id="topicList"></ul>
+    </aside>
+
+    <section class="content">
+      <div class="content-head">
+        <div>
+          <h2 id="topicTitle">Bir konu seç</h2>
+          <p class="breadcrumb" id="breadcrumb"></p>
+        </div>
+        <div class="tabs" id="tabs" hidden>
+          <button class="tab active" data-tab="questions">📝 Sorular (<span id="qCount">0</span>)</button>
+          <button class="tab" data-tab="videos">🎬 Videolar (<span id="vCount">0</span>)</button>
+        </div>
+      </div>
+
+      <div class="toolbar" id="toolbar" hidden>
+        <button id="addQuestionBtn" class="btn primary">+ Soru Ekle</button>
+        <button id="addVideoBtn" class="btn primary" hidden>+ Video Ekle</button>
+      </div>
+
+      <div id="panel" class="panel">
+        <div class="empty" id="emptyState">
+          <p>👈 Soldan bir ders ve konu seçerek başla.</p>
+          <p class="hint">Sorunun fotoğrafını çek, konusunu seç; ya da bir YouTube videosu yapıştır.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Soru ekleme penceresi -->
+  <div class="overlay" id="questionModal" hidden>
+    <div class="modal">
+      <div class="modal-head">
+        <h3>Soru Ekle</h3>
+        <button class="icon-btn" data-close>✕</button>
+      </div>
+      <div class="modal-body">
+        <label class="field">
+          <span>📷 Soru Fotoğrafı (isteğe bağlı)</span>
+          <input type="file" id="qImageInput" accept="image/*" capture="environment">
+        </label>
+        <div id="qImagePreviewWrap" class="preview-wrap" hidden>
+          <img id="qImagePreview" alt="önizleme">
+          <button type="button" class="btn ghost small" id="qImageClear">Fotoğrafı Kaldır</button>
+        </div>
+        <label class="field">
+          <span>✍️ Soru Metni (isteğe bağlı)</span>
+          <textarea id="qText" rows="3" placeholder="Soruyu buraya yazabilir ya da sadece fotoğraf ekleyebilirsin..."></textarea>
+        </label>
+        <label class="field">
+          <span>✅ Cevap / Doğru Şık</span>
+          <input type="text" id="qAnswer" placeholder="Örn: C şıkkı — çünkü...">
+        </label>
+        <label class="field">
+          <span>🗒️ Not (isteğe bağlı)</span>
+          <textarea id="qNotes" rows="2" placeholder="Çözüm yolu, hatırlatma, ipucu..."></textarea>
+        </label>
+      </div>
+      <div class="modal-foot">
+        <button class="btn ghost" data-close>Vazgeç</button>
+        <button class="btn primary" id="qSaveBtn">Kaydet</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Video ekleme penceresi -->
+  <div class="overlay" id="videoModal" hidden>
+    <div class="modal">
+      <div class="modal-head">
+        <h3>Video Ekle</h3>
+        <button class="icon-btn" data-close>✕</button>
+      </div>
+      <div class="modal-body">
+        <label class="field">
+          <span>🔗 YouTube Bağlantısı</span>
+          <input type="text" id="vUrl" placeholder="https://www.youtube.com/watch?v=... veya playlist linki">
+        </label>
+        <label class="field">
+          <span>🏷️ Başlık (isteğe bağlı)</span>
+          <input type="text" id="vTitle" placeholder="Örn: Paragraf konu anlatımı - X Hoca">
+        </label>
+        <label class="field">
+          <span>🗒️ Not (isteğe bağlı)</span>
+          <textarea id="vNotes" rows="2" placeholder="Neden faydalı, hangi dakikada ne var..."></textarea>
+        </label>
+        <p class="hint" id="vHint"></p>
+      </div>
+      <div class="modal-foot">
+        <button class="btn ghost" data-close>Vazgeç</button>
+        <button class="btn primary" id="vSaveBtn">Kaydet</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Fotoğraf büyütme -->
+  <div class="lightbox" id="lightbox" hidden>
+    <img id="lightboxImg" alt="soru">
+  </div>
+
+  <script src="syllabus.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
