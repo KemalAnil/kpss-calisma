@@ -1,0 +1,3 @@
+# Kişisel çalışma aracı — arama motorlarında listelenmesi istenmiyor.
+User-agent: *
+Disallow: /
