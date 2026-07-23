@@ -171,7 +171,76 @@ body {
 
 .danger-text { color: var(--danger); }
 
-@media (max-width: 780px) {
+/* Back button: only meaningful in the phone drill-down layout */
+.head-left { display: flex; align-items: center; gap: 10px; }
+.back-btn {
+  display: none; background: var(--panel-2); border: 1px solid var(--border);
+  color: var(--text); border-radius: 10px; padding: 8px 12px; font-size: 14px;
+  font-weight: 600; cursor: pointer; white-space: nowrap;
+}
+
+/* ---- Tablet: keep both panes, just give the questions more room ---- */
+@media (max-width: 1100px) {
+  .sidebar { width: 240px; }
+  .content { padding: 16px 18px; }
+}
+
+/* ---- Phone: drill down (subjects -> topics -> questions) ----
+   640px, not 780px: a portrait tablet (768px) has room for both panes and
+   should keep the split view. */
+@media (max-width: 640px) {
+  body { font-size: 16px; }                    /* 16px avoids iOS zoom-on-focus */
+
+  .topbar { padding: 8px 12px; gap: 10px; }
+  .brand { gap: 8px; }
+  .logo { font-size: 22px; }
+  .brand h1 { font-size: 15px; }
+  .subtitle { display: none; }
+  .topbar-right { gap: 10px; }
+  .countdown { padding: 3px 10px; }
+  .cd-num { font-size: 18px; }
+  .who label { display: none; }
+  .io-buttons .btn { padding: 7px 10px; font-size: 12px; }
+
+  /* One scrollable row instead of chips wrapping onto three lines */
+  .subject-bar { flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; padding: 8px 12px; }
+  .subject-bar::-webkit-scrollbar { display: none; }
+  .subject-chip, .subject-group-label { flex: 0 0 auto; }
+  .subject-chip { padding: 9px 14px; }
+
+  /* Only one pane on screen at a time */
   .layout { flex-direction: column; }
-  .sidebar { width: 100%; max-height: 40vh; border-right: none; border-bottom: 1px solid var(--border); }
+  .sidebar {
+    width: 100%; max-height: none; border-right: none;
+    border-bottom: none; padding: 8px 10px;
+  }
+  .content { display: none; padding: 14px 12px; }
+  body.mobile-content .sidebar { display: none; }
+  body.mobile-content .content { display: block; }
+  .back-btn { display: inline-flex; }
+
+  /* Comfortable touch targets */
+  .topic-item { min-height: 48px; padding: 12px 14px; font-size: 15px; }
+  .btn { padding: 10px 14px; }
+  .btn.small { padding: 8px 12px; font-size: 13px; }
+  .tab { padding: 10px 12px; }
+
+  .content-head { flex-direction: column; align-items: stretch; gap: 12px; }
+  #topicTitle { font-size: 18px; }
+  .tabs { width: 100%; }
+  .tab { flex: 1; text-align: center; }
+
+  .card { padding: 12px; border-radius: 12px; }
+  .q-ref { font-size: 11px; }
+  .mover select { max-width: 100%; flex: 1 1 140px; }
+
+  .modal { border-radius: 14px; }
+  .modal-body { padding: 14px; }
+}
+
+/* Very small phones: stop the header from crowding out the countdown */
+@media (max-width: 420px) {
+  .brand h1 { font-size: 14px; }
+  .io-buttons .btn { padding: 7px 8px; font-size: 11px; }
+  .content-head { gap: 10px; }
 }

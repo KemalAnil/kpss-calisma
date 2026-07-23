@@ -221,6 +221,7 @@
   async function selectSubject(subj) {
     state.subject = subj;
     state.topic = null;
+    document.body.classList.remove("mobile-content");   // back to the topic list
     renderSubjects();
     el("topicTitle").textContent = "Bir konu seç";
     el("breadcrumb").textContent = subj;
@@ -237,6 +238,8 @@
   function selectTopic(topic) {
     state.topic = topic;
     state.tab = "questions";
+    // On phones only one pane is on screen; switch to the questions view.
+    document.body.classList.add("mobile-content");
     renderTopics();
     el("topicTitle").textContent = topic;
     el("breadcrumb").textContent = state.subject + " › " + topic;
@@ -479,6 +482,10 @@
   });
   el("addQuestionBtn").onclick = openQuestionModal;
   el("addVideoBtn").onclick = openVideoModal;
+  el("backBtn").onclick = () => {
+    document.body.classList.remove("mobile-content");
+    window.scrollTo(0, 0);
+  };
   document.querySelectorAll("[data-close]").forEach((b) => b.onclick = () => {
     el("questionModal").hidden = true; el("videoModal").hidden = true;
   });
