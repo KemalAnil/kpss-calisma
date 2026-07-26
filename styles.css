@@ -139,6 +139,19 @@ body {
 .mover-label { font-size: 12px; color: var(--muted); }
 .mover select { background: var(--panel); color: var(--text); border: 1px solid var(--border); border-radius: 8px; padding: 6px 8px; font-size: 13px; max-width: 220px; }
 
+/* Bilgi Notları */
+.notes-card .card-tag { color: var(--accent); }
+.notes-list { list-style: none; margin: 6px 0 0; padding: 0; display: flex; flex-direction: column; gap: 12px; }
+.notes-list li {
+  position: relative; padding: 12px 14px 12px 40px; line-height: 1.55; font-size: 15px;
+  background: var(--panel-2); border: 1px solid var(--border); border-radius: 10px;
+  border-left: 3px solid var(--accent);
+}
+.notes-list li::before {
+  content: "📌"; position: absolute; left: 12px; top: 11px; font-size: 14px; opacity: .85;
+}
+.notes-list strong { color: var(--primary); font-weight: 700; }
+
 .video-card iframe { width: 100%; aspect-ratio: 16/9; border: 0; border-radius: 10px; background: #000; }
 .video-meta { margin-top: 10px; }
 .video-meta h4 { margin: 0 0 4px; font-size: 15px; }
@@ -227,8 +240,10 @@ body {
 
   .content-head { flex-direction: column; align-items: stretch; gap: 12px; }
   #topicTitle { font-size: 18px; }
-  .tabs { width: 100%; }
-  .tab { flex: 1; text-align: center; }
+  .tabs { width: 100%; gap: 4px; }
+  .tab { flex: 1; text-align: center; white-space: nowrap; padding: 9px 4px; font-size: 12px; }
+  .notes-list li { font-size: 14px; padding: 11px 12px 11px 36px; }
+  .notes-list li::before { left: 10px; }
 
   .card { padding: 12px; border-radius: 12px; }
   .q-ref { font-size: 11px; }

@@ -184,6 +184,7 @@
   // Served over http(s) the app can fetch its own question packs, so there is nothing to
   // import by hand. On file:// fetch is blocked by CORS, so İçe Aktar stays the route.
   let manifest = null;
+  let notesData = {};              // özgün bilgi notları (topicKey -> [fact, ...])
 
   async function loadManifest() {
     if (location.protocol === "file:") return null;
@@ -192,6 +193,15 @@
       if (!r.ok) return null;
       return await r.json();
     } catch (e) { return null; }
+  }
+
+  async function loadNotes() {
+    if (location.protocol === "file:") return {};   // fetch file:// üzerinde engelli
+    try {
+      const r = await fetch("data/notes.json", { cache: "no-cache" });
+      if (!r.ok) return {};
+      return (await r.json()).notes || {};
+    } catch (e) { return {}; }
   }
 
   async function ensureSubjectLoaded(subject) {
@@ -257,12 +267,15 @@
       dbAll("questions", "topicKey", key),
       dbAll("videos", "topicKey", key)
     ]);
+    const facts = notesData[key] || [];
     el("qCount").textContent = qs.length;
     el("vCount").textContent = vs.length;
+    el("nCount").textContent = facts.length;
     el("addQuestionBtn").hidden = state.tab !== "questions";
     el("addVideoBtn").hidden = state.tab !== "videos";
 
     panel.innerHTML = "";
+    if (state.tab === "notes") { renderNotes(facts); return; }
     const items = state.tab === "questions" ? qs : vs;
     if (items.length === 0) {
       panel.innerHTML = `<div class="empty"><p>Bu konuda henüz ${state.tab === "questions" ? "soru" : "video"} yok.</p>
@@ -272,6 +285,24 @@
     items.sort((a, b) => b.createdAt - a.createdAt);
     if (state.tab === "questions") items.forEach(renderQuestionCard);
     else items.forEach(renderVideoCard);
+  }
+
+  // **kalın** işaretlerini güvenle <strong>'a çevirir (önce kaçış, sonra biçim)
+  function fmtNote(s) {
+    return esc(s).replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+  }
+
+  function renderNotes(facts) {
+    if (!facts.length) {
+      panel.innerHTML = `<div class="empty"><p>Bu konu için bilgi notu henüz eklenmedi.</p>
+        <p class="hint">Notlar konu konu ekleniyor.</p></div>`;
+      return;
+    }
+    const card = document.createElement("div");
+    card.className = "card notes-card";
+    card.innerHTML = `<div class="card-top"><span class="card-tag">📌 Bilgi Notları</span></div>
+      <ul class="notes-list">${facts.map((f) => `<li>${fmtNote(f)}</li>`).join("")}</ul>`;
+    panel.appendChild(card);
   }
 
   function whoBadge(who) {
@@ -527,7 +558,7 @@
     el("whoSelect").value = state.who;
     updateCountdown();
     setInterval(updateCountdown, 3600000);
-    manifest = await loadManifest();
+    [manifest, notesData] = await Promise.all([loadManifest(), loadNotes()]);
     renderSubjects();
     // ilk dersi otomatik seç
     await selectSubject(window.SUBJECT_GROUPS["Genel Yetenek"][0]);
