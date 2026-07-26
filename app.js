@@ -173,7 +173,9 @@
       const li = document.createElement("li");
       li.className = "topic-item" + (topic === state.topic ? " active" : "");
       const c = cmap[topic] || { q: 0, v: 0 };
-      const badge = (c.q || c.v) ? `<span class="topic-badge">${c.q}📝 ${c.v}🎬</span>` : "";
+      const n = (notesData[topicKey(state.subject, topic)] || []).length;
+      const badge = (c.q || c.v || n)
+        ? `<span class="topic-badge">${c.q}📝 ${n}📌 ${c.v}🎬</span>` : "";
       li.innerHTML = `<span>${esc(topic)}</span>${badge}`;
       li.onclick = () => selectTopic(topic);
       topicList.appendChild(li);
