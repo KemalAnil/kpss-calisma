@@ -1,150 +1,734 @@
 {
-  "version": 2,
-  "_note": "İnteraktif adım adım çözüm. Her giriş sıralı 'steps' ipuçları içerir; okuyucu tıkladıkça birer birer açılır. relatedFactIds, notes.json'daki bilgi notlarına bağlanır ve son adımda gösterilir. 'answer' varsa paketteki hatalı cevap anahtarını ezer. Pilot: Tarih - İslamiyet Öncesi Türk Tarihi.",
+  "version": 3,
+  "_note": "İnteraktif adım adım çözüm. Adımlar {text, rect|rects} (yüzde: [x,y,w,h]) taşıyabilir; ilerledikçe soru görselinde ilgili bölge işaretlenir. relatedFactIds notes.json'a bağlanır, sonda gösterilir. 'answer' hatalı cevap anahtarını ezer. Pilot: Tarih - İslamiyet Öncesi Türk Tarihi (16 soru).",
   "analysis": {
     "2008lisGK-GK-01": {
       "steps": [
-        "Anahtar ifadeyi yakala: yabgu **iç işlerinde serbest**, **dış işlerinde hakana bağlı**. Soru, bu yapının neyin kanıtı olduğunu soruyor.",
-        "Çeldiricileri ele: 'hakana daha az önem' (A) ya da 'Gök-Tanrı dışı inançlar' (E) bu ifadeden **çıkarılamaz** — metinde öyle bir bilgi yok.",
+        {
+          "text": "Anahtar ifadeyi yakala: yabgu **iç işlerinde serbest**, **dış işlerinde hakana bağlı**. Soru, bu yapının neyin kanıtı olduğunu soruyor.",
+          "rect": [
+            4,
+            2,
+            93,
+            6
+          ]
+        },
+        {
+          "text": "Çeldiricileri ele: 'hakana daha az önem' (A) ya da 'Gök-Tanrı dışı inançlar' (E) bu ifadeden **çıkarılamaz** — metinde öyle bir bilgi yok.",
+          "rects": [
+            [
+              6,
+              17,
+              88,
+              5
+            ],
+            [
+              6,
+              41,
+              90,
+              6
+            ]
+          ]
+        },
         "Kural: merkeze bağlı ama içte özerk parçalardan oluşan yönetim = **ikili teşkilat**, yani **federal** yapı (doğu-batı / hakan-yabgu düzeni).",
-        "Sonuç: doğru cevap **C — ülkenin federal bir yapıya sahip olduğu**."
+        {
+          "text": "Sonuç: doğru cevap **C — ülkenin federal bir yapıya sahip olduğu**.",
+          "rect": [
+            6,
+            29,
+            86,
+            4
+          ]
+        }
       ],
-      "relatedFactIds": ["tar-isl-08"]
+      "relatedFactIds": [
+        "tar-isl-08"
+      ]
     },
     "2009lis-GK-01": {
       "steps": [
-        "Kalıba dikkat: **'Yalnız bu bilgiyle'** — yalnızca verilen olaydan çıkanı işaretle, genel bilgiyle değil.",
-        "I. öncül tuzak: Bilge Kağan'ın **kişisel** isteğinden 'toplum dinî arayışta' **genellemesi** yapılamaz.",
-        "II ve III'ü sına: Tonyukuk kağana karşı çıkıyor → **kararlar sorgulanabiliyor (II)**; din değişiminin savaşçı ruhu bozacağı kaygısı → **din yaşam biçimini etkiler (III)**.",
-        "Sonuç: doğru cevap **D — II ve III**."
+        {
+          "text": "Kalıba dikkat: **'Yalnız bu bilgiyle'** — yalnızca verilen olaydan çıkanı işaretle, genel bilgiyle değil.",
+          "rect": [
+            7,
+            23,
+            42,
+            5
+          ]
+        },
+        {
+          "text": "I. öncül tuzak: Bilge Kağan'ın **kişisel** isteğinden 'toplum dinî arayışta' **genellemesi** yapılamaz.",
+          "rect": [
+            10,
+            28,
+            72,
+            5
+          ]
+        },
+        {
+          "text": "II ve III'ü sına: Tonyukuk kağana karşı çıkıyor → **kararlar sorgulanabiliyor (II)**; din değişiminin savaşçı ruhu bozacağı kaygısı → **din yaşam biçimini etkiler (III)**.",
+          "rects": [
+            [
+              10,
+              35,
+              74,
+              5
+            ],
+            [
+              10,
+              46,
+              80,
+              5
+            ]
+          ]
+        },
+        {
+          "text": "Sonuç: doğru cevap **D — II ve III**.",
+          "rect": [
+            27,
+            68,
+            32,
+            7
+          ]
+        }
       ],
-      "relatedFactIds": ["tar-isl-05"]
+      "relatedFactIds": [
+        "tar-isl-05"
+      ]
     },
     "2010lis-GK-02": {
       "steps": [
-        "Soruyu tam oku: 'ülke hanedanın ortak malı' **töresinin sonucu** olanı istiyor — doğru bilgi olması yetmez, bu töreyle **ilgili** olmalı.",
-        "II (toprağın gelire göre bölünmesi) ve III (din çeşitliliği) doğru olsa da bu töreyle **ilgisizdir** — çeldirici.",
-        "Kural: ülke tüm hanedan erkeklerinin ortak malı → her birinin taht hakkı → **taht kavgaları (I)**.",
-        "Sonuç: doğru cevap **A — Yalnız I**."
+        {
+          "text": "Soruyu tam oku: 'ülke hanedanın ortak malı' **töresinin sonucu** olanı istiyor — doğru bilgi olması yetmez, bu töreyle **ilgili** olmalı.",
+          "rect": [
+            7,
+            29,
+            90,
+            11
+          ]
+        },
+        {
+          "text": "II (toprağın gelire göre bölünmesi) ve III (din çeşitliliği) doğru olsa da bu töreyle **ilgisizdir** — çeldirici.",
+          "rects": [
+            [
+              10,
+              13,
+              84,
+              6
+            ],
+            [
+              10,
+              20,
+              62,
+              6
+            ]
+          ]
+        },
+        {
+          "text": "Kural: ülke tüm hanedan erkeklerinin ortak malı → her birinin taht hakkı → **taht kavgaları (I)**.",
+          "rect": [
+            10,
+            6,
+            66,
+            6
+          ]
+        },
+        {
+          "text": "Sonuç: doğru cevap **A — Yalnız I**.",
+          "rect": [
+            6,
+            41,
+            27,
+            6
+          ]
+        }
       ],
-      "relatedFactIds": ["tar-isl-08"]
+      "relatedFactIds": [
+        "tar-isl-08"
+      ]
     },
     "2010ol-GK-01": {
       "steps": [
-        "Bilgiyi ayıkla: Asya Hunları toprak, Hazarlar ahşap ev; yalnız saray/kale taş. Soru buradan **kesin çıkan** yargıyı istiyor.",
-        "En büyük tuzak: **'Çin kaynaklarına göre'** ifadesi yalnızca **kaynağı** belirtir; 'mimaride Çin etkisi (III)' **çıkarılamaz**. II de yerleşik ev örnekleriyle çelişir.",
-        "Kural: farklı coğrafyada farklı yapı malzemesi → **doğa şartları yaşam biçimini etkiler (I)**.",
-        "Sonuç: doğru cevap **A — Yalnız I**."
+        {
+          "text": "Bilgiyi ayıkla: Asya Hunları toprak, Hazarlar ahşap ev; yalnız saray/kale taş. Soru buradan **kesin çıkan** yargıyı istiyor.",
+          "rect": [
+            5,
+            2,
+            93,
+            10
+          ]
+        },
+        {
+          "text": "En büyük tuzak: **'Çin kaynaklarına göre'** ifadesi yalnızca **kaynağı** belirtir; 'mimaride Çin etkisi (III)' **çıkarılamaz**. II de yerleşik ev örnekleriyle çelişir.",
+          "rects": [
+            [
+              7,
+              2,
+              34,
+              4
+            ],
+            [
+              11,
+              40,
+              82,
+              5
+            ]
+          ]
+        },
+        {
+          "text": "Kural: farklı coğrafyada farklı yapı malzemesi → **doğa şartları yaşam biçimini etkiler (I)**.",
+          "rect": [
+            11,
+            22,
+            82,
+            6
+          ]
+        },
+        {
+          "text": "Sonuç: doğru cevap **A — Yalnız I**.",
+          "rect": [
+            6,
+            48,
+            27,
+            5
+          ]
+        }
       ],
-      "relatedFactIds": ["tar-isl-01"]
+      "relatedFactIds": [
+        "tar-isl-01"
+      ]
     },
     "2011lis-GK-01": {
       "steps": [
-        "Soru net: ölen kişinin **eşyalarıyla gömüldüğü mezarın** adı nedir?",
-        "Tuzak **Yuğ**'dur: Yuğ mezar değil, ölünün ardından yapılan **cenaze törenidir** (Şad/Tigin unvan, Toy meclistir).",
-        "Kural: eşyalarla birlikte gömülen mezar odası **Kurgan**'dır.",
-        "Sonuç: doğru cevap **C — Kurgan**."
+        {
+          "text": "Soru net: ölen kişinin **eşyalarıyla gömüldüğü mezarın** adı nedir?",
+          "rect": [
+            6,
+            5,
+            92,
+            34
+          ]
+        },
+        {
+          "text": "Tuzak **Yuğ**'dur: Yuğ mezar değil, ölünün ardından yapılan **cenaze törenidir** (Şad/Tigin unvan, Toy meclistir).",
+          "rect": [
+            7,
+            58,
+            18,
+            12
+          ]
+        },
+        {
+          "text": "Kural: eşyalarla birlikte gömülen mezar odası **Kurgan**'dır.",
+          "rect": [
+            60,
+            58,
+            28,
+            12
+          ]
+        },
+        {
+          "text": "Sonuç: doğru cevap **C — Kurgan**.",
+          "rect": [
+            60,
+            58,
+            28,
+            12
+          ]
+        }
       ],
       "relatedFactIds": []
     },
     "2011lis-GK-02": {
       "steps": [
-        "'değildir' sorusu: Kavimler Göçü'nün **sonucu OLMAYANI** arıyoruz.",
-        "Kronoloji tuzağı: **Göktürkler 552**, Kavimler Göçü **375**. Göktürk'ün yıkılışı bu göçün sonucu **olamaz**.",
-        "Diğer şıklar gerçek sonuç: Roma'nın bölünmesi, Avrupa'nın etnik yapısının değişmesi, Avrupa Hun Devleti, skolastik düzen.",
-        "Sonuç: doğru cevap **E — Göktürk Devleti'nin yıkılması**."
+        {
+          "text": "'değildir' sorusu: Kavimler Göçü'nün **sonucu OLMAYANI** arıyoruz.",
+          "rect": [
+            6,
+            8,
+            92,
+            7
+          ]
+        },
+        {
+          "text": "Kronoloji tuzağı: **Göktürkler 552**, Kavimler Göçü **375**. Göktürk'ün yıkılışı bu göçün sonucu **olamaz**.",
+          "rect": [
+            6,
+            88,
+            74,
+            9
+          ]
+        },
+        {
+          "text": "Diğer şıklar gerçek sonuç: Roma'nın bölünmesi, Avrupa'nın etnik yapısının değişmesi, Avrupa Hun Devleti, skolastik düzen.",
+          "rect": [
+            5,
+            28,
+            90,
+            52
+          ]
+        },
+        {
+          "text": "Sonuç: doğru cevap **E — Göktürk Devleti'nin yıkılması**.",
+          "rect": [
+            6,
+            88,
+            74,
+            9
+          ]
+        }
       ],
-      "relatedFactIds": ["tar-isl-03"]
+      "relatedFactIds": [
+        "tar-isl-03"
+      ]
     },
     "2012lis-GK-01": {
       "answer": "B",
       "steps": [
-        "Kavramı tanı: hükümdara **yönetme yetkisinin Tanrı tarafından verildiği** inancı neyin adıdır?",
-        "Çeldiriciler: **Tekin** (hanedandan şehzade) ve **Şad** (hanedan valisi) — bir yetki değil, unvandır.",
-        "Kural: Tanrı'nın verdiği yönetme yetkisi/gücü = **Kut**.",
-        "Sonuç: doğru cevap **B — Kut**."
+        {
+          "text": "Kavramı tanı: hükümdara **yönetme yetkisinin Tanrı tarafından verildiği** inancı neyin adıdır?",
+          "rect": [
+            6,
+            4,
+            92,
+            16
+          ]
+        },
+        {
+          "text": "Çeldiriciler: **Tekin** (hanedandan şehzade) ve **Şad** (hanedan valisi) — bir yetki değil, unvandır.",
+          "rects": [
+            [
+              8,
+              57,
+              19,
+              14
+            ],
+            [
+              65,
+              57,
+              23,
+              14
+            ]
+          ]
+        },
+        {
+          "text": "Kural: Tanrı'nın verdiği yönetme yetkisi/gücü = **Kut**.",
+          "rect": [
+            37,
+            57,
+            18,
+            14
+          ]
+        },
+        {
+          "text": "Sonuç: doğru cevap **B — Kut**.",
+          "rect": [
+            37,
+            57,
+            18,
+            14
+          ]
+        }
       ],
       "relatedFactIds": []
     },
     "2012ol-GK-01": {
       "steps": [
-        "Soru: **Orhun Yazıtları** hangi devlet adamlarının dönemine ait bilgi içerir?",
-        "Tuzak **Bumin Kağan** (III): O **I. Göktürk**'ün kurucusudur; Orhun Yazıtları ise **II. Göktürk** dönemine aittir.",
-        "Kural: Yazıtlar **Bilge Kağan (I)**, Kültigin ve **Tonyukuk (II)** adına dikildi.",
-        "Sonuç: doğru cevap **D — I ve II**."
+        {
+          "text": "Soru: **Orhun Yazıtları** hangi devlet adamlarının dönemine ait bilgi içerir?",
+          "rect": [
+            5,
+            42,
+            92,
+            13
+          ]
+        },
+        {
+          "text": "Tuzak **Bumin Kağan** (III): O **I. Göktürk**'ün kurucusudur; Orhun Yazıtları ise **II. Göktürk** dönemine aittir.",
+          "rect": [
+            11,
+            34,
+            42,
+            8
+          ]
+        },
+        {
+          "text": "Kural: Yazıtlar **Bilge Kağan (I)**, Kültigin ve **Tonyukuk (II)** adına dikildi.",
+          "rects": [
+            [
+              11,
+              10,
+              40,
+              8
+            ],
+            [
+              11,
+              22,
+              40,
+              8
+            ]
+          ]
+        },
+        {
+          "text": "Sonuç: doğru cevap **D — I ve II**.",
+          "rect": [
+            23,
+            87,
+            27,
+            10
+          ]
+        }
       ],
-      "relatedFactIds": ["tar-isl-04", "tar-isl-06"]
+      "relatedFactIds": [
+        "tar-isl-04",
+        "tar-isl-06"
+      ]
     },
     "2013lis-GK-01": {
       "steps": [
-        "Üç öncülü ilk Türk devletlerinin özellikleriyle karşılaştır.",
-        "I: 'töre' = yazısız hukuk ✓ | II: 'yurt' = ülke/toprak ✓ | III: 'kurultay' = danışma meclisi ✓ — üçü de doğru, çeldirici yok.",
-        "Sonuç: doğru cevap **E — I, II ve III**."
+        {
+          "text": "Üç öncülü ilk Türk devletlerinin özellikleriyle karşılaştır.",
+          "rect": [
+            6,
+            3,
+            90,
+            12
+          ]
+        },
+        {
+          "text": "I: 'töre' = yazısız hukuk ✓ | II: 'yurt' = ülke/toprak ✓ | III: 'kurultay' = danışma meclisi ✓ — üçü de doğru, çeldirici yok.",
+          "rect": [
+            9,
+            16,
+            90,
+            44
+          ]
+        },
+        {
+          "text": "Sonuç: doğru cevap **E — I, II ve III**.",
+          "rect": [
+            55,
+            87,
+            30,
+            9
+          ]
+        }
       ],
-      "relatedFactIds": ["tar-isl-08"]
+      "relatedFactIds": [
+        "tar-isl-08"
+      ]
     },
     "2014lis-GK-01": {
       "steps": [
-        "Soru: Uygurların, kağanın gücünü **Ay'dan** aldığına inanıp unvanlara 'Ay' eklemesinde etkili olan **din** nedir?",
-        "Güçlü tuzak **Budizm**: Uygurlar Budizm'i de benimsedi, ama 'Ay' simgesi özellikle başka bir dinle bağlantılı.",
-        "Kural: 'Ay' vurgusu → **Mani (Manihaizm)** dini.",
-        "Sonuç: doğru cevap **A — Manihaizm**."
+        {
+          "text": "Soru: Uygurların, kağanın gücünü **Ay'dan** aldığına inanıp unvanlara 'Ay' eklemesinde etkili olan **din** nedir?",
+          "rect": [
+            6,
+            5,
+            92,
+            42
+          ]
+        },
+        {
+          "text": "Güçlü tuzak **Budizm**: Uygurlar Budizm'i de benimsedi, ama 'Ay' simgesi özellikle başka bir dinle bağlantılı.",
+          "rect": [
+            37,
+            57,
+            19,
+            14
+          ]
+        },
+        {
+          "text": "Kural: 'Ay' vurgusu → **Mani (Manihaizm)** dini.",
+          "rect": [
+            7,
+            57,
+            24,
+            14
+          ]
+        },
+        {
+          "text": "Sonuç: doğru cevap **A — Manihaizm**.",
+          "rect": [
+            7,
+            57,
+            24,
+            14
+          ]
+        }
       ],
-      "relatedFactIds": ["tar-isl-05"]
+      "relatedFactIds": [
+        "tar-isl-05"
+      ]
     },
     "2014lis-GK-02": {
       "steps": [
-        "Soru: **Firdevsî'nin Şehnâme**'sinde geçen **efsanevi** Türk hakanı kim?",
+        {
+          "text": "Soru: **Firdevsî'nin Şehnâme**'sinde geçen **efsanevi** Türk hakanı kim?",
+          "rect": [
+            6,
+            6,
+            92,
+            30
+          ]
+        },
         "Diğer şıklar (Kül Tigin, Bilge Kağan, Mukan Kağan, Teoman) gerçek tarihî kişilerdir — 'efsanevi' değil.",
-        "Kural: Şehnâme'deki efsanevi Türk hükümdarı = **Afrasyab** (Türk kaynaklarında **Alp Er Tunga**).",
-        "Sonuç: doğru cevap **C — Afrasyab**."
+        {
+          "text": "Kural: Şehnâme'deki efsanevi Türk hükümdarı = **Afrasyab** (Türk kaynaklarında **Alp Er Tunga**).",
+          "rect": [
+            61,
+            47,
+            28,
+            16
+          ]
+        },
+        {
+          "text": "Sonuç: doğru cevap **C — Afrasyab**.",
+          "rect": [
+            61,
+            47,
+            28,
+            16
+          ]
+        }
       ],
       "relatedFactIds": []
     },
     "2016lis-GK-01": {
       "steps": [
-        "Soruyu sınırla: **I. Göktürk**'ün en parlak dönemi + Avarları bitiren + batıda Hazar'a ulaşan hükümdar.",
-        "Tuzak **İteriş (Kutluk)** ve **Bilge Kağan** — ikisi de **II. Göktürk** dönemine ait, soruyla uyuşmaz.",
-        "Kural: I. Göktürk'ü zirveye taşıyan, Avarları yıkan hükümdar **Mukan Kağan**'dır.",
-        "Sonuç: doğru cevap **A — Mukan Kağan**."
+        {
+          "text": "Soruyu sınırla: **I. Göktürk**'ün en parlak dönemi + Avarları bitiren + batıda Hazar'a ulaşan hükümdar.",
+          "rect": [
+            6,
+            4,
+            92,
+            38
+          ]
+        },
+        {
+          "text": "Tuzak **İteriş (Kutluk)** ve **Bilge Kağan** — ikisi de **II. Göktürk** dönemine ait, soruyla uyuşmaz.",
+          "rects": [
+            [
+              50,
+              63,
+              33,
+              9
+            ],
+            [
+              38,
+              82,
+              33,
+              9
+            ]
+          ]
+        },
+        {
+          "text": "Kural: I. Göktürk'ü zirveye taşıyan, Avarları yıkan hükümdar **Mukan Kağan**'dır.",
+          "rect": [
+            6,
+            47,
+            35,
+            9
+          ]
+        },
+        {
+          "text": "Sonuç: doğru cevap **A — Mukan Kağan**.",
+          "rect": [
+            6,
+            47,
+            35,
+            9
+          ]
+        }
       ],
-      "relatedFactIds": ["tar-isl-06", "tar-isl-04"]
+      "relatedFactIds": [
+        "tar-isl-06",
+        "tar-isl-04"
+      ]
     },
     "2018lis-GK-01": {
       "steps": [
-        "'söylenemez' sorusu: yönetim anlayışıyla ilgili **YANLIŞ** olanı bul.",
-        "A-B-C-D doğru: hanedan erkeklerinin taht hakkı, Kut inancı, ikili teşkilat, kurultay.",
-        "Kural: ilk Türk devletlerinde **veraset belirsizdi**; hükümdar olacak üye **önceden belirlenmezdi** — bu yüzden E yanlış (taht kavgalarının kaynağı da budur).",
-        "Sonuç: doğru cevap **E**."
+        {
+          "text": "'söylenemez' sorusu: yönetim anlayışıyla ilgili **YANLIŞ** olanı bul.",
+          "rect": [
+            5,
+            15,
+            29,
+            7
+          ]
+        },
+        {
+          "text": "A-B-C-D doğru: hanedan erkeklerinin taht hakkı, Kut inancı, ikili teşkilat, kurultay.",
+          "rect": [
+            5,
+            23,
+            91,
+            55
+          ]
+        },
+        {
+          "text": "Kural: ilk Türk devletlerinde **veraset belirsizdi**; hükümdar olacak üye **önceden belirlenmezdi** — bu yüzden E yanlış (taht kavgalarının kaynağı da budur).",
+          "rect": [
+            5,
+            84,
+            92,
+            10
+          ]
+        },
+        {
+          "text": "Sonuç: doğru cevap **E**.",
+          "rect": [
+            5,
+            84,
+            92,
+            10
+          ]
+        }
       ],
-      "relatedFactIds": ["tar-isl-08"]
+      "relatedFactIds": [
+        "tar-isl-08"
+      ]
     },
     "2018ol-GK-01": {
       "steps": [
-        "Soru: toplumu oluşturan birimlerden **olmayanı** bul.",
-        "Sıralamayı hatırla: **Oguş (aile) → Urug → Boy → Budun (millet)** — hepsi toplumsal birim.",
-        "Kural: **Toy** bir toplumsal birim değil, **kurultay/meclis** (siyasi kurum).",
-        "Sonuç: doğru cevap **D — Toy**."
+        {
+          "text": "Soru: toplumu oluşturan birimlerden **olmayanı** bul.",
+          "rect": [
+            5,
+            4,
+            92,
+            36
+          ]
+        },
+        {
+          "text": "Sıralamayı hatırla: **Oguş (aile) → Urug → Boy → Budun (millet)** — hepsi toplumsal birim.",
+          "rects": [
+            [
+              6,
+              52,
+              82,
+              13
+            ],
+            [
+              58,
+              74,
+              24,
+              14
+            ]
+          ]
+        },
+        {
+          "text": "Kural: **Toy** bir toplumsal birim değil, **kurultay/meclis** (siyasi kurum).",
+          "rect": [
+            26,
+            74,
+            22,
+            14
+          ]
+        },
+        {
+          "text": "Sonuç: doğru cevap **D — Toy**.",
+          "rect": [
+            26,
+            74,
+            22,
+            14
+          ]
+        }
       ],
       "relatedFactIds": []
     },
     "2020lis-GK-01": {
       "steps": [
-        "Soru: terim–günümüz karşılığı eşleştirmelerinden **yanlış** olanı bul.",
-        "Doğruları ele: İlig-Hükümdar, Kün-Halk, Oguş-Aile, Örgin-Taht ✓.",
-        "Kural: **Ayukı** 'yargıç' değil, **hükûmet/bakanlar kuruludur** (yargıç = yargan/yargucı).",
-        "Sonuç: doğru cevap **D — Ayukı-Yargıç**."
+        {
+          "text": "Soru: terim–günümüz karşılığı eşleştirmelerinden **yanlış** olanı bul.",
+          "rect": [
+            5,
+            23,
+            25,
+            7
+          ]
+        },
+        {
+          "text": "Doğruları ele: İlig-Hükümdar, Kün-Halk, Oguş-Aile, Örgin-Taht ✓.",
+          "rects": [
+            [
+              5,
+              31,
+              52,
+              42
+            ],
+            [
+              5,
+              89,
+              48,
+              8
+            ]
+          ]
+        },
+        {
+          "text": "Kural: **Ayukı** 'yargıç' değil, **hükûmet/bakanlar kuruludur** (yargıç = yargan/yargucı).",
+          "rect": [
+            5,
+            76,
+            50,
+            8
+          ]
+        },
+        {
+          "text": "Sonuç: doğru cevap **D — Ayukı-Yargıç**.",
+          "rect": [
+            5,
+            76,
+            50,
+            8
+          ]
+        }
       ],
       "relatedFactIds": []
     },
     "2020ol-GK-01": {
       "steps": [
-        "'söylenemez' sorusu: yıkılışta **etkili OLMAYANI** bul.",
-        "Gerçek nedenleri ele: boylar arası ve taht kavgaları, yeteneksiz kağanlar, Çin'in müdahalesi.",
-        "Anakronizm tuzağı: **ateşli silahlar** o çağda henüz yoktu → yıkılış nedeni olamaz.",
-        "Sonuç: doğru cevap **E — ateşli silahlardan yoksun olunması**."
+        {
+          "text": "'söylenemez' sorusu: yıkılışta **etkili OLMAYANI** bul.",
+          "rect": [
+            5,
+            16,
+            27,
+            8
+          ]
+        },
+        {
+          "text": "Gerçek nedenleri ele: boylar arası ve taht kavgaları, yeteneksiz kağanlar, Çin'in müdahalesi.",
+          "rect": [
+            5,
+            28,
+            90,
+            52
+          ]
+        },
+        {
+          "text": "Anakronizm tuzağı: **ateşli silahlar** o çağda henüz yoktu → yıkılış nedeni olamaz.",
+          "rect": [
+            5,
+            85,
+            90,
+            9
+          ]
+        },
+        {
+          "text": "Sonuç: doğru cevap **E — ateşli silahlardan yoksun olunması**.",
+          "rect": [
+            5,
+            85,
+            90,
+            9
+          ]
+        }
       ],
-      "relatedFactIds": ["tar-isl-08"]
+      "relatedFactIds": [
+        "tar-isl-08"
+      ]
     }
   }
 }
