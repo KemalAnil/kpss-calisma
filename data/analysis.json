@@ -1,86 +1,149 @@
 {
-  "version": 1,
-  "_note": "Özgün soru analizleri (tuzak + çözüm), soru id ile anahtarlanır. relatedFactIds, notes.json'daki bilgi notlarına bağlanır. 'answer' alanı varsa, paketteki hatalı cevap anahtarını ezer. Pilot: Tarih - İslamiyet Öncesi Türk Tarihi.",
+  "version": 2,
+  "_note": "İnteraktif adım adım çözüm. Her giriş sıralı 'steps' ipuçları içerir; okuyucu tıkladıkça birer birer açılır. relatedFactIds, notes.json'daki bilgi notlarına bağlanır ve son adımda gösterilir. 'answer' varsa paketteki hatalı cevap anahtarını ezer. Pilot: Tarih - İslamiyet Öncesi Türk Tarihi.",
   "analysis": {
     "2008lisGK-GK-01": {
-      "catch": "Yabgu'nun **iç işlerinde serbest, dış işlerinde hakana bağlı** olması; ülkenin merkeze bağlı ama içte özerk parçalardan kurulduğunu gösterir. Bu da **federal (ikili teşkilat)** yapının tanımıdır. 'Daha az önem' (A) ya da inançla ilgili (E) yorumları bu bilgiden çıkmaz.",
-      "solve": "Anahtar ifade 'içte serbest – dışta bağlı'; bu, doğu-batı (hakan-yabgu) biçimindeki **ikili teşkilatı** anlatır. Doğru cevap **C: federal yapı**.",
+      "steps": [
+        "Anahtar ifadeyi yakala: yabgu **iç işlerinde serbest**, **dış işlerinde hakana bağlı**. Soru, bu yapının neyin kanıtı olduğunu soruyor.",
+        "Çeldiricileri ele: 'hakana daha az önem' (A) ya da 'Gök-Tanrı dışı inançlar' (E) bu ifadeden **çıkarılamaz** — metinde öyle bir bilgi yok.",
+        "Kural: merkeze bağlı ama içte özerk parçalardan oluşan yönetim = **ikili teşkilat**, yani **federal** yapı (doğu-batı / hakan-yabgu düzeni).",
+        "Sonuç: doğru cevap **C — ülkenin federal bir yapıya sahip olduğu**."
+      ],
       "relatedFactIds": ["tar-isl-08"]
     },
     "2009lis-GK-01": {
-      "catch": "Tuzak, I. öncüldür: Bilge Kağan'ın **kişisel** isteğinden 'toplumun dinî arayışta olduğu' **genellemesine** geçilemez. 'Yalnız bu bilgiyle' kalıbı, verilenin ötesine çıkmanı engeller.",
-      "solve": "Tonyukuk'un kağana karşı çıkması → II (kararlar sorgulanabiliyor); din değişiminin savaşçı ruhu bozacağı kaygısı → III (din, yaşam biçimini etkiler). Doğru cevap **D: II ve III**.",
+      "steps": [
+        "Kalıba dikkat: **'Yalnız bu bilgiyle'** — yalnızca verilen olaydan çıkanı işaretle, genel bilgiyle değil.",
+        "I. öncül tuzak: Bilge Kağan'ın **kişisel** isteğinden 'toplum dinî arayışta' **genellemesi** yapılamaz.",
+        "II ve III'ü sına: Tonyukuk kağana karşı çıkıyor → **kararlar sorgulanabiliyor (II)**; din değişiminin savaşçı ruhu bozacağı kaygısı → **din yaşam biçimini etkiler (III)**.",
+        "Sonuç: doğru cevap **D — II ve III**."
+      ],
       "relatedFactIds": ["tar-isl-05"]
     },
     "2010lis-GK-02": {
-      "catch": "II ve III doğru **bilgiler** olsa da soru, 'ülke hanedanın ortak malı' **töresinin sonucu** olanı istiyor. Toprağın gelire göre bölünmesi ve din çeşitliliği bu töreyle ilgisizdir; asıl sonuç **taht kavgalarıdır**.",
-      "solve": "Ülkenin hanedanın ortak malı sayılması → her erkek üyenin taht hakkı → **taht kavgaları (I)**. Doğru cevap **A: Yalnız I**.",
+      "steps": [
+        "Soruyu tam oku: 'ülke hanedanın ortak malı' **töresinin sonucu** olanı istiyor — doğru bilgi olması yetmez, bu töreyle **ilgili** olmalı.",
+        "II (toprağın gelire göre bölünmesi) ve III (din çeşitliliği) doğru olsa da bu töreyle **ilgisizdir** — çeldirici.",
+        "Kural: ülke tüm hanedan erkeklerinin ortak malı → her birinin taht hakkı → **taht kavgaları (I)**.",
+        "Sonuç: doğru cevap **A — Yalnız I**."
+      ],
       "relatedFactIds": ["tar-isl-08"]
     },
     "2010ol-GK-01": {
-      "catch": "'**Çin kaynaklarına göre**' ifadesi yalnızca **bilginin kaynağını** belirtir; buradan 'Türkler mimaride Çin'den etkilendi (III)' sonucu **çıkmaz**. II de yerleşik ev örnekleriyle çelişir.",
-      "solve": "Farklı coğrafyada farklı yapı malzemesi (toprak / ahşap / taş) → **doğa şartları yaşam biçimini etkiler (I)**. Doğru cevap **A: Yalnız I**.",
+      "steps": [
+        "Bilgiyi ayıkla: Asya Hunları toprak, Hazarlar ahşap ev; yalnız saray/kale taş. Soru buradan **kesin çıkan** yargıyı istiyor.",
+        "En büyük tuzak: **'Çin kaynaklarına göre'** ifadesi yalnızca **kaynağı** belirtir; 'mimaride Çin etkisi (III)' **çıkarılamaz**. II de yerleşik ev örnekleriyle çelişir.",
+        "Kural: farklı coğrafyada farklı yapı malzemesi → **doğa şartları yaşam biçimini etkiler (I)**.",
+        "Sonuç: doğru cevap **A — Yalnız I**."
+      ],
       "relatedFactIds": ["tar-isl-01"]
     },
     "2011lis-GK-01": {
-      "catch": "Asıl çeldirici **Yuğ**'dur: Yuğ, ölünün ardından yapılan **cenaze törenidir**, mezarın kendisi değil. Eşyalarla gömülen mezar = **Kurgan**.",
-      "solve": "Ölünün eşyalarıyla gömüldüğü mezar odası **Kurgan**'dır (Şad/Tigin unvan, Toy meclistir). Doğru cevap **C: Kurgan**.",
+      "steps": [
+        "Soru net: ölen kişinin **eşyalarıyla gömüldüğü mezarın** adı nedir?",
+        "Tuzak **Yuğ**'dur: Yuğ mezar değil, ölünün ardından yapılan **cenaze törenidir** (Şad/Tigin unvan, Toy meclistir).",
+        "Kural: eşyalarla birlikte gömülen mezar odası **Kurgan**'dır.",
+        "Sonuç: doğru cevap **C — Kurgan**."
+      ],
       "relatedFactIds": []
     },
     "2011lis-GK-02": {
-      "catch": "'değildir' sorusu. **Göktürkler 552'de**, Kavimler Göçü ise **375**'te olmuştur; Göktürk'ün yıkılışı bu göçün sonucu **olamaz** (kronoloji tuzağı).",
-      "solve": "Kavimler Göçü'nün sonuçları: Roma'nın bölünmesi, Avrupa'nın etnik yapısının değişmesi, Avrupa Hun Devleti, skolastik/feodal düzen. Bunların dışındaki **E** doğru cevaptır.",
+      "steps": [
+        "'değildir' sorusu: Kavimler Göçü'nün **sonucu OLMAYANI** arıyoruz.",
+        "Kronoloji tuzağı: **Göktürkler 552**, Kavimler Göçü **375**. Göktürk'ün yıkılışı bu göçün sonucu **olamaz**.",
+        "Diğer şıklar gerçek sonuç: Roma'nın bölünmesi, Avrupa'nın etnik yapısının değişmesi, Avrupa Hun Devleti, skolastik düzen.",
+        "Sonuç: doğru cevap **E — Göktürk Devleti'nin yıkılması**."
+      ],
       "relatedFactIds": ["tar-isl-03"]
     },
     "2012lis-GK-01": {
       "answer": "B",
-      "catch": "Yönetme yetkisinin **Tanrı tarafından** verildiği inancı = **Kut**. Çeldiriciler **Tekin** (hükümdar soyundan şehzade) ve **Şad** (hanedan valisi) unvanlarıdır.",
-      "solve": "'Tanrı'nın verdiği yönetme yetkisi/gücü' doğrudan **Kut** kavramıdır. Doğru cevap **B: Kut**.",
+      "steps": [
+        "Kavramı tanı: hükümdara **yönetme yetkisinin Tanrı tarafından verildiği** inancı neyin adıdır?",
+        "Çeldiriciler: **Tekin** (hanedandan şehzade) ve **Şad** (hanedan valisi) — bir yetki değil, unvandır.",
+        "Kural: Tanrı'nın verdiği yönetme yetkisi/gücü = **Kut**.",
+        "Sonuç: doğru cevap **B — Kut**."
+      ],
       "relatedFactIds": []
     },
     "2012ol-GK-01": {
-      "catch": "Çeldirici **Bumin Kağan**'dır: O **I. Göktürk**'ün kurucusudur. Orhun Yazıtları ise **II. Göktürk** dönemine — **Bilge Kağan** ve **Tonyukuk** adına — aittir.",
-      "solve": "Orhun (Göktürk) Yazıtları Bilge Kağan, Kültigin ve Tonyukuk için dikildi → I ve II. Doğru cevap **D: I ve II**.",
+      "steps": [
+        "Soru: **Orhun Yazıtları** hangi devlet adamlarının dönemine ait bilgi içerir?",
+        "Tuzak **Bumin Kağan** (III): O **I. Göktürk**'ün kurucusudur; Orhun Yazıtları ise **II. Göktürk** dönemine aittir.",
+        "Kural: Yazıtlar **Bilge Kağan (I)**, Kültigin ve **Tonyukuk (II)** adına dikildi.",
+        "Sonuç: doğru cevap **D — I ve II**."
+      ],
       "relatedFactIds": ["tar-isl-04", "tar-isl-06"]
     },
     "2013lis-GK-01": {
-      "catch": "Üç öncül de ilk Türk devletlerinin **gerçek** özellikleridir; çeldirici yok. 'Töre = yazısız hukuk', 'yurt = ülke', 'kurultay = danışma meclisi' bilinirse hepsi doğrudur.",
-      "solve": "Töre (I), yurt (II) ve kurultay/danışma meclisi (III) hepsi geçerlidir. Doğru cevap **E: I, II ve III**.",
+      "steps": [
+        "Üç öncülü ilk Türk devletlerinin özellikleriyle karşılaştır.",
+        "I: 'töre' = yazısız hukuk ✓ | II: 'yurt' = ülke/toprak ✓ | III: 'kurultay' = danışma meclisi ✓ — üçü de doğru, çeldirici yok.",
+        "Sonuç: doğru cevap **E — I, II ve III**."
+      ],
       "relatedFactIds": ["tar-isl-08"]
     },
     "2014lis-GK-01": {
-      "catch": "Güçlü çeldirici **Budizm**'dir; Uygurlar Budizm'i de benimsedi. Ancak **'Ay' simgesi ve kağanın gücünü Ay'dan alması** özellikle **Manihaizm** ile ilişkilidir.",
-      "solve": "'Ay' vurgusu → **Mani (Manihaizm)** dini. Doğru cevap **A: Manihaizm**.",
+      "steps": [
+        "Soru: Uygurların, kağanın gücünü **Ay'dan** aldığına inanıp unvanlara 'Ay' eklemesinde etkili olan **din** nedir?",
+        "Güçlü tuzak **Budizm**: Uygurlar Budizm'i de benimsedi, ama 'Ay' simgesi özellikle başka bir dinle bağlantılı.",
+        "Kural: 'Ay' vurgusu → **Mani (Manihaizm)** dini.",
+        "Sonuç: doğru cevap **A — Manihaizm**."
+      ],
       "relatedFactIds": ["tar-isl-05"]
     },
     "2014lis-GK-02": {
-      "catch": "**Afrasyab**, Firdevsî'nin Şehnâme'sinde geçen efsanevi Türk hakanıdır (Türk kaynaklarındaki **Alp Er Tunga**). Diğer şıklar gerçek tarihî kişilerdir, efsanevi değil.",
-      "solve": "Şehnâme'deki efsanevi Türk hükümdarı = **Afrasyab (Alp Er Tunga)**. Doğru cevap **C: Afrasyab**.",
+      "steps": [
+        "Soru: **Firdevsî'nin Şehnâme**'sinde geçen **efsanevi** Türk hakanı kim?",
+        "Diğer şıklar (Kül Tigin, Bilge Kağan, Mukan Kağan, Teoman) gerçek tarihî kişilerdir — 'efsanevi' değil.",
+        "Kural: Şehnâme'deki efsanevi Türk hükümdarı = **Afrasyab** (Türk kaynaklarında **Alp Er Tunga**).",
+        "Sonuç: doğru cevap **C — Afrasyab**."
+      ],
       "relatedFactIds": []
     },
     "2016lis-GK-01": {
-      "catch": "Çeldiriciler **İteriş (Kutluk)** ve **Bilge Kağan** — ikisi de **II. Göktürk** dönemine aittir. Soru **I. Göktürk**'ün en parlak dönemini ve Avarları bitiren hükümdarı istiyor: **Mukan Kağan**.",
-      "solve": "I. Göktürk'ü zirveye taşıyan, Avarları yıkan, batıda Hazar'a ulaşan hükümdar = **Mukan Kağan**. Doğru cevap **A**.",
+      "steps": [
+        "Soruyu sınırla: **I. Göktürk**'ün en parlak dönemi + Avarları bitiren + batıda Hazar'a ulaşan hükümdar.",
+        "Tuzak **İteriş (Kutluk)** ve **Bilge Kağan** — ikisi de **II. Göktürk** dönemine ait, soruyla uyuşmaz.",
+        "Kural: I. Göktürk'ü zirveye taşıyan, Avarları yıkan hükümdar **Mukan Kağan**'dır.",
+        "Sonuç: doğru cevap **A — Mukan Kağan**."
+      ],
       "relatedFactIds": ["tar-isl-06", "tar-isl-04"]
     },
     "2018lis-GK-01": {
-      "catch": "'söylenemez' sorusu. İlk Türk devletlerinde **veraset belirsizdi**; hükümdar olacak üye **önceden belirlenmezdi** (E yanlış). Bu belirsizlik zaten taht kavgalarının kaynağıdır.",
-      "solve": "A-B-C-D doğrudur (hanedan erkekleri, Kut, ikili teşkilat, kurultay). Belirlenmiş veliaht **yoktu**; söylenemeyen **E**'dir. Doğru cevap **E**.",
+      "steps": [
+        "'söylenemez' sorusu: yönetim anlayışıyla ilgili **YANLIŞ** olanı bul.",
+        "A-B-C-D doğru: hanedan erkeklerinin taht hakkı, Kut inancı, ikili teşkilat, kurultay.",
+        "Kural: ilk Türk devletlerinde **veraset belirsizdi**; hükümdar olacak üye **önceden belirlenmezdi** — bu yüzden E yanlış (taht kavgalarının kaynağı da budur).",
+        "Sonuç: doğru cevap **E**."
+      ],
       "relatedFactIds": ["tar-isl-08"]
     },
     "2018ol-GK-01": {
-      "catch": "Toplum yapısı basamakları: **Oguş (aile) → Urug → Boy → Budun (millet)**. **Toy** ise toplumsal birim değil, **kurultay/meclis** (siyasi kurum); sıra dışı olan odur.",
-      "solve": "Toplumu oluşturan birim **olmayan** = **Toy**. Doğru cevap **D: Toy**.",
+      "steps": [
+        "Soru: toplumu oluşturan birimlerden **olmayanı** bul.",
+        "Sıralamayı hatırla: **Oguş (aile) → Urug → Boy → Budun (millet)** — hepsi toplumsal birim.",
+        "Kural: **Toy** bir toplumsal birim değil, **kurultay/meclis** (siyasi kurum).",
+        "Sonuç: doğru cevap **D — Toy**."
+      ],
       "relatedFactIds": []
     },
     "2020lis-GK-01": {
-      "catch": "**Ayukı**, 'yargıç' değil; **hükûmet / bakanlar kuruludur**. Yargıç karşılığı **yargan (yargucı)**'dır. Yanlış eşleştirme budur.",
-      "solve": "İlig-Hükümdar, Kün-Halk, Oguş-Aile, Örgin-Taht doğru; **Ayukı-Yargıç yanlıştır**. Doğru cevap **D**.",
+      "steps": [
+        "Soru: terim–günümüz karşılığı eşleştirmelerinden **yanlış** olanı bul.",
+        "Doğruları ele: İlig-Hükümdar, Kün-Halk, Oguş-Aile, Örgin-Taht ✓.",
+        "Kural: **Ayukı** 'yargıç' değil, **hükûmet/bakanlar kuruludur** (yargıç = yargan/yargucı).",
+        "Sonuç: doğru cevap **D — Ayukı-Yargıç**."
+      ],
       "relatedFactIds": []
     },
     "2020ol-GK-01": {
-      "catch": "**Ateşli silahlar** o çağda henüz yoktu; yıkılış nedeni **olamaz** (anakronizm tuzağı). Gerçek nedenler boy/taht kavgaları, yeteneksiz kağanlar ve Çin'in müdahalesidir.",
-      "solve": "Yıkılışta etkili **olmayan** = **E (ateşli silah yokluğu)**. Doğru cevap **E**.",
+      "steps": [
+        "'söylenemez' sorusu: yıkılışta **etkili OLMAYANI** bul.",
+        "Gerçek nedenleri ele: boylar arası ve taht kavgaları, yeteneksiz kağanlar, Çin'in müdahalesi.",
+        "Anakronizm tuzağı: **ateşli silahlar** o çağda henüz yoktu → yıkılış nedeni olamaz.",
+        "Sonuç: doğru cevap **E — ateşli silahlardan yoksun olunması**."
+      ],
       "relatedFactIds": ["tar-isl-08"]
     }
   }

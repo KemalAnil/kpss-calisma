@@ -135,29 +135,46 @@ body {
 .note-box { margin-top: 8px; font-size: 13px; color: var(--muted); }
 .q-ref { margin-top: 10px; text-align: right; font-size: 12px; font-style: italic; color: var(--primary); font-weight: 600; opacity: .85; }
 
-/* Soru Analizi (katlanır, spoiler-safe) */
-.analysis-box { margin-top: 10px; }
-.analysis-toggle {
+/* Soru Analizi — interaktif adım adım çözüm (spoiler-safe) */
+.solve-box { margin-top: 10px; }
+.solve-start {
   width: 100%; text-align: left; cursor: pointer;
   padding: 10px 12px; border-radius: 10px; font-size: 14px; font-weight: 600;
   color: var(--primary); background: rgba(91,140,255,.10); border: 1px solid rgba(91,140,255,.35);
 }
-.analysis-toggle:hover { background: rgba(91,140,255,.16); }
-.analysis-box.collapsed .analysis-body { display: none; }
-.analysis-body {
+.solve-start:hover { background: rgba(91,140,255,.16); }
+.solve-panel {
   margin-top: 8px; padding: 12px 14px; border-radius: 10px;
   background: var(--panel-2); border: 1px solid var(--border); border-left: 3px solid var(--primary);
 }
-.analysis-part { margin-bottom: 12px; }
-.analysis-part:last-child { margin-bottom: 0; }
-.analysis-part p { margin: 4px 0 0; line-height: 1.55; font-size: 15px; }
+.solve-steps { list-style: none; margin: 0; padding: 0; counter-reset: step; display: flex; flex-direction: column; gap: 10px; }
+.solve-steps li {
+  position: relative; counter-increment: step; padding: 10px 12px 10px 40px;
+  line-height: 1.55; font-size: 15px; border-radius: 10px;
+  background: var(--panel); border: 1px solid var(--border);
+  animation: solveIn .18s ease-out;
+}
+.solve-steps li::before {
+  content: counter(step); position: absolute; left: 10px; top: 9px;
+  width: 22px; height: 22px; border-radius: 999px; text-align: center; line-height: 22px;
+  font-size: 12px; font-weight: 700; color: #fff; background: var(--primary);
+}
+.solve-steps strong { color: var(--primary); font-weight: 700; }
+@keyframes solveIn { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: none; } }
+.solve-controls { display: flex; align-items: center; gap: 10px; margin-top: 12px; flex-wrap: wrap; }
+.solve-next {
+  cursor: pointer; padding: 8px 14px; border-radius: 8px; font-size: 13px; font-weight: 600;
+  color: #fff; background: linear-gradient(135deg, var(--primary), var(--primary-2)); border: 1px solid transparent;
+}
+.solve-all { cursor: pointer; padding: 8px 6px; border: 0; background: none; color: var(--muted); font-size: 13px; text-decoration: underline; }
+.solve-progress { font-size: 12px; color: var(--muted); font-weight: 600; }
+.solve-progress.done { color: var(--good); }
+.solve-related { margin-top: 12px; padding-top: 12px; border-top: 1px dashed var(--border); }
 .analysis-label {
   display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: .2px;
   color: var(--muted); text-transform: uppercase;
 }
-.analysis-body strong { color: var(--primary); font-weight: 700; }
-.q-related { margin-top: 12px; padding-top: 12px; border-top: 1px dashed var(--border); }
-.q-related .notes-list { margin-top: 6px; }
+.solve-related .notes-list { margin-top: 6px; }
 .card-actions { display: flex; gap: 8px; margin-top: 12px; }
 .mover { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 10px; padding: 10px; border-radius: 10px; background: var(--panel-2); border: 1px solid var(--border); }
 .mover-label { font-size: 12px; color: var(--muted); }
@@ -271,8 +288,9 @@ body {
 
   .card { padding: 12px; border-radius: 12px; }
   .q-ref { font-size: 11px; }
-  .analysis-part p { font-size: 14px; }
-  .analysis-body { padding: 11px 12px; }
+  .solve-steps li { font-size: 14px; padding: 10px 10px 10px 38px; }
+  .solve-panel { padding: 11px 12px; }
+  .solve-next, .solve-all { flex: 1 1 auto; text-align: center; }
   .mover select { max-width: 100%; flex: 1 1 140px; }
 
   .modal { border-radius: 14px; }

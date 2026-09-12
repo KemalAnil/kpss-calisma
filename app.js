@@ -328,25 +328,67 @@
     panel.appendChild(card);
   }
 
-  // Soru için katlanır analiz bloğu (spoiler-safe: varsayılan gizli).
-  // İçerik bizim yazdığımız statik JSON; fmtNote **kalın** desteği ile güvenli render eder.
-  function analysisHtml(q) {
-    const a = analysisData[q.id];
-    if (!a || (!a.catch && !a.solve && !(a.relatedFactIds || []).length)) return "";
-    let body = "";
-    if (a.catch) body += `<div class="analysis-part"><span class="analysis-label">⚠️ Tuzak</span>
-      <p>${fmtNote(a.catch)}</p></div>`;
-    if (a.solve) body += `<div class="analysis-part"><span class="analysis-label">🧭 Çözüm</span>
-      <p>${fmtNote(a.solve)}</p></div>`;
-    const related = (a.relatedFactIds || []).map((id) => factById[id]).filter(Boolean);
-    if (related.length) {
-      body += `<div class="q-related"><span class="analysis-label">📌 İlgili Bilgi</span>
-        <ul class="notes-list">${related.map((f) => `<li>${fmtNote(f.text)}</li>`).join("")}</ul></div>`;
-    }
-    return `<div class="analysis-box collapsed">
-      <button type="button" class="analysis-toggle">🔍 Analizi Gör</button>
-      <div class="analysis-body">${body}</div>
+  // İnteraktif adım adım çözüm iskeleti (spoiler-safe: panel gizli başlar).
+  // Adımlar `wireSolve` ile tıklandıkça birer birer, üst üste (stack) açılır.
+  function solveHtml(q) {
+    const steps = (analysisData[q.id] || {}).steps || [];
+    if (!steps.length) return "";
+    return `<div class="solve-box">
+      <button type="button" class="solve-start">🧩 Adım adım çöz</button>
+      <div class="solve-panel" hidden>
+        <ol class="solve-steps"></ol>
+        <div class="solve-related" hidden></div>
+        <div class="solve-controls">
+          <button type="button" class="solve-next">Sonraki ipucu →</button>
+          <button type="button" class="solve-all">Hepsini göster</button>
+          <span class="solve-progress"></span>
+        </div>
+      </div>
     </div>`;
+  }
+
+  // Çözüm kutusunu işlevsel hale getir: adımları sırayla ekle, sonda ilgili bilgiyi göster.
+  function wireSolve(card, q) {
+    const box = card.querySelector(".solve-box");
+    if (!box) return;
+    const a = analysisData[q.id] || {};
+    const steps = a.steps || [];
+    const related = (a.relatedFactIds || []).map((id) => factById[id]).filter(Boolean);
+    const startBtn = box.querySelector(".solve-start");
+    const panel = box.querySelector(".solve-panel");
+    const list = box.querySelector(".solve-steps");
+    const relBox = box.querySelector(".solve-related");
+    const nextBtn = box.querySelector(".solve-next");
+    const allBtn = box.querySelector(".solve-all");
+    const prog = box.querySelector(".solve-progress");
+    let shown = 0;
+
+    const finish = () => {
+      if (box.dataset.done) return;
+      box.dataset.done = "1";
+      if (related.length) {
+        relBox.innerHTML = `<span class="analysis-label">📌 İlgili Bilgi</span>
+          <ul class="notes-list">${related.map((f) => `<li>${fmtNote(f.text)}</li>`).join("")}</ul>`;
+        relBox.hidden = false;
+      }
+      nextBtn.hidden = true;
+      allBtn.hidden = true;
+      prog.textContent = "✓ Çözüm tamamlandı";
+      prog.classList.add("done");
+    };
+    const revealOne = () => {
+      if (shown >= steps.length) return;
+      const li = document.createElement("li");
+      li.innerHTML = fmtNote(steps[shown]);
+      list.appendChild(li);
+      shown++;
+      if (shown >= steps.length) finish();
+      else prog.textContent = shown + " / " + steps.length;
+    };
+
+    startBtn.onclick = () => { startBtn.hidden = true; panel.hidden = false; revealOne(); };
+    nextBtn.onclick = revealOne;
+    allBtn.onclick = () => { while (shown < steps.length) revealOne(); };
   }
 
   function whoBadge(who) {
@@ -364,7 +406,7 @@
     const ansOverride = (analysisData[q.id] || {}).answer;
     const answer = ansOverride || q.answer;
     if (answer) html += `<div class="answer-box hidden-answer" title="Cevabı görmek için tıkla"><b>Cevap:</b> ${esc(answer)}</div>`;
-    html += analysisHtml(q);
+    html += solveHtml(q);
     if (q.notes) html += `<div class="note-box">🗒️ ${esc(q.notes)}</div>`;
     if (q.ref) html += `<div class="q-ref">${esc(q.ref)}</div>`;
     html += `<div class="card-actions">
@@ -376,12 +418,7 @@
     if (img) img.onclick = () => openLightbox(img.dataset.full);
     const ans = card.querySelector(".answer-box");
     if (ans) ans.onclick = () => ans.classList.toggle("hidden-answer");
-    const aToggle = card.querySelector(".analysis-toggle");
-    if (aToggle) aToggle.onclick = () => {
-      const box = aToggle.closest(".analysis-box");
-      const open = box.classList.toggle("collapsed") === false;
-      aToggle.textContent = open ? "🔼 Analizi Gizle" : "🔍 Analizi Gör";
-    };
+    wireSolve(card, q);
     card.querySelector("[data-move]").onclick = () => openMover(card, q);
     card.querySelector("[data-del]").onclick = async () => {
       if (!confirm("Bu soru silinsin mi?")) return;
