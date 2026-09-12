@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "_note": "Özgün, müfredat temelli kısa bilgi notları. Kaynaktan kopyalanmamıştır. Her olgu {id,text} biçimindedir; id, soruların analizinden 'ilgili bilgi' olarak referanslanır. Tarih ve Vatandaşlık tamamlandı.",
+  "_note": "Özgün, müfredat temelli kısa bilgi notları. Kaynaktan kopyalanmamıştır. Her olgu {id,text} biçimindedir; id, soruların analizinden 'ilgili bilgi' olarak referanslanır. Tüm dersler kapsandı.",
   "notes": {
     "Tarih||İslamiyet Öncesi Türk Tarihi": [
       {
@@ -804,6 +804,1600 @@
       {
         "id": "vat-idr-08",
         "text": "**Kamu görevliliği** memurluk esasına dayanır; memurluk **kariyer ve liyakat** ilkeleriyle yürür."
+      }
+    ],
+    "Coğrafya||Türkiye'nin Coğrafi Konumu": [
+      {
+        "id": "cog-kon-01",
+        "text": "**Matematik (mutlak) konum**: bir yerin **enlem (paralel)** ve **boylam (meridyen)** değerleridir. **Özel (göreceli) konum**: yerin çevresine göre kendine has özellikleridir."
+      },
+      {
+        "id": "cog-kon-02",
+        "text": "Türkiye **36°–42° kuzey paralelleri** ile **26°–45° doğu meridyenleri** arasındadır; yani **Ekvator'un kuzeyinde, Greenwich'in doğusundadır**."
+      },
+      {
+        "id": "cog-kon-03",
+        "text": "**Enlemin etkileri**: sıcaklık, güneşlenme, gece-gündüz süresi, kalıcı kar sınırı. Türkiye'de **güneyden kuzeye gidildikçe sıcaklık azalır**."
+      },
+      {
+        "id": "cog-kon-04",
+        "text": "**Boylamın etkisi yerel saattir**: Türkiye'nin doğusu ile batısı arasında **76 dakikalık** yerel saat farkı vardır (doğu daha ileridir)."
+      },
+      {
+        "id": "cog-kon-05",
+        "text": "Türkiye ortak saat olarak **30° doğu meridyeninin** saatini kullanır (**GMT +3**)."
+      },
+      {
+        "id": "cog-kon-06",
+        "text": "İki meridyen arası **yerel saat farkı her yerde 4 dakikadır**; iki paralel arası kuş uçuşu uzaklık yaklaşık **111 km**'dir."
+      },
+      {
+        "id": "cog-kon-07",
+        "text": "Türkiye'nin **özel konumunun** sonuçları: üç kıtanın (Asya-Avrupa-Afrika) yakınlığı, **Boğazlara** sahip olma, yükseltinin batıdan doğuya artması, jeopolitik önem."
+      },
+      {
+        "id": "cog-kon-08",
+        "text": "Uç noktalar: en kuzey **Sinop**, en güney **Hatay**, en doğu **Iğdır**, en batı **Çanakkale (Gökçeada)**."
+      }
+    ],
+    "Coğrafya||Yer Şekilleri (Jeomorfoloji)": [
+      {
+        "id": "cog-yer-01",
+        "text": "Türkiye **dağlık ve yüksek** bir ülkedir; ortalama yükselti ~**1132 m**, yükselti **batıdan doğuya** artar."
+      },
+      {
+        "id": "cog-yer-02",
+        "text": "Dağlar genelde **doğu-batı** doğrultuludur (Kuzey Anadolu Dağları, Toroslar); bu, iç kesimleri deniz etkisine kapatır."
+      },
+      {
+        "id": "cog-yer-03",
+        "text": "Türkiye **genç oluşumlu (Alp-Himalaya kuşağı)** arazidir; bu yüzden **deprem** kuşağındadır."
+      },
+      {
+        "id": "cog-yer-04",
+        "text": "**İç kuvvetler** (deprem, volkanizma, dağ oluşumu) yükseltiyi artırır; **dış kuvvetler** (akarsu, rüzgâr, buzul, dalga) aşındırıp yükseltiyi azaltır."
+      },
+      {
+        "id": "cog-yer-05",
+        "text": "En yüksek nokta **Ağrı Dağı (5137 m)**; en uzun akarsu **Kızılırmak**; en büyük göl **Van Gölü** (tektonik, sodalı)."
+      },
+      {
+        "id": "cog-yer-06",
+        "text": "**Karstik şekiller** (mağara, dolin, obruk) **Akdeniz (Toroslar)** kalkerli arazisinde; **peribacaları Nevşehir (Ürgüp-Göreme)** volkanik tüflerinde oluşur."
+      },
+      {
+        "id": "cog-yer-07",
+        "text": "**Delta ovaları** (Çukurova, Bafra, Çarşamba) akarsu alüvyonlarıyla oluşur ve tarımsal açıdan **çok verimlidir**."
+      },
+      {
+        "id": "cog-yer-08",
+        "text": "Türkiye akarsuları kısa, hızlı ve bol enerjilidir ama **ulaşıma elverişsizdir**."
+      }
+    ],
+    "Coğrafya||İklim ve Bitki Örtüsü": [
+      {
+        "id": "cog-ikl-01",
+        "text": "Üç ana iklim: **Akdeniz** (yaz sıcak-kurak, kış ılık-yağışlı; **maki**), **Karadeniz** (her mevsim yağışlı; **orman**), **Karasal** (yaz sıcak, kış soğuk, az yağış; **bozkır/step**)."
+      },
+      {
+        "id": "cog-ikl-02",
+        "text": "**En çok yağışı Doğu Karadeniz (Rize)** alır; **en az yağışı Tuz Gölü çevresi (İç Anadolu)** alır."
+      },
+      {
+        "id": "cog-ikl-03",
+        "text": "**En sıcak yer Güneydoğu Anadolu**; **en soğuk ve en yüksek yer Doğu Anadolu (Erzurum-Kars)**."
+      },
+      {
+        "id": "cog-ikl-04",
+        "text": "Sıcaklığı etkileyen etmenler: **enlem, yükselti, karasallık, denize göre konum ve bakı**; **her 200 m yükseltide sıcaklık ~1°C düşer**."
+      },
+      {
+        "id": "cog-ikl-05",
+        "text": "**Maki**: Akdeniz ikliminin kuru-dayanıklı çalı örtüsü; **bozkır (step)**: İç Anadolu'nun cılız ot örtüsü."
+      },
+      {
+        "id": "cog-ikl-06",
+        "text": "**Yağış türleri**: yükselim (orografik – Karadeniz yamaçları), cephe (kışın), konveksiyon (yazın – İç Anadolu)."
+      },
+      {
+        "id": "cog-ikl-07",
+        "text": "En geniş orman alanları **Karadeniz** kıyılarındadır; ağaç türü yükseltiye göre değişir (kızılçam-meşe-kayın-köknar)."
+      },
+      {
+        "id": "cog-ikl-08",
+        "text": "Dağların **kuzey (denize dönük) bakısı** genelde daha nemli ve serindir."
+      }
+    ],
+    "Coğrafya||Nüfus ve Yerleşme": [
+      {
+        "id": "cog-nuf-01",
+        "text": "Nüfus **kıyı ovaları ve sanayi bölgelerinde yoğun**, **Doğu Anadolu'nun yüksek-engebeli kesimlerinde seyrektir**."
+      },
+      {
+        "id": "cog-nuf-02",
+        "text": "En yoğun bölge **Marmara**, en seyrek bölge **Doğu Anadolu**; en kalabalık il **İstanbul**'dur."
+      },
+      {
+        "id": "cog-nuf-03",
+        "text": "Türkiye nüfusu **artmaktadır** ama artış hızı yavaşlıyor; nüfus **genç ve dinamiktir**."
+      },
+      {
+        "id": "cog-nuf-04",
+        "text": "**Aritmetik nüfus yoğunluğu** = toplam nüfus / yüzölçümü; **tarımsal nüfus yoğunluğu** çiftçi nüfusu tarım alanına oranlar."
+      },
+      {
+        "id": "cog-nuf-05",
+        "text": "**İç göç** kırdan kente (çoğunlukla Marmara-Ege sanayi kentlerine) yöneliktir; sonucu **çarpık kentleşme** ve işsizliktir."
+      },
+      {
+        "id": "cog-nuf-06",
+        "text": "**Dış göç**: Türkiye'den Avrupa'ya işçi/beyin göçü; Türkiye ayrıca dışarıdan **göç de alır**."
+      },
+      {
+        "id": "cog-nuf-07",
+        "text": "Yerleşmeyi etkileyen etmenler: **iklim, su, yer şekilleri, yükselti ve ekonomi**."
+      },
+      {
+        "id": "cog-nuf-08",
+        "text": "Nüfus sayımları **ADNKS (Adrese Dayalı Nüfus Kayıt Sistemi)** ile TÜİK tarafından yapılır."
+      }
+    ],
+    "Coğrafya||Tarım ve Hayvancılık": [
+      {
+        "id": "cog-tar-01",
+        "text": "Tarımı etkileyen doğal etmenler: **iklim, toprak, yer şekilleri, su**; beşeri etmenler: **sulama, gübre, makine, tohum ıslahı, pazarlama**."
+      },
+      {
+        "id": "cog-tar-02",
+        "text": "**Buğday** en çok **İç Anadolu**'da; **çay Doğu Karadeniz (Rize)**; **fındık Karadeniz (Giresun-Ordu)**; **pamuk Ege-Çukurova-GAP**."
+      },
+      {
+        "id": "cog-tar-03",
+        "text": "**Zeytin** ekonomik olarak yalnız **Akdeniz iklimi** kıyılarında (kışın don olmamalı); en çok **Ege**'de."
+      },
+      {
+        "id": "cog-tar-04",
+        "text": "**Muz ve turunçgiller** don olmayan **Akdeniz kıyı şeridinde** (Anamur-Alanya) yetişir."
+      },
+      {
+        "id": "cog-tar-05",
+        "text": "**GAP (Güneydoğu Anadolu Projesi)** sulama ve enerji projesidir; sulamayla bölgede pamuk üretimi artmıştır."
+      },
+      {
+        "id": "cog-tar-06",
+        "text": "**Hayvancılık**: **büyükbaş** nemli çayırların olduğu Doğu Anadolu-Karadeniz'de; **küçükbaş (koyun)** step bölgesi İç/Doğu Anadolu'da yoğundur."
+      },
+      {
+        "id": "cog-tar-07",
+        "text": "**Nadas** (toprağı bir yıl dinlendirme) İç Anadolu'da kuraklık nedeniyle görülür; **sulama arttıkça nadas azalır**."
+      },
+      {
+        "id": "cog-tar-08",
+        "text": "**Seracılık** don riski az olan Akdeniz kıyısında (Antalya) gelişmiştir."
+      }
+    ],
+    "Coğrafya||Madenler ve Enerji Kaynakları": [
+      {
+        "id": "cog-mad-01",
+        "text": "Türkiye **bor mineralleri (bor tuzları)** rezervinde **dünyada birincidir** (Kütahya-Emet, Balıkesir-Bigadiç, Eskişehir-Kırka)."
+      },
+      {
+        "id": "cog-mad-02",
+        "text": "**Taş kömürü** yalnız **Zonguldak** havzasında; **linyit Afşin-Elbistan, Soma, Tunçbilek** gibi geniş alanlarda bulunur."
+      },
+      {
+        "id": "cog-mad-03",
+        "text": "**Demir Sivas (Divriği)**, **krom Elazığ (Guleman)**, **bakır Murgul-Küre**'de çıkarılır."
+      },
+      {
+        "id": "cog-mad-04",
+        "text": "Enerjinin büyük kısmı **termik (linyit-doğalgaz)** ve **hidroelektrik (barajlar)** santrallerinden gelir."
+      },
+      {
+        "id": "cog-mad-05",
+        "text": "En büyük hidroelektrik santral **Atatürk Barajı (Fırat)**'tır; büyük barajlar **Fırat-Dicle** üzerindedir (GAP)."
+      },
+      {
+        "id": "cog-mad-06",
+        "text": "Türkiye **petrol ve doğalgaz** bakımından **fakirdir**; ihtiyacın çoğu **ithal** edilir (petrol az miktarda Batman-Adıyaman'da çıkar)."
+      },
+      {
+        "id": "cog-mad-07",
+        "text": "Yenilenebilir kaynaklar: **jeotermal (Denizli-Aydın)**, **rüzgâr (Ege-Marmara kıyıları)**, **güneş (GD Anadolu)** gelişmektedir."
+      },
+      {
+        "id": "cog-mad-08",
+        "text": "Türkiye'nin ilk **nükleer santrali Akkuyu (Mersin)**'da kurulmaktadır."
+      }
+    ],
+    "Coğrafya||Sanayi": [
+      {
+        "id": "cog-san-01",
+        "text": "Sanayinin en geliştiği bölge **Marmara**'dır (**İstanbul-Kocaeli-Bursa**); ham madde, enerji, ulaşım ve pazar bir aradadır."
+      },
+      {
+        "id": "cog-san-02",
+        "text": "İlk sanayi kuruluşları Cumhuriyet'in ilk yıllarında **devlet eliyle** kuruldu (**Sümerbank, Etibank**)."
+      },
+      {
+        "id": "cog-san-03",
+        "text": "**Demir-çelik** fabrikaları **Karabük, Ereğli (Kdz.), İskenderun**'dadır."
+      },
+      {
+        "id": "cog-san-04",
+        "text": "**Otomotiv** Marmara'da (Bursa-Kocaeli); **dokuma-tekstil** Ege-Marmara-Çukurova'da yoğundur."
+      },
+      {
+        "id": "cog-san-05",
+        "text": "**Petrol rafinerileri**: İzmit (TÜPRAŞ), İzmir-Aliağa, Kırıkkale, Batman."
+      },
+      {
+        "id": "cog-san-06",
+        "text": "Sanayiyi etkileyen etmenler: **ham madde, sermaye, enerji, ulaşım, iş gücü ve pazar**."
+      },
+      {
+        "id": "cog-san-07",
+        "text": "Sanayi **kıyı bölgelerinde** yoğunlaşmıştır; iç ve doğu bölgeler geridir (bölgeler arası gelişmişlik farkı)."
+      },
+      {
+        "id": "cog-san-08",
+        "text": "**Organize Sanayi Bölgeleri (OSB)** ve **Teknoparklar** planlı sanayi ve teknoloji üretimi içindir."
+      }
+    ],
+    "Coğrafya||Ulaşım - Ticaret - Turizm": [
+      {
+        "id": "cog-ult-01",
+        "text": "Türkiye'de en yaygın ulaşım **karayoludur**; yük-yolcu taşımacılığının çoğu karayoluyla yapılır."
+      },
+      {
+        "id": "cog-ult-02",
+        "text": "**Demir yolu** ağı yer şekilleri nedeniyle sınırlıdır; **yüksek hızlı tren (YHT)** hatları gelişmektedir (Ankara-İstanbul, Ankara-Konya)."
+      },
+      {
+        "id": "cog-ult-03",
+        "text": "**Boğaz geçişleri** (köprüler + Marmaray/Avrasya tünelleri) Asya-Avrupa bağlantısını sağlar."
+      },
+      {
+        "id": "cog-ult-04",
+        "text": "Türkiye'nin konumu **transit ticaret ve enerji hatları** (BTC petrol, TANAP doğalgaz) açısından avantajlıdır."
+      },
+      {
+        "id": "cog-ult-05",
+        "text": "Türkiye genelde **dış ticaret açığı** verir (ithalat > ihracat); başlıca ihracat tekstil, otomotiv ve tarım ürünleridir."
+      },
+      {
+        "id": "cog-ult-06",
+        "text": "**Turizm** döviz getirisiyle dış ticaret açığını azaltır; en çok **deniz-kum-güneş (Antalya-Muğla)** turizmi gelişmiştir."
+      },
+      {
+        "id": "cog-ult-07",
+        "text": "**UNESCO Dünya Mirası** alanları (Kapadokya, Efes, Truva, Pamukkale, Safranbolu) kültür turizmini besler."
+      },
+      {
+        "id": "cog-ult-08",
+        "text": "Turizm türleri: **kültür, termal (sağlık), kış, yayla, inanç ve kongre** turizmi."
+      }
+    ],
+    "Coğrafya||Coğrafi Bölgeler": [
+      {
+        "id": "cog-bol-01",
+        "text": "Türkiye **7 coğrafi bölgeye** ayrılır (1941 Coğrafya Kongresi): Marmara, Ege, Akdeniz, Karadeniz, İç Anadolu, Doğu Anadolu, Güneydoğu Anadolu."
+      },
+      {
+        "id": "cog-bol-02",
+        "text": "**En büyük bölge Doğu Anadolu**, **en küçük bölge Güneydoğu Anadolu**'dur."
+      },
+      {
+        "id": "cog-bol-03",
+        "text": "**Marmara**: sanayi, ticaret ve nüfusça en gelişmiş bölge; toprağı her iki kıtada bulunur."
+      },
+      {
+        "id": "cog-bol-04",
+        "text": "**Ege**: kıyıda Akdeniz iklimi, zeytin-incir-üzüm; dağlar denize dik uzanır (kıyı ile iç kesim farklı)."
+      },
+      {
+        "id": "cog-bol-05",
+        "text": "**Akdeniz**: Toroslar, turunçgil-muz-pamuk, turizm; karstik şekiller yaygındır."
+      },
+      {
+        "id": "cog-bol-06",
+        "text": "**Karadeniz**: her mevsim yağışlı ve ormanlık; çay-fındık-mısır; dağlar kıyıya paraleldir."
+      },
+      {
+        "id": "cog-bol-07",
+        "text": "**İç Anadolu**: karasal iklim, bozkır, buğday ve küçükbaş hayvancılık; en az yağışı alır."
+      },
+      {
+        "id": "cog-bol-08",
+        "text": "**Doğu Anadolu** en yüksek-soğuk (hayvancılık, akarsu kaynakları); **Güneydoğu Anadolu** en sıcak (GAP ile tarım gelişti)."
+      }
+    ],
+    "Türkçe||Sözcükte Anlam": [
+      {
+        "id": "tur-soza-01",
+        "text": "**Gerçek (temel) anlam** sözcüğün ilk akla gelen anlamı; **yan anlam** temel anlamla ilişkili yeni anlam (masanın **ayağı**); **mecaz anlam** gerçek anlamdan tamamen uzak (**acı** haber)."
+      },
+      {
+        "id": "tur-soza-02",
+        "text": "**Terim anlam**: bir bilim/sanat/meslek dalına özgü anlam (müzikte **nota**, geometride **açı**)."
+      },
+      {
+        "id": "tur-soza-03",
+        "text": "**Eş anlam (anlamdaş)** yazılışı farklı anlamı aynı (siyah-kara); **zıt (karşıt) anlam** (iyi-kötü)."
+      },
+      {
+        "id": "tur-soza-04",
+        "text": "**Eş sesli (sesteş)** yazılışı-okunuşu aynı, anlamı farklı (**yüz**: sayı / surat / yüzmek)."
+      },
+      {
+        "id": "tur-soza-05",
+        "text": "**Somut anlam** duyularla algılanır (taş, su); **soyut anlam** algılanamaz (sevgi, korku)."
+      },
+      {
+        "id": "tur-soza-06",
+        "text": "**Deyim** kalıplaşmış, genelde mecazlı sözdür (**etekleri zil çalmak**); **atasözü** deneyimle oluşmuş öğüt/yargı cümlesidir."
+      },
+      {
+        "id": "tur-soza-07",
+        "text": "Sözcük anlamı konuları: **genel-özel anlam, nicel-nitel anlam, ikileme** (yavaş yavaş), dolaylama."
+      }
+    ],
+    "Türkçe||Cümlede Anlam": [
+      {
+        "id": "tur-cuma-01",
+        "text": "**Neden-sonuç**: '-dığı için, -den dolayı' (Yağmur yağdığı **için** maç ertelendi)."
+      },
+      {
+        "id": "tur-cuma-02",
+        "text": "**Amaç-sonuç**: '-mek için, -mek amacıyla' (Kazanmak **için** çalıştı)."
+      },
+      {
+        "id": "tur-cuma-03",
+        "text": "**Koşul (şart)-sonuç**: '-se, -dikçe, -mek şartıyla' (Çalışırsa kazanır)."
+      },
+      {
+        "id": "tur-cuma-04",
+        "text": "**Öznel yargı** kişiden kişiye değişir/kanıtlanamaz (Bu film **çok güzeldi**); **nesnel yargı** kanıtlanabilir (Film 120 dakika)."
+      },
+      {
+        "id": "tur-cuma-05",
+        "text": "**Tanım cümlesi** 'bu nedir?' sorusuna yanıt verir; **karşılaştırma** iki ögeyi bir yönden kıyaslar."
+      },
+      {
+        "id": "tur-cuma-06",
+        "text": "Cümlede **örtülü anlam** (doğrudan söylenmeyen), **dolaylı anlatım** ve **eş anlamlı cümle** bulma sık sorulur."
+      },
+      {
+        "id": "tur-cuma-07",
+        "text": "Bir cümleden **çıkarılabilecek / çıkarılamayacak** yargı ayrımı dikkat ister."
+      }
+    ],
+    "Türkçe||Paragraf": [
+      {
+        "id": "tur-para-01",
+        "text": "**Konu** 'ne anlatılıyor?', **ana düşünce** 'ne demek isteniyor?' sorusuna yanıttır; **yardımcı düşünceler** ana düşünceyi destekler."
+      },
+      {
+        "id": "tur-para-02",
+        "text": "**Anlatım biçimleri**: öyküleme, betimleme, açıklama, tartışma."
+      },
+      {
+        "id": "tur-para-03",
+        "text": "**Düşünceyi geliştirme yolları**: tanımlama, örnekleme, karşılaştırma, tanık gösterme (alıntı), sayısal veri."
+      },
+      {
+        "id": "tur-para-04",
+        "text": "Paragraf yapısı **giriş-gelişme-sonuç**tur; giriş cümlesi bağlaçsız ve bağımsızdır."
+      },
+      {
+        "id": "tur-para-05",
+        "text": "**Anlam akışını bozan cümle** paragraftan çıkarılır; boşluğa gelecek cümle **anlam ve bağlaç uyumuyla** bulunur."
+      },
+      {
+        "id": "tur-para-06",
+        "text": "**Paragrafı ikiye bölme**: konu ya da düşünce değişen yerden yapılır."
+      },
+      {
+        "id": "tur-para-07",
+        "text": "**Başlık** ana düşünceyi en kısa yansıtan ifadedir."
+      }
+    ],
+    "Türkçe||Ses Bilgisi": [
+      {
+        "id": "tur-ses-01",
+        "text": "**Büyük ünlü uyumu**: kalını kalın, inceyi ince ünlü izler. İstisnalar: **-yor, -ken, -ki, -leyin, -imtırak, -daş**."
+      },
+      {
+        "id": "tur-ses-02",
+        "text": "**Ünsüz benzeşmesi (sertleşme)**: sert ünsüzden (**fıstıkçı şahap**) sonra gelen ek yumuşaksa sertleşir ('-dan' → '-**t**an')."
+      },
+      {
+        "id": "tur-ses-03",
+        "text": "**Ünsüz yumuşaması**: **p-ç-t-k** ile biten sözcük ünlüyle başlayan ek alınca **b-c-d-g/ğ**'ye döner (kitap-ı → kita**b**ı)."
+      },
+      {
+        "id": "tur-ses-04",
+        "text": "**Ünlü düşmesi** (burun-um → burnum); **ünlü türemesi** (bir-cik → bir**i**cik); **ünsüz türemesi** (his-i → hi**ss**i)."
+      },
+      {
+        "id": "tur-ses-05",
+        "text": "**Kaynaştırma ünsüzleri: y-ş-s-n** iki ünlü arasına girer (soru-**y**-u, yedi-**ş**-er, kapı-**s**-ı)."
+      },
+      {
+        "id": "tur-ses-06",
+        "text": "**Ulama**: ünsüzle biten sözcüğü ünlüyle başlayan sözcüğe okuyuşta bağlama (yazıda gösterilmez)."
+      },
+      {
+        "id": "tur-ses-07",
+        "text": "**Küçük ünlü uyumu** düz-yuvarlaklık kuralına dayanır (düzden düz; yuvarlaktan dar-yuvarlak/düz-geniş)."
+      }
+    ],
+    "Türkçe||Yazım Kuralları": [
+      {
+        "id": "tur-yaz-01",
+        "text": "**Özel adlar** büyük harfle başlar ve **çekim ekleri kesme (') ile ayrılır** (Ankara'da, Ali'nin); yapım eki ayrılmaz (Türkçenin)."
+      },
+      {
+        "id": "tur-yaz-02",
+        "text": "**Bağlaç 'de/da' ayrı**, **ek '-de/-da' bitişik** yazılır (Ben **de** geldim / ev**de**)."
+      },
+      {
+        "id": "tur-yaz-03",
+        "text": "**Bağlaç 'ki' ayrı**, **ek '-ki' bitişik** yazılır (Duydum **ki** / masadaki)."
+      },
+      {
+        "id": "tur-yaz-04",
+        "text": "**'mi' soru edatı her zaman ayrı** yazılır ve sonraki eki bitişik alır (Geldi **mi**? Güzel **mi** güzel)."
+      },
+      {
+        "id": "tur-yaz-05",
+        "text": "**Pekiştirmeler bitişik** (bembeyaz, sapasağlam); **ikilemeler ayrı** ve araya virgül konmaz (yavaş yavaş)."
+      },
+      {
+        "id": "tur-yaz-06",
+        "text": "**Kısaltmalara ek** okunuşa göre ve kesmeyle gelir (TBMM'ye, TDK'nin)."
+      },
+      {
+        "id": "tur-yaz-07",
+        "text": "**Sayılar** metinde genelde yazıyla; belirli tarih/özel ad ise büyük harfle (**23 Nisan 1920**)."
+      }
+    ],
+    "Türkçe||Noktalama İşaretleri": [
+      {
+        "id": "tur-nok-01",
+        "text": "**Nokta (.)**: tamamlanmış cümle sonuna, kısaltmalara (Dr., vb.) ve sıra sayılarına (3.) konur."
+      },
+      {
+        "id": "tur-nok-02",
+        "text": "**Virgül (,)**: eş görevli sözcükleri/sıralı cümleleri ayırır, ara sözü belirtir; **'ve' bağlacından önce-sonra konmaz**."
+      },
+      {
+        "id": "tur-nok-03",
+        "text": "**Noktalı virgül (;)**: ögeleri virgüllü sıralı cümleleri ayırır; yakın cümleleri bağlar."
+      },
+      {
+        "id": "tur-nok-04",
+        "text": "**İki nokta (:)**: açıklama, örnek veya alıntı öncesinde konur."
+      },
+      {
+        "id": "tur-nok-05",
+        "text": "**Soru işareti (?)** soru cümlesinde; **ünlem (!)** seslenme/heyecan cümlesinde kullanılır."
+      },
+      {
+        "id": "tur-nok-06",
+        "text": "**Tırnak (' ')** alıntı ve başlıkları; **konuşma çizgisi (—)** karşılıklı konuşmayı gösterir."
+      },
+      {
+        "id": "tur-nok-07",
+        "text": "**Üç nokta (…)**: sözün sürdüğünü ya da tamamlanmadığını gösterir."
+      }
+    ],
+    "Türkçe||Sözcükte Yapı": [
+      {
+        "id": "tur-yapi-01",
+        "text": "Sözcük **kök + ek**ten oluşur; kök **isim kökü** (kitap) veya **fiil kökü** (gel-) olabilir."
+      },
+      {
+        "id": "tur-yapi-02",
+        "text": "**Yapım ekleri** yeni sözcük (yeni anlam) türetir: isimden isim (göz-**lük**), isimden fiil (su-**la**-), fiilden isim (yaz-**ı**), fiilden fiil (yaz-**dır**-)."
+      },
+      {
+        "id": "tur-yapi-03",
+        "text": "**Çekim ekleri** yeni sözcük türetmez, sözcüğü cümleye bağlar: hâl, iyelik, çoğul, kişi, kip-zaman ekleri."
+      },
+      {
+        "id": "tur-yapi-04",
+        "text": "Yapıca sözcükler: **basit** (ek almamış: kitap), **türemiş** (yapım eki almış: kitaplık), **birleşik** (iki sözcük: hanımeli)."
+      },
+      {
+        "id": "tur-yapi-05",
+        "text": "**Yapım eki her zaman çekim ekinden önce** gelir (göz-lük-çü-ler-imiz)."
+      },
+      {
+        "id": "tur-yapi-06",
+        "text": "Bir sözcük **yapım eki almışsa türemiştir**; çekim eki basitliği bozmaz."
+      },
+      {
+        "id": "tur-yapi-07",
+        "text": "**Birleşik sözcükler** ses düşmesi/kaynaşmayla da oluşabilir (kahvaltı, cumartesi)."
+      }
+    ],
+    "Türkçe||Sözcük Türleri (İsim, Sıfat, Zamir, Zarf)": [
+      {
+        "id": "tur-turl-01",
+        "text": "**İsim (ad)** varlıkları karşılar: özel/cins, somut/soyut, tekil/çoğul/topluluk."
+      },
+      {
+        "id": "tur-turl-02",
+        "text": "**Sıfat (ön ad)** ismi niteler ya da belirtir: **niteleme** (kırmızı gül) ve **belirtme** (işaret: bu; sayı: iki; belgisiz: bazı; soru: hangi)."
+      },
+      {
+        "id": "tur-turl-03",
+        "text": "**Zamir (adıl)** ismin yerini tutar: kişi (ben), işaret (bu), belgisiz (kimse), soru (kim); ayrıca **ilgi zamiri '-ki'** ve iyelik ekleri."
+      },
+      {
+        "id": "tur-turl-04",
+        "text": "**Zarf (belirteç)** fiili/sıfatı/zarfı etkiler: durum, zaman, yer-yön, miktar (azlık-çokluk), soru zarfı."
+      },
+      {
+        "id": "tur-turl-05",
+        "text": "**Sıfat mı zamir mi?**: addan önce gelip belirtiyorsa **sıfat**, ismin yerini tutuyorsa **zamir** (bu kitap → sıfat; bu benim → zamir)."
+      },
+      {
+        "id": "tur-turl-06",
+        "text": "**Adlaşmış sıfat**: nitelediği ad düşünce sıfat ad gibi kullanılır (**Genç**ler geldi)."
+      },
+      {
+        "id": "tur-turl-07",
+        "text": "**İsim tamlamaları**: belirtili (kapının kolu), belirtisiz (kapı kolu), takısız ve zincirleme tamlama."
+      }
+    ],
+    "Türkçe||Edat - Bağlaç - Ünlem": [
+      {
+        "id": "tur-edat-01",
+        "text": "**Edat (ilgeç)** tek başına anlamsızdır, ad soylu sözcükle anlam kazanır (için, gibi, kadar, ile, göre, -e karşı)."
+      },
+      {
+        "id": "tur-edat-02",
+        "text": "**Bağlaç** sözcük/cümleleri anlamca bağlar (ve, ama, fakat, çünkü, ki, ancak, hâlbuki)."
+      },
+      {
+        "id": "tur-edat-03",
+        "text": "**Ayırt etme kuralı**: **bağlaç cümleden çıkınca anlam bozulmaz**; **edat çıkınca cümle bozulur**."
+      },
+      {
+        "id": "tur-edat-04",
+        "text": "**'ile'** hem bağlaç (ve) hem edat ('-le', araç) olabilir; **'de' ve 'ki' bağlacı ayrı** yazılır."
+      },
+      {
+        "id": "tur-edat-05",
+        "text": "**Ünlem** sevinç, korku, heyecan gibi duyguları anlatır (Ah!, Eyvah!, Hey!)."
+      },
+      {
+        "id": "tur-edat-06",
+        "text": "Edatlar cümlede genelde **edat/zarf tümleci** kurar; bağlaçlar **tek başına öge olamaz**."
+      },
+      {
+        "id": "tur-edat-07",
+        "text": "**'ki' bağlacı** ile **ilgi/sıfat yapan '-ki' eki** karıştırılmamalıdır."
+      }
+    ],
+    "Türkçe||Fiiller (Kip, Çatı, Ekfiil)": [
+      {
+        "id": "tur-fiil-01",
+        "text": "**Fiil** iş, oluş, durum bildirir; **kip + kişi** ekiyle çekimlenir."
+      },
+      {
+        "id": "tur-fiil-02",
+        "text": "**Haber (bildirme) kipleri**: görülen geçmiş (-dı), duyulan geçmiş (-mış), şimdiki (-yor), gelecek (-ecek), geniş (-r)."
+      },
+      {
+        "id": "tur-fiil-03",
+        "text": "**Dilek (tasarlama) kipleri**: gereklilik (-meli), şart (-se), istek (-e), emir (eksiz)."
+      },
+      {
+        "id": "tur-fiil-04",
+        "text": "**Çatı — özneye göre**: etken, edilgen (-il/-in), dönüşlü, işteş; **nesneye göre**: geçişli, geçişsiz, oldurgan-ettirgen (-dır/-t)."
+      },
+      {
+        "id": "tur-fiil-05",
+        "text": "**Ek fiil (ek eylem)** isim soylu sözcüğü yüklem yapar (öğretmen**dir**) ya da basit fiili birleşik zamanlı yapar (geliyor**du**)."
+      },
+      {
+        "id": "tur-fiil-06",
+        "text": "**Anlam (zaman) kayması**: bir kipin başka zaman anlamında kullanılması ('Yarın geliyorum')."
+      },
+      {
+        "id": "tur-fiil-07",
+        "text": "Yapıca fiiller: **basit, türemiş, birleşik** (yardımcı fiil: etmek-olmak; kurallı: bil-, ver-, kal-)."
+      }
+    ],
+    "Türkçe||Fiilimsiler": [
+      {
+        "id": "tur-fims-01",
+        "text": "**Fiilimsi (eylemsi)** fiilden türer ama cümlede isim/sıfat/zarf gibi kullanılır; **çekimli fiil değildir** ve **yan cümlecik** kurar."
+      },
+      {
+        "id": "tur-fims-02",
+        "text": "**İsim-fiil (mastar): -ma, -ış, -mak** (koşmak, gülüş, okuma)."
+      },
+      {
+        "id": "tur-fims-03",
+        "text": "**Sıfat-fiil (ortaç): -an, -ası, -mez, -ar, -dik, -ecek, -miş** (gelen yolcu, okunacak kitap)."
+      },
+      {
+        "id": "tur-fims-04",
+        "text": "**Zarf-fiil (bağ-fiil/ulaç): -ip, -arak, -ınca, -ken, -alı, -madan, -dıkça** (gülerek geldi)."
+      },
+      {
+        "id": "tur-fims-05",
+        "text": "Bir cümlede fiilimsi varsa cümle **girişik birleşik cümledir**."
+      },
+      {
+        "id": "tur-fims-06",
+        "text": "**Olumsuzluk eki '-ma' ile isim-fiil eki '-ma'** karıştırılmamalı (gelme! → olumsuz emir; gelme → isim-fiil)."
+      },
+      {
+        "id": "tur-fims-07",
+        "text": "Fiilimsiler **kip ve kişi eki almaz** (bu yönüyle yüklemden ayrılır)."
+      }
+    ],
+    "Türkçe||Cümlenin Öğeleri": [
+      {
+        "id": "tur-oge-01",
+        "text": "**Yüklem** yargı bildiren temel ögedir (çekimli fiil veya ek fiil almış isim)."
+      },
+      {
+        "id": "tur-oge-02",
+        "text": "**Özne** işi yapan/olandır; 'yüklem + kim/ne' sorusuyla bulunur (gizli özne, sözde özne ayrımı vardır)."
+      },
+      {
+        "id": "tur-oge-03",
+        "text": "**Nesne**: belirtili nesne (-ı hâli: neyi/kimi) ve belirtisiz nesne (ne)."
+      },
+      {
+        "id": "tur-oge-04",
+        "text": "**Dolaylı tümleç (yer tamlayıcısı)**: '-e, -de, -den' hâlleriyle; nereye/nerede/nereden/kime sorularına yanıt."
+      },
+      {
+        "id": "tur-oge-05",
+        "text": "**Zarf tümleci**: nasıl, ne zaman, niçin, ne kadar sorularına yanıt; **edat tümleci** edatla kurulur."
+      },
+      {
+        "id": "tur-oge-06",
+        "text": "Ögelere ayırmada **önce yüklem, sonra özne** bulunur; ara söz ve bağlaçlar öge dışıdır."
+      },
+      {
+        "id": "tur-oge-07",
+        "text": "Bir sözcük grubu **bölünmeden** tek öge sayılır."
+      }
+    ],
+    "Türkçe||Cümle Türleri": [
+      {
+        "id": "tur-cumt-01",
+        "text": "**Yükleme göre**: fiil cümlesi (yüklem çekimli fiil) / isim (ad) cümlesi (yüklem ek fiilli isim)."
+      },
+      {
+        "id": "tur-cumt-02",
+        "text": "**Yüklemin yerine göre**: kurallı (düz, yüklem sonda) / devrik (yüklem sonda değil)."
+      },
+      {
+        "id": "tur-cumt-03",
+        "text": "**Anlamına göre**: olumlu / olumsuz / soru / ünlem (biçimce olumsuz-anlamca olumlu olabilir)."
+      },
+      {
+        "id": "tur-cumt-04",
+        "text": "**Yapısına göre**: basit (tek yargı) / birleşik / sıralı / bağlı cümle."
+      },
+      {
+        "id": "tur-cumt-05",
+        "text": "**Girişik birleşik cümle** içinde **fiilimsi (yan cümlecik)** bulunur."
+      },
+      {
+        "id": "tur-cumt-06",
+        "text": "**Sıralı cümle** virgül/noktalı virgülle; **bağlı cümle** bağlaçla (ve, ama) bağlanır."
+      },
+      {
+        "id": "tur-cumt-07",
+        "text": "**Basit cümlede** yalnızca bir yargı (bir çekimli fiil) vardır, fiilimsi bulunmaz."
+      }
+    ],
+    "Türkçe||Anlatım Bozuklukları": [
+      {
+        "id": "tur-anb-01",
+        "text": "**Anlamsal bozukluklar**: gereksiz sözcük, anlamca çelişen sözler, mantık hatası, sözcüğün yanlış anlamda kullanımı."
+      },
+      {
+        "id": "tur-anb-02",
+        "text": "**Gereksiz sözcük**: aynı anlamı yineleme (**yaklaşık** 5 saat **kadar**; **karşılıklı** anlaşmak)."
+      },
+      {
+        "id": "tur-anb-03",
+        "text": "**Yapısal (dil bilgisi) bozukluklar**: özne-yüklem uyumsuzluğu, öge eksikliği, tamlama yanlışı, ek yanlışı."
+      },
+      {
+        "id": "tur-anb-04",
+        "text": "**Özne-yüklem uyumu**: tekil-çoğul ve kişi uyumu (Ben ve sen **gideceğiz**)."
+      },
+      {
+        "id": "tur-anb-05",
+        "text": "**Öge eksikliği**: ortak kullanılan özne/nesne/tümlecin yüklemlere uymaması."
+      },
+      {
+        "id": "tur-anb-06",
+        "text": "**Tamlama yanlışı**: farklı tamlananların tek tamlayana zorlanması ('ekonomik ve siyaset sorunları')."
+      },
+      {
+        "id": "tur-anb-07",
+        "text": "**Çatı uyuşmazlığı**: bir cümlede etken ve edilgen yüklemlerin karışması."
+      }
+    ],
+    "Türkçe||Sözel Akıl Yürütme": [
+      {
+        "id": "tur-sozm-01",
+        "text": "**Sözel mantık**: günlük dille verilen öncüllerden **kesin sonuç** çıkarmadır."
+      },
+      {
+        "id": "tur-sozm-02",
+        "text": "**Sıralama** soruları: kişi/nesneleri ipuçlarına göre dizme (önce/sonra, yaş/boy)."
+      },
+      {
+        "id": "tur-sozm-03",
+        "text": "**Eşleştirme (tablo)** soruları: öğeleri özellikleriyle bire bir eşleme; olasılıkları eleyerek."
+      },
+      {
+        "id": "tur-sozm-04",
+        "text": "**Gruplama/dağıtım** soruları: öğeleri koşullara uygun gruplara ayırma."
+      },
+      {
+        "id": "tur-sozm-05",
+        "text": "**Akrabalık (kan bağı)** ve **yön-konum** soruları da bu gruptandır."
+      },
+      {
+        "id": "tur-sozm-06",
+        "text": "Strateji: **kesin bilgileri şemaya yaz**, olasılıkları **eleyerek** çelişkisiz sonucu bul."
+      },
+      {
+        "id": "tur-sozm-07",
+        "text": "Verilmeyen bilgiden **kesin çıkarım yapılamaz**; yalnız öncüllerin gerektirdiği sonuç işaretlenir."
+      }
+    ],
+    "Matematik||Temel Kavramlar": [
+      {
+        "id": "mat-tk-01",
+        "text": "**Sayı kümeleri**: Doğal N={0,1,2,…}, Sayma {1,2,…}, Tam Z, Rasyonel Q, Gerçek (reel) R."
+      },
+      {
+        "id": "mat-tk-02",
+        "text": "**Çift ± Çift = Çift**, **Tek ± Tek = Çift**, **Tek ± Çift = Tek**; **Çift × herhangi = Çift**, **Tek × Tek = Tek**."
+      },
+      {
+        "id": "mat-tk-03",
+        "text": "**Asal sayı** yalnız 1 ve kendine bölünür; **1 asal değildir**, en küçük asal **2** (tek çift asal)."
+      },
+      {
+        "id": "mat-tk-04",
+        "text": "İşaret kuralı: **(−)(−)=+**, (+)(−)=−; **sıfır** ne pozitif ne negatiftir."
+      },
+      {
+        "id": "mat-tk-05",
+        "text": "**Ardışık** sayılar: n, n+1, …; ardışık çift 2n, 2n+2; ardışık tek 2n+1, 2n+3."
+      },
+      {
+        "id": "mat-tk-06",
+        "text": "**1'den n'e kadar sayıların toplamı = n(n+1)/2**."
+      }
+    ],
+    "Matematik||Sayı Basamakları": [
+      {
+        "id": "mat-sb-01",
+        "text": "İki basamaklı **ab = 10a + b**; üç basamaklı **abc = 100a + 10b + c** (çözümleme)."
+      },
+      {
+        "id": "mat-sb-02",
+        "text": "**Rakam** 0–9 arasıdır; bir sayının en soldaki basamağı 0 olamaz."
+      },
+      {
+        "id": "mat-sb-03",
+        "text": "Bir sayıyı **ters çevirme**: ab → ba = 10b + a; iki sayının farkı **9·(a−b)**'dir."
+      },
+      {
+        "id": "mat-sb-04",
+        "text": "Basamak problemlerinde bilinmeyen rakamlara **harf** verilip denklem kurulur."
+      },
+      {
+        "id": "mat-sb-05",
+        "text": "Bir sayının **rakamları toplamı** ile **basamak değerleri toplamı** farklı kavramlardır."
+      }
+    ],
+    "Matematik||Bölme ve Bölünebilme": [
+      {
+        "id": "mat-bol-01",
+        "text": "**Bölme bağıntısı**: A = B·Q + K; **kalan K < B (bölen)** ve en büyük kalan **B−1**'dir."
+      },
+      {
+        "id": "mat-bol-02",
+        "text": "**2**: son rakam çift; **5**: son rakam 0/5; **10**: son rakam 0."
+      },
+      {
+        "id": "mat-bol-03",
+        "text": "**3 (veya 9)**: rakamlar toplamı 3'e (9'a) bölünüyorsa."
+      },
+      {
+        "id": "mat-bol-04",
+        "text": "**4**: son iki basamak 4'e; **8**: son üç basamak 8'e bölünüyorsa."
+      },
+      {
+        "id": "mat-bol-05",
+        "text": "**11**: rakamların birer atlayarak (±) farkı 0 ya da 11'in katıysa."
+      },
+      {
+        "id": "mat-bol-06",
+        "text": "**6**: hem 2 hem 3'e bölünüyorsa (aralarında asal bölenler kuralı)."
+      }
+    ],
+    "Matematik||EBOB - EKOK": [
+      {
+        "id": "mat-ebok-01",
+        "text": "**EBOB (OBEB)** en büyük ortak bölen; **EKOK (OKEK)** en küçük ortak kattır."
+      },
+      {
+        "id": "mat-ebok-02",
+        "text": "İki sayı için **EBOB × EKOK = sayıların çarpımı** (a·b = EBOB·EKOK)."
+      },
+      {
+        "id": "mat-ebok-03",
+        "text": "Asal çarpanlara ayırınca: **EBOB = ortak çarpanların en küçük üsleri**, **EKOK = tüm çarpanların en büyük üsleri**."
+      },
+      {
+        "id": "mat-ebok-04",
+        "text": "'**Tam bölünür / kalan aynı / şeritlere böl**' problemleri **EBOB** ile çözülür."
+      },
+      {
+        "id": "mat-ebok-05",
+        "text": "'**Aynı anda / en az kaç sonra tekrar**' problemleri **EKOK** ile çözülür."
+      },
+      {
+        "id": "mat-ebok-06",
+        "text": "**Aralarında asal** sayıların EBOB'u 1, EKOK'u çarpımlarıdır."
+      }
+    ],
+    "Matematik||Rasyonel Sayılar": [
+      {
+        "id": "mat-ras-01",
+        "text": "**Rasyonel sayı** a/b (b≠0) biçiminde yazılabilen sayıdır; tam sayılar da rasyoneldir."
+      },
+      {
+        "id": "mat-ras-02",
+        "text": "**Toplama/çıkarma**: paydalar eşitlenir; **çarpma**: pay×pay, payda×payda; **bölme**: ters çevirip çarpma."
+      },
+      {
+        "id": "mat-ras-03",
+        "text": "Aynı paylı kesirlerde **payda büyükse sayı küçüktür**."
+      },
+      {
+        "id": "mat-ras-04",
+        "text": "**Devirli ondalık** sayılar rasyoneldir ve kesre çevrilebilir."
+      },
+      {
+        "id": "mat-ras-05",
+        "text": "**Birim kesir** payı 1 olan kesirdir; pay > payda ise kesir 1'den büyüktür."
+      }
+    ],
+    "Matematik||Basit Eşitsizlikler": [
+      {
+        "id": "mat-esz-01",
+        "text": "Eşitsizliğin iki tarafı **negatif sayıyla çarpılır/bölünürse yön değişir** (< olur >)."
+      },
+      {
+        "id": "mat-esz-02",
+        "text": "İki tarafa aynı sayı eklenip çıkarılabilir (yön değişmez)."
+      },
+      {
+        "id": "mat-esz-03",
+        "text": "**a < x < b** aralığındaki tam sayı sayısı **b − a − 1** (uçlar hariç)."
+      },
+      {
+        "id": "mat-esz-04",
+        "text": "Aynı yönlü iki eşitsizlik **taraf tarafa toplanabilir**."
+      },
+      {
+        "id": "mat-esz-05",
+        "text": "Çözüm kümesi sayı doğrusunda aralıkla gösterilir (açık uç = dahil değil)."
+      }
+    ],
+    "Matematik||Mutlak Değer": [
+      {
+        "id": "mat-mut-01",
+        "text": "**|a|** sayının sıfıra uzaklığıdır; **|a| ≥ 0** her zaman."
+      },
+      {
+        "id": "mat-mut-02",
+        "text": "**|a| = a** (a≥0), **|a| = −a** (a<0); **|a| = |−a|**."
+      },
+      {
+        "id": "mat-mut-03",
+        "text": "**|a·b| = |a|·|b|**, **|a+b| ≤ |a|+|b|** (üçgen eşitsizliği)."
+      },
+      {
+        "id": "mat-mut-04",
+        "text": "**|x| = k** ⇒ x = k veya x = −k (k≥0)."
+      },
+      {
+        "id": "mat-mut-05",
+        "text": "**|x| < k** ⇒ −k < x < k; **|x| > k** ⇒ x < −k veya x > k."
+      }
+    ],
+    "Matematik||Üslü Sayılar": [
+      {
+        "id": "mat-usl-01",
+        "text": "**a⁰ = 1** (a≠0), **a¹ = a**; **aⁿ** a'nın n kez çarpımıdır."
+      },
+      {
+        "id": "mat-usl-02",
+        "text": "**aᵐ·aⁿ = aᵐ⁺ⁿ**, **aᵐ/aⁿ = aᵐ⁻ⁿ**, **(aᵐ)ⁿ = aᵐⁿ**, **(a·b)ⁿ = aⁿbⁿ**."
+      },
+      {
+        "id": "mat-usl-03",
+        "text": "**a⁻ⁿ = 1/aⁿ** (negatif üs kesre çevirir)."
+      },
+      {
+        "id": "mat-usl-04",
+        "text": "**(−1)ⁿ**: n çift → 1, n tek → −1."
+      },
+      {
+        "id": "mat-usl-05",
+        "text": "Denklemde **tabanlar eşitse üsler**, **üsler eşitse tabanlar** eşitlenir."
+      }
+    ],
+    "Matematik||Köklü Sayılar": [
+      {
+        "id": "mat-kok-01",
+        "text": "**√a** karesi a olan pozitif sayıdır (a≥0); **√(a²) = |a|**."
+      },
+      {
+        "id": "mat-kok-02",
+        "text": "**√a·√b = √(ab)**, **√a/√b = √(a/b)**."
+      },
+      {
+        "id": "mat-kok-03",
+        "text": "**a√b + c√b = (a+c)√b** (kök içi aynıysa toplanır)."
+      },
+      {
+        "id": "mat-kok-04",
+        "text": "**Paydayı rasyonel yapma**: 1/√a = √a/a; eşlenikle çarpma."
+      },
+      {
+        "id": "mat-kok-05",
+        "text": "**ⁿ√a = a^(1/n)**; köklü ifade kesirli üsle yazılabilir."
+      }
+    ],
+    "Matematik||Çarpanlara Ayırma": [
+      {
+        "id": "mat-car-01",
+        "text": "**Ortak çarpan parantezi**: ab + ac = a(b+c)."
+      },
+      {
+        "id": "mat-car-02",
+        "text": "**İki kare farkı**: a² − b² = (a−b)(a+b)."
+      },
+      {
+        "id": "mat-car-03",
+        "text": "**Tam kare**: a² ± 2ab + b² = (a ± b)²."
+      },
+      {
+        "id": "mat-car-04",
+        "text": "**x² + (a+b)x + ab = (x+a)(x+b)** (çarpımı ab, toplamı ortadaki katsayı)."
+      },
+      {
+        "id": "mat-car-05",
+        "text": "Çarpanlara ayırma **sadeleştirme** ve **denklem çözmede** kullanılır."
+      }
+    ],
+    "Matematik||Oran - Orantı": [
+      {
+        "id": "mat-ora-01",
+        "text": "**Oran** iki çokluğun bölmeyle karşılaştırılmasıdır (a/b) ve **birimsizdir**."
+      },
+      {
+        "id": "mat-ora-02",
+        "text": "**Orantı** iki oranın eşitliğidir; **içler-dışlar çarpımı eşittir** (a·d = b·c)."
+      },
+      {
+        "id": "mat-ora-03",
+        "text": "**Doğru orantı**: biri artınca diğeri aynı oranda artar (a/b sabit)."
+      },
+      {
+        "id": "mat-ora-04",
+        "text": "**Ters orantı**: biri artınca diğeri aynı oranda azalır (a·b sabit)."
+      },
+      {
+        "id": "mat-ora-05",
+        "text": "Ters orantılı paylaştırmada orantı sayılarının **çarpmaya göre tersi** alınır."
+      }
+    ],
+    "Matematik||Denklem Çözme": [
+      {
+        "id": "mat-den-01",
+        "text": "**Birinci dereceden denklem** ax + b = 0 ⇒ **x = −b/a** (a≠0)."
+      },
+      {
+        "id": "mat-den-02",
+        "text": "Bilinmeyenler bir tarafa, sabitler diğer tarafa toplanır."
+      },
+      {
+        "id": "mat-den-03",
+        "text": "**İki bilinmeyenli sistem**: yok etme (toplama-çıkarma) veya yerine koyma yöntemiyle çözülür."
+      },
+      {
+        "id": "mat-den-04",
+        "text": "Bir denklemin **kökü** onu sağlayan değerdir."
+      },
+      {
+        "id": "mat-den-05",
+        "text": "Problemi denkleme çevirmek: bilinmeyene x deyip cümleyi matematik diline aktarmaktır."
+      }
+    ],
+    "Matematik||Sayı Problemleri": [
+      {
+        "id": "mat-sayp-01",
+        "text": "Bilinmeyen sayıya **x** denir; 'fazlası/eksiği/katı/yarısı' işleme çevrilir."
+      },
+      {
+        "id": "mat-sayp-02",
+        "text": "'Bir sayının 3 katının 5 fazlası' → **3x + 5**."
+      },
+      {
+        "id": "mat-sayp-03",
+        "text": "Ardışık sayılarda değerler **x, x+1, x+2** (çiftte x, x+2)."
+      },
+      {
+        "id": "mat-sayp-04",
+        "text": "Toplamı/çarpımı verilen iki sayı denklemle bulunur."
+      },
+      {
+        "id": "mat-sayp-05",
+        "text": "**Rakam ile sayı** ayrımına ve basamak değerine dikkat edilir."
+      }
+    ],
+    "Matematik||Kesir Problemleri": [
+      {
+        "id": "mat-kesp-01",
+        "text": "Bütünün 'a/b'si → **bütün · a/b**; bütüne genelde **x** denir."
+      },
+      {
+        "id": "mat-kesp-02",
+        "text": "'Kalanın …' ifadeleri **sırayla, önceki adımdan kalan** üzerinden işlenir."
+      },
+      {
+        "id": "mat-kesp-03",
+        "text": "Bir işin/yolun kesirle verilen parçalarının toplamı **1 (bütün)** eder."
+      },
+      {
+        "id": "mat-kesp-04",
+        "text": "Ortak paydayı kullanmak ya da bütüne uygun sayı vermek çözümü kolaylaştırır."
+      },
+      {
+        "id": "mat-kesp-05",
+        "text": "Kesir problemleri havuz/iş problemleriyle benzer mantıktadır."
+      }
+    ],
+    "Matematik||Yaş Problemleri": [
+      {
+        "id": "mat-yasp-01",
+        "text": "**Yaş farkı her zaman sabittir** (değişmez)."
+      },
+      {
+        "id": "mat-yasp-02",
+        "text": "**t yıl sonra** herkesin yaşına +t, **t yıl önce** −t eklenir."
+      },
+      {
+        "id": "mat-yasp-03",
+        "text": "n kişinin yaş toplamı **t yıl sonra n·t kadar** artar."
+      },
+      {
+        "id": "mat-yasp-04",
+        "text": "'… yıl sonra biri diğerinin k katı olacak' ifadesi denklemle kurulur."
+      },
+      {
+        "id": "mat-yasp-05",
+        "text": "Bugünkü bilinmeyen yaşa **x** denir."
+      }
+    ],
+    "Matematik||İşçi - Havuz Problemleri": [
+      {
+        "id": "mat-isci-01",
+        "text": "Bir işi **a günde** bitiren, günde işin **1/a**'sını yapar (iş gücü = 1/süre)."
+      },
+      {
+        "id": "mat-isci-02",
+        "text": "Birlikte çalışmada **iş güçleri toplanır** (1/a + 1/b); süre = 1/(toplam güç)."
+      },
+      {
+        "id": "mat-isci-03",
+        "text": "Havuzu **dolduran +**, **boşaltan −** olarak işleme alınır."
+      },
+      {
+        "id": "mat-isci-04",
+        "text": "**İş = işçi sayısı × gün × günlük verim**; orantıyla çözülür."
+      },
+      {
+        "id": "mat-isci-05",
+        "text": "Daha çok işçi → daha az süre (**ters orantı**)."
+      }
+    ],
+    "Matematik||Hareket Problemleri": [
+      {
+        "id": "mat-har-01",
+        "text": "**Yol = Hız × Zaman** (x = v·t); birimler uyumlu olmalı."
+      },
+      {
+        "id": "mat-har-02",
+        "text": "**Zıt yönde** hareket: hızlar **toplanır**; **aynı yönde**: hızlar **çıkarılır**."
+      },
+      {
+        "id": "mat-har-03",
+        "text": "Karşılıklı hareket edip karşılaşmada **birlikte alınan yol = aradaki mesafe**."
+      },
+      {
+        "id": "mat-har-04",
+        "text": "Bir aracın diğerini yakalaması: **hız farkı × zaman = aradaki mesafe**."
+      },
+      {
+        "id": "mat-har-05",
+        "text": "**Ortalama hız = toplam yol / toplam zaman** (hızların ortalaması değildir)."
+      }
+    ],
+    "Matematik||Yüzde - Kâr - Zarar": [
+      {
+        "id": "mat-yuz-01",
+        "text": "**%x = x/100**; bir sayının %x'i = **sayı · x/100**."
+      },
+      {
+        "id": "mat-yuz-02",
+        "text": "**Kâr**: satış > maliyet; **zarar**: satış < maliyet (yüzdeler genelde **maliyet üzerinden**)."
+      },
+      {
+        "id": "mat-yuz-03",
+        "text": "**%x kârla satış** = maliyet·(1 + x/100); **%x zararla** = maliyet·(1 − x/100)."
+      },
+      {
+        "id": "mat-yuz-04",
+        "text": "Ardışık yüzde artış/azalışlar **çarpılarak** birleştirilir (doğrudan toplanmaz)."
+      },
+      {
+        "id": "mat-yuz-05",
+        "text": "İndirim (iskonto) genelde **satış fiyatı üzerinden** hesaplanır."
+      }
+    ],
+    "Matematik||Karışım Problemleri": [
+      {
+        "id": "mat-kars-01",
+        "text": "**Katkı miktarı = karışım miktarı × yüzde oranı**."
+      },
+      {
+        "id": "mat-kars-02",
+        "text": "Karışımlar birleşince **saf madde miktarları ve toplam miktar ayrı ayrı toplanır**; yeni oran = toplam saf / toplam."
+      },
+      {
+        "id": "mat-kars-03",
+        "text": "**Su ekleme** saf maddeyi değiştirmez, **oranı düşürür**; **buharlaşma** oranı **artırır**."
+      },
+      {
+        "id": "mat-kars-04",
+        "text": "Alaşım/maden karışımlarında da metal oranı aynı mantıkla hesaplanır."
+      },
+      {
+        "id": "mat-kars-05",
+        "text": "İki karışımı belli oranda karıştırma **karma oran (alligation)** ile çözülür."
+      }
+    ],
+    "Matematik||Faiz Problemleri": [
+      {
+        "id": "mat-faiz-01",
+        "text": "**Basit faiz** = Anapara × faiz oranı × zaman: **F = A·n·t / 100**."
+      },
+      {
+        "id": "mat-faiz-02",
+        "text": "Süre aysa **t/12**, günse **t/360** alınır."
+      },
+      {
+        "id": "mat-faiz-03",
+        "text": "**Toplam (birikim) = Anapara + Faiz**."
+      },
+      {
+        "id": "mat-faiz-04",
+        "text": "Faiz oranı genelde **yıllık %** verilir; süre buna uydurulur."
+      },
+      {
+        "id": "mat-faiz-05",
+        "text": "**Bileşik faizde** faiz de faiz getirir; basit faizde getirmez."
+      }
+    ],
+    "Matematik||Kümeler": [
+      {
+        "id": "mat-kum-01",
+        "text": "**Küme** iyi tanımlı nesneler topluluğudur; eleman sayısı **s(A)**."
+      },
+      {
+        "id": "mat-kum-02",
+        "text": "**s(A∪B) = s(A) + s(B) − s(A∩B)** (ortak elemanlar bir kez sayılır)."
+      },
+      {
+        "id": "mat-kum-03",
+        "text": "**Kesişim (∩)** ortak elemanlar; **fark (A−B)** A'da olup B'de olmayanlar."
+      },
+      {
+        "id": "mat-kum-04",
+        "text": "**Boş küme { }** eleman içermez ve her kümenin alt kümesidir."
+      },
+      {
+        "id": "mat-kum-05",
+        "text": "**n elemanlı** kümenin alt küme sayısı **2ⁿ**, öz alt küme sayısı **2ⁿ − 1**."
+      }
+    ],
+    "Matematik||Fonksiyonlar": [
+      {
+        "id": "mat-fon-01",
+        "text": "**Fonksiyon** A'nın her elemanını B'de **tek** elemana eşler (f: A→B)."
+      },
+      {
+        "id": "mat-fon-02",
+        "text": "**Tanım kümesi (A)**, **değer kümesi (B)**, **görüntü kümesi f(A)**."
+      },
+      {
+        "id": "mat-fon-03",
+        "text": "**Bire bir**: farklı elemanlar farklı görüntülere gider; **örten**: değer kümesinin tümü görüntüdür."
+      },
+      {
+        "id": "mat-fon-04",
+        "text": "**Bileşke f(g(x))** içten dışa hesaplanır."
+      },
+      {
+        "id": "mat-fon-05",
+        "text": "**Ters fonksiyon f⁻¹** yalnız **bire bir ve örten** fonksiyonda vardır."
+      }
+    ],
+    "Matematik||Permütasyon - Kombinasyon - Olasılık": [
+      {
+        "id": "mat-pko-01",
+        "text": "**n! = 1·2·…·n**; **0! = 1**."
+      },
+      {
+        "id": "mat-pko-02",
+        "text": "**Permütasyon P(n,r) = n!/(n−r)!** — sıra önemli (sıralı seçim)."
+      },
+      {
+        "id": "mat-pko-03",
+        "text": "**Kombinasyon C(n,r) = n!/[r!(n−r)!]** — sıra önemsiz (sırasız seçim)."
+      },
+      {
+        "id": "mat-pko-04",
+        "text": "**Olasılık = istenen durum sayısı / tüm durum sayısı** (0 ≤ P ≤ 1)."
+      },
+      {
+        "id": "mat-pko-05",
+        "text": "**Kesin olay 1**, **imkânsız olay 0**; A'nın olmama olasılığı = **1 − P(A)**."
+      }
+    ],
+    "Matematik||Sayısal - Mantıksal Akıl Yürütme": [
+      {
+        "id": "mat-mak-01",
+        "text": "**Sayı örüntüsü**: fark, çarpım, kare/karekök ya da ardışık işlem kuralını bulma."
+      },
+      {
+        "id": "mat-mak-02",
+        "text": "**Şekil-sayı ilişkisi**: örneklerdeki kuralı yeni şekle uygulama."
+      },
+      {
+        "id": "mat-mak-03",
+        "text": "**Şifre / işlem tablosu** sorularında verilenlerden kural çıkarılır."
+      },
+      {
+        "id": "mat-mak-04",
+        "text": "**Mantık**: 'bazı / bütün / hiçbiri' öncüllerinden kesin çıkarım (Venn şeması yardımcı olur)."
+      },
+      {
+        "id": "mat-mak-05",
+        "text": "Strateji: **kuralı iki-üç örnekle doğrula**, sonra uygula; acele genelleme yapma."
+      }
+    ],
+    "Geometri||Doğruda Açılar": [
+      {
+        "id": "geo-doa-01",
+        "text": "**Doğru açı 180°**, **tam açı 360°**, **dik açı 90°**."
+      },
+      {
+        "id": "geo-doa-02",
+        "text": "**Tümler açılar** toplamı 90°, **bütünler açılar** toplamı 180°."
+      },
+      {
+        "id": "geo-doa-03",
+        "text": "İki doğru kesişince **ters açılar eşittir**."
+      },
+      {
+        "id": "geo-doa-04",
+        "text": "**Paralel iki doğru bir kesenle** kesilince: **yöndeş, ters, iç ters, dış ters** açılar eşit; **iç yan açılar bütünlerdir (180°)**."
+      },
+      {
+        "id": "geo-doa-05",
+        "text": "**Açıortay** bir açıyı iki eş açıya böler."
+      }
+    ],
+    "Geometri||Üçgende Açılar": [
+      {
+        "id": "geo-uca-01",
+        "text": "Üçgenin **iç açıları toplamı 180°**, **dış açıları toplamı 360°**."
+      },
+      {
+        "id": "geo-uca-02",
+        "text": "Bir **dış açı**, kendine komşu olmayan **iki iç açının toplamına** eşittir."
+      },
+      {
+        "id": "geo-uca-03",
+        "text": "**Büyük açının karşısında büyük kenar** bulunur."
+      },
+      {
+        "id": "geo-uca-04",
+        "text": "**İç açıortayların kesişimi** iç teğet çemberin merkezidir; iki iç açıortay arası açı = **90° + C/2**."
+      },
+      {
+        "id": "geo-uca-05",
+        "text": "İkizkenar üçgende **taban açıları eşittir**."
+      }
+    ],
+    "Geometri||Üçgenler (Kenar - Alan)": [
+      {
+        "id": "geo-uka-01",
+        "text": "**Üçgen eşitsizliği**: |b−c| < a < b+c (bir kenar diğer ikisinin farkı ile toplamı arasında)."
+      },
+      {
+        "id": "geo-uka-02",
+        "text": "**Alan = taban × yükseklik / 2**."
+      },
+      {
+        "id": "geo-uka-03",
+        "text": "**Kenarortay** kenarı iki eşit parçaya böler; üç kenarortay **ağırlık merkezinde (G)** kesişir ve G kenarortayı **2:1** böler."
+      },
+      {
+        "id": "geo-uka-04",
+        "text": "**Açıortay** karşı kenarı komşu kenarlarla orantılı böler."
+      },
+      {
+        "id": "geo-uka-05",
+        "text": "Benzer üçgenlerde kenarlar orantılı; **alan oranı benzerlik oranının karesidir**."
+      }
+    ],
+    "Geometri||Özel Üçgenler": [
+      {
+        "id": "geo-ouc-01",
+        "text": "**Dik üçgen — Pisagor: a² + b² = c²** (c hipotenüs)."
+      },
+      {
+        "id": "geo-ouc-02",
+        "text": "**30-60-90** üçgeninde kenarlar **x, x√3, 2x**."
+      },
+      {
+        "id": "geo-ouc-03",
+        "text": "**45-45-90 (ikizkenar dik)** üçgeninde kenarlar **x, x, x√2**."
+      },
+      {
+        "id": "geo-ouc-04",
+        "text": "**Eşkenar üçgen**: yükseklik **a√3/2**, alan **a²√3/4** (tüm açılar 60°)."
+      },
+      {
+        "id": "geo-ouc-05",
+        "text": "**Öklid bağıntıları** (dik üçgende hipotenüse ait yükseklik): **h² = p·k**."
+      }
+    ],
+    "Geometri||Dörtgenler": [
+      {
+        "id": "geo-dor-01",
+        "text": "Dörtgenin **iç açıları toplamı 360°**."
+      },
+      {
+        "id": "geo-dor-02",
+        "text": "**Paralelkenar**: karşılıklı kenarlar paralel-eşit, köşegenler birbirini ortalar; **alan = taban × yükseklik**."
+      },
+      {
+        "id": "geo-dor-03",
+        "text": "**Dikdörtgen** alan = a·b (köşegenler eşit); **kare** alan = a², köşegen **a√2**."
+      },
+      {
+        "id": "geo-dor-04",
+        "text": "**Eşkenar dörtgen (baklava)**: **alan = köşegenler çarpımı / 2**; köşegenler dik kesişir."
+      },
+      {
+        "id": "geo-dor-05",
+        "text": "**Yamuk**: bir çift kenar paralel; **alan = (a+c)/2 × h**."
+      }
+    ],
+    "Geometri||Çokgenler": [
+      {
+        "id": "geo-cok-01",
+        "text": "**n kenarlı çokgenin iç açıları toplamı = (n−2)·180°**."
+      },
+      {
+        "id": "geo-cok-02",
+        "text": "**Dış açıları toplamı her zaman 360°**'dir."
+      },
+      {
+        "id": "geo-cok-03",
+        "text": "**Düzgün çokgende** bir iç açı = (n−2)·180°/n; bir dış açı = **360°/n**."
+      },
+      {
+        "id": "geo-cok-04",
+        "text": "**Köşegen sayısı = n(n−3)/2**."
+      },
+      {
+        "id": "geo-cok-05",
+        "text": "Bir köşeden çizilen köşegenler çokgeni **(n−2)** üçgene ayırır."
+      }
+    ],
+    "Geometri||Çember ve Daire": [
+      {
+        "id": "geo-cem-01",
+        "text": "**Çember çevresi = 2πr**, **daire alanı = πr²**."
+      },
+      {
+        "id": "geo-cem-02",
+        "text": "**Merkez açı** gördüğü yayı ölçer; **çevre açı** gördüğü yayın **yarısıdır**."
+      },
+      {
+        "id": "geo-cem-03",
+        "text": "**Çapı gören çevre açı 90°**'dir."
+      },
+      {
+        "id": "geo-cem-04",
+        "text": "**Teğet**, değme noktasında yarıçapa **diktir**; bir noktadan çizilen iki teğet eşittir."
+      },
+      {
+        "id": "geo-cem-05",
+        "text": "**Yay uzunluğu = 2πr·(α/360)**, **daire dilimi alanı = πr²·(α/360)**."
+      }
+    ],
+    "Geometri||Analitik Geometri": [
+      {
+        "id": "geo-ana-01",
+        "text": "**İki nokta arası uzaklık = √[(x₂−x₁)² + (y₂−y₁)²]**."
+      },
+      {
+        "id": "geo-ana-02",
+        "text": "**Orta nokta = ((x₁+x₂)/2, (y₁+y₂)/2)**."
+      },
+      {
+        "id": "geo-ana-03",
+        "text": "**Eğim m = (y₂−y₁)/(x₂−x₁)**; doğru denklemi **y = mx + n**."
+      },
+      {
+        "id": "geo-ana-04",
+        "text": "**Paralel doğruların eğimleri eşittir**; **dik doğruların eğimleri çarpımı −1**'dir."
+      },
+      {
+        "id": "geo-ana-05",
+        "text": "Doğrunun eksenleri kestiği noktalar **x=0** ve **y=0** konarak bulunur."
+      }
+    ],
+    "Geometri||Katı Cisimler": [
+      {
+        "id": "geo-kat-01",
+        "text": "**Dikdörtgenler prizması**: Hacim = a·b·c, yüzey = 2(ab+bc+ac)."
+      },
+      {
+        "id": "geo-kat-02",
+        "text": "**Küp**: Hacim = a³, yüzey alanı = 6a²."
+      },
+      {
+        "id": "geo-kat-03",
+        "text": "**Silindir**: Hacim = πr²h; yanal alan = 2πrh."
+      },
+      {
+        "id": "geo-kat-04",
+        "text": "**Koni**: Hacim = πr²h/3; **Küre**: Hacim = 4πr³/3, yüzey = 4πr²."
+      },
+      {
+        "id": "geo-kat-05",
+        "text": "**Prizma/piramit** genel kural: prizmada hacim = **taban alanı × yükseklik**, piramitte **taban alanı × yükseklik / 3**."
+      }
+    ],
+    "Güncel Bilgiler||Ulusal Güncel Olaylar": [
+      {
+        "id": "gun-ugo-01",
+        "text": "Bu konu **güncel gelişmelere dayanır**; sınava yakın dönemde son haberlerle **güncellenmelidir** (aşağıdakiler kalıcı çerçevedir)."
+      },
+      {
+        "id": "gun-ugo-02",
+        "text": "Türkiye'nin başkenti **Ankara**; yönetim biçimi **Cumhurbaşkanlığı Hükümet Sistemi** (2018'den beri)."
+      },
+      {
+        "id": "gun-ugo-03",
+        "text": "Türkiye **81 ile** ayrılır; en kalabalık il **İstanbul**, yüzölçümü en büyük il **Konya**'dır."
+      },
+      {
+        "id": "gun-ugo-04",
+        "text": "**2023**, Türkiye Cumhuriyeti'nin **100. yılıydı**."
+      },
+      {
+        "id": "gun-ugo-05",
+        "text": "TBMM'de **600 milletvekili** görev yapar; genel seçimler **5 yılda bir** yapılır."
+      },
+      {
+        "id": "gun-ugo-06",
+        "text": "Güncel ulusal başlıklarda **büyük projeler, resmî açılışlar, doğal afetler ve ekonomik göstergeler** sık sorulur."
+      }
+    ],
+    "Güncel Bilgiler||Uluslararası Güncel Olaylar": [
+      {
+        "id": "gun-uio-01",
+        "text": "Bu konu değişkendir; sınav öncesi **güncel uluslararası gelişmelerle güncellenmelidir**."
+      },
+      {
+        "id": "gun-uio-02",
+        "text": "**Birleşmiş Milletler (BM/UN)** 1945'te kuruldu, merkezi **New York**; **Güvenlik Konseyi 5 daimi üyesi**: ABD, Rusya, Çin, İngiltere, Fransa."
+      },
+      {
+        "id": "gun-uio-03",
+        "text": "**NATO** askerî ittifaktır (1949, merkez **Brüksel**); Türkiye **1952**'den beri üyedir."
+      },
+      {
+        "id": "gun-uio-04",
+        "text": "**Avrupa Birliği (AB)** merkezi Brüksel; Türkiye **aday ülkedir** (tam üye değil)."
+      },
+      {
+        "id": "gun-uio-05",
+        "text": "Türkiye'nin üye olduğu örgütler: **BM, NATO, G20, İİT (İslam İşbirliği), Türk Devletleri Teşkilatı, KEİ**."
+      }
+    ],
+    "Güncel Bilgiler||Kurumlar ve Kısaltmalar": [
+      {
+        "id": "gun-kis-01",
+        "text": "**TBMM** Türkiye Büyük Millet Meclisi; **TCMB** Merkez Bankası; **TÜİK** Türkiye İstatistik Kurumu."
+      },
+      {
+        "id": "gun-kis-02",
+        "text": "**YÖK** Yükseköğretim Kurulu; **ÖSYM** Ölçme Seçme ve Yerleştirme Merkezi; **MEB** Millî Eğitim Bakanlığı; **TDK** Türk Dil Kurumu."
+      },
+      {
+        "id": "gun-kis-03",
+        "text": "**AYM** Anayasa Mahkemesi; **HSK** Hâkimler ve Savcılar Kurulu; **Sayıştay** kamu mali denetimi; **RTÜK** Radyo Televizyon Üst Kurulu."
+      },
+      {
+        "id": "gun-kis-04",
+        "text": "**DSÖ (WHO)** Dünya Sağlık Örgütü; **UNESCO** eğitim-bilim-kültür; **UNICEF** çocuklara yardım; **IMF** Uluslararası Para Fonu."
+      },
+      {
+        "id": "gun-kis-05",
+        "text": "**AFAD** Afet ve Acil Durum; **TİKA** Türk İşbirliği ve Koordinasyon Ajansı; **TÜBİTAK** bilimsel araştırma; **TRT** Türkiye Radyo Televizyon."
+      },
+      {
+        "id": "gun-kis-06",
+        "text": "**TSE** Türk Standardları Enstitüsü; **BOTAŞ** boru hatları; **NASA** ABD uzay ajansı; **FIFA/UEFA** futbol örgütleri."
+      }
+    ],
+    "Güncel Bilgiler||Spor - Kültür - Sanat": [
+      {
+        "id": "gun-sks-01",
+        "text": "**Olimpiyat Oyunları** 4 yılda bir yapılır; modern olimpiyatların başlangıcı **1896 (Atina)**."
+      },
+      {
+        "id": "gun-sks-02",
+        "text": "**Göbeklitepe (Şanlıurfa)** dünyanın bilinen en eski tapınak alanlarındandır ('tarihin sıfır noktası')."
+      },
+      {
+        "id": "gun-sks-03",
+        "text": "Türkiye'nin **UNESCO Dünya Mirası** alanları: İstanbul Tarihi Alanları, Kapadokya-Göreme, Efes, Truva, Pamukkale-Hierapolis, Safranbolu, Divriği Ulu Camii, Göbeklitepe."
+      },
+      {
+        "id": "gun-sks-04",
+        "text": "Türk edebiyatında **Nobel Edebiyat Ödülü'nü Orhan Pamuk (2006)** aldı."
+      },
+      {
+        "id": "gun-sks-05",
+        "text": "**UNESCO Somut Olmayan Kültürel Miras**: Mevlevî Sema Töreni, Karagöz, Nevruz, geleneksel Türk yay okçuluğu."
+      },
+      {
+        "id": "gun-sks-06",
+        "text": "Güncel şampiyonluk ve ödüller değişkendir; sınav öncesi **güncellenmelidir**."
       }
     ]
   }
