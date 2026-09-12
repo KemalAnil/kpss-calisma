@@ -1,146 +1,482 @@
 {
   "version": 1,
-  "_note": "Özgün, müfredat temelli kısa bilgi notları. Kaynaktan kopyalanmamıştır; olgular kısa ve özgün ifadeyle yazılmıştır. Pilot: Tarih.",
+  "_note": "Özgün, müfredat temelli kısa bilgi notları. Kaynaktan kopyalanmamıştır. Her olgu {id,text} biçimindedir; id, soruların analizinden 'ilgili bilgi' olarak referanslanır. Pilot: Tarih.",
   "notes": {
     "Tarih||İslamiyet Öncesi Türk Tarihi": [
-      "Türklerin ana yurdu **Orta Asya**'dır; bilinen ilk Türk devleti **Asya (Büyük) Hun Devleti**'dir.",
-      "**Mete Han**, orduyu **onlu (10'lu) sisteme** göre düzenledi; MÖ 209 Türk Kara Kuvvetleri'nin kuruluşu kabul edilir.",
-      "**Kavimler Göçü (375)**: Hunların baskısıyla başladı; Roma ikiye ayrıldı, Avrupa'nın etnik yapısı değişti, İlk Çağ kapandı, Orta Çağ başladı.",
-      "**Orhun (Göktürk) Yazıtları**: Türk adının geçtiği ilk yazılı Türkçe belge; II. Göktürk Devleti'nde Bilge Kağan, Kültigin ve Vezir Tonyukuk adına dikildi.",
-      "**Uygurlar**: yerleşik hayata geçen ilk Türklerdir; **Mani ve Budizm** dinlerini benimsediler, matbaa ve kâğıdı kullandılar.",
-      "**Göktürkler**, tarihte 'Türk' adıyla kurulan ilk devlettir; Bumin Kağan tarafından kuruldu.",
-      "**Türgişler** ilk Türk parasını (Bağa Tarkan) bastı; **Hazarlar** Museviliği benimseyip 'Hazar Barış Dönemi'ni yaşattı.",
-      "Türklerde ülke, hanedanın ortak malı sayılırdı; bu 'ikili teşkilat / veraset' anlayışı taht kavgalarına ve devletlerin kısa ömürlü olmasına yol açtı."
+      {
+        "id": "tar-isl-01",
+        "text": "Türklerin ana yurdu **Orta Asya**'dır; bilinen ilk Türk devleti **Asya (Büyük) Hun Devleti**'dir."
+      },
+      {
+        "id": "tar-isl-02",
+        "text": "**Mete Han**, orduyu **onlu (10'lu) sisteme** göre düzenledi; MÖ 209 Türk Kara Kuvvetleri'nin kuruluşu kabul edilir."
+      },
+      {
+        "id": "tar-isl-03",
+        "text": "**Kavimler Göçü (375)**: Hunların baskısıyla başladı; Roma ikiye ayrıldı, Avrupa'nın etnik yapısı değişti, İlk Çağ kapandı, Orta Çağ başladı."
+      },
+      {
+        "id": "tar-isl-04",
+        "text": "**Orhun (Göktürk) Yazıtları**: Türk adının geçtiği ilk yazılı Türkçe belge; II. Göktürk Devleti'nde Bilge Kağan, Kültigin ve Vezir Tonyukuk adına dikildi."
+      },
+      {
+        "id": "tar-isl-05",
+        "text": "**Uygurlar**: yerleşik hayata geçen ilk Türklerdir; **Mani ve Budizm** dinlerini benimsediler, matbaa ve kâğıdı kullandılar."
+      },
+      {
+        "id": "tar-isl-06",
+        "text": "**Göktürkler**, tarihte 'Türk' adıyla kurulan ilk devlettir; Bumin Kağan tarafından kuruldu."
+      },
+      {
+        "id": "tar-isl-07",
+        "text": "**Türgişler** ilk Türk parasını (Bağa Tarkan) bastı; **Hazarlar** Museviliği benimseyip 'Hazar Barış Dönemi'ni yaşattı."
+      },
+      {
+        "id": "tar-isl-08",
+        "text": "Türklerde ülke, hanedanın ortak malı sayılırdı; bu 'ikili teşkilat / veraset' anlayışı taht kavgalarına ve devletlerin kısa ömürlü olmasına yol açtı."
+      }
     ],
     "Tarih||İlk Türk-İslam Devletleri": [
-      "**Talas Savaşı (751)**: Abbasiler + Karluklar, Çin'e karşı kazandı; Türkler İslamiyet'e yaklaştı, kâğıt Çin dışına yayıldı.",
-      "**Karahanlılar**: ilk Müslüman Türk devleti; **Satuk Buğra Han** İslamiyet'i kabul etti, resmî dil Türkçe idi.",
-      "İlk Türk-İslam eserleri: **Kutadgu Bilig** (Yusuf Has Hacib), **Divânü Lugâti't-Türk** (Kaşgarlı Mahmud), Atabetü'l-Hakayık (Edip Ahmet), Divan-ı Hikmet (Ahmet Yesevi).",
-      "**Gazneli Mahmut**, 'Sultan' unvanını ilk kullanan hükümdardır; Hindistan'a 17 sefer düzenleyip İslamiyet'i yaydı.",
-      "**Dandanakan Savaşı (1040)**: Selçuklular Gaznelileri yendi, **Büyük Selçuklu Devleti** kuruldu (Tuğrul ve Çağrı Bey).",
-      "**Malazgirt Savaşı (1071)**: Alparslan, Bizans'ı yendi; **Anadolu'nun kapıları Türklere açıldı**.",
-      "**Nizamülmülk**: Büyük Selçuklu veziri; **Nizamiye Medreseleri**ni kurdu, **Siyasetname**yi yazdı.",
-      "**Miryokefalon Savaşı (1176)**: Anadolu Selçuklu, Bizans'ı yendi, Anadolu kesin Türk yurdu oldu. **Kösedağ (1243)** yenilgisiyle Anadolu'da beylikler dönemi başladı."
+      {
+        "id": "tar-tid-01",
+        "text": "**Talas Savaşı (751)**: Abbasiler + Karluklar, Çin'e karşı kazandı; Türkler İslamiyet'e yaklaştı, kâğıt Çin dışına yayıldı."
+      },
+      {
+        "id": "tar-tid-02",
+        "text": "**Karahanlılar**: ilk Müslüman Türk devleti; **Satuk Buğra Han** İslamiyet'i kabul etti, resmî dil Türkçe idi."
+      },
+      {
+        "id": "tar-tid-03",
+        "text": "İlk Türk-İslam eserleri: **Kutadgu Bilig** (Yusuf Has Hacib), **Divânü Lugâti't-Türk** (Kaşgarlı Mahmud), Atabetü'l-Hakayık (Edip Ahmet), Divan-ı Hikmet (Ahmet Yesevi)."
+      },
+      {
+        "id": "tar-tid-04",
+        "text": "**Gazneli Mahmut**, 'Sultan' unvanını ilk kullanan hükümdardır; Hindistan'a 17 sefer düzenleyip İslamiyet'i yaydı."
+      },
+      {
+        "id": "tar-tid-05",
+        "text": "**Dandanakan Savaşı (1040)**: Selçuklular Gaznelileri yendi, **Büyük Selçuklu Devleti** kuruldu (Tuğrul ve Çağrı Bey)."
+      },
+      {
+        "id": "tar-tid-06",
+        "text": "**Malazgirt Savaşı (1071)**: Alparslan, Bizans'ı yendi; **Anadolu'nun kapıları Türklere açıldı**."
+      },
+      {
+        "id": "tar-tid-07",
+        "text": "**Nizamülmülk**: Büyük Selçuklu veziri; **Nizamiye Medreseleri**ni kurdu, **Siyasetname**yi yazdı."
+      },
+      {
+        "id": "tar-tid-08",
+        "text": "**Miryokefalon Savaşı (1176)**: Anadolu Selçuklu, Bizans'ı yendi, Anadolu kesin Türk yurdu oldu. **Kösedağ (1243)** yenilgisiyle Anadolu'da beylikler dönemi başladı."
+      }
     ],
     "Tarih||Osmanlı Kuruluş Dönemi": [
-      "Osmanlı Devleti **1299**'da **Osman Bey** tarafından kuruldu; Oğuzların **Kayı boyuna** dayanır (merkez Söğüt).",
-      "**Orhan Bey**: ilk düzenli orduyu (yaya-müsellem) ve ilk medreseyi kurdu, **Bursa'yı başkent** yaptı, **Çimpe Kalesi (1353)** ile Rumeli'ye geçildi.",
-      "**I. Murat** Dönemi: **Sırpsındığı** ve **I. Kosova (1389)** zaferleri; Kapıkulu Ocakları, tımar sistemi ve Divan teşkilatı gelişti.",
-      "**Yıldırım Bayezid**: **Niğbolu Zaferi (1396)** ile Haçlıları yendi, İstanbul'u ilk kez kuşattı.",
-      "**Ankara Savaşı (1402)**: Timur, Yıldırım Bayezid'i yendi; devletin dağıldığı **Fetret Devri (1402-1413)** başladı.",
-      "**Çelebi Mehmet**, Fetret Devri'ne son verip devleti yeniden birleştirdi; 'ikinci kurucu' sayılır.",
-      "**II. Murat**: **Varna (1444)** ve **II. Kosova (1448)** zaferleriyle Balkan hâkimiyetini pekiştirdi.",
-      "Osmanlı, kuruluşta Ahilik, gaza-cihat anlayışı ve iskân politikası sayesinde hızla büyüdü."
+      {
+        "id": "tar-okur-01",
+        "text": "Osmanlı Devleti **1299**'da **Osman Bey** tarafından kuruldu; Oğuzların **Kayı boyuna** dayanır (merkez Söğüt)."
+      },
+      {
+        "id": "tar-okur-02",
+        "text": "**Orhan Bey**: ilk düzenli orduyu (yaya-müsellem) ve ilk medreseyi kurdu, **Bursa'yı başkent** yaptı, **Çimpe Kalesi (1353)** ile Rumeli'ye geçildi."
+      },
+      {
+        "id": "tar-okur-03",
+        "text": "**I. Murat** Dönemi: **Sırpsındığı** ve **I. Kosova (1389)** zaferleri; Kapıkulu Ocakları, tımar sistemi ve Divan teşkilatı gelişti."
+      },
+      {
+        "id": "tar-okur-04",
+        "text": "**Yıldırım Bayezid**: **Niğbolu Zaferi (1396)** ile Haçlıları yendi, İstanbul'u ilk kez kuşattı."
+      },
+      {
+        "id": "tar-okur-05",
+        "text": "**Ankara Savaşı (1402)**: Timur, Yıldırım Bayezid'i yendi; devletin dağıldığı **Fetret Devri (1402-1413)** başladı."
+      },
+      {
+        "id": "tar-okur-06",
+        "text": "**Çelebi Mehmet**, Fetret Devri'ne son verip devleti yeniden birleştirdi; 'ikinci kurucu' sayılır."
+      },
+      {
+        "id": "tar-okur-07",
+        "text": "**II. Murat**: **Varna (1444)** ve **II. Kosova (1448)** zaferleriyle Balkan hâkimiyetini pekiştirdi."
+      },
+      {
+        "id": "tar-okur-08",
+        "text": "Osmanlı, kuruluşta Ahilik, gaza-cihat anlayışı ve iskân politikası sayesinde hızla büyüdü."
+      }
     ],
     "Tarih||Osmanlı Yükselme Dönemi": [
-      "**İstanbul'un Fethi (1453, Fatih Sultan Mehmet)**: Bizans yıkıldı, **Orta Çağ kapandı, Yeni Çağ başladı**.",
-      "Fatih: **Otlukbeli (1473)** ile Akkoyunluları, Kırım'ı fethederek Karadeniz'i 'Türk gölü' yaptı; Fatih Kanunnamesi'ni hazırlattı.",
-      "**Yavuz Sultan Selim** - **Çaldıran (1514)**: Safevîleri (Şah İsmail) yendi.",
-      "**Mercidabık (1516)** ve **Ridaniye (1517)**: Memlûk Devleti'ne son verildi; **Halifelik Osmanlı'ya geçti**, Mısır fethedildi, kutsal emanetler İstanbul'a getirildi.",
-      "**Kanuni Sultan Süleyman** en uzun süre (46 yıl) tahtta kalan padişahtır; **Mohaç (1526)** ile Macaristan'ı aldı, Viyana'yı kuşattı.",
-      "**Preveze Deniz Zaferi (1538, Barbaros Hayreddin Paşa)**: Akdeniz'de Türk üstünlüğü sağlandı.",
-      "**İlk kapitülasyonlar (1535)** Kanuni Dönemi'nde Fransa'ya verildi (siyasi amaçlı, geçici).",
-      "**Sokullu Mehmet Paşa'nın ölümü (1579)** genelde Yükselme Dönemi'nin sonu / Duraklama'nın başlangıcı kabul edilir."
+      {
+        "id": "tar-oyuk-01",
+        "text": "**İstanbul'un Fethi (1453, Fatih Sultan Mehmet)**: Bizans yıkıldı, **Orta Çağ kapandı, Yeni Çağ başladı**."
+      },
+      {
+        "id": "tar-oyuk-02",
+        "text": "Fatih: **Otlukbeli (1473)** ile Akkoyunluları, Kırım'ı fethederek Karadeniz'i 'Türk gölü' yaptı; Fatih Kanunnamesi'ni hazırlattı."
+      },
+      {
+        "id": "tar-oyuk-03",
+        "text": "**Yavuz Sultan Selim** - **Çaldıran (1514)**: Safevîleri (Şah İsmail) yendi."
+      },
+      {
+        "id": "tar-oyuk-04",
+        "text": "**Mercidabık (1516)** ve **Ridaniye (1517)**: Memlûk Devleti'ne son verildi; **Halifelik Osmanlı'ya geçti**, Mısır fethedildi, kutsal emanetler İstanbul'a getirildi."
+      },
+      {
+        "id": "tar-oyuk-05",
+        "text": "**Kanuni Sultan Süleyman** en uzun süre (46 yıl) tahtta kalan padişahtır; **Mohaç (1526)** ile Macaristan'ı aldı, Viyana'yı kuşattı."
+      },
+      {
+        "id": "tar-oyuk-06",
+        "text": "**Preveze Deniz Zaferi (1538, Barbaros Hayreddin Paşa)**: Akdeniz'de Türk üstünlüğü sağlandı."
+      },
+      {
+        "id": "tar-oyuk-07",
+        "text": "**İlk kapitülasyonlar (1535)** Kanuni Dönemi'nde Fransa'ya verildi (siyasi amaçlı, geçici)."
+      },
+      {
+        "id": "tar-oyuk-08",
+        "text": "**Sokullu Mehmet Paşa'nın ölümü (1579)** genelde Yükselme Dönemi'nin sonu / Duraklama'nın başlangıcı kabul edilir."
+      }
     ],
     "Tarih||Osmanlı Duraklama ve Gerileme": [
-      "**Duraklama Dönemi**: Sokullu'nun ölümü (1579) ile **Karlofça (1699)** arası; 17. yüzyıl.",
-      "Duraklama nedenleri: **Coğrafi Keşifler**le ipek-baharat yollarının önem kaybetmesi, tımar ve merkez teşkilatının bozulması, sık padişah değişimleri.",
-      "**Zitvatorok (1606)**: Avusturya karşısında Osmanlı'nın siyasi üstünlüğü sona erdi.",
-      "**Kasr-ı Şirin (1639)**: İran'la imzalandı; bugünkü **Türkiye-İran sınırı** büyük ölçüde çizildi.",
-      "**IV. Murat** Bağdat'ı geri aldı; **Köprülüler Dönemi**nde devlet kısa süreli toparlandı.",
-      "**II. Viyana Kuşatması (1683)** başarısız oldu → **Kutsal İttifak** kuruldu.",
-      "**Karlofça Antlaşması (1699)**: Osmanlı ilk kez büyük çapta toprak kaybetti; **Gerileme Dönemi** başladı.",
-      "**Küçük Kaynarca (1774)**: Rusya'yla imzalanan, Kırım'ın elden çıkmasına giden en ağır antlaşmalardandır."
+      {
+        "id": "tar-odur-01",
+        "text": "**Duraklama Dönemi**: Sokullu'nun ölümü (1579) ile **Karlofça (1699)** arası; 17. yüzyıl."
+      },
+      {
+        "id": "tar-odur-02",
+        "text": "Duraklama nedenleri: **Coğrafi Keşifler**le ipek-baharat yollarının önem kaybetmesi, tımar ve merkez teşkilatının bozulması, sık padişah değişimleri."
+      },
+      {
+        "id": "tar-odur-03",
+        "text": "**Zitvatorok (1606)**: Avusturya karşısında Osmanlı'nın siyasi üstünlüğü sona erdi."
+      },
+      {
+        "id": "tar-odur-04",
+        "text": "**Kasr-ı Şirin (1639)**: İran'la imzalandı; bugünkü **Türkiye-İran sınırı** büyük ölçüde çizildi."
+      },
+      {
+        "id": "tar-odur-05",
+        "text": "**IV. Murat** Bağdat'ı geri aldı; **Köprülüler Dönemi**nde devlet kısa süreli toparlandı."
+      },
+      {
+        "id": "tar-odur-06",
+        "text": "**II. Viyana Kuşatması (1683)** başarısız oldu → **Kutsal İttifak** kuruldu."
+      },
+      {
+        "id": "tar-odur-07",
+        "text": "**Karlofça Antlaşması (1699)**: Osmanlı ilk kez büyük çapta toprak kaybetti; **Gerileme Dönemi** başladı."
+      },
+      {
+        "id": "tar-odur-08",
+        "text": "**Küçük Kaynarca (1774)**: Rusya'yla imzalanan, Kırım'ın elden çıkmasına giden en ağır antlaşmalardandır."
+      }
     ],
     "Tarih||Osmanlı Dağılma Dönemi": [
-      "**Dağılma Dönemi** genelde 1792'den (III. Selim/Yaş Antlaşması) 1922'ye kadar uzanır.",
-      "**III. Selim**: **Nizam-ı Cedid** ordusunu ve ilk daimi (sürekli) elçilikleri kurdu.",
-      "**II. Mahmut**: **Yeniçeri Ocağı'nı kaldırdı (Vaka-i Hayriye, 1826)**, Sened-i İttifak'ı (1808) imzaladı, ilk nüfus sayımını yaptırdı.",
-      "**Tanzimat Fermanı (1839)**: Mustafa Reşit Paşa; kanun üstünlüğü ile can, mal ve namus güvencesi getirdi.",
-      "**Islahat Fermanı (1856)**: Avrupa baskısıyla gayrimüslimlere geniş eşitlik tanındı.",
-      "**I. Meşrutiyet (1876)**: II. Abdülhamit döneminde **Kanun-i Esasi** (ilk anayasa) ilan edildi, Meclis-i Mebusan açıldı.",
-      "**Duyûn-ı Umumiye (1881)**: dış borçları toplamak için kurulan idare; mali bağımsızlık zedelendi.",
-      "**Trablusgarp (1911-12, İtalya)** ve **Balkan Savaşları (1912-13)** ile büyük toprak kayıpları yaşandı."
+      {
+        "id": "tar-odag-01",
+        "text": "**Dağılma Dönemi** genelde 1792'den (III. Selim/Yaş Antlaşması) 1922'ye kadar uzanır."
+      },
+      {
+        "id": "tar-odag-02",
+        "text": "**III. Selim**: **Nizam-ı Cedid** ordusunu ve ilk daimi (sürekli) elçilikleri kurdu."
+      },
+      {
+        "id": "tar-odag-03",
+        "text": "**II. Mahmut**: **Yeniçeri Ocağı'nı kaldırdı (Vaka-i Hayriye, 1826)**, Sened-i İttifak'ı (1808) imzaladı, ilk nüfus sayımını yaptırdı."
+      },
+      {
+        "id": "tar-odag-04",
+        "text": "**Tanzimat Fermanı (1839)**: Mustafa Reşit Paşa; kanun üstünlüğü ile can, mal ve namus güvencesi getirdi."
+      },
+      {
+        "id": "tar-odag-05",
+        "text": "**Islahat Fermanı (1856)**: Avrupa baskısıyla gayrimüslimlere geniş eşitlik tanındı."
+      },
+      {
+        "id": "tar-odag-06",
+        "text": "**I. Meşrutiyet (1876)**: II. Abdülhamit döneminde **Kanun-i Esasi** (ilk anayasa) ilan edildi, Meclis-i Mebusan açıldı."
+      },
+      {
+        "id": "tar-odag-07",
+        "text": "**Duyûn-ı Umumiye (1881)**: dış borçları toplamak için kurulan idare; mali bağımsızlık zedelendi."
+      },
+      {
+        "id": "tar-odag-08",
+        "text": "**Trablusgarp (1911-12, İtalya)** ve **Balkan Savaşları (1912-13)** ile büyük toprak kayıpları yaşandı."
+      }
     ],
     "Tarih||Osmanlı Kültür ve Medeniyeti": [
-      "**Divan-ı Hümayun**: devlet işlerinin görüşüldüğü en yüksek kuruldur; başkanı padişah, uygulayıcısı **Sadrazam (Veziriazam)**'dır.",
-      "Divan üyeleri: **Kazasker** (adalet-eğitim), **Defterdar** (maliye), **Nişancı** (tuğra-tapu); sonradan **Şeyhülislam** ve **Kaptan-ı Derya** katıldı.",
-      "Taşra yönetimi: **Eyalet (Beylerbeyi) → Sancak (Sancakbeyi) → Kaza (Kadı)** biçiminde örgütlenmişti.",
-      "Toprak sistemi **miri (devlet) arazi** esasına dayanır; **dirlik** toprakları büyüklüğüne göre **has, zeamet, tımar** diye ayrılırdı.",
-      "Ordu: maaşlı (ulûfeli) **Kapıkulu askerleri** ve toprak geliriyle beslenen **Tımarlı Sipahiler**den oluşurdu; kapıkulu **devşirme** sistemiyle toplanırdı.",
-      "Toplum **yönetenler** (askerî sınıf: **seyfiye, ilmiye, kalemiye**) ve vergi veren **yönetilenler (reaya)** olarak ikiye ayrılırdı.",
-      "**Enderun**, sarayda devlet adamı yetiştiren okuldu; halk eğitimi **medreseler**de yapılırdı.",
-      "Farklı din grupları **millet sistemi** içinde kendi hukuklarında serbest bırakılmıştı (hoşgörü politikası)."
+      {
+        "id": "tar-okul-01",
+        "text": "**Divan-ı Hümayun**: devlet işlerinin görüşüldüğü en yüksek kuruldur; başkanı padişah, uygulayıcısı **Sadrazam (Veziriazam)**'dır."
+      },
+      {
+        "id": "tar-okul-02",
+        "text": "Divan üyeleri: **Kazasker** (adalet-eğitim), **Defterdar** (maliye), **Nişancı** (tuğra-tapu); sonradan **Şeyhülislam** ve **Kaptan-ı Derya** katıldı."
+      },
+      {
+        "id": "tar-okul-03",
+        "text": "Taşra yönetimi: **Eyalet (Beylerbeyi) → Sancak (Sancakbeyi) → Kaza (Kadı)** biçiminde örgütlenmişti."
+      },
+      {
+        "id": "tar-okul-04",
+        "text": "Toprak sistemi **miri (devlet) arazi** esasına dayanır; **dirlik** toprakları büyüklüğüne göre **has, zeamet, tımar** diye ayrılırdı."
+      },
+      {
+        "id": "tar-okul-05",
+        "text": "Ordu: maaşlı (ulûfeli) **Kapıkulu askerleri** ve toprak geliriyle beslenen **Tımarlı Sipahiler**den oluşurdu; kapıkulu **devşirme** sistemiyle toplanırdı."
+      },
+      {
+        "id": "tar-okul-06",
+        "text": "Toplum **yönetenler** (askerî sınıf: **seyfiye, ilmiye, kalemiye**) ve vergi veren **yönetilenler (reaya)** olarak ikiye ayrılırdı."
+      },
+      {
+        "id": "tar-okul-07",
+        "text": "**Enderun**, sarayda devlet adamı yetiştiren okuldu; halk eğitimi **medreseler**de yapılırdı."
+      },
+      {
+        "id": "tar-okul-08",
+        "text": "Farklı din grupları **millet sistemi** içinde kendi hukuklarında serbest bırakılmıştı (hoşgörü politikası)."
+      }
     ],
     "Tarih||I. Dünya Savaşı": [
-      "**I. Dünya Savaşı (1914-1918)** temel nedenleri: sömürgecilik yarışı, silahlanma, milliyetçilik ve bloklaşma; tetikleyici olay Avusturya veliahtının **Saraybosna'da** öldürülmesidir.",
-      "Bloklar: **İttifak** (Almanya, Avusturya-Macaristan, Osmanlı, Bulgaristan) ve **İtilaf** (İngiltere, Fransa, Rusya, sonra İtalya ve ABD).",
-      "Osmanlı, **Almanya'nın yanında** savaşa girdi; Goeben-Breslau (Yavuz-Midilli) gemilerinin Rus limanlarını bombalaması bahane oldu.",
-      "**Çanakkale Cephesi (1915)**: İtilaf Devletleri yenildi; **Mustafa Kemal** (Anafartalar-Conkbayırı) burada tanındı, Rusya'ya yardım engellendi, savaş uzadı.",
-      "**Kafkas Cephesi**: Sarıkamış Harekâtı (1914-15) ağır kayıpla sonuçlandı; **Kanal Cephesi** (Süveyş) başarısız oldu.",
-      "**Kut'ül Amare (Irak Cephesi)**: Osmanlı'nın önemli bir zaferidir; İngilizler esir alındı.",
-      "Rusya, **1917 Bolşevik İhtilali** ile savaştan çekildi (Brest-Litovsk, 1918).",
-      "Osmanlı yenildi ve **Mondros Ateşkes Antlaşması'nı (30 Ekim 1918)** imzaladı; savaş sonrası **Wilson İlkeleri** yayımlandı."
+      {
+        "id": "tar-wwi-01",
+        "text": "**I. Dünya Savaşı (1914-1918)** temel nedenleri: sömürgecilik yarışı, silahlanma, milliyetçilik ve bloklaşma; tetikleyici olay Avusturya veliahtının **Saraybosna'da** öldürülmesidir."
+      },
+      {
+        "id": "tar-wwi-02",
+        "text": "Bloklar: **İttifak** (Almanya, Avusturya-Macaristan, Osmanlı, Bulgaristan) ve **İtilaf** (İngiltere, Fransa, Rusya, sonra İtalya ve ABD)."
+      },
+      {
+        "id": "tar-wwi-03",
+        "text": "Osmanlı, **Almanya'nın yanında** savaşa girdi; Goeben-Breslau (Yavuz-Midilli) gemilerinin Rus limanlarını bombalaması bahane oldu."
+      },
+      {
+        "id": "tar-wwi-04",
+        "text": "**Çanakkale Cephesi (1915)**: İtilaf Devletleri yenildi; **Mustafa Kemal** (Anafartalar-Conkbayırı) burada tanındı, Rusya'ya yardım engellendi, savaş uzadı."
+      },
+      {
+        "id": "tar-wwi-05",
+        "text": "**Kafkas Cephesi**: Sarıkamış Harekâtı (1914-15) ağır kayıpla sonuçlandı; **Kanal Cephesi** (Süveyş) başarısız oldu."
+      },
+      {
+        "id": "tar-wwi-06",
+        "text": "**Kut'ül Amare (Irak Cephesi)**: Osmanlı'nın önemli bir zaferidir; İngilizler esir alındı."
+      },
+      {
+        "id": "tar-wwi-07",
+        "text": "Rusya, **1917 Bolşevik İhtilali** ile savaştan çekildi (Brest-Litovsk, 1918)."
+      },
+      {
+        "id": "tar-wwi-08",
+        "text": "Osmanlı yenildi ve **Mondros Ateşkes Antlaşması'nı (30 Ekim 1918)** imzaladı; savaş sonrası **Wilson İlkeleri** yayımlandı."
+      }
     ],
     "Tarih||Kurtuluş Savaşı Hazırlık Dönemi": [
-      "**Mondros Ateşkesi (30 Ekim 1918)**: 7. maddesi işgallere zemin hazırladı; ordular terhis edildi.",
-      "**İzmir'in işgali (15 Mayıs 1919)**: Yunan işgali üzerine halk **Kuvâ-yı Millîye** ile direnişe geçti.",
-      "**Mustafa Kemal Samsun'a çıktı (19 Mayıs 1919)**; Millî Mücadele fiilen başladı.",
-      "**Amasya Genelgesi (22 Haziran 1919)**: 'Milletin istiklâlini yine milletin azim ve kararı kurtaracaktır'; kurtuluşun gerekçe ve yöntemi ilk kez ilan edildi.",
-      "**Erzurum Kongresi (23 Temmuz 1919)**: toplanışı bölgesel, kararları millîdir; 'Millî sınırlar içinde vatan bir bütündür, bölünemez'; manda-himaye reddedildi.",
-      "**Sivas Kongresi (4 Eylül 1919)**: millî bir kongredir; cemiyetler **Anadolu ve Rumeli Müdafaa-i Hukuk Cemiyeti** çatısında birleştirildi.",
-      "**Misak-ı Millî (28 Ocak 1920)**: son Osmanlı Mebusan Meclisi'nde kabul edildi; millî sınırlar ve tam bağımsızlık ilkeleri belirlendi.",
-      "**TBMM'nin açılması (23 Nisan 1920)**: İstanbul'un işgali üzerine Ankara'da açıldı; **millî egemenliğe** dayanan yeni yönetim doğdu."
+      {
+        "id": "tar-kshaz-01",
+        "text": "**Mondros Ateşkesi (30 Ekim 1918)**: 7. maddesi işgallere zemin hazırladı; ordular terhis edildi."
+      },
+      {
+        "id": "tar-kshaz-02",
+        "text": "**İzmir'in işgali (15 Mayıs 1919)**: Yunan işgali üzerine halk **Kuvâ-yı Millîye** ile direnişe geçti."
+      },
+      {
+        "id": "tar-kshaz-03",
+        "text": "**Mustafa Kemal Samsun'a çıktı (19 Mayıs 1919)**; Millî Mücadele fiilen başladı."
+      },
+      {
+        "id": "tar-kshaz-04",
+        "text": "**Amasya Genelgesi (22 Haziran 1919)**: 'Milletin istiklâlini yine milletin azim ve kararı kurtaracaktır'; kurtuluşun gerekçe ve yöntemi ilk kez ilan edildi."
+      },
+      {
+        "id": "tar-kshaz-05",
+        "text": "**Erzurum Kongresi (23 Temmuz 1919)**: toplanışı bölgesel, kararları millîdir; 'Millî sınırlar içinde vatan bir bütündür, bölünemez'; manda-himaye reddedildi."
+      },
+      {
+        "id": "tar-kshaz-06",
+        "text": "**Sivas Kongresi (4 Eylül 1919)**: millî bir kongredir; cemiyetler **Anadolu ve Rumeli Müdafaa-i Hukuk Cemiyeti** çatısında birleştirildi."
+      },
+      {
+        "id": "tar-kshaz-07",
+        "text": "**Misak-ı Millî (28 Ocak 1920)**: son Osmanlı Mebusan Meclisi'nde kabul edildi; millî sınırlar ve tam bağımsızlık ilkeleri belirlendi."
+      },
+      {
+        "id": "tar-kshaz-08",
+        "text": "**TBMM'nin açılması (23 Nisan 1920)**: İstanbul'un işgali üzerine Ankara'da açıldı; **millî egemenliğe** dayanan yeni yönetim doğdu."
+      }
     ],
     "Tarih||Kurtuluş Savaşı Cepheler": [
-      "**Doğu Cephesi**: Ermenilere karşı **Kâzım Karabekir** komutasında kazanıldı; **Gümrü Antlaşması (1920)** ilk siyasi/askerî başarıdır.",
-      "**Güney Cephesi**: Fransızlara karşı Maraş, Antep (**Gaziantep**) ve Urfa halkı direndi; **Ankara Antlaşması (1921)** ile Fransa çekildi.",
-      "**I. İnönü Zaferi (Ocak 1921)**: ardından **1921 Anayasası (Teşkilat-ı Esasiye)** ve **İstiklal Marşı (12 Mart 1921)** kabul edildi; Moskova Antlaşması imzalandı.",
-      "**II. İnönü Zaferi (Mart-Nisan 1921)**: düzenli ordunun başarısı pekişti.",
-      "**Kütahya-Eskişehir Savaşları (Temmuz 1921)**: ordu Sakarya'nın doğusuna çekildi (geçici başarısızlık).",
-      "**Sakarya Meydan Muharebesi (1921)**: 'Hattı müdafaa yoktur, sathı müdafaa vardır'; savunmadan taarruza geçildi, Mustafa Kemal'e **Gazi ve Mareşal** unvanı verildi.",
-      "**Büyük Taarruz ve Başkomutanlık Meydan Muharebesi (Ağustos 1922, Dumlupınar)**: kesin zafer kazanıldı, **9 Eylül 1922'de İzmir**'e girildi.",
-      "**Mudanya Ateşkesi (11 Ekim 1922)**: savaş sona erdi, **Doğu Trakya savaşsız** geri alındı."
+      {
+        "id": "tar-kscep-01",
+        "text": "**Doğu Cephesi**: Ermenilere karşı **Kâzım Karabekir** komutasında kazanıldı; **Gümrü Antlaşması (1920)** ilk siyasi/askerî başarıdır."
+      },
+      {
+        "id": "tar-kscep-02",
+        "text": "**Güney Cephesi**: Fransızlara karşı Maraş, Antep (**Gaziantep**) ve Urfa halkı direndi; **Ankara Antlaşması (1921)** ile Fransa çekildi."
+      },
+      {
+        "id": "tar-kscep-03",
+        "text": "**I. İnönü Zaferi (Ocak 1921)**: ardından **1921 Anayasası (Teşkilat-ı Esasiye)** ve **İstiklal Marşı (12 Mart 1921)** kabul edildi; Moskova Antlaşması imzalandı."
+      },
+      {
+        "id": "tar-kscep-04",
+        "text": "**II. İnönü Zaferi (Mart-Nisan 1921)**: düzenli ordunun başarısı pekişti."
+      },
+      {
+        "id": "tar-kscep-05",
+        "text": "**Kütahya-Eskişehir Savaşları (Temmuz 1921)**: ordu Sakarya'nın doğusuna çekildi (geçici başarısızlık)."
+      },
+      {
+        "id": "tar-kscep-06",
+        "text": "**Sakarya Meydan Muharebesi (1921)**: 'Hattı müdafaa yoktur, sathı müdafaa vardır'; savunmadan taarruza geçildi, Mustafa Kemal'e **Gazi ve Mareşal** unvanı verildi."
+      },
+      {
+        "id": "tar-kscep-07",
+        "text": "**Büyük Taarruz ve Başkomutanlık Meydan Muharebesi (Ağustos 1922, Dumlupınar)**: kesin zafer kazanıldı, **9 Eylül 1922'de İzmir**'e girildi."
+      },
+      {
+        "id": "tar-kscep-08",
+        "text": "**Mudanya Ateşkesi (11 Ekim 1922)**: savaş sona erdi, **Doğu Trakya savaşsız** geri alındı."
+      }
     ],
     "Tarih||Türk İnkılabı (İlke ve İnkılaplar)": [
-      "**Saltanatın kaldırılması (1 Kasım 1922)** ile milli egemenliğin önündeki engel kaldırıldı.",
-      "**Lozan Barış Antlaşması (24 Temmuz 1923)**: yeni Türk devletinin 'tapusu'; kapitülasyonlar kaldırıldı, Musul ve Boğazlar sorunu sonraya bırakıldı.",
-      "**Cumhuriyet'in ilanı (29 Ekim 1923)**: devlet biçimi belirlendi, ilk cumhurbaşkanı Mustafa Kemal oldu.",
-      "**Halifeliğin kaldırılması (3 Mart 1924)**, **Tevhid-i Tedrisat (Öğretim Birliği)** ile laikliğe geçişin temeli atıldı.",
-      "**Hukuk**: **Türk Medeni Kanunu (1926)** İsviçre'den alındı; kadın-erkek eşitliğinde büyük adım oldu.",
-      "**Eğitim-kültür**: **Harf İnkılabı (1928)**, Millet Mektepleri, **TTK (1931)** ve **TDK (1932)** kuruldu.",
-      "**Toplumsal**: Şapka Kanunu (1925), tekke-zaviyelerin kapatılması, **Soyadı Kanunu (1934)**, takvim-saat-ölçü birliği.",
-      "**Kadın hakları**: belediye (1930), muhtarlık (1933) ve **milletvekili seçme-seçilme (1934)** hakları verildi."
+      {
+        "id": "tar-tink-01",
+        "text": "**Saltanatın kaldırılması (1 Kasım 1922)** ile milli egemenliğin önündeki engel kaldırıldı."
+      },
+      {
+        "id": "tar-tink-02",
+        "text": "**Lozan Barış Antlaşması (24 Temmuz 1923)**: yeni Türk devletinin 'tapusu'; kapitülasyonlar kaldırıldı, Musul ve Boğazlar sorunu sonraya bırakıldı."
+      },
+      {
+        "id": "tar-tink-03",
+        "text": "**Cumhuriyet'in ilanı (29 Ekim 1923)**: devlet biçimi belirlendi, ilk cumhurbaşkanı Mustafa Kemal oldu."
+      },
+      {
+        "id": "tar-tink-04",
+        "text": "**Halifeliğin kaldırılması (3 Mart 1924)**, **Tevhid-i Tedrisat (Öğretim Birliği)** ile laikliğe geçişin temeli atıldı."
+      },
+      {
+        "id": "tar-tink-05",
+        "text": "**Hukuk**: **Türk Medeni Kanunu (1926)** İsviçre'den alındı; kadın-erkek eşitliğinde büyük adım oldu."
+      },
+      {
+        "id": "tar-tink-06",
+        "text": "**Eğitim-kültür**: **Harf İnkılabı (1928)**, Millet Mektepleri, **TTK (1931)** ve **TDK (1932)** kuruldu."
+      },
+      {
+        "id": "tar-tink-07",
+        "text": "**Toplumsal**: Şapka Kanunu (1925), tekke-zaviyelerin kapatılması, **Soyadı Kanunu (1934)**, takvim-saat-ölçü birliği."
+      },
+      {
+        "id": "tar-tink-08",
+        "text": "**Kadın hakları**: belediye (1930), muhtarlık (1933) ve **milletvekili seçme-seçilme (1934)** hakları verildi."
+      }
     ],
     "Tarih||Atatürk Dönemi Dış Politika": [
-      "Temel ilke: **'Yurtta sulh, cihanda sulh.'**",
-      "**Musul sorunu (1926)**: İngiltere ile; Şeyh Sait İsyanı'nın da etkisiyle Musul, Irak'a (İngiltere'ye) bırakıldı.",
-      "**Nüfus Mübadelesi**: Yunanistan'la yaşanan sorun 1930'da çözüldü, ilişkiler yumuşadı.",
-      "Türkiye, **Milletler Cemiyeti'ne üye oldu (1932)**.",
-      "**Balkan Antantı (1934)**: Türkiye, Yunanistan, Yugoslavya ve Romanya arasında; batı sınırı güvenliği amaçlandı.",
-      "**Montrö Boğazlar Sözleşmesi (1936)**: Boğazlar üzerinde **Türk egemenliği** tam olarak sağlandı.",
-      "**Sadabat Paktı (1937)**: Türkiye, İran, Irak ve Afganistan arasında; doğu sınırı güvenliği amaçlandı.",
-      "**Hatay**: 1938'de bağımsız Hatay Devleti kuruldu, **1939'da Türkiye'ye katıldı** (Atatürk'ün ölümünden sonra)."
+      {
+        "id": "tar-adp-01",
+        "text": "Temel ilke: **'Yurtta sulh, cihanda sulh.'**"
+      },
+      {
+        "id": "tar-adp-02",
+        "text": "**Musul sorunu (1926)**: İngiltere ile; Şeyh Sait İsyanı'nın da etkisiyle Musul, Irak'a (İngiltere'ye) bırakıldı."
+      },
+      {
+        "id": "tar-adp-03",
+        "text": "**Nüfus Mübadelesi**: Yunanistan'la yaşanan sorun 1930'da çözüldü, ilişkiler yumuşadı."
+      },
+      {
+        "id": "tar-adp-04",
+        "text": "Türkiye, **Milletler Cemiyeti'ne üye oldu (1932)**."
+      },
+      {
+        "id": "tar-adp-05",
+        "text": "**Balkan Antantı (1934)**: Türkiye, Yunanistan, Yugoslavya ve Romanya arasında; batı sınırı güvenliği amaçlandı."
+      },
+      {
+        "id": "tar-adp-06",
+        "text": "**Montrö Boğazlar Sözleşmesi (1936)**: Boğazlar üzerinde **Türk egemenliği** tam olarak sağlandı."
+      },
+      {
+        "id": "tar-adp-07",
+        "text": "**Sadabat Paktı (1937)**: Türkiye, İran, Irak ve Afganistan arasında; doğu sınırı güvenliği amaçlandı."
+      },
+      {
+        "id": "tar-adp-08",
+        "text": "**Hatay**: 1938'de bağımsız Hatay Devleti kuruldu, **1939'da Türkiye'ye katıldı** (Atatürk'ün ölümünden sonra)."
+      }
     ],
     "Tarih||Atatürk İlkeleri": [
-      "Altı temel (ana) ilke: **Cumhuriyetçilik, Milliyetçilik, Halkçılık, Devletçilik, Laiklik, İnkılapçılık**.",
-      "**Cumhuriyetçilik**: egemenliğin millete ait olduğu, yönetimin seçimle belirlendiği devlet biçimi.",
-      "**Milliyetçilik**: ırk değil, ortak dil-kültür-ülkü birliğine dayanan, birleştirici ve barışçı bir anlayış.",
-      "**Halkçılık**: kanun önünde eşitlik; sınıf ayrıcalıklarının reddi (Cumhuriyetçilik ve Milliyetçiliği tamamlar).",
-      "**Devletçilik**: özel sektörün yetersiz kaldığı alanlarda devletin ekonomiye girmesi (özellikle 1930'lar).",
-      "**Laiklik**: din ve devlet işlerinin ayrılması, vicdan özgürlüğü; halifeliğin kaldırılması ve Tevhid-i Tedrisat dayanaklarıdır.",
-      "**İnkılapçılık**: çağın gereklerine göre sürekli yenilenme; inkılapları koruma ve geliştirme ilkesi.",
-      "Bütünleyici ilkeler: **millî egemenlik, millî birlik-beraberlik, yurtta-cihanda sulh, çağdaşlık, bilimsellik-akılcılık, insan sevgisi**. İlkeler **1937'de Anayasa'ya** girdi."
+      {
+        "id": "tar-ailke-01",
+        "text": "Altı temel (ana) ilke: **Cumhuriyetçilik, Milliyetçilik, Halkçılık, Devletçilik, Laiklik, İnkılapçılık**."
+      },
+      {
+        "id": "tar-ailke-02",
+        "text": "**Cumhuriyetçilik**: egemenliğin millete ait olduğu, yönetimin seçimle belirlendiği devlet biçimi."
+      },
+      {
+        "id": "tar-ailke-03",
+        "text": "**Milliyetçilik**: ırk değil, ortak dil-kültür-ülkü birliğine dayanan, birleştirici ve barışçı bir anlayış."
+      },
+      {
+        "id": "tar-ailke-04",
+        "text": "**Halkçılık**: kanun önünde eşitlik; sınıf ayrıcalıklarının reddi (Cumhuriyetçilik ve Milliyetçiliği tamamlar)."
+      },
+      {
+        "id": "tar-ailke-05",
+        "text": "**Devletçilik**: özel sektörün yetersiz kaldığı alanlarda devletin ekonomiye girmesi (özellikle 1930'lar)."
+      },
+      {
+        "id": "tar-ailke-06",
+        "text": "**Laiklik**: din ve devlet işlerinin ayrılması, vicdan özgürlüğü; halifeliğin kaldırılması ve Tevhid-i Tedrisat dayanaklarıdır."
+      },
+      {
+        "id": "tar-ailke-07",
+        "text": "**İnkılapçılık**: çağın gereklerine göre sürekli yenilenme; inkılapları koruma ve geliştirme ilkesi."
+      },
+      {
+        "id": "tar-ailke-08",
+        "text": "Bütünleyici ilkeler: **millî egemenlik, millî birlik-beraberlik, yurtta-cihanda sulh, çağdaşlık, bilimsellik-akılcılık, insan sevgisi**. İlkeler **1937'de Anayasa'ya** girdi."
+      }
     ],
     "Tarih||II. Dünya Savaşı ve Sonrası (Çağdaş Dünya)": [
-      "**II. Dünya Savaşı (1939-1945)**: Almanya'nın Polonya'yı işgaliyle başladı; Mihver (Almanya-İtalya-Japonya) ile Müttefikler karşı karşıya geldi.",
-      "**Türkiye, İnönü döneminde savaş dışı kaldı**; sona doğru, **Birleşmiş Milletler'e kurucu üye** olabilmek için sembolik olarak Almanya ve Japonya'ya savaş ilan etti.",
-      "Savaşın sonucu: **Birleşmiş Milletler (BM) kuruldu (1945)**; dünya **ABD ve SSCB** liderliğinde iki kutba ayrıldı.",
-      "**Soğuk Savaş** dönemi başladı; kapitalist Batı Bloku ile komünist Doğu Bloku arasında rekabet yaşandı.",
-      "**Truman Doktrini (1947)** ve **Marshall Yardımı** ile Türkiye ABD'den ekonomik-askerî destek aldı.",
-      "Türkiye, Kore Savaşı'na asker göndermesinin de etkisiyle **1952'de NATO'ya üye** oldu.",
-      "Türkiye'de **çok partili hayata** geçildi; **Demokrat Parti 1950'de** iktidara geldi.",
-      "Dönemin diğer başlıkları: Kıbrıs sorununun ortaya çıkışı ve Avrupa ile bütünleşme (AET/AB) süreci."
+      {
+        "id": "tar-wwii-01",
+        "text": "**II. Dünya Savaşı (1939-1945)**: Almanya'nın Polonya'yı işgaliyle başladı; Mihver (Almanya-İtalya-Japonya) ile Müttefikler karşı karşıya geldi."
+      },
+      {
+        "id": "tar-wwii-02",
+        "text": "**Türkiye, İnönü döneminde savaş dışı kaldı**; sona doğru, **Birleşmiş Milletler'e kurucu üye** olabilmek için sembolik olarak Almanya ve Japonya'ya savaş ilan etti."
+      },
+      {
+        "id": "tar-wwii-03",
+        "text": "Savaşın sonucu: **Birleşmiş Milletler (BM) kuruldu (1945)**; dünya **ABD ve SSCB** liderliğinde iki kutba ayrıldı."
+      },
+      {
+        "id": "tar-wwii-04",
+        "text": "**Soğuk Savaş** dönemi başladı; kapitalist Batı Bloku ile komünist Doğu Bloku arasında rekabet yaşandı."
+      },
+      {
+        "id": "tar-wwii-05",
+        "text": "**Truman Doktrini (1947)** ve **Marshall Yardımı** ile Türkiye ABD'den ekonomik-askerî destek aldı."
+      },
+      {
+        "id": "tar-wwii-06",
+        "text": "Türkiye, Kore Savaşı'na asker göndermesinin de etkisiyle **1952'de NATO'ya üye** oldu."
+      },
+      {
+        "id": "tar-wwii-07",
+        "text": "Türkiye'de **çok partili hayata** geçildi; **Demokrat Parti 1950'de** iktidara geldi."
+      },
+      {
+        "id": "tar-wwii-08",
+        "text": "Dönemin diğer başlıkları: Kıbrıs sorununun ortaya çıkışı ve Avrupa ile bütünleşme (AET/AB) süreci."
+      }
     ]
   }
 }

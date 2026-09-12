@@ -186,7 +186,9 @@
   // Served over http(s) the app can fetch its own question packs, so there is nothing to
   // import by hand. On file:// fetch is blocked by CORS, so İçe Aktar stays the route.
   let manifest = null;
-  let notesData = {};              // özgün bilgi notları (topicKey -> [fact, ...])
+  let notesData = {};              // özgün bilgi notları (topicKey -> [{id,text}, ...])
+  let analysisData = {};           // soru analizleri (soru id -> {catch, solve, relatedFactIds})
+  let factById = {};               // hızlı arama: fact id -> {text, topicKey}
 
   async function loadManifest() {
     if (location.protocol === "file:") return null;
@@ -204,6 +206,25 @@
       if (!r.ok) return {};
       return (await r.json()).notes || {};
     } catch (e) { return {}; }
+  }
+
+  async function loadAnalysis() {
+    if (location.protocol === "file:") return {};   // fetch file:// üzerinde engelli
+    try {
+      const r = await fetch("data/analysis.json", { cache: "no-cache" });
+      if (!r.ok) return {};
+      return (await r.json()).analysis || {};
+    } catch (e) { return {}; }
+  }
+
+  // notesData'dan fact id -> {text, topicKey} indeksini kur (soru-bilgi bağlantısı için)
+  function buildFactIndex() {
+    factById = {};
+    for (const [key, facts] of Object.entries(notesData)) {
+      for (const f of facts) {
+        if (f && f.id) factById[f.id] = { text: f.text, topicKey: key };
+      }
+    }
   }
 
   async function ensureSubjectLoaded(subject) {
@@ -303,8 +324,29 @@
     const card = document.createElement("div");
     card.className = "card notes-card";
     card.innerHTML = `<div class="card-top"><span class="card-tag">📌 Bilgi Notları</span></div>
-      <ul class="notes-list">${facts.map((f) => `<li>${fmtNote(f)}</li>`).join("")}</ul>`;
+      <ul class="notes-list">${facts.map((f) => `<li>${fmtNote(f.text)}</li>`).join("")}</ul>`;
     panel.appendChild(card);
+  }
+
+  // Soru için katlanır analiz bloğu (spoiler-safe: varsayılan gizli).
+  // İçerik bizim yazdığımız statik JSON; fmtNote **kalın** desteği ile güvenli render eder.
+  function analysisHtml(q) {
+    const a = analysisData[q.id];
+    if (!a || (!a.catch && !a.solve && !(a.relatedFactIds || []).length)) return "";
+    let body = "";
+    if (a.catch) body += `<div class="analysis-part"><span class="analysis-label">⚠️ Tuzak</span>
+      <p>${fmtNote(a.catch)}</p></div>`;
+    if (a.solve) body += `<div class="analysis-part"><span class="analysis-label">🧭 Çözüm</span>
+      <p>${fmtNote(a.solve)}</p></div>`;
+    const related = (a.relatedFactIds || []).map((id) => factById[id]).filter(Boolean);
+    if (related.length) {
+      body += `<div class="q-related"><span class="analysis-label">📌 İlgili Bilgi</span>
+        <ul class="notes-list">${related.map((f) => `<li>${fmtNote(f.text)}</li>`).join("")}</ul></div>`;
+    }
+    return `<div class="analysis-box collapsed">
+      <button type="button" class="analysis-toggle">🔍 Analizi Gör</button>
+      <div class="analysis-body">${body}</div>
+    </div>`;
   }
 
   function whoBadge(who) {
@@ -318,7 +360,11 @@
     let html = `<div class="card-top"><span class="card-tag">📝 Soru ${whoBadge(q.who)}</span></div>`;
     if (q.image) html += `<img class="q-image" src="${q.image}" alt="soru" data-full="${q.image}">`;
     if (q.text) html += `<div class="q-text">${esc(q.text)}</div>`;
-    if (q.answer) html += `<div class="answer-box hidden-answer" title="Cevabı görmek için tıkla"><b>Cevap:</b> ${esc(q.answer)}</div>`;
+    // Analiz overlay'i hatalı bir cevap anahtarını düzeltebilir (büyük paketi yeniden indirmeden).
+    const ansOverride = (analysisData[q.id] || {}).answer;
+    const answer = ansOverride || q.answer;
+    if (answer) html += `<div class="answer-box hidden-answer" title="Cevabı görmek için tıkla"><b>Cevap:</b> ${esc(answer)}</div>`;
+    html += analysisHtml(q);
     if (q.notes) html += `<div class="note-box">🗒️ ${esc(q.notes)}</div>`;
     if (q.ref) html += `<div class="q-ref">${esc(q.ref)}</div>`;
     html += `<div class="card-actions">
@@ -330,6 +376,12 @@
     if (img) img.onclick = () => openLightbox(img.dataset.full);
     const ans = card.querySelector(".answer-box");
     if (ans) ans.onclick = () => ans.classList.toggle("hidden-answer");
+    const aToggle = card.querySelector(".analysis-toggle");
+    if (aToggle) aToggle.onclick = () => {
+      const box = aToggle.closest(".analysis-box");
+      const open = box.classList.toggle("collapsed") === false;
+      aToggle.textContent = open ? "🔼 Analizi Gizle" : "🔍 Analizi Gör";
+    };
     card.querySelector("[data-move]").onclick = () => openMover(card, q);
     card.querySelector("[data-del]").onclick = async () => {
       if (!confirm("Bu soru silinsin mi?")) return;
@@ -560,7 +612,8 @@
     el("whoSelect").value = state.who;
     updateCountdown();
     setInterval(updateCountdown, 3600000);
-    [manifest, notesData] = await Promise.all([loadManifest(), loadNotes()]);
+    [manifest, notesData, analysisData] = await Promise.all([loadManifest(), loadNotes(), loadAnalysis()]);
+    buildFactIndex();
     renderSubjects();
     // ilk dersi otomatik seç
     await selectSubject(window.SUBJECT_GROUPS["Genel Yetenek"][0]);
