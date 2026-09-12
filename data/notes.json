@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "_note": "Özgün, müfredat temelli kısa bilgi notları. Kaynaktan kopyalanmamıştır. Her olgu {id,text} biçimindedir; id, soruların analizinden 'ilgili bilgi' olarak referanslanır. Pilot: Tarih.",
+  "_note": "Özgün, müfredat temelli kısa bilgi notları. Kaynaktan kopyalanmamıştır. Her olgu {id,text} biçimindedir; id, soruların analizinden 'ilgili bilgi' olarak referanslanır. Tarih ve Vatandaşlık tamamlandı.",
   "notes": {
     "Tarih||İslamiyet Öncesi Türk Tarihi": [
       {
@@ -476,6 +476,334 @@
       {
         "id": "tar-wwii-08",
         "text": "Dönemin diğer başlıkları: Kıbrıs sorununun ortaya çıkışı ve Avrupa ile bütünleşme (AET/AB) süreci."
+      }
+    ],
+    "Vatandaşlık||Hukukun Temel Kavramları": [
+      {
+        "id": "vat-htk-01",
+        "text": "Toplumu düzenleyen **sosyal düzen kuralları**: din, ahlak, görgü (nezaket) ve örf-âdet kuralları **manevi yaptırımlıdır**; yalnız **hukuk kurallarının yaptırımı maddi ve devlet gücüne dayanır**."
+      },
+      {
+        "id": "vat-htk-02",
+        "text": "Hukukun **maddi yaptırım** türleri: **ceza, cebrî icra, tazminat, hükümsüzlük (butlan)** ve **iptal**."
+      },
+      {
+        "id": "vat-htk-03",
+        "text": "**Pozitif hukuk**: bir ülkede belirli bir anda yürürlükte olan yazılı-yazısız kuralların tümü. **Mevzuat** ise yalnızca yürürlükteki **yazılı** kaynaklardır (anayasa, kanun, CBK, yönetmelik)."
+      },
+      {
+        "id": "vat-htk-04",
+        "text": "Hukukun kaynakları: **yazılı kaynaklar** (anayasa, kanun, CBK, yönetmelik), **yazısız kaynak** (örf-âdet hukuku) ve **yardımcı kaynaklar** (yargı içtihatları ve doktrin)."
+      },
+      {
+        "id": "vat-htk-05",
+        "text": "**Normlar hiyerarşisi** (üstten alta): **Anayasa → Kanun / Milletlerarası Antlaşma → Cumhurbaşkanlığı Kararnamesi → Yönetmelik**. Alt norm üst norma aykırı olamaz."
+      },
+      {
+        "id": "vat-htk-06",
+        "text": "**Kamu hukuku** (taraflardan biri devlet, eşitlik yok): anayasa, idare, ceza, vergi ve yargılama hukuku. **Özel hukuk** (eşit kişiler arası): medeni, borçlar ve ticaret hukuku."
+      },
+      {
+        "id": "vat-htk-07",
+        "text": "Kanunlar **Resmî Gazete**'de yayımlanarak yürürlüğe girer ve kural olarak **geriye yürümez** (kazanılmış haklar korunur)."
+      },
+      {
+        "id": "vat-htk-08",
+        "text": "**Kanunilik** ilkesi gereği suç ve ceza ancak **kanunla** konulabilir; kimse işlendiği zaman suç olmayan bir fiilden cezalandırılamaz."
+      }
+    ],
+    "Vatandaşlık||Devlet Biçimleri ve Hükümet Sistemleri": [
+      {
+        "id": "vat-dbs-01",
+        "text": "Devletin **üç temel unsuru**: **insan (millet)**, **toprak (ülke)** ve **egemenlik (bağımsızlık)**."
+      },
+      {
+        "id": "vat-dbs-02",
+        "text": "**Yapısına göre** devletler: **üniter (tek yapılı)** — tek anayasa, yasama-yürütme-yargı birliği, tek merkez (**Türkiye üniterdir**); ve **karma (bileşik)** — federasyon ile konfederasyon."
+      },
+      {
+        "id": "vat-dbs-03",
+        "text": "**Federal devlette** federe birimlerin kendi anayasa ve meclisleri vardır; **dış egemenlik merkezî (federal) devlete** aittir (örn. ABD, Almanya)."
+      },
+      {
+        "id": "vat-dbs-04",
+        "text": "**Egemenliğin kaynağına göre**: **teokrasi** (egemenlik Tanrı'ya), **monarşi** (tek kişi), **oligarşi** (bir zümre) ve **demokrasi** (egemenlik millete ait)."
+      },
+      {
+        "id": "vat-dbs-05",
+        "text": "**Hükümet sistemleri** yasama-yürütme ilişkisine göre ayrılır: **kuvvetler birliği** (meclis hükümeti, mutlak monarşi) ya da **kuvvetler ayrılığı** (parlamenter, yarı-başkanlık, başkanlık)."
+      },
+      {
+        "id": "vat-dbs-06",
+        "text": "**Parlamenter sistemde** yürütme **iki başlıdır** (cumhurbaşkanı + başbakan) ve hükümet **meclisin güvenine** dayanır."
+      },
+      {
+        "id": "vat-dbs-07",
+        "text": "**Başkanlık sisteminde** yürütme **tek başlıdır**; başkan halkça seçilir, yasama ile yürütme **kesin biçimde ayrılmıştır** (örn. ABD)."
+      },
+      {
+        "id": "vat-dbs-08",
+        "text": "**Türkiye, 2017 Anayasa değişikliğiyle (2018) Cumhurbaşkanlığı Hükümet Sistemi**'ne geçti; başbakanlık kaldırıldı, yürütme **tek başlı (Cumhurbaşkanı)** oldu."
+      }
+    ],
+    "Vatandaşlık||Anayasa Hukukuna Giriş": [
+      {
+        "id": "vat-ahg-01",
+        "text": "**Anayasa**: devletin temel yapısını, organların kuruluş-işleyişini ve kişilerin temel hak-hürriyetlerini düzenleyen **en üstün hukuk kurallarıdır**."
+      },
+      {
+        "id": "vat-ahg-02",
+        "text": "**Yazılı–yazısız anayasa**: kurallar tek metinde toplanmışsa yazılı (**Türkiye**); teamüllere dayanıyorsa yazısız (**İngiltere**)."
+      },
+      {
+        "id": "vat-ahg-03",
+        "text": "**Sert (katı) anayasa** değiştirilmesi kanunlardan **daha zordur**; **yumuşak anayasa** kanunlarla aynı yolla değişir. **1982 Anayasası serttir**."
+      },
+      {
+        "id": "vat-ahg-04",
+        "text": "1982 Anayasası'nda **ilk 3 madde değiştirilemez ve değiştirilmesi teklif dahi edilemez**."
+      },
+      {
+        "id": "vat-ahg-05",
+        "text": "**Anayasanın üstünlüğü ve bağlayıcılığı**: kanunlar Anayasa'ya aykırı olamaz; bu denetimi **Anayasa Mahkemesi** yapar."
+      },
+      {
+        "id": "vat-ahg-06",
+        "text": "**Asli kurucu iktidar** yeni anayasa yapar (genelde darbe/ihtilal sonrası, sınırsız); **tali (türev) kurucu iktidar** mevcut anayasayı usulüne göre değiştirir (sınırlıdır)."
+      },
+      {
+        "id": "vat-ahg-07",
+        "text": "**1982 Anayasası**, 1980 darbesi sonrası **Danışma Meclisi** ve **Millî Güvenlik Konseyi**'nce hazırlanıp **7 Kasım 1982**'de halkoyuyla kabul edildi."
+      }
+    ],
+    "Vatandaşlık||Türk Anayasa Tarihi": [
+      {
+        "id": "vat-tat-01",
+        "text": "**Sened-i İttifak (1808)**: padişahın yetkisini (ayanlar lehine) ilk kez sınırlayan belge; 'ilk anayasal belge' sayılır."
+      },
+      {
+        "id": "vat-tat-02",
+        "text": "**Tanzimat (1839)** ve **Islahat (1856)** fermanları temel hak alanında adımdır ama **anayasa değildir**."
+      },
+      {
+        "id": "vat-tat-03",
+        "text": "**Kanun-i Esasî (1876)**: **ilk Osmanlı/Türk anayasası**; I. Meşrutiyet'le ilan edildi, egemenlik yine **padişahtaydı**."
+      },
+      {
+        "id": "vat-tat-04",
+        "text": "**1921 Anayasası (Teşkilat-ı Esasiye)**: **'Egemenlik kayıtsız şartsız milletindir'** ilkesini getirdi; **güçler birliği** ve meclis hükümeti benimsendi."
+      },
+      {
+        "id": "vat-tat-05",
+        "text": "**1924 Anayasası**: Cumhuriyet'in ilk uzun ömürlü anayasası; **güçler birliğine yakın**, tek meclisli yapı."
+      },
+      {
+        "id": "vat-tat-06",
+        "text": "**1961 Anayasası**: 27 Mayıs 1960 sonrası; **çift meclis** (Millet Meclisi + Cumhuriyet Senatosu), Anayasa Mahkemesi ve geniş özgürlükler — **en özgürlükçü** anayasa sayılır."
+      },
+      {
+        "id": "vat-tat-07",
+        "text": "**1982 Anayasası**: 12 Eylül 1980 sonrası; **tek meclis**, güçlü yürütme; hâlâ yürürlüktedir (en kapsamlı değişiklikler **2007, 2010 ve 2017**)."
+      }
+    ],
+    "Vatandaşlık||1982 Anayasası Temel İlkeler": [
+      {
+        "id": "vat-til-01",
+        "text": "**Md. 1** Türkiye Devleti bir **Cumhuriyet**tir; **Md. 2** Cumhuriyetin nitelikleri; **Md. 3** dil, bayrak, başkent (**Ankara**), marş ve ülke bütünlüğü — **ilk üç madde değiştirilemez**."
+      },
+      {
+        "id": "vat-til-02",
+        "text": "Cumhuriyetin nitelikleri (Md. 2): **insan haklarına saygılı, Atatürk milliyetçiliğine bağlı, demokratik, laik ve sosyal bir hukuk devleti**."
+      },
+      {
+        "id": "vat-til-03",
+        "text": "**Hukuk devleti**: devletin tüm işlemleri hukuka bağlı ve **yargı denetimine açıktır**; **kanun önünde eşitlik** esastır (Md. 10)."
+      },
+      {
+        "id": "vat-til-04",
+        "text": "**Laiklik**: din ve devlet işlerinin ayrılığı, din-vicdan özgürlüğü ve devletin dinler karşısında **tarafsızlığı**."
+      },
+      {
+        "id": "vat-til-05",
+        "text": "**Sosyal devlet**: devletin sosyal adaleti sağlaması; çalışma hakkı ve sosyal güvenlik güvence altındadır."
+      },
+      {
+        "id": "vat-til-06",
+        "text": "**Başlangıç (Önsöz)** metni Anayasa'nın **ayrılmaz parçası** sayılır ve temel ilkeleri içerir."
+      },
+      {
+        "id": "vat-til-07",
+        "text": "**Egemenlik kayıtsız şartsız milletindir**; millet bunu Anayasa'nın koyduğu **yetkili organlar eliyle** kullanır (Md. 6). Kaynağını Anayasa'dan almayan yetki kullanılamaz."
+      }
+    ],
+    "Vatandaşlık||Temel Hak ve Ödevler": [
+      {
+        "id": "vat-tho-01",
+        "text": "Temel haklar üçe ayrılır: **kişi hakları (negatif statü)**, **sosyal-ekonomik haklar (pozitif statü)** ve **siyasi haklar (aktif statü)**."
+      },
+      {
+        "id": "vat-tho-02",
+        "text": "**Negatif statü (koruyucu) hakları** devletin dokunmamasını ister: yaşam hakkı, özel hayatın gizliliği, konut dokunulmazlığı, din-vicdan ve düşünce özgürlüğü."
+      },
+      {
+        "id": "vat-tho-03",
+        "text": "**Pozitif statü (isteme) hakları** devletten olumlu edim ister: **eğitim, sağlık, çalışma ve sosyal güvenlik** hakları."
+      },
+      {
+        "id": "vat-tho-04",
+        "text": "**Aktif statü (katılma) hakları**: **seçme-seçilme**, siyasi parti kurma, kamu hizmetine girme ve dilekçe hakkı."
+      },
+      {
+        "id": "vat-tho-05",
+        "text": "Temel haklar **ancak kanunla**, Anayasa'daki sebeplere bağlı ve **ölçülülük** ilkesine uygun sınırlanır; sınırlama hakkın **özüne dokunamaz** (Md. 13)."
+      },
+      {
+        "id": "vat-tho-06",
+        "text": "**Olağanüstü hâllerde** bile dokunulamayan **çekirdek haklar** vardır: **yaşam hakkı, işkence yasağı, suç-cezaların geriye yürümezliği ve masumiyet karinesi** (Md. 15)."
+      },
+      {
+        "id": "vat-tho-07",
+        "text": "**Seçme yaşı 18**'dir; seçimler **serbest, eşit, gizli oy, açık sayım-döküm** ve **yargı denetimi** ilkelerine göre yapılır."
+      },
+      {
+        "id": "vat-tho-08",
+        "text": "**Dilekçe, bilgi edinme** ve **Kamu Denetçisine (Ombudsman) başvurma** hakları Anayasa güvencesindedir."
+      }
+    ],
+    "Vatandaşlık||Yasama": [
+      {
+        "id": "vat-yas-01",
+        "text": "**Yasama yetkisi TBMM'nindir ve devredilemez** (Md. 7). İlkeleri: **genellik** ve **asıllık**."
+      },
+      {
+        "id": "vat-yas-02",
+        "text": "**TBMM 600 milletvekilinden** oluşur; milletvekili **seçilme yaşı 18**, seçimler **5 yılda** bir yapılır."
+      },
+      {
+        "id": "vat-yas-03",
+        "text": "TBMM'nin görevleri: **kanun koymak/değiştirmek/kaldırmak**, bütçe ve kesin hesabı görüşmek, para basılmasına ve **savaş ilanına** karar vermek, milletlerarası antlaşmaların onayını uygun bulmak."
+      },
+      {
+        "id": "vat-yas-04",
+        "text": "**Denetim yolları**: **Meclis araştırması, genel görüşme, Meclis soruşturması ve yazılı soru**. (2017 sonrası **gensoru ve sözlü soru kaldırıldı**.)"
+      },
+      {
+        "id": "vat-yas-05",
+        "text": "**Meclis soruşturması**, Cumhurbaşkanı, yardımcıları ve bakanların görev suçları için işletilen **cezai** denetim yoludur."
+      },
+      {
+        "id": "vat-yas-06",
+        "text": "**Kanun teklifi** verme yetkisi **milletvekillerine** aittir; Cumhurbaşkanı yalnızca **bütçe kanun teklifini** sunar."
+      },
+      {
+        "id": "vat-yas-07",
+        "text": "Cumhurbaşkanı uygun bulmadığı kanunu **15 gün içinde** bir daha görüşülmek üzere TBMM'ye **geri gönderir**; Meclis **üye tam sayısının salt çoğunluğuyla (301)** aynen kabul ederse kanun yayımlanır."
+      },
+      {
+        "id": "vat-yas-08",
+        "text": "TBMM **üye tam sayısının salt çoğunluğu = 301**; toplantı yeter sayısı en az **200 (üçte bir)**, karar yeter sayısı en az **151**'dir."
+      }
+    ],
+    "Vatandaşlık||Yürütme": [
+      {
+        "id": "vat-yur-01",
+        "text": "**Yürütme yetkisi Cumhurbaşkanı'na** aittir; Cumhurbaşkanı hem **devletin** hem **yürütmenin başıdır** (tek başlı yürütme)."
+      },
+      {
+        "id": "vat-yur-02",
+        "text": "**Cumhurbaşkanı** halkça **5 yıl** için seçilir, en çok **iki dönem** görev yapar; **40 yaş** ve **yükseköğrenim** şartı aranır."
+      },
+      {
+        "id": "vat-yur-03",
+        "text": "Cumhurbaşkanı **Cumhurbaşkanlığı Kararnamesi (CBK)** çıkarabilir; **temel/kişi hakları, siyasi haklar ve kanunda açıkça düzenlenen konularda CBK çıkarılamaz**. Kanunla çatışırsa **kanun** esas alınır."
+      },
+      {
+        "id": "vat-yur-04",
+        "text": "Cumhurbaşkanı **yardımcıları ve bakanları atar/görevden alır**, üst düzey yöneticileri atar, milletlerarası antlaşma yapar ve gerekince **OHAL ilan eder**."
+      },
+      {
+        "id": "vat-yur-05",
+        "text": "**Başbakanlık kaldırılmıştır**; bakanlar TBMM'ye değil **Cumhurbaşkanına karşı sorumludur**."
+      },
+      {
+        "id": "vat-yur-06",
+        "text": "Cumhurbaşkanının çıkardığı **CBK'ler Anayasa Mahkemesi** denetimine tabidir; idari işlemleri ise **idari yargı** denetimine açıktır."
+      },
+      {
+        "id": "vat-yur-07",
+        "text": "**OHAL**: Cumhurbaşkanı ilan eder, aynı gün **Resmî Gazete**'de yayımlanır ve **TBMM'nin onayına** sunulur; süresi en çok **6 aydır**."
+      },
+      {
+        "id": "vat-yur-08",
+        "text": "Makam boşalırsa veya Cumhurbaşkanı görevine ara verirse **Cumhurbaşkanı yardımcısı vekâlet** eder; boşalmada **45 gün** içinde seçim yapılır."
+      }
+    ],
+    "Vatandaşlık||Yargı": [
+      {
+        "id": "vat-yar-01",
+        "text": "**Yargı yetkisi**, Türk milleti adına **bağımsız ve tarafsız mahkemelerce** kullanılır; hâkim-savcılar **teminatlıdır** (azlolunamama)."
+      },
+      {
+        "id": "vat-yar-02",
+        "text": "Yargı kolları: **adli yargı** (üst mahkeme **Yargıtay**), **idari yargı** (üst mahkeme **Danıştay**) ve **anayasa yargısı** (**Anayasa Mahkemesi**)."
+      },
+      {
+        "id": "vat-yar-03",
+        "text": "**Anayasa Mahkemesi 15 üyelidir**; çoğunu **Cumhurbaşkanı**, üçünü **TBMM** seçer; görev süresi **12 yıl**, **bir kez** seçilir, **65 yaşında** emekli olur."
+      },
+      {
+        "id": "vat-yar-04",
+        "text": "AYM'nin görevleri: **kanun, CBK ve TBMM İçtüzüğünün** Anayasa'ya uygunluğunu denetlemek, **bireysel başvuruları** karara bağlamak ve **Yüce Divan** sıfatıyla yargılamak."
+      },
+      {
+        "id": "vat-yar-05",
+        "text": "**Yüce Divan** sıfatıyla AYM; Cumhurbaşkanı, yardımcıları, bakanlar ve yüksek yargı mensuplarını **görev suçlarından** yargılar."
+      },
+      {
+        "id": "vat-yar-06",
+        "text": "Anayasaya aykırılık denetimi iki yolla olur: **iptal davası (soyut norm denetimi)** ve **itiraz yolu (somut norm denetimi)**; iptal davası açma süresi **60 gündür**."
+      },
+      {
+        "id": "vat-yar-07",
+        "text": "**Hâkimler ve Savcılar Kurulu (HSK)** **13 üyelidir** ve **başkanı Adalet Bakanı'dır**; hâkim-savcıların özlük işlerini yürütür."
+      },
+      {
+        "id": "vat-yar-08",
+        "text": "**Uyuşmazlık Mahkemesi**, adli ve idari yargı mercileri arasındaki görev ve hüküm uyuşmazlıklarını **kesin** olarak çözer."
+      }
+    ],
+    "Vatandaşlık||İdare Hukuku": [
+      {
+        "id": "vat-idr-01",
+        "text": "**İdarenin bütünlüğü** ilkesi iki yolla sağlanır: **merkezden yönetim** ve **yerinden yönetim** (adem-i merkeziyet)."
+      },
+      {
+        "id": "vat-idr-02",
+        "text": "İdare **kanunilik** ilkesine tabidir; tüm işlem ve eylemleri **yargı denetimine (idari yargı)** açıktır."
+      },
+      {
+        "id": "vat-idr-03",
+        "text": "**Merkezî idare**: Cumhurbaşkanı, bakanlıklar ve **taşra teşkilatı (il–ilçe)**. İlin başı **vali**, ilçenin başı **kaymakamdır** (atanırlar)."
+      },
+      {
+        "id": "vat-idr-04",
+        "text": "**Yerinden yönetim (mahallî idareler)**: **il özel idaresi, belediye ve köy**; karar organları **seçimle** gelir, **tüzel kişilikleri** ve özerklikleri vardır."
+      },
+      {
+        "id": "vat-idr-05",
+        "text": "**Hizmet yönünden yerinden yönetim**: üniversiteler, TRT, KİT'ler ve meslek kuruluşları (TOBB, barolar) gibi özerk kamu kurumları."
+      },
+      {
+        "id": "vat-idr-06",
+        "text": "**İdari vesayet**: merkezî idarenin, yerinden yönetimler üzerindeki **kanunla sınırlı** denetim yetkisidir (hiyerarşiden farklıdır)."
+      },
+      {
+        "id": "vat-idr-07",
+        "text": "**İdari işlem** tek yanlı ve icraidir; **iptal davasıyla** hukuka aykırı işlemin iptali, **tam yargı davasıyla** doğan zararın tazmini istenir."
+      },
+      {
+        "id": "vat-idr-08",
+        "text": "**Kamu görevliliği** memurluk esasına dayanır; memurluk **kariyer ve liyakat** ilkeleriyle yürür."
       }
     ]
   }
