@@ -7,7 +7,7 @@
 
   // ---------- IndexedDB yardımcıları ----------
   const DB_NAME = "kpss_onlisans";
-  const DB_VERSION = 1;
+  const DB_VERSION = 2;
   let db = null;
 
   function openDB() {
@@ -25,6 +25,10 @@
         }
         if (!d.objectStoreNames.contains("meta")) {
           d.createObjectStore("meta", { keyPath: "key" });
+        }
+        // v2: soru bazlı "çözüldü" durumu (soru paketinden bağımsız, ayrı store)
+        if (!d.objectStoreNames.contains("progress")) {
+          d.createObjectStore("progress", { keyPath: "id" });
         }
       };
       req.onsuccess = () => resolve(req.result);
@@ -75,11 +79,31 @@
     topic: null,
     tab: "questions",
     who: "O",
+    qView: null,          // Sorular sekmesi: null → ızgara, soru id → odak pencere
     examDate: "2026-10-03"
   };
   const topicKey = (subject, topic) => subject + "||" + topic;
   const uid = () => Date.now().toString(36) + Math.random().toString(36).slice(2, 8);
   const esc = (s) => (s || "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+  // ---------- Çözüldü (iki kişi: Keziban=turuncu, Gülcan=mavi, ikisi=yeşil) ----------
+  const PEOPLE = [
+    { key: "Keziban", label: "Keziban", cls: "kez" },
+    { key: "Gulcan", label: "Gülcan", cls: "gul" }
+  ];
+  let progressById = {};   // soru id -> { id, solvedBy:{Keziban,Gulcan}, updatedAt }
+  const getSolved = (id) => (progressById[id] && progressById[id].solvedBy) || {};
+  function solvedClass(id) {
+    const s = getSolved(id), k = !!s.Keziban, g = !!s.Gulcan;
+    return k && g ? "both" : k ? "kez" : g ? "gul" : "";
+  }
+  async function setSolved(id, personKey, val) {
+    const row = progressById[id] || { id, solvedBy: {} };
+    row.solvedBy = Object.assign({}, row.solvedBy, { [personKey]: val });
+    row.updatedAt = Date.now();
+    progressById[id] = row;
+    await dbPut("progress", row);
+  }
 
   // ---------- Görsel küçültme ----------
   function fileToResizedDataURL(file, maxDim = 1400, quality = 0.82) {
@@ -271,6 +295,7 @@
   function selectTopic(topic) {
     state.topic = topic;
     state.tab = "questions";
+    state.qView = null;   // her yeni konuda soru ızgarasıyla başla
     // On phones only one pane is on screen; switch to the questions view.
     document.body.classList.add("mobile-content");
     renderTopics();
@@ -299,15 +324,103 @@
 
     panel.innerHTML = "";
     if (state.tab === "notes") { renderNotes(facts); return; }
-    const items = state.tab === "questions" ? qs : vs;
-    if (items.length === 0) {
-      panel.innerHTML = `<div class="empty"><p>Bu konuda henüz ${state.tab === "questions" ? "soru" : "video"} yok.</p>
-        <p class="hint">Yukarıdaki <b>+ ${state.tab === "questions" ? "Soru" : "Video"} Ekle</b> ile başla.</p></div>`;
+
+    if (state.tab === "questions") {
+      if (qs.length === 0) {
+        panel.innerHTML = `<div class="empty"><p>Bu konuda henüz soru yok.</p>
+          <p class="hint">Yukarıdaki <b>+ Soru Ekle</b> ile başla.</p></div>`;
+        return;
+      }
+      qs.sort((a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0));  // sabit sınav sırası
+      if (state.qView && qs.some((q) => q.id === state.qView)) renderQuestionFocus(qs);
+      else { state.qView = null; renderQuestionGrid(qs); }
       return;
     }
-    items.sort((a, b) => b.createdAt - a.createdAt);
-    if (state.tab === "questions") items.forEach(renderQuestionCard);
-    else items.forEach(renderVideoCard);
+
+    // videolar
+    if (vs.length === 0) {
+      panel.innerHTML = `<div class="empty"><p>Bu konuda henüz video yok.</p>
+        <p class="hint">Yukarıdaki <b>+ Video Ekle</b> ile başla.</p></div>`;
+      return;
+    }
+    vs.sort((a, b) => b.createdAt - a.createdAt);
+    vs.forEach(renderVideoCard);
+  }
+
+  // Soru numarasını ref'ten al ("… SORU 12" → "12"); yoksa boş.
+  const qNo = (q) => ((q.ref || "").match(/SORU\s*(\d+)/i) || [])[1] || "";
+
+  // ---------- Soru ızgarası (küçük görseller + çözüldü renkleri) ----------
+  function renderQuestionGrid(qs) {
+    const n = qs.length;
+    let kez = 0, gul = 0, both = 0;
+    qs.forEach((q) => { const c = solvedClass(q.id); if (c === "both") both++; else if (c === "kez") kez++; else if (c === "gul") gul++; });
+    const head = document.createElement("div");
+    head.className = "grid-head";
+    head.innerHTML = `
+      <div class="grid-summary">
+        <span class="chip chip-kez">Keziban ${kez + both}</span>
+        <span class="chip chip-gul">Gülcan ${gul + both}</span>
+        <span class="chip chip-both">İkisi ${both}</span>
+        <span class="grid-total">${n} soru</span>
+      </div>
+      <p class="grid-legend">Dokun → soruyu çöz. Renk: <b class="lg lg-kez">Keziban</b> · <b class="lg lg-gul">Gülcan</b> · <b class="lg lg-both">ikisi</b></p>`;
+    panel.appendChild(head);
+
+    const grid = document.createElement("div");
+    grid.className = "q-grid";
+    qs.forEach((q, i) => {
+      const cell = document.createElement("button");
+      cell.type = "button";
+      cell.className = "q-cell " + solvedClass(q.id);
+      cell.title = q.ref || ("Soru " + (i + 1));
+      cell.innerHTML = `
+        <span class="q-cell-no">${i + 1}</span>
+        ${q.image ? `<img src="${q.image}" alt="" loading="lazy">` : `<span class="q-cell-txt">${esc((q.text || "").slice(0, 40))}</span>`}
+        <span class="q-cell-dot"></span>`;
+      cell.onclick = () => { state.qView = q.id; renderContent(); window.scrollTo(0, 0); };
+      grid.appendChild(cell);
+    });
+    panel.appendChild(grid);
+  }
+
+  // ---------- Odak pencere: tek soru + gezinme + çözüldü ----------
+  function renderQuestionFocus(qs) {
+    const idx = qs.findIndex((q) => q.id === state.qView);
+    const q = qs[idx];
+    const nav = document.createElement("div");
+    nav.className = "focus-nav";
+    nav.innerHTML = `
+      <button type="button" class="btn ghost small f-back">‹ Sorular</button>
+      <span class="f-pos">${idx + 1} / ${qs.length}</span>
+      <span class="f-move">
+        <button type="button" class="btn ghost small f-prev"${idx <= 0 ? " disabled" : ""}>‹ Önceki</button>
+        <button type="button" class="btn ghost small f-next"${idx >= qs.length - 1 ? " disabled" : ""}>Sonraki ›</button>
+      </span>`;
+    panel.appendChild(nav);
+    nav.querySelector(".f-back").onclick = () => { state.qView = null; renderContent(); window.scrollTo(0, 0); };
+    nav.querySelector(".f-prev").onclick = () => { if (idx > 0) { state.qView = qs[idx - 1].id; renderContent(); window.scrollTo(0, 0); } };
+    nav.querySelector(".f-next").onclick = () => { if (idx < qs.length - 1) { state.qView = qs[idx + 1].id; renderContent(); window.scrollTo(0, 0); } };
+
+    renderQuestionCard(q);   // görsel+highlight, hızlı cevap, adım adım çöz, ilgili bilgi
+
+    const bar = document.createElement("div");
+    bar.className = "solved-bar";
+    bar.innerHTML = `<span class="solved-label">Çözdüm:</span>` + PEOPLE.map((p) => {
+      const on = !!getSolved(q.id)[p.key];
+      return `<button type="button" class="solved-btn ${p.cls}${on ? " on" : ""}" data-person="${p.key}">
+        ${on ? "✓" : "○"} ${esc(p.label)} çözdü</button>`;
+    }).join("");
+    panel.appendChild(bar);
+    PEOPLE.forEach((p) => {
+      const btn = bar.querySelector(`.solved-btn[data-person="${p.key}"]`);
+      btn.onclick = async () => {
+        const now = !getSolved(q.id)[p.key];
+        await setSolved(q.id, p.key, now);
+        btn.classList.toggle("on", now);
+        btn.textContent = `${now ? "✓" : "○"} ${p.label} çözdü`;
+      };
+    });
   }
 
   // **kalın** işaretlerini güvenle <strong>'a çevirir (önce kaçış, sonra biçim)
@@ -600,8 +713,8 @@
 
   // ---------- Dışa / İçe aktarma ----------
   async function exportData() {
-    const [questions, videos] = await Promise.all([dbAll("questions"), dbAll("videos")]);
-    const blob = new Blob([JSON.stringify({ app: "kpss_onlisans", version: 1, exportedAt: Date.now(), questions, videos }, null, 2)], { type: "application/json" });
+    const [questions, videos, progress] = await Promise.all([dbAll("questions"), dbAll("videos"), dbAll("progress")]);
+    const blob = new Blob([JSON.stringify({ app: "kpss_onlisans", version: 2, exportedAt: Date.now(), questions, videos, progress }, null, 2)], { type: "application/json" });
     const a = document.createElement("a");
     a.href = URL.createObjectURL(blob);
     a.download = "kpss-yedek-" + new Date().toISOString().slice(0, 10) + ".json";
@@ -614,6 +727,20 @@
     let added = 0;
     for (const q of (data.questions || [])) { if (q && q.id) { await dbPut("questions", q); added++; } }
     for (const v of (data.videos || [])) { if (v && v.id) { await dbPut("videos", v); added++; } }
+    // Çözüldü durumu: iki kişinin işaretleri BİRLEŞİR (OR) — biri diğerini silmez.
+    for (const p of (data.progress || [])) {
+      if (!p || !p.id) continue;
+      const cur = progressById[p.id] || { id: p.id, solvedBy: {}, updatedAt: 0 };
+      const a = cur.solvedBy || {}, b = p.solvedBy || {};
+      const merged = {
+        id: p.id,
+        solvedBy: { Keziban: !!(a.Keziban || b.Keziban), Gulcan: !!(a.Gulcan || b.Gulcan) },
+        updatedAt: Math.max(cur.updatedAt || 0, p.updatedAt || 0)
+      };
+      progressById[p.id] = merged;
+      await dbPut("progress", merged);
+      added++;
+    }
     return added;
   }
   async function importFiles(files) {
@@ -641,6 +768,7 @@
   document.querySelectorAll(".tab").forEach((t) => {
     t.onclick = () => {
       state.tab = t.dataset.tab;
+      state.qView = null;   // sekme değişince soru ızgarasına dön
       document.querySelectorAll(".tab").forEach((x) => x.classList.toggle("active", x === t));
       renderContent();
     };
@@ -694,6 +822,7 @@
     setInterval(updateCountdown, 3600000);
     [manifest, notesData, analysisData] = await Promise.all([loadManifest(), loadNotes(), loadAnalysis()]);
     buildFactIndex();
+    (await dbAll("progress")).forEach((r) => { progressById[r.id] = r; });
     renderSubjects();
     // ilk dersi otomatik seç
     await selectSubject(window.SUBJECT_GROUPS["Genel Yetenek"][0]);
