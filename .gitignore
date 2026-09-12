@@ -2,6 +2,10 @@
 # Not needed to run the site — data/ already contains every question.
 exams/
 
+# Copyrighted commercial study books / question banks used only as private
+# source material for writing original notes. Must never be published.
+Books/
+
 # Per-exam import files for the offline (file://) flow. Redundant with data/,
 # which holds the same 1737 questions regrouped by subject.
 import-*.json
