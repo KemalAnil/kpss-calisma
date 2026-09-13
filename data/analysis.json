@@ -1906,6 +1906,124 @@
         "Sonuç: doğru cevap **C — Voynuk**."
       ],
       "relatedFactIds": []
+    },
+    "2014lis-GK-12": {
+      "steps": [
+        "Yönlendirme: 'değildir' — **seyfiye (kılıç/askerî-idari)** sınıfından OLMAYANI bul.",
+        "Doğruları ele: Kapıkulu askerleri, Sadrazam, Vezirler, Beylerbeyi — hepsi **seyfiye**dir.",
+        "Kural: **Kazasker** yargı-eğitimle ilgili **ilmiye** sınıfındandır, seyfiye değil (E).",
+        "Sonuç: doğru cevap **E — Kazasker**."
+      ],
+      "relatedFactIds": [
+        "tar-okul-06"
+      ]
+    },
+    "2016lis-GK-05": {
+      "steps": [
+        "Yönlendirme: 'değildir' — **kalemiye (bürokrasi/kâtip)** sınıfından OLMAYANI bul.",
+        "Doğruları ele: Nişancı (tuğra-tapu), Defterdar (maliye), Reisülküttap (yazışma), Defter Emini (tahrir) — hepsi **kalemiye**dir.",
+        "Kural: **Müderris** medresede ders veren âlimdir → **ilmiye** sınıfındandır (C).",
+        "Sonuç: doğru cevap **C — Müderris**."
+      ],
+      "relatedFactIds": [
+        "tar-okul-06"
+      ]
+    },
+    "2016lis-GK-06": {
+      "steps": [
+        "Yönlendirme: **Keşfü'z-Zünûn** + **Cihannüma** eserleri → hangi bilim adamı?",
+        "Ele: Hezarfen Ahmet Çelebi (uçuş), Lagari Hasan Çelebi (roket), Evliya Çelebi (Seyahatname) — bu eserlerin yazarı değil.",
+        "Kural: bu eserlerin yazarı **Kâtip Çelebi** (Hacı Halife)'dir.",
+        "Sonuç: doğru cevap **D — Kâtip Çelebi**."
+      ],
+      "relatedFactIds": []
+    },
+    "2018lis-GK-05": {
+      "steps": [
+        "Yönlendirme: 'değildir' — fethedilen yerde **timar** uygulama nedeni OLMAYANI bul.",
+        "Doğruları ele: fetihleri hızlandırmak (A - dirlikle asker), merkezî yönetimi güçlendirmek (B), aynî vergileri yerinde tahsil (D), taşra yönetimini yapılandırmak (E).",
+        "Kural: timar **tımarlı sipahi** (eyalet askeri) yetiştirir; **Hassa/Kapıkulu ordusu** merkezî ve maaşlıdır, timarla oluşturulmaz (C).",
+        "Sonuç: doğru cevap **C — Hassa ordusu oluşturmak**."
+      ],
+      "relatedFactIds": []
+    },
+    "2018lis-GK-07": {
+      "steps": [
+        "Yönlendirme: vergilerin **şer'i / örfi** ayrılmasının **sebebi** ne olabilir? — hukuk yapısıyla bağ kur.",
+        "Ele: bölgesel oran farkı (A), üretim çeşitliliği (B), ispençe (D), toplama biçiminin değişmesi (E) — bu ayrımın **nedeni** değildir.",
+        "Kural: Osmanlı **hukuku şer'i + örfi ikili** olduğundan, vergiler de **şer'i (öşür/haraç/cizye) ve örfi** diye ayrılır (C).",
+        "Sonuç: doğru cevap **C — Hukuk sisteminde ikili bir yapının bulunması**."
+      ],
+      "relatedFactIds": []
+    },
+    "2018lis-GK-08": {
+      "steps": [
+        "Yönlendirme: **kûfi, nesih, sülüs, ta'lik** çeşitleri + Şeyh Hamdullah/Hafız Osman → hangi sanat?",
+        "Ele: Ebru (kâğıt boyama), Tezhip (yaldız süsleme), Minyatür (resim), Çini (seramik) — yazı sanatı değil.",
+        "Kural: bu yazı çeşitlerine sahip, Şeyh Hamdullah'ın piri sayıldığı sanat **hat (hüsn-i hat)**tır.",
+        "Sonuç: doğru cevap **A — Hat**."
+      ],
+      "relatedFactIds": []
+    },
+    "2018ol-GK-06": {
+      "steps": [
+        "Yönlendirme: Enderun mezunlarının **seyfiye** içinde ulaşabileceği **en yüksek** mevki hangisi?",
+        "Ele: Nişancı/Defterdar (kalemiye), Kazasker/Şeyhülislam (ilmiye) — seyfiye değil.",
+        "Kural: seyfiyenin zirvesi **Veziriazam (Sadrazam)**'dır; Enderun'dan yetişen devşirmeler bu makama çıkabilirdi.",
+        "Sonuç: doğru cevap **D — Veziriazam**."
+      ],
+      "relatedFactIds": [
+        "tar-okul-01"
+      ]
+    },
+    "2018ol-GK-08": {
+      "steps": [
+        "Yönlendirme: 'söylenemez' — klasik dönem yargısı için YANLIŞ olanı bul.",
+        "Doğruları ele: hükümlerin tanık/belgeye dayanması (B), şer'iye sicillerinin tutulması (C), Divan-ı Hümayun'un üst mahkeme işlevi (D), gayrimüslimlerin kadıya başvurabilmesi (E).",
+        "Kural: **kadılar merkezden Kazasker tarafından** atanırdı, **beylerbeyi tarafından değil** → A söylenemez.",
+        "Sonuç: doğru cevap **A — Kadıların beylerbeyi tarafından atandığı**."
+      ],
+      "relatedFactIds": []
+    },
+    "2020lis-GK-06": {
+      "steps": [
+        "Yönlendirme: **yollar üzerinde**, hem **askerî** hem **ticari** kullanılan yapı hangisi?",
+        "Ele: Bedesten (şehir içi kapalı çarşı), Arasta (esnaf çarşısı), İmaret (aşevi), Kapan (toptan ticaret hanı) — yol üzeri konaklama yapısı değil.",
+        "Kural: yol güzergâhında konaklama-güvenlik sağlayan, ordu ve kervanların kullandığı yapı **kervansaray**dır.",
+        "Sonuç: doğru cevap **B — Kervansaray**."
+      ],
+      "relatedFactIds": []
+    },
+    "2020ol-GK-05": {
+      "steps": [
+        "Yönlendirme: Divan'da **maliyeden (mali işler)** sorumlu üye kim?",
+        "Ele: Kazasker (adalet-eğitim), Vezir (genel), Nişancı (tuğra-tapu), Reisülküttap (yazışma) — maliye değil.",
+        "Kural: Divan'ın **maliye** üyesi **Defterdar**'dır.",
+        "Sonuç: doğru cevap **E — Defterdar**."
+      ],
+      "relatedFactIds": [
+        "tar-okul-02"
+      ]
+    },
+    "2020ol-GK-07": {
+      "steps": [
+        "Yönlendirme: 'değildir' — **yönetilenlerin (reaya)** faaliyeti OLMAYANI bul.",
+        "Doğruları ele: ticaret (B), zanaat/üretim (C), hayvancılık (D), tarım (E) — reayanın üretici faaliyetleridir.",
+        "Kural: **vergi toplamak** reayanın değil, **devletin/yöneticilerin** işidir; reaya vergiyi **öder** (A).",
+        "Sonuç: doğru cevap **A — Vergi toplamak**."
+      ],
+      "relatedFactIds": [
+        "tar-okul-06"
+      ]
+    },
+    "2020ol-GK-08": {
+      "steps": [
+        "Yönlendirme: yeniçerilerin **silah-zırhını yapan/tamir eden** ocak hangisi?",
+        "Ele: Topçu (top döküm/atış), Lağımcı (lağım-tünel), Humbaracı (havan/humbara), Acemi (asker yetiştirme) — silah bakım ocağı değil.",
+        "Kural: ok, yay, kılıç, zırh, tüfek gibi silahları yapıp onaran ocak **Cebeci Ocağı**dır.",
+        "Sonuç: doğru cevap **C — Cebeci**."
+      ],
+      "relatedFactIds": []
     }
   }
 }
