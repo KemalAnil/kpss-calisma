@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "_note": "İnteraktif adım adım çözüm. Adımlar {text, rect|rects} (yüzde: [x,y,w,h]) taşıyabilir; ilerledikçe soru görselinde ilgili bölge işaretlenir. relatedFactIds notes.json'a bağlanır, sonda gösterilir. 'answer' hatalı cevap anahtarını ezer. Pilot: Tarih - İslamiyet Öncesi Türk Tarihi (16 soru).",
+  "_note": "İnteraktif adım adım çözüm (adımlar düz metin; görsel highlight kaldırıldı). relatedFactIds notes.json'a bağlanır. 'answer' hatalı cevap anahtarını ezer. Kapsam genişletiliyor: Tarih İslamiyet Öncesi + İlk Türk-İslam Devletleri.",
   "analysis": {
     "2008lisGK-GK-01": {
       "steps": [
@@ -728,6 +728,271 @@
       ],
       "relatedFactIds": [
         "tar-isl-08"
+      ]
+    },
+    "2008lisGK-GK-02": {
+      "steps": [
+        "Yönlendirme: memurluğun **babadan oğula** geçmesi ve iktidarın aynı ailede kalmasının bir **sonucunu** iste.",
+        "Ele: A (iyi yönetim), B (işsizliğin önlenmesi), C (başarılı dış siyaset), D (yeni mesleklerin engeli) — bu durumdan doğrudan **çıkmaz**, genel-geçer yargılardır.",
+        "Kural: görev ve iktidar belli ailelerde toplanınca bürokraside **ayrıcalıklı, egemen bir sınıf** doğar (kalıtsallık → sınıflaşma).",
+        "Sonuç: doğru cevap **E — bürokraside egemen bir sınıfın ortaya çıkması**."
+      ],
+      "relatedFactIds": []
+    },
+    "2008lisGK-GK-03": {
+      "steps": [
+        "Yönlendirme: **kervansaray** ne işe yarar? Bu yapının hangi ihtiyaçtan doğduğunu düşün.",
+        "Ele: kervansaray bir sanat eseri (I) olsa da yapılış **amacı** sanat değil; askerlikle (III) ilgisi yok.",
+        "Kural: kervansaraylar **tüccar/kervanların** konaklama ve güvenlik ihtiyacı için yapılır → **ticaret (II)**.",
+        "Sonuç: doğru cevap **B — Yalnız II**."
+      ],
+      "relatedFactIds": []
+    },
+    "2009lis-GK-02": {
+      "steps": [
+        "Yönlendirme: **İslamiyet'in etkisiyle** bir sanat kolu oluşturacak kadar gelişen alanı ara.",
+        "Ele: İslam'da tasvir/**heykel** (C) hoş görülmediğinden gerilemiştir — çeldirici; maden işçiliği, oyma, dokuma İslam öncesinde de vardı.",
+        "Kural: yazının kutsallığı ve tasvir sınırı → **hat (hüsn-i hat)** başlı başına bir sanat kolu oldu.",
+        "Sonuç: doğru cevap **A — Hat**."
+      ],
+      "relatedFactIds": []
+    },
+    "2009lis-GK-03": {
+      "steps": [
+        "Yönlendirme: hangisi **taht kavgalarının** kaynağıdır? — veraset/miras ile ilgili olanı seç.",
+        "Ele: I (Tanrı adına yönetme = kut) meşruiyet kaynağı; III (din-dünya işleri ayrımı) halife-sultan ilişkisi — taht kavgasıyla doğrudan ilgisiz.",
+        "Kural: **ülkenin hanedanın ortak malı** sayılması → her üyenin taht hakkı → **taht kavgaları (II)**.",
+        "Sonuç: doğru cevap **B — Yalnız II**."
+      ],
+      "relatedFactIds": [
+        "tar-isl-08"
+      ]
+    },
+    "2010lis-GK-01": {
+      "steps": [
+        "Yönlendirme: 'değildir' — İslam'a **girdikten sonra** benimsenmeyeni (İslam öncesinden geleni) bul.",
+        "Ele: Ahilik, kümbet mimarisi, Arap alfabesi, vakıf sistemi — hepsi **İslam'la** gelen unsurlardır.",
+        "Kural: **veraset sistemi (ülkenin ortak malı)** İslam öncesi Türk geleneğidir, İslam'la kazanılmamıştır.",
+        "Sonuç: doğru cevap **E — Veraset sistemi**."
+      ],
+      "relatedFactIds": [
+        "tar-isl-08"
+      ]
+    },
+    "2010lis-GK-03": {
+      "steps": [
+        "Yönlendirme: Türk-İslam mimarisinin **temelini atan (ilk)** devlet — 'ilk' vurgusuna dikkat.",
+        "Ele: Selçuklu-Gazneli-Memlük-Eyyubi bu mimariyi **geliştirdi**, başlatan değil (özellikle Selçuklu çeldirici).",
+        "Kural: **Karahanlılar** ilk Müslüman Türk devleti olarak ilk Türk-İslam yapılarını (ribat, kümbet, kervansaray) verdi.",
+        "Sonuç: doğru cevap **B — Karahanlılar**."
+      ],
+      "relatedFactIds": [
+        "tar-tid-02"
+      ]
+    },
+    "2010ol-GK-02": {
+      "steps": [
+        "Yönlendirme: Siyasetname'nin **önemi neyden** kaynaklanır? Öncülleri esere göre sına.",
+        "Değerlendir: I ✓ Nizamülmülk **Büyük Selçuklu veziri**, yönetimde söz sahibiydi; II ✓ eser **devlet yönetimi** üzerine bilgi/öğüt verir.",
+        "Ele: III ✗ Siyasetname 'İslam sonrası kendi türünde yazılan **ilk** eser' değildir (yanlış bilgi).",
+        "Sonuç: doğru cevap **D — I ve II**."
+      ],
+      "relatedFactIds": [
+        "tar-tid-07"
+      ]
+    },
+    "2010ol-GK-03": {
+      "steps": [
+        "Yönlendirme: **denize kıyısı olan** ve donanma/tersane kuran Türk devletini ara.",
+        "Ele: Büyük Selçuklu, Karahanlı, Gazneli, Harzemşah **iç/kara** devletleridir; denizle bağları yoktur.",
+        "Kural: **Anadolu Selçukluları** Antalya-Sinop-Alanya'yı alıp **tersaneler** kurdu, Türk denizciliğini başlattı.",
+        "Sonuç: doğru cevap **B — Anadolu Selçukluları**."
+      ],
+      "relatedFactIds": []
+    },
+    "2011lis-GK-03": {
+      "steps": [
+        "Yönlendirme: **Hülagu** + İran + 1258 Bağdat + Abbasi'ye son → hangi devlet?",
+        "Ele: Timur, Altın Orda, Çağatay da Moğol kökenlidir (çeldirici); Memlük ise Moğolları **durduran** devlettir.",
+        "Kural: Hülagu'nun İran'da kurduğu devlet **İlhanlılardır**; 1258'de Abbasi halifeliğini yıktı.",
+        "Sonuç: doğru cevap **A — İlhanlı Devleti**."
+      ],
+      "relatedFactIds": []
+    },
+    "2011lis-GK-04": {
+      "steps": [
+        "Yönlendirme: **çarşı-pazar denetimi** (fiyat, tartı-ölçü, mal kalitesi) yapan görevli soruluyor.",
+        "Ele: Ulak (haberci), Silahtar (silah görevlisi), İğdişbaşı (yerli halk temsilcisi), Câmedâr (giysi görevlisi) — pazar denetçisi değil.",
+        "Kural: pazarı ve esnafı denetleyen görevli **muhtesip** (ihtisab) idi.",
+        "Sonuç: doğru cevap **D — Muhtesip**."
+      ],
+      "relatedFactIds": []
+    },
+    "2012lis-GK-02": {
+      "steps": [
+        "Yönlendirme: 'bu bilgiyle ulaşılabilir' — yalnız metinden **kesin** çıkanı işaretle.",
+        "Ele III: Karahanlılarda resmî dil **Türkçe**'ydi; 'Arapça resmî dil' **yanlıştır**.",
+        "Ele I: metnin konusu **din**; tek bir amca→yeğen geçişinden 'yönetim hanedana aittir' genellemesi kesin çıkmaz.",
+        "Kural: Satuk'un İslam'ı **resmî din** yapması → II (İslam'ın yayılmasının hızlanması) kesin çıkar.",
+        "Sonuç: doğru cevap **B — Yalnız II**."
+      ],
+      "relatedFactIds": [
+        "tar-tid-02"
+      ]
+    },
+    "2012lis-GK-03": {
+      "steps": [
+        "Yönlendirme: **Batman-Mardin** yöresindeki eserler → bu bölgede egemen beyliği ara.",
+        "İpucu: Mardin ve çevresi **Artukluların** merkeziydi; **Malabadi Köprüsü** ünlü bir Artuklu eseridir.",
+        "Kural: Malabadi Köprüsü ve Mardin Hatuniye Medresesi **Artuklulara** aittir.",
+        "Sonuç: doğru cevap **A — Artuklular**."
+      ],
+      "relatedFactIds": [],
+      "answer": "A"
+    },
+    "2012ol-GK-02": {
+      "steps": [
+        "Yönlendirme: **Kutadgu Bilig** (Yusuf Has Hacip) hangi devlet + hangi hükümdara sunuldu?",
+        "Ele: eser **Karahanlı**'dır → Hun/Gazneli şıkları (A,C,D) elenir. Kalan iki Karahanlı şıkkında **Satuk Buğra Han** (E) İslam'ı kabul eden erken hükümdardır, eseri alan değil.",
+        "Kural: eser Karahanlı hükümdarı **Uluğ Kara Buğra Han**'a sunulmuştur.",
+        "Sonuç: doğru cevap **B**."
+      ],
+      "relatedFactIds": [
+        "tar-tid-03"
+      ]
+    },
+    "2012ol-GK-03": {
+      "steps": [
+        "Yönlendirme: 'olamaz' — Anadolu Selçuklu (≈1075-1308) ile **aynı dönemde yaşamayanı** bul (kronoloji).",
+        "Ele: Bizans, Harzemşah, Memlük, Eyyubi Anadolu Selçuklu ile **çağdaştır**, ilişki kurabilirdi.",
+        "Kural: **İhşidiler** (Mısır, 935-969) Anadolu Selçuklu'dan **önce** yıkıldı → ilişki kurmuş olamaz.",
+        "Sonuç: doğru cevap **A — İhşidiler**."
+      ],
+      "relatedFactIds": []
+    },
+    "2013lis-GK-02": {
+      "steps": [
+        "Yönlendirme: bu adlarla anılan yapılar **ne işe yarıyor**? (hastane mi, medrese mi, han mı?)",
+        "İpucu: **Gevher Nesibe** ve **Turan Melek** darüşşifaları, dönemin sağlık kurumudur.",
+        "Kural: bunlar **darüşşifa** (hastane + tıp medresesi) yapı türüne girer.",
+        "Sonuç: doğru cevap **C — Darüşşifa**."
+      ],
+      "relatedFactIds": []
+    },
+    "2013lis-GK-03": {
+      "steps": [
+        "Yönlendirme: **Erzurum** + 1072-1202 + Üç Kümbetler/Mama Hatun → hangi ilk Anadolu beyliği?",
+        "Ele: Danişment (Sivas-Tokat), Artuklu (Mardin-Diyarbakır), Mengücek (Erzincan-Divriği); yer olarak **Erzurum = Saltuklu**.",
+        "Kural: **Saltuklular** Erzurum'da kuruldu; Üç Kümbetler ve Mama Hatun Türbesi onların eseridir.",
+        "Sonuç: doğru cevap **B — Saltuklular**."
+      ],
+      "relatedFactIds": []
+    },
+    "2014lis-GK-03": {
+      "steps": [
+        "Yönlendirme: **Afganistan (Gazne) + Kuzey Hindistan** + 963-1187 → hangi devlet?",
+        "Ele: Karahanlı (Türkistan), Akkoyunlu/Karakoyunlu (çok sonra, Doğu Anadolu-İran); **Hindistan seferleri** ipucu Gazneli'yi işaret eder.",
+        "Kural: **Gazneliler** Afganistan merkezli olup Gazneli Mahmut ile Kuzey Hindistan'a yayıldı.",
+        "Sonuç: doğru cevap **C — Gazneli**."
+      ],
+      "relatedFactIds": [
+        "tar-tid-04"
+      ]
+    },
+    "2016lis-GK-02": {
+      "steps": [
+        "Yönlendirme: **fütüvvet** ahlakı hangi esnaf/meslek örgütünü şekillendirdi?",
+        "Ele: Timar, İltizam, Devşirme, Enderun — ahlak/davranış örgütü değil, idari-askerî kurumlardır.",
+        "Kural: **fütüvvet** anlayışı esnaf birliği **Ahilik**'in ahlak-davranış kurallarını biçimlendirdi.",
+        "Sonuç: doğru cevap **A — Ahilik Teşkilatı**."
+      ],
+      "relatedFactIds": []
+    },
+    "2016lis-GK-03": {
+      "steps": [
+        "Yönlendirme: 'yanlıştır' — beylik ↔ bölge eşleştirmesinden **hatalı** olanı bul.",
+        "Doğruları ele: Candaroğulları-Kastamonu, Germiyanoğulları-Kütahya, Saruhanoğulları-Manisa, Menteşeoğulları-Muğla ✓.",
+        "Kural: **Taceddinoğulları** Balıkesir'de değil **Orta Karadeniz (Niksar-Ordu)** yöresindeydi; Balıkesir **Karesioğullarının**dır.",
+        "Sonuç: doğru cevap **E**."
+      ],
+      "relatedFactIds": []
+    },
+    "2018lis-GK-02": {
+      "steps": [
+        "Yönlendirme: Selçukluların Türk-İslam mimarisine **kazandırdığı özgün** yapı soruluyor.",
+        "Ele: Otağ (çadır, İslam öncesi), Ribat/Cami (İslam/Arap kökenli), Şadırvan (mevcut) — özgün Selçuklu katkısı değil.",
+        "Kural: **kümbet** (anıt mezar), çadır geleneğinden gelişip Selçuklu ile Türk-İslam mimarisine girdi.",
+        "Sonuç: doğru cevap **E — Kümbet**."
+      ],
+      "relatedFactIds": []
+    },
+    "2018lis-GK-03": {
+      "steps": [
+        "Yönlendirme: geliri **bilim-eğitim-sağlık kurumlarına** (yapım, onarım, maaş) ayrılan arazi soruluyor.",
+        "Ele: Has (yüksek görevliye), İkta (asker/memura hizmet karşılığı), Mülk (özel), Mirî (devlete ait) — hayır kurumuna gelir ayırmaz.",
+        "Kural: geliri hayır/eğitim/sağlık kurumlarına bağışlanan arazi **vakıf arazidir**.",
+        "Sonuç: doğru cevap **D — Vakıf arazi**."
+      ],
+      "relatedFactIds": []
+    },
+    "2018ol-GK-02": {
+      "steps": [
+        "Yönlendirme: 'bu bilgiyle ulaşılabilir' — yalnız metinden (vergi + askerî yardım kabulü) **kesin** çıkanı seç.",
+        "Ele: A (tekfur desteği), B (Bizans taht kavgası), C (güçlü ekonomi), D (nüfus değişimi) — metinde bunlara dair bilgi yok.",
+        "Kural: Diogenes'in vergi ve askerî yardımı **kabul etmesi**, Alparslan'ın **isteklerine boyun eğdiğini** gösterir.",
+        "Sonuç: doğru cevap **E**."
+      ],
+      "relatedFactIds": [
+        "tar-tid-06"
+      ]
+    },
+    "2018ol-GK-03": {
+      "steps": [
+        "Yönlendirme: 'değildir' — ticareti **geliştirmeyecek** çalışmayı bul.",
+        "Ele: liman fetihleri (Alanya-Sinop-Suğdak), kervansaray, eşkıyaya karşı güvenlik, yol ıslahı — hepsi ticareti **artırır**.",
+        "Kural: **gümrük vergisini artırmak** ticareti caydırır; Selçuklu aksine vergileri düşürüp devlet sigortası uyguladı.",
+        "Sonuç: doğru cevap **D — Gümrük vergilerini artırmak**."
+      ],
+      "relatedFactIds": []
+    },
+    "2020lis-GK-02": {
+      "steps": [
+        "Yönlendirme: **İznik'in I. Haçlı Seferi'nde düşmesi** ve başkentin **Konya**'ya taşınması hangi hükümdar dönemi?",
+        "İpucu: I. Haçlı Seferi (1096-99) sırasında Türkiye Selçuklu tahtında **I. Kılıç Arslan** vardı.",
+        "Kural: İznik Haçlılarca alınınca **I. Kılıç Arslan** başkenti Konya'ya taşıdı.",
+        "Sonuç: doğru cevap **A — I. Kılıç Arslan**."
+      ],
+      "relatedFactIds": []
+    },
+    "2020lis-GK-03": {
+      "steps": [
+        "Yönlendirme: **devlet yönetimi** üzerine yöneticilere **öğüt** veren eser türü soruluyor.",
+        "Ele: Mülkname (tapu), Seyahatname (gezi), İcazetname (diploma), Menakıbname (menkıbe) — yönetim öğüdü değil.",
+        "Kural: yönetime dair nasihat/bilgi veren eserlere **siyasetname** denir (ör. Nizamülmülk).",
+        "Sonuç: doğru cevap **B — Siyasetname**."
+      ],
+      "relatedFactIds": [
+        "tar-tid-07"
+      ]
+    },
+    "2020ol-GK-02": {
+      "steps": [
+        "Yönlendirme: 'yanlıştır' — beylik ↔ başkent eşleştirmesinden **hatalı** olanı bul.",
+        "Doğruları ele: Karesioğulları-Balıkesir, Germiyanoğulları-Kütahya, Saruhanoğulları-Manisa, Eşrefoğulları-Beyşehir ✓.",
+        "Kural: **Menteşeoğulları** Isparta'da değil **Muğla (Milas-Beçin)** yöresindeydi; Isparta dolayları **Hamitoğullarının**dır.",
+        "Sonuç: doğru cevap **D — Menteşeoğulları - Isparta**."
+      ],
+      "relatedFactIds": []
+    },
+    "2020ol-GK-03": {
+      "steps": [
+        "Yönlendirme: **Abbasi halifesini Büveyhî/Besasirî baskısından kurtaran** ve 'Doğu-Batı'nın Hükümdarı' unvanını alan Selçuklu hükümdarı?",
+        "Ele: Sultan Mahmut/Tolunoğlu Ahmet/II. Kılıç Arslan uygun değil; Alp Arslan Malazgirt'le anılır. İpucu **Bağdat/halifeyi kurtarma** → Büyük Selçuklu kurucusu.",
+        "Kural: **Tuğrul Bey** 1055'te Bağdat'a girip halifeyi kurtardı; halife ona 'Doğu'nun ve Batı'nın hükümdarı' unvanını verdi.",
+        "Sonuç: doğru cevap **C — Tuğrul Bey**."
+      ],
+      "relatedFactIds": [
+        "tar-tid-05"
       ]
     }
   }
