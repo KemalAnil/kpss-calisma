@@ -994,6 +994,135 @@
       "relatedFactIds": [
         "tar-tid-05"
       ]
+    },
+    "2009lis-GK-04": {
+      "steps": [
+        "Yönlendirme: hangi gelişmeler **teşkilatlanma (kurumlaşma)** göstergesidir? — kurum/örgüt kuran maddeleri ara.",
+        "Ele: II (Rumeli'ye geçiş) bir **toprak genişlemesi/fetihtir**, kurumlaşma değildir (çeldirici).",
+        "Kural: **ilk medrese (I)** eğitim kurumu, **düzenli yaya-atlı ordu (III)** askerî örgüttür → ikisi de teşkilatlanmadır (Orhan Bey ilk medreseyi İznik'te açtı, yaya-müsellem ordusunu kurdu).",
+        "Sonuç: doğru cevap **C — I ve III**."
+      ],
+      "relatedFactIds": [
+        "tar-okur-02"
+      ]
+    },
+    "2012ol-GK-04": {
+      "steps": [
+        "Yönlendirme: **Ahilik** (esnaf birliği) neyle görevliydi? Öncülleri esnaf örgütü işleviyle sına.",
+        "Ele: III 'toplumun **bütün** eğitim-öğretimi' ahiliğin değil, medreselerin işiydi — aşırı genelleme (çeldirici).",
+        "Kural: Ahilik I **esnaf dayanışması** ve II **mal-hizmet kalitesi** ile ilgilenirdi (mesleki ahlak + üretim standardı).",
+        "Sonuç: doğru cevap **C — I ve II**."
+      ],
+      "relatedFactIds": []
+    },
+    "2013lis-GK-04": {
+      "steps": [
+        "Yönlendirme: 'olmamıştır' — Rumeli'ye geçişte **etkili olmayan** etkeni bul.",
+        "Doğruları ele: Bizans'ta taht kavgaları (A), Karesioğulları'nın katılması → donanma (B), gaza ruhu (D), uçta-Bizans'a yakın konum (E) — hepsi geçişi kolaylaştırdı.",
+        "Kural: **Karamanoğulları** Osmanlı'nın **rakibiydi**, destek vermedi; aksine uğraştırdı → C etkili olmadı.",
+        "Sonuç: doğru cevap **C — Karamanoğulları desteği**."
+      ],
+      "relatedFactIds": [
+        "tar-okur-02"
+      ]
+    },
+    "2014lis-GK-06": {
+      "steps": [
+        "Yönlendirme: **Gaziyân-ı Rum** kimlerdir? — 'gazi/akıncı' kökünü düşün.",
+        "Ele: Rumelili olma (A), XIX. yy (B), Osmanlı-İran savaşları (C), denizcilik öncüsü (E) — dönem/işlev olarak uymaz (çeldirici).",
+        "Kural: **Gaziyân-ı Rum**, Kuruluş Dönemi'nde **gaza (akın)** için Osmanlı seferlerine katılan savaşçı gazilerdir (Anadolu'daki dört gruptan biri).",
+        "Sonuç: doğru cevap **D**."
+      ],
+      "relatedFactIds": []
+    },
+    "2014lis-GK-07": {
+      "steps": [
+        "Yönlendirme: Yıldırım **Niğbolu (Avrupa)**'dayken fırsatçılık edip **Ankara**'yı alan beylik hangisi?",
+        "İpucu: Osmanlı'nın Anadolu'daki en büyük **rakibi Karamanoğullarıdır**; fırsatçı tavır da onlara aittir.",
+        "Kural: **Karamanoğulları**, Yıldırım'ın gıyabında Ankara'yı ele geçirdi.",
+        "Sonuç: doğru cevap **B — Karamanoğulları**."
+      ],
+      "relatedFactIds": [
+        "tar-okur-04"
+      ]
+    },
+    "2016lis-GK-08": {
+      "steps": [
+        "Yönlendirme: 'Arabî, Acemî, Tusî, Semerkandî' sıfatları neyi gösterir? — kişilerin **nereden geldiğini**.",
+        "Ele: sınıfsal farklılık (B), programı İranlılar belirledi (C), Türk-İslam sentezi başladı (D), eğitim dili Arapça (E) — bu sıfatlardan **kesin çıkarılamaz** (aşırı yorum).",
+        "Kural: bu nisbeler âlimlerin **farklı İslam ülkelerinden** (Arap, İran, Tus, Semerkand) geldiğini → **dış katkıyı** gösterir.",
+        "Sonuç: doğru cevap **A**."
+      ],
+      "relatedFactIds": []
+    },
+    "2018lis-GK-04": {
+      "steps": [
+        "Yönlendirme: 'söylenemez' — Balkan halkının Osmanlı yönetimini kolay benimsemesini **açıklamayan** seçeneği bul (İstimalet politikası).",
+        "Doğruları ele: esnek vergi (A), eski yöneticilerin sisteme alınması (C), yerel âdetlere saygı (D), zimmî statüsü/din serbestliği (E) — hepsi 'istimalet' (gönül alma) politikasıdır.",
+        "Kural: gayrimüslimler **avarızdan muaf değildi** (B yanlış); bu, benimsemenin nedeni olarak gösterilemez.",
+        "Sonuç: doğru cevap **B**."
+      ],
+      "relatedFactIds": []
+    },
+    "2018ol-GK-04": {
+      "steps": [
+        "Yönlendirme: 'değildir' — **Anadolu**'da hâkimiyet dışındaki (yani **Rumeli/Avrupa**'ya ait) faaliyeti bul.",
+        "Doğruları ele: Karesioğulları'nın alınması, Otlukbeli, İzmit'in fethi, Maltepe (Pelekanon) — hepsi **Anadolu** yönündedir.",
+        "Kural: **Çimpe Kalesi (1353)** Gelibolu'da alındı; bu **Rumeli'ye (Avrupa'ya) geçişin** ilk adımıdır, Anadolu hâkimiyeti değildir.",
+        "Sonuç: doğru cevap **C — Çimpe Kalesi'nin alınması**."
+      ],
+      "relatedFactIds": [
+        "tar-okur-02"
+      ]
+    },
+    "2018ol-GK-05": {
+      "steps": [
+        "Yönlendirme: 'söylenemez' — **XIV. yüzyıldaki** güçlenmeyi açıklamayan seçeneği bul (kronoloji).",
+        "Doğruları ele: tekfurlarla dostluk (A), uçlara göç (B), Bizans'a karşı başarılar (C), Gaziyân-ı Rum/ahi desteği (D) — hepsi kuruluş-güçlenme etkenidir.",
+        "Kural: **devşirmelerin üst makamlara getirilmesi** çok daha **sonraki** (özellikle Fatih sonrası) bir gelişmedir; XIV. yy güçlenmesinin nedeni olamaz.",
+        "Sonuç: doğru cevap **E**."
+      ],
+      "relatedFactIds": []
+    },
+    "2018ol-GK-07": {
+      "steps": [
+        "Yönlendirme: **Fetret Devri (1402-1413)**'ni sona erdiren padişah kim?",
+        "İpucu: Ankara Savaşı sonrası taht kavgalarını bitirip birliği sağlayan padişah 'ikinci kurucu' sayılır.",
+        "Kural: **Çelebi Mehmet (I. Mehmet)** Fetret Devri'ne son verip devleti yeniden birleştirdi.",
+        "Sonuç: doğru cevap **B — Çelebi Mehmet**."
+      ],
+      "relatedFactIds": [
+        "tar-okur-06"
+      ]
+    },
+    "2020lis-GK-04": {
+      "steps": [
+        "Yönlendirme: 'söylenemez' — uç yönetiminin **ailelerden saray kullarına** kaymasından **çıkarılamayanı** bul.",
+        "Doğruları ele: devşirme/kul sisteminin uygulandığı (A), uç kuvvetlerinin sınır genişletmedeki etkisi (B), **merkezîleşme** çabası (C — özerk aileler yerine saraya bağlı kullar), teşkilatlanmadaki değişim (D).",
+        "Kural: kulların uç yöneticiliğine getirilmesi, onların yönetimdeki etkisinin **arttığını** gösterir; 'azaldığı' (E) tam tersidir.",
+        "Sonuç: doğru cevap **E**."
+      ],
+      "relatedFactIds": []
+    },
+    "2020lis-GK-05": {
+      "steps": [
+        "Yönlendirme: fethedilen yerin **fetheden komutana** verilmesi hangi hak/uygulamadır?",
+        "Ele: İltizam (vergi ihalesi), Gedik hakkı (esnaf/lonca), Millet sistemi (din grupları), Culüs bahşişi (tahta çıkışta askere para) — fetihle ilgili değildir.",
+        "Kural: fetheden komutanın fethettiği yeri (dirlik olarak) elde tutma hakkına **kılıç hakkı** denir.",
+        "Sonuç: doğru cevap **A — Kılıç hakkı**."
+      ],
+      "relatedFactIds": []
+    },
+    "2020ol-GK-04": {
+      "steps": [
+        "Yönlendirme: 'değildir' — **Orhan Gazi dönemine ait OLMAYAN** gelişmeyi bul.",
+        "Doğruları ele: Rumeli'ye geçiş (Çimpe 1353), İznik medresesi, Kuzeybatı Anadolu birliği (Karesi'nin alınması), Bursa'nın başkent olması — hepsi Orhan dönemidir.",
+        "Kural: **Dulkadiroğulları** çok sonra (Yavuz, 1515) alındı — Osmanlı'ya katılan **son** beyliktir; Orhan dönemiyle ilgisizdir.",
+        "Sonuç: doğru cevap **B — Dulkadiroğlu Beyliği'nin ele geçirilmesi**."
+      ],
+      "relatedFactIds": [
+        "tar-okur-02"
+      ]
     }
   }
 }
