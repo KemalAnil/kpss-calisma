@@ -1145,6 +1145,120 @@
       "relatedFactIds": [
         "tar-oyuk-01"
       ]
+    },
+    "2008lisGK-GK-04": {
+      "steps": [
+        "Yönlendirme: 'savunulamaz' — Avrupa'nın sanayileşip Osmanlı'dan **ham madde/tarım** alması hangisine yol AÇMAZ?",
+        "Doğruları ele: yerli sanayinin ham madde ihracatçısına dönüşmesi (B, D), tarımın pazara açılması (C), pamuk-tütün üretiminin artması (E) — hepsi Osmanlı'nın açık pazar/ham madde kaynağı olmasının sonucudur.",
+        "Kural: **ipek ve baharat yolları** Coğrafi Keşiflerle **önemini yitirmişti**; yeniden önem kazanması **savunulamaz** (A yanlış).",
+        "Sonuç: doğru cevap **A**."
+      ],
+      "relatedFactIds": [
+        "tar-odur-02"
+      ]
+    },
+    "2008lisGK-GK-05": {
+      "steps": [
+        "Yönlendirme: hangileri **padişahların yetişme/hazırlanma biçimini** değiştirir? — şehzade eğitimi/veraset ile ilgili olanları seç.",
+        "Ele: I (divanın Babıali'de toplanması) **yönetim/sadrazam** ile ilgilidir, padişah yetişmesiyle değil (çeldirici).",
+        "Kural: **sancağa çıkmanın kaldırılması (II)** şehzadeleri sarayda (kafes) yetiştirdi; **ekber-erşet sistemi (III)** tahta geçişi değiştirdi.",
+        "Sonuç: doğru cevap **D — II ve III**."
+      ],
+      "relatedFactIds": []
+    },
+    "2009lis-GK-05": {
+      "steps": [
+        "Yönlendirme: eyalet sayısı **32 → 34'e ÇIKMIŞ**. Bu artıştan **kesin** çıkanı işaretle.",
+        "Ele: I 'ilk kez toprak kaybı' — sayı **arttığı** için toprak kaybı çıkarılamaz (üstelik yanlış); III 'timar bozulması' — 25 eyaletin timarlı olması bozulmayı **göstermez**.",
+        "Kural: her eyaletin başında bir **beylerbeyi** olduğundan, eyalet artışı → **beylerbeyi sayısının arttığı (II)** kesin çıkar.",
+        "Sonuç: doğru cevap **B — Yalnız II**."
+      ],
+      "relatedFactIds": []
+    },
+    "2009lis-GK-06": {
+      "steps": [
+        "Yönlendirme: hangileri Osmanlı ekonomisini **olumsuz** etkiler? Üçünü de ekonomik etkiyle sına.",
+        "Değerlendir: I Avrupa mallarının girmesi → yerli üretimi çökertir; II ticaret yollarının değişmesi → gümrük/transit geliri düşer; III esnaf/lonca bozulması → üretim ve kalite düşer.",
+        "Kural: üçü de ekonomiyi **olumsuz** etkiler; çeldirici yoktur.",
+        "Sonuç: doğru cevap **E — I, II ve III**."
+      ],
+      "relatedFactIds": [
+        "tar-odur-02"
+      ]
+    },
+    "2010lis-GK-04": {
+      "steps": [
+        "Yönlendirme: gerilemenin hızlanmasıyla hangi alanlarda **değişme** oldu? Her öncülü 'değişti mi?' diye sına.",
+        "Değerlendir: I sınırlar → toprak kaybıyla **daraldı** ✓; II nüfus → kaybedilen topraklarla **azaldı** ✓.",
+        "Ele: III **teokratik yapı** gerileme döneminde **değişmedi** (devlet dinî niteliğini korudu) — çeldirici.",
+        "Sonuç: doğru cevap **D — I ve II**."
+      ],
+      "relatedFactIds": []
+    },
+    "2010ol-GK-06": {
+      "steps": [
+        "Yönlendirme: **XVI. yüzyıl (1500'ler)** vurgusu — hangi gelişme bu dönemde vardı ve ekonomiyi etkiledi? (kronoloji)",
+        "Ele: **Milliyetçilik (II)** 1789 sonrası, **Sanayi İnkılabı (III)** 18. yy — ikisi de XVI. yy'dan **sonra**dır (anakronizm).",
+        "Kural: **Coğrafi Keşifler (I)** 15-16. yy'da yaşandı; ticaret yollarını değiştirerek Osmanlı ekonomisini etkiledi.",
+        "Sonuç: doğru cevap **A — Yalnız I**."
+      ],
+      "relatedFactIds": [
+        "tar-odur-02"
+      ]
+    },
+    "2014lis-GK-04": {
+      "steps": [
+        "Yönlendirme: 'değildir' — **XVIII. yüzyıla ait OLMAYAN** ıslahatçıyı bul (kronoloji).",
+        "Doğruları ele: Nevşehirli Damat İbrahim Paşa (Lale Devri), Halil Hamit Paşa, Koca Ragıp Paşa, Humbaracı Ahmet Paşa — hepsi **18. yüzyıl** devlet adamıdır.",
+        "Kural: **Tarhuncu Ahmet Paşa 17. yüzyıl** (IV. Mehmet dönemi, ilk denk bütçe) devlet adamıdır.",
+        "Sonuç: doğru cevap **E — Tarhuncu Ahmet Paşa**."
+      ],
+      "relatedFactIds": []
+    },
+    "2016lis-GK-07": {
+      "steps": [
+        "Yönlendirme: **Hotin Seferi** sonrası Yeniçeri ocağında ıslahat/kaldırma düşünen padişah kim?",
+        "İpucu: Bu padişah Yeniçerilerin bozulduğunu görüp ocağı kaldırmayı düşündü ve **Yeniçeriler tarafından öldürülen ilk padişah** oldu.",
+        "Kural: Hotin Seferi'ne çıkan ve Yeniçeri ıslahatını planlayan padişah **II. Osman (Genç Osman)**'dır.",
+        "Sonuç: doğru cevap **A — II. Osman**."
+      ],
+      "relatedFactIds": []
+    },
+    "2018lis-GK-06": {
+      "steps": [
+        "Yönlendirme: 'söylenemez' — savaş+Celâli+bütçe açığı ortamıyla **uyuşmayan** gelişmeyi bul.",
+        "Doğruları ele: köylerin boşalması (A - Celâli/göç), fiyat artışı (B) ve akçenin değer kaybı (C - tağşiş), ulûfelilerin reel gelirinin azalması (E).",
+        "Kural: kriz döneminde **timar sistemi bozuldu**; timarlı sipahi sayısı **azaldı**, artmadı (D yanlış).",
+        "Sonuç: doğru cevap **D — Timarlıların sayısının artması**."
+      ],
+      "relatedFactIds": []
+    },
+    "2018ol-GK-09": {
+      "steps": [
+        "Yönlendirme: 'değildir' — **17. yüzyıl** ıslahatlarının özelliği OLMAYANI bul.",
+        "Doğruları ele: köklü çözüm getirilememesi (A), sorunların **baskı/şiddetle** çözülmeye çalışılması (B), çıkarı bozulanların engellemesi (C), ıslahatların **kişiye bağlı** kalması (E).",
+        "Kural: **Avrupa'yı örnek alma** 17. yy'da yoktur; ancak **18. yüzyılda (Lale Devri)** başlamıştır (D yanlış).",
+        "Sonuç: doğru cevap **D**."
+      ],
+      "relatedFactIds": []
+    },
+    "2020lis-GK-07": {
+      "steps": [
+        "Yönlendirme: timarlı sipahi azalıp **ücretli (maaşlı) asker** öne çıkınca devletin neye ihtiyacı arttı? → **nakit para**.",
+        "Ele: sekban sayısının azalması (B) tersidir; ayan nüfuzunun kırılması (C) tersidir; sadaret/salyanesiz eyalet (D, E) bu değişimin sonucu değildir.",
+        "Kural: maaşlı orduya **nakit** gerektiğinden, peşin vergi geliri sağlayan **iltizam** sistemi yaygınlaştı.",
+        "Sonuç: doğru cevap **A — İltizam sisteminin yaygınlaşmasına**."
+      ],
+      "relatedFactIds": []
+    },
+    "2020ol-GK-06": {
+      "steps": [
+        "Yönlendirme: 'değildir' — ekonomik sorunları aşmak için yapılan uygulamalardan OLMAYANI bul.",
+        "Doğruları ele: gelir işletim biçimini değiştirme (A - iltizam/malikâne), aynî geliri nakde çevirme (B), olağanüstü vergileri (avarız) düzenli hâle getirme (C), madenî paraların ayarını düzenleme (D - tağşiş).",
+        "Kural: Osmanlı **yabancı paraların dolaşımını yasaklamadı**; yabancı sikkeler piyasada yaygın kullanılırdı (E yanlış).",
+        "Sonuç: doğru cevap **E — Yabancı paraların tedavülünü yasaklama**."
+      ],
+      "relatedFactIds": []
     }
   }
 }
