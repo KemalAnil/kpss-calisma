@@ -1398,6 +1398,147 @@
         "Sonuç: doğru cevap **B — Sanayi-i Nefise Mektebi**."
       ],
       "relatedFactIds": []
+    },
+    "2011lis-GK-07": {
+      "steps": [
+        "Yönlendirme: metindeki anahtar cümle: **'ferdin malına el konulması geleneğini kaldırıyorum'** — bu hangi uygulamanın kaldırılmasıdır?",
+        "Ele: Sened-i İttifak (B), Bakanlıklar sistemi (C), posta teşkilatı (D), yeni ordu (E) — metinde bunlara dair bilgi yok (çeldiriciler).",
+        "Kural: kişinin malına el koyma geleneği = **müsadere**; II. Mahmut bunu kaldırdı.",
+        "Sonuç: doğru cevap **A — Müsadere usulüne son verildiğine**."
+      ],
+      "relatedFactIds": [
+        "tar-odag-03"
+      ]
+    },
+    "2011lis-GK-08": {
+      "steps": [
+        "Yönlendirme: **1878** + Rus tehdidine karşı İngiliz desteği için yönetimi İngiltere'ye bırakılan yer?",
+        "İpucu: 93 Harbi (1877-78 Osmanlı-Rus Savaşı) sonrası İngiltere'nin desteğini almak için bir ada verildi.",
+        "Kural: Osmanlı, **Kıbrıs**'ın yönetimini 1878'de İngiltere'ye (geçici olarak) bıraktı.",
+        "Sonuç: doğru cevap **B — Kıbrıs**."
+      ],
+      "relatedFactIds": []
+    },
+    "2012lis-GK-08": {
+      "steps": [
+        "Yönlendirme: 'söylenemez' — 1876 Kanun-i Esasi (I. Meşrutiyet) ile başlayan dönem için **YANLIŞ** olanı bul.",
+        "Doğruları ele: anayasal düzene geçiş (B), Meclis-i Mebusan ile parlamentolu hayat (C) ve halkın **kısıtlı** katılımı (D), padişaha karşı sorumlu hükümet (A).",
+        "Kural: devlet bu dönemde **hâlâ teokratikti** (padişah = halife); **teokratik yapı sona ERMEDİ** (E söylenemez).",
+        "Sonuç: doğru cevap **E — Devletin teokratik yapısının sona erdiği**."
+      ],
+      "relatedFactIds": [],
+      "answer": "E"
+    },
+    "2012lis-GK-09": {
+      "steps": [
+        "Yönlendirme: 'gösterilemez' — İttihat ve Terakki'nin millî ekonomi **oluşturma** (yapı kurma) çabası olmayanı bul.",
+        "Değerlendir: yabancı şirketlerde Türk çalıştırma (C), yerli malı teşviki (D), gümrük korumacılığı/tarife artışı (E), tarım-banka desteği (B) — ekonomiyi millîleştirme/koruma adımlarıdır.",
+        "Kural: kapitülasyonların **1914'te tek taraflı kaldırılması** ekonomik yapı kurmaktan çok savaş ortamında atılan **hukuki-siyasi** bir adımdır; bu nedenle millî ekonomi oluşturma çabaları arasında gösterilmez (A).",
+        "Sonuç: doğru cevap **A**."
+      ],
+      "relatedFactIds": []
+    },
+    "2012ol-GK-07": {
+      "steps": [
+        "Yönlendirme: **Düyûn-ı Umûmiye (1881)** hangi padişah dönemine denk gelir?",
+        "İpucu: 1875-76 mali iflastan sonra kuruldu; bu tarihte tahtta olan padişahı düşün.",
+        "Kural: Düyûn-ı Umûmiye İdaresi **1881'de II. Abdülhamit** döneminde kuruldu.",
+        "Sonuç: doğru cevap **A — II. Abdülhamit**."
+      ],
+      "relatedFactIds": [
+        "tar-odag-07"
+      ]
+    },
+    "2012ol-GK-08": {
+      "steps": [
+        "Yönlendirme: **Divan-ı Hümayun** (eski yürütme kurulu) 19. yy'da hangi organla değiştirildi?",
+        "Ele: Meclis-i Mebusan (seçilmiş parlamento), Meclis-i Âyan (senato), Meclis-i Ahkâm-ı Adliye (yargı-danışma) — yürütme/kabine organı değildir.",
+        "Kural: II. Mahmut'un bakanlıklar sistemiyle Divan'ın yerini **Meclis-i Vükela** (Bakanlar Kurulu) aldı.",
+        "Sonuç: doğru cevap **B — Meclis-i Vükela**."
+      ],
+      "relatedFactIds": [
+        "tar-odag-03"
+      ]
+    },
+    "2012ol-GK-09": {
+      "steps": [
+        "Yönlendirme: 'kurulamaz' — aralarında **ilişki/bağ bulunmayan** eşleştirmeyi bul.",
+        "Doğruları ele: Fransız İhtilali → Sırp İsyanları (milliyetçilik), Lale Devri → Patrona Halil (1730), Nizam-ı Cedid → Kabakçı Mustafa (1807), Fetret sonrası → Şeyh Bedrettin İsyanı.",
+        "Kural: **31 Mart Olayı (1909)** İstanbul'da İttihat-Terakki karşıtı bir ayaklanmadır; **Balkan Savaşı (1912-13)** ile doğrudan ilişkisi yoktur (E).",
+        "Sonuç: doğru cevap **E — Balkan Savaşı - 31 Mart Olayı**."
+      ],
+      "relatedFactIds": []
+    },
+    "2013lis-GK-08": {
+      "steps": [
+        "Yönlendirme: 'savunulamaz' — Ermeni meselesinin doğuşunda **etkili OLMAYANI** bul.",
+        "Doğruları ele: Avrupa'nın kışkırtması (A), milliyetçilik (B), Balkan örneği (C), Rusya-İngiltere'nin ıslahat baskısı (D) — hepsi sorunu büyüttü.",
+        "Kural: **Osmanlıcılık** herkesi Osmanlı kimliğinde **birleştirmeyi** amaçlar; ayrılıkçılığı körüklemez → sorunu doğuran etken olarak gösterilemez (E).",
+        "Sonuç: doğru cevap **E**."
+      ],
+      "relatedFactIds": []
+    },
+    "2013lis-GK-09": {
+      "steps": [
+        "Yönlendirme: 'yanlıştır' — padişah ↔ yenilik eşleştirmesinden **hatalı** olanı bul.",
+        "Doğruları ele: III. Selim-Nizam-ı Cedid, II. Mahmut-Sened-i İttifak, Abdülmecit-Tanzimat Fermanı, II. Abdülhamit-Kanun-i Esasi ✓.",
+        "Kural: **Islahat Fermanı (1856) Abdülmecit** dönemindedir, Abdülaziz değil → D yanlış.",
+        "Sonuç: doğru cevap **D — Abdülaziz - Islahat Fermanı**."
+      ],
+      "relatedFactIds": [
+        "tar-odag-05"
+      ]
+    },
+    "2013lis-GK-10": {
+      "steps": [
+        "Yönlendirme: 'savunulamaz' — verilen bilgilerden **kesin çıkmayanı** bul.",
+        "Doğruları ele: okullar açılması → okuryazarlık artışı (A), medrese+modern okul → eğitimde **ikilik** (B), Batı tarzı okullar → yeni yöntem/kurum (D), askerî okullar → orduda yenileşme (E).",
+        "Kural: 'kız ve erkek çocuklara zorunlu ilköğretim' ifadesi **karma (birlikte) eğitimi göstermez** (ayrı okullarda da olabilir) → C savunulamaz.",
+        "Sonuç: doğru cevap **C — Karma eğitime geçilmiştir**."
+      ],
+      "relatedFactIds": [
+        "tar-odag-03"
+      ]
+    },
+    "2013lis-GK-11": {
+      "steps": [
+        "Yönlendirme: 'söylenemez' — **İslamcılık** akımı için YANLIŞ olanı bul.",
+        "Doğruları ele: devletin bütünlüğü dinle sağlanır (A), din-ümmet birliği → halifelik vurgusu (B), Osmanlıcılık başarısız olunca gündeme geldi (C), **II. Abdülhamit'in** devlet politikası oldu (D).",
+        "Kural: İslamcılık **1876 sonrası** (özellikle II. Abdülhamit döneminde) **güçlendi**; I. Meşrutiyet'le etkisini yitirmedi → E söylenemez.",
+        "Sonuç: doğru cevap **E**."
+      ],
+      "relatedFactIds": []
+    },
+    "2013lis-GK-12": {
+      "steps": [
+        "Yönlendirme: üç olayı **tarih sırasına** koy.",
+        "Tarihler: **II. Meşrutiyet ilanı — 1908 (I)** → **31 Mart Vakası — 1909 (III)** → **Babıali Baskını — 1913 (II)**.",
+        "Kural: doğru sıra **I → III → II**'dir.",
+        "Sonuç: doğru cevap **B — I, III, II**."
+      ],
+      "relatedFactIds": []
+    },
+    "2014lis-GK-05": {
+      "steps": [
+        "Yönlendirme: padişahın **sürgün etme yetkisi** İLK KEZ hangi düzenlemeyle kaldırıldı?",
+        "Ele: Sened-i İttifak (1808), Tanzimat (1839), Islahat (1856) bu yetkiyi kaldırmadı; hatta 1876 Kanun-i Esasi bu yetkiyi (madde 113) **tanıyordu**.",
+        "Kural: bu yetki, **II. Meşrutiyet (1908) sonrası 1909'da Kanun-i Esasi'ye eklenen yeni hükümlerle** kaldırıldı.",
+        "Sonuç: doğru cevap **A**."
+      ],
+      "relatedFactIds": [
+        "tar-odag-06"
+      ]
+    },
+    "2014lis-GK-08": {
+      "steps": [
+        "Yönlendirme: 'değildir' — Tanzimat Fermanı'nın ilan **nedeni OLMAYANI** bul.",
+        "Doğruları ele: tebaa arasında eşitlik (B), devleti güçlendirme (C), Mısır-Boğazlar sorunlarında Avrupa desteği (D), Avrupa'nın müdahalesini önleme (E).",
+        "Kural: Tanzimat **şeriatı kaldırmayı amaçlamadı**; dinî hukuku korudu, yanına yeni düzenlemeler ekledi (A yanlış).",
+        "Sonuç: doğru cevap **A — Şeriatı yürürlükten kaldırmak**."
+      ],
+      "relatedFactIds": [
+        "tar-odag-04"
+      ]
     }
   }
 }
