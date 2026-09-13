@@ -1671,6 +1671,108 @@
         "Sonuç: doğru cevap **B — Yalnız II**."
       ],
       "relatedFactIds": []
+    },
+    "2020lis-GK-08": {
+      "steps": [
+        "Yönlendirme: 'söylenemez' — verilen bilgilerden III. Selim'in amacı OLMAYANI bul.",
+        "Doğruları ele: köklü ıslahat (A - Nizam-ı Cedid), istişareye önem (B - Meclis-i Meşveret), taşra isteklerini dikkate alma (C - eyalet temsilcileri), orduda düzenleme (D).",
+        "Kural: **Meşveret bir danışmadır**; III. Selim **meşruti (anayasal) idareye geçmedi** (E söylenemez).",
+        "Sonuç: doğru cevap **E — Meşruti idareye geçmek**."
+      ],
+      "relatedFactIds": [
+        "tar-odag-02"
+      ]
+    },
+    "2020lis-GK-09": {
+      "steps": [
+        "Yönlendirme: **tekeli kaldıran + gümrüğü düşüren + serbest ticaret** antlaşması hangisi?",
+        "Ele: Küçük Kaynarca (1774), Berlin (1878), Ayastefanos (1878), Hünkâr İskelesi (1833) — siyasi antlaşmalardır, ticaret değildir.",
+        "Kural: tekeli kaldırıp serbest ticareti getiren **Balta Limanı Ticaret Antlaşması (1838)**'dır.",
+        "Sonuç: doğru cevap **D — Baltalimanı**."
+      ],
+      "relatedFactIds": []
+    },
+    "2020lis-GK-10": {
+      "steps": [
+        "Yönlendirme: **göçmenleri (muhacir) yerleştirmek** için kurulan komisyon hangisi? — 'iskân/muhacir' köküne dikkat.",
+        "Ele: Dârüleytam (yetimhane), Hilal-i Ahmer (Kızılay), Sevk ve İskân Komisyonu (1915 tehcir), Rumeli Müfettişliği (idari) — göçmen yerleştirme kurulu değildir.",
+        "Kural: göçmenleri düzenli yerleştiren kurul **İskân-ı Muhacirin Komisyonu**'dur.",
+        "Sonuç: doğru cevap **C — İskân-ı Muhacirin Komisyonu**."
+      ],
+      "relatedFactIds": []
+    },
+    "2020lis-GK-11": {
+      "steps": [
+        "Yönlendirme: **Resneli Niyazi + Enver Bey** hangi olayla 'Hürriyet Kahramanı' oldu?",
+        "İpucu: bu subaylar 1908'de Rumeli'de ayaklanıp padişaha baskı yaptı; sonuçta anayasa yeniden yürürlüğe girdi.",
+        "Kural: baskı sonucu **II. Meşrutiyet (1908) yeniden ilan edildi** → onlar 'Hürriyet Kahramanları' sayıldı.",
+        "Sonuç: doğru cevap **B — Meşruti yönetimin tekrar ilan edilmesi**."
+      ],
+      "relatedFactIds": []
+    },
+    "2020lis-GK-12": {
+      "steps": [
+        "Yönlendirme: İtalya **On İki Ada'yı** işgal ederek ne amaçladı? Öncülleri İtalya'nın çıkarıyla sına.",
+        "Değerlendir: I Osmanlı'nın Trablusgarp'a (deniz yoluyla) yardımını kesmek ✓; II Osmanlı'yı barışa zorlamak ✓.",
+        "Ele: III adaları **Yunanistan'a** vermek — İtalya adaları **kendisi için** aldı; amacı bu değildi (çeldirici).",
+        "Sonuç: doğru cevap **C — I ve II**."
+      ],
+      "relatedFactIds": [
+        "tar-odag-08"
+      ]
+    },
+    "2020lis-GK-13": {
+      "steps": [
+        "Yönlendirme: Mustafa Kemal'in **takma adla, gönüllü** katıldığı savaş hangisi?",
+        "İpucu: Mısır üzerinden gizlice geçip (gazeteci kimliğiyle) yerli halkı örgütlediği Kuzey Afrika savaşını düşün.",
+        "Kural: Mustafa Kemal **Trablusgarp Savaşı (1911)**'na gönüllü ve takma adla katılıp Derne-Tobruk'ta direnişi örgütledi.",
+        "Sonuç: doğru cevap **D — Trablusgarp Savaşı**."
+      ],
+      "relatedFactIds": [
+        "tar-odag-08"
+      ]
+    },
+    "2020ol-GK-09": {
+      "steps": [
+        "Yönlendirme: **Napolyon**'un işgali + III. Selim dönemi + Osmanlı-Fransa ilişkilerinin bozulması → hangi bölge?",
+        "İpucu: 1798'de Napolyon'un sefer düzenlediği, Osmanlı'nın önemli bir eyaletini düşün.",
+        "Kural: Napolyon **1798'de Mısır**'ı işgal etti; bu, Osmanlı-Fransa ilişkilerini bozdu.",
+        "Sonuç: doğru cevap **D — Mısır**."
+      ],
+      "relatedFactIds": []
+    },
+    "2020ol-GK-10": {
+      "steps": [
+        "Yönlendirme: dış borç ödenemeyince belirli **gelirlerin (tuz, ipek, tütün, pul)** alacaklılara bırakılması hangi belgeyle oldu?",
+        "Ele: Islahat Fermanı (haklar), Sened-i İttifak (ayanlar), Vilayet Nizamnamesi (idari), Kanun-i Esasi (anayasa) — mali/borç düzenlemesi değildir.",
+        "Kural: **Muharrem Kararnamesi (1881)** ile Düyûn-ı Umûmiye kurulup bu gelirler alacaklılara bırakıldı.",
+        "Sonuç: doğru cevap **B — Muharrem Kararnamesi**."
+      ],
+      "relatedFactIds": [
+        "tar-odag-07"
+      ]
+    },
+    "2020ol-GK-11": {
+      "steps": [
+        "Yönlendirme: **Yeni Osmanlılar** 'Kanun-i Esasi ile herkesin temsil edildiği kurumlar' istiyor → ne amaçlıyorlar?",
+        "İpucu: anayasa + herkesin temsil edildiği meclis = hangi yönetim biçimi?",
+        "Kural: Yeni Osmanlılar **Kanun-i Esasi**'yi ve meclisi savunarak **meşruti (anayasal) yönetime geçişi** amaçladı.",
+        "Sonuç: doğru cevap **D — Meşruti yönetime geçilmesini**."
+      ],
+      "relatedFactIds": [
+        "tar-odag-06"
+      ]
+    },
+    "2020ol-GK-12": {
+      "steps": [
+        "Yönlendirme: Osmanlı'dan ayrılan **SON** Balkan devleti hangisi? — en geç bağımsız olanı ara.",
+        "Ele: Yunanistan (1829/1830), Sırbistan-Romanya (1878 Berlin) — daha erken bağımsız oldular.",
+        "Kural: **Arnavutluk** Balkan Savaşları sırasında **1912'de** bağımsızlığını ilan etti; ayrılan son Balkan devletidir.",
+        "Sonuç: doğru cevap **B — Arnavutluk**."
+      ],
+      "relatedFactIds": [
+        "tar-odag-08"
+      ]
     }
   }
 }
