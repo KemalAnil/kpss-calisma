@@ -2024,6 +2024,88 @@
         "Sonuç: doğru cevap **C — Cebeci**."
       ],
       "relatedFactIds": []
+    },
+    "2010ol-GK-10": {
+      "steps": [
+        "Yönlendirme: **ABD** neden tarafsızlığı bırakıp İtilaf yanında savaşa girdi?",
+        "Ele: Rusya'nın çekilmesi (A)/rejim değişikliği (B) Rusya ile ilgili; Arap ayaklanması (C), Osmanlı'nın çok cephede savaşması (E) — ABD'nin kararıyla ilgisiz.",
+        "Kural: Almanya'nın **denizaltı savaşıyla ABD ticaret gemilerini batırması**, ABD'yi 1917'de savaşa soktu (D).",
+        "Sonuç: doğru cevap **D — ABD ticaret gemilerinin batırılması**."
+      ],
+      "relatedFactIds": []
+    },
+    "2011lis-GK-09": {
+      "steps": [
+        "Yönlendirme: 'savunulamaz' — **Kafkas Cephesi** amacı OLMAYANI bul (cephe karıştırma tuzağı).",
+        "Doğruları ele: Bakü petrolleri (A), Kafkaslar üzerinden Hindistan'a ulaşma (B), Rusya'nın güneye inişini önleme (C), Kafkas halklarını ayaklandırma (D) — hepsi Kafkas Cephesi hedefidir.",
+        "Kural: **Süveyş Kanalı** hedefi **Kanal Cephesi**'ne aittir, Kafkas'a değil (E savunulamaz).",
+        "Sonuç: doğru cevap **E — Süveyş Kanalı'nı ele geçirmek**."
+      ],
+      "relatedFactIds": [
+        "tar-wwi-05"
+      ]
+    },
+    "2011lis-GK-10": {
+      "steps": [
+        "Yönlendirme: 'değildir' — **Wilson İlkesi OLMAYANI** bul.",
+        "Doğruları ele: uluslararası barış teşkilatı (A - Milletler Cemiyeti), galiplerin toprak/tazminat almaması (B), boğazların/ticaretin serbestliği (D), gizli antlaşma yapılmaması (E).",
+        "Kural: Wilson İlkeleri **tazminat ve toprak ilhakına karşıydı**; 'yenilenlerin tazminat ödemesi' ilkeye aykırıdır (C).",
+        "Sonuç: doğru cevap **C — savaş tazminatı ödemesi**."
+      ],
+      "relatedFactIds": [
+        "tar-wwi-08"
+      ]
+    },
+    "2014lis-GK-14": {
+      "steps": [
+        "Yönlendirme: **Brest-Litovsk (1918)** ile Rusya savaştan çekildi → **Rusya'ya karşı** açılan cephe hangisi?",
+        "Ele: Çanakkale, Irak, Kanal, Suriye-Filistin — bunlar İngiltere'ye karşıydı; Rusya'yla ilgili değil.",
+        "Kural: Rusya çekilince **Kafkas (Kafkasya) Cephesi** kapandı.",
+        "Sonuç: doğru cevap **C — Kafkasya**."
+      ],
+      "relatedFactIds": [
+        "tar-wwi-07"
+      ]
+    },
+    "2014lis-GK-19": {
+      "steps": [
+        "Yönlendirme: **Falih Rıfkı Atay** + Suriye/Kanal cephesi → hangi eser?",
+        "Ele: Çankaya (Cumhuriyet/Atatürk dönemi), Atatürk'ten Hatıralar, Medine Müdafaası, Ateşten Gömlek (Halide Edip, roman) — bu cepheyi anlatan Falih Rıfkı eseri değil.",
+        "Kural: **Zeytindağı**, Falih Rıfkı Atay'ın Suriye-Kanal cephesi anılarını anlattığı eseridir.",
+        "Sonuç: doğru cevap **B — Zeytin Dağı**."
+      ],
+      "relatedFactIds": []
+    },
+    "2018lis-GK-13": {
+      "steps": [
+        "Yönlendirme: **Sevk ve İskan (Tehcir) Kanunu (1915)** hangi amaçla çıkarıldı?",
+        "Ele: vilayet sınırları (B), aşiret anlaşmazlıkları (C), asker alımı (D), doğal afet (E) — kanunun amacı değildir.",
+        "Kural: savaş bölgesindeki ayrılıkçı/isyan hareketleri karşısında **cephe gerisinde güvenliği sağlamak** için çıkarıldı (A).",
+        "Sonuç: doğru cevap **A — güvenliğin sağlanması**."
+      ],
+      "relatedFactIds": []
+    },
+    "2018ol-GK-13": {
+      "steps": [
+        "Yönlendirme: **Kût'ül Amare** zaferi hangi cephededir?",
+        "İpucu: İngilizlerin esir alındığı bu zafer, Bağdat yönündeki cephede kazanıldı.",
+        "Kural: **Kût'ül Amare (1916)** **Irak Cephesi**'nde kazanıldı (İngilizlere karşı önemli Osmanlı zaferi).",
+        "Sonuç: doğru cevap **A — Irak**."
+      ],
+      "relatedFactIds": [
+        "tar-wwi-06"
+      ]
+    },
+    "2020ol-GK-13": {
+      "steps": [
+        "Yönlendirme: Osmanlı'nın **kendi taarruzuyla açtığı** cephe hangisi? (savunma cephelerinden ayır)",
+        "Ele: Çanakkale, Irak, Hicaz-Yemen, Makedonya — **savunma** ya da müttefik cepheleridir; Osmanlı'nın taarruzuyla açılmadı.",
+        "Kural: Osmanlı, **Süveyş Kanalı**'na saldırmak için **Kanal Cephesi**'ni bir **taarruz** cephesi olarak açtı (Kafkas ile birlikte).",
+        "Sonuç: doğru cevap **A — Kanal Cephesi**."
+      ],
+      "relatedFactIds": [
+        "tar-wwi-05"
+      ]
     }
   }
 }
