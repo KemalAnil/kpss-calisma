@@ -2106,6 +2106,148 @@
       "relatedFactIds": [
         "tar-wwi-05"
       ]
+    },
+    "2008lisGK-GK-10": {
+      "steps": [
+        "Yönlendirme: 'savunulamaz' — Erzurum Kongresi (Temmuz 1919) kararlarının **etkili olamayacağı** (öncesine ait) seçeneği bul.",
+        "Doğruları ele: Misak-ı Millî/bağımsızlık ruhu (B), TBMM'nin toplanması (C), Sivas Kongresi kararları (D), Amasya Protokolleri (E) — hepsi Erzurum'dan sonra ve onun etkisiyledir.",
+        "Kural: **mitingler için genelge** Havza Genelgesi dönemine (Mayıs 1919, Erzurum'dan **önce**) aittir → Erzurum'un etkisi olamaz (A).",
+        "Sonuç: doğru cevap **A**."
+      ],
+      "relatedFactIds": [
+        "tar-kshaz-05"
+      ]
+    },
+    "2008lisGK-GK-11": {
+      "steps": [
+        "Yönlendirme: 'söylenemez' — kabine değişiminden **çıkarılamayanı** bul.",
+        "Doğruları ele: İstanbul-Anadolu ilişkilerinin kurulması (A), İstanbul'un Anadolu'nun gücünü tanıması (C), Damat Ferit'in Temsilciler Kurulu'na karşıtlığı (D), yeni kabinenin isteklere uyabileceği (E).",
+        "Kural: bu olay **padişahın İtilaf etkisinden kurtulduğunu** göstermez (B söylenemez).",
+        "Sonuç: doğru cevap **B**."
+      ],
+      "relatedFactIds": [
+        "tar-kshaz-06"
+      ]
+    },
+    "2008lisGK-GK-13": {
+      "steps": [
+        "Yönlendirme: 'savunulamaz' — bu protokol maddesinden **çıkarılamayanı** bul.",
+        "Doğruları ele: tüm siyasi görüşlerin mecliste temsili (A), huzurlu seçim ortamı (B), adil davranış (D), birlik-beraberlik (E).",
+        "Kural: metinde **erken seçim/zaman kazanma** ile ilgili bir şey yok → C savunulamaz.",
+        "Sonuç: doğru cevap **C**."
+      ],
+      "relatedFactIds": []
+    },
+    "2009lis-GK-10": {
+      "steps": [
+        "Yönlendirme: **TBMM'nin yarı resmî yayın organı** olan gazete hangisi?",
+        "Ele: İrade-i Milliye (Sivas, öncesi), Peyam-ı Sabah (İstanbul, karşıt), Yenigün, İkdam — TBMM'nin yarı resmî organı değil.",
+        "Kural: Mustafa Kemal'in Ankara'da çıkardığı **Hâkimiyet-i Milliye** TBMM'nin yarı resmî yayın organı oldu.",
+        "Sonuç: doğru cevap **A — Hakimiyet-i Milliye**."
+      ],
+      "relatedFactIds": []
+    },
+    "2010lis-GK-10": {
+      "steps": [
+        "Yönlendirme: **Misak-ı Millî (1920)** hangi kararı içerir? — sınır/halkoyu ilkelerini hatırla.",
+        "Ele: Batı cephesinin açılması (A - askerî), düzenli ordu (B), Temsilciler Kurulu seçimi (D - Erzurum/Sivas), Müdafaa-i Hukuk birleştirilmesi (E - Sivas) — Misak-ı Millî maddesi değil.",
+        "Kural: Misak-ı Millî, **Batı Trakya'nın geleceğinin halkoyuyla** belirlenmesini öngörür (C).",
+        "Sonuç: doğru cevap **C — Batı Trakya'nın geleceğinin halkoyuyla belirlenmesi**."
+      ],
+      "relatedFactIds": [
+        "tar-kshaz-07"
+      ]
+    },
+    "2010lis-GK-11": {
+      "steps": [
+        "Yönlendirme: 'değildir' — Erzurum ve Sivas'ın **ORTAK** kararı OLMAYANI bul.",
+        "Doğruları ele: Mustafa Kemal'in başkanlığı (A), millî iradenin hâkim kılınması (B), vatanın bölünmez bütünlüğü (C), azınlıklara ayrıcalık verilmemesi (E) — her ikisinde de var.",
+        "Kural: Temsilciler Kurulu'nun **yalnız doğu illerini** temsil etmesi **Erzurum'a özgüdür**; Sivas'ta tüm yurdu temsil edecek şekilde genişletildi → D ortak değildir.",
+        "Sonuç: doğru cevap **D**."
+      ],
+      "relatedFactIds": [
+        "tar-kshaz-05",
+        "tar-kshaz-06"
+      ]
+    },
+    "2010lis-GK-13": {
+      "steps": [
+        "Yönlendirme: hangileri **Millî Mücadele'yi destekleyen** (halkı uyaran) yayınlardır? Karşıt olanı ele.",
+        "Ele: **IV Peyam-ı Sabah** İstanbul'da çıkan, Millî Mücadele **karşıtı** bir gazetedir (çeldirici).",
+        "Kural: Anadolu Ajansı (I), İrade-i Milliye (II) ve Hâkimiyet-i Milliye (III) millî davayı destekleyip halkı bilinçlendirdi.",
+        "Sonuç: doğru cevap **E — I, II ve III**."
+      ],
+      "relatedFactIds": []
+    },
+    "2010ol-GK-11": {
+      "steps": [
+        "Yönlendirme: **'Sivas'ta kongre toplansın' çağrısı** + illerden delege → hangi belge?",
+        "İpucu: Sivas Kongresi'ni **çağıran** belgeyi düşün (kongrenin kendisi değil).",
+        "Kural: **Amasya Genelgesi (22 Haziran 1919)**, Sivas'ta millî kongre toplanmasını ve illerden delege gönderilmesini duyurdu.",
+        "Sonuç: doğru cevap **B — Amasya Genelgesi**."
+      ],
+      "relatedFactIds": [
+        "tar-kshaz-04"
+      ]
+    },
+    "2010ol-GK-12": {
+      "steps": [
+        "Yönlendirme: **Kuvâ-yı Milliye cephane desteği + ortak cephe** kararı hangi kongrelerde? — Batı (Yunan) cephesi kongrelerini düşün.",
+        "İpucu: Balıkesir ve Alaşehir kongreleri **Batı Anadolu**'da Yunan işgaline karşı yerel direnişi örgütledi.",
+        "Ele: **Erzurum (III)** doğuda, siyasi-millî nitelikli kongredir; bu konu kapsamında değildir.",
+        "Sonuç: doğru cevap **D — I ve II**."
+      ],
+      "relatedFactIds": []
+    },
+    "2010ol-GK-13": {
+      "steps": [
+        "Yönlendirme: hangi kararlar **'vatanın bölünmez bütünlüğü'** ilkesini destekler? Üçünü de değerlendir.",
+        "Değerlendir: I millî irade/Kuvâ-yı Milliye (bağımsız savunma), II azınlığa ayrıcalık verilmemesi (bölünmeyi önleme), III Millî Meclis (birlik/merkezî irade).",
+        "Kural: üçü de ülke bütünlüğünü destekler; çeldirici yok.",
+        "Sonuç: doğru cevap **E — I, II ve III**."
+      ],
+      "relatedFactIds": []
+    },
+    "2010ol-GK-14": {
+      "steps": [
+        "Yönlendirme: hangi Misak-ı Millî kararları **tam bağımsızlık** anlayışını yansıtır? Üçünü de değerlendir.",
+        "Değerlendir: I azınlık haklarında **karşılıklılık** (egemen eşitlik), II **kapitülasyonların kaldırılması** (mali-hukuki bağımsızlık), III başkent ve Boğazların güvenliği (egemenlik).",
+        "Kural: üçü de bağımsız devlet ilkesini gösterir; çeldirici yok.",
+        "Sonuç: doğru cevap **E — I, II ve III**."
+      ],
+      "relatedFactIds": [
+        "tar-kshaz-07"
+      ]
+    },
+    "2011lis-GK-11": {
+      "steps": [
+        "Yönlendirme: hangileri **Millî Mücadele KARŞITI (zararlı)** cemiyetlerdir? Üçünü de değerlendir.",
+        "Değerlendir: İslam Teâli Cemiyeti (hilafetçi/karşıt), İngiliz Muhipleri Cemiyeti (manda), Sulh ve Selâmet-i Osmaniye Fırkası (padişaha bağlılık) — üçü de karşıttır.",
+        "Kural: üçü de millî mücadeleye karşı çıkan zararlı örgütlerdir; çeldirici yok.",
+        "Sonuç: doğru cevap **A — I, II ve III**."
+      ],
+      "relatedFactIds": []
+    },
+    "2011lis-GK-12": {
+      "steps": [
+        "Yönlendirme: **İstanbul'un işgali (16 Mart 1920)** ve Mebusan Meclisi'nin dağıtılmasının **nedeni** ne olabilir?",
+        "İpucu: son Osmanlı Mebusan Meclisi neyi kabul etmişti? İşgal buna tepki olarak geldi.",
+        "Kural: Meclis-i Mebusan'ın **Misak-ı Millî'yi kabul etmesi**, İtilaf'ın İstanbul'u işgal edip Meclisi dağıtmasına yol açtı (D).",
+        "Sonuç: doğru cevap **D — Misak-ı Millî'nin ilan edilmesi**."
+      ],
+      "relatedFactIds": [
+        "tar-kshaz-07"
+      ]
+    },
+    "2012lis-GK-10": {
+      "steps": [
+        "Yönlendirme: **Mondros sonrası İstanbul**'da, **Fethi Bey'le birlikte** çıkarılan gazete hangisi?",
+        "Ele: Hâkimiyet-i Milliye (Ankara, 1920 — sonraki dönem, tek başına), Tasvir-i Efkâr/Yenigün/İkdam — Mustafa Kemal'in Fethi Bey'le çıkardığı gazete değil.",
+        "Kural: Mustafa Kemal ve Ali Fethi (Okyar), 1918'de İstanbul'da **Minber** gazetesini çıkardı.",
+        "Sonuç: doğru cevap **C — Minber**."
+      ],
+      "relatedFactIds": [],
+      "answer": "C"
     }
   }
 }
