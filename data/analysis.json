@@ -1539,6 +1539,138 @@
       "relatedFactIds": [
         "tar-odag-04"
       ]
+    },
+    "2014lis-GK-09": {
+      "steps": [
+        "Yönlendirme: 'değildir' — **Ayastefanos (1878)** hükmü OLMAYANI bul.",
+        "Doğruları ele: Büyük Bulgaristan (A), Kars-Ardahan-Batum-Doğu Beyazıt'ın Rusya'ya bırakılması (C), Ermeni ıslahatı (D), Bosna-Hersek'e özerklik (E) — hepsi Ayastefanos hükmüdür.",
+        "Kural: **Karadeniz'in gemilere açık/kapalı** olması Boğazlar rejimiyle (Paris 1856/Londra 1871) ilgilidir; Ayastefanos'un hükmü değildir (B).",
+        "Sonuç: doğru cevap **B**."
+      ],
+      "relatedFactIds": []
+    },
+    "2014lis-GK-11": {
+      "steps": [
+        "Yönlendirme: 'değildir' — **Mecelle** özelliği OLMAYANI bul.",
+        "Doğruları ele: 1926'ya (Medeni Kanun'a) kadar yürürlükte (A), İslami hukuku **kodifiye** etmesi (B), **Ahmet Cevdet Paşa** başkanlığında hazırlanması (C), **medeni kanun** niteliği (E).",
+        "Kural: Mecelle **İslam (Hanefi) hukukuna** dayanır; müslim-gayrimüslim ayrımına yönelik özel kurallar içermez (D yanlış).",
+        "Sonuç: doğru cevap **D**."
+      ],
+      "relatedFactIds": []
+    },
+    "2014lis-GK-13": {
+      "steps": [
+        "Yönlendirme: 'olmamıştır' — **31 Mart Olayı (1909)** nedenlerinden OLMAYANI bul (kronoloji).",
+        "Doğruları ele: Derviş Vahdeti/Volkan gazetesi kışkırtması (B), Hasan Fehmi Bey'in öldürülmesi (C), orduda Alaylı-Mektepli çekişmesi (D), Meşrutiyet karşıtı tepkiler (E).",
+        "Kural: **Trablusgarp'ın işgali 1911** olayıdır; 1909'daki 31 Mart'tan **sonradır** → neden olamaz (A).",
+        "Sonuç: doğru cevap **A**."
+      ],
+      "relatedFactIds": []
+    },
+    "2016lis-GK-09": {
+      "steps": [
+        "Yönlendirme: **büyük donanma** + **Beylerbeyi/Çırağan sarayları** + Balkan isyanları → hangi padişah?",
+        "İpucu: donanmaya çok önem verip masraflı saraylar yaptıran ve Balkan isyanlarının başladığı 1860-70'ler padişahını düşün.",
+        "Kural: bu gelişmeler **Abdülaziz (1861-1876)** dönemine aittir (dünyanın 3. büyük donanması, Çırağan-Beylerbeyi, Hersek-Bulgar isyanları).",
+        "Sonuç: doğru cevap **B — Abdülaziz**."
+      ],
+      "relatedFactIds": []
+    },
+    "2016lis-GK-10": {
+      "steps": [
+        "Yönlendirme: 'savunulamaz' — bu 'ortak Osmanlı vatandaşlığı' maddesinin amacı OLMAYANI bul.",
+        "Doğruları ele: azınlık ayrılıkçılığını önleme (B), toplumu Osmanlı kimliğinde bütünleştirme (C), din-mezhep ayrımını kaldırma (D), Osmanlı vatandaşlığı statüsü (E) — hepsi Osmanlıcılık amacıdır.",
+        "Kural: madde **vatandaşlık/eşitlik** ile ilgilidir; **padişahın yetkisini kısıtlamayı** amaçlamaz (A savunulamaz).",
+        "Sonuç: doğru cevap **A**."
+      ],
+      "relatedFactIds": []
+    },
+    "2016lis-GK-11": {
+      "steps": [
+        "Yönlendirme: **Encümen-i Dâniş** (ilk Osmanlı bilim akademisi) hangi amaçlarla kuruldu?",
+        "Ele: II 'diplomasinin örgütlenmesi' bir **bilim akademisiyle** ilgisizdir (çeldirici).",
+        "Kural: Encümen-i Dâniş **eğitim-öğretimi geliştirmek (I)** ve **bilim politikası belirlemek (III)** için kuruldu.",
+        "Sonuç: doğru cevap **D — I ve III**."
+      ],
+      "relatedFactIds": []
+    },
+    "2016lis-GK-12": {
+      "steps": [
+        "Yönlendirme: **İngiltere**, Rusya'yı engelleme bahanesiyle hangi **Osmanlı toprağına** yerleşti?",
+        "Ele: Rodos-On İki Ada (İtalya, 1912), Girit, Kırım (Rusya) — İngiltere'nin yerleştiği yer değildir.",
+        "Kural: İngiltere, Rus tehdidine karşı Osmanlı'yı koruma bahanesiyle **1878'de Kıbrıs**'a yerleşti.",
+        "Sonuç: doğru cevap **A — Kıbrıs**."
+      ],
+      "relatedFactIds": []
+    },
+    "2018lis-GK-09": {
+      "steps": [
+        "Yönlendirme: 'söylenemez' — III. Selim'in ıslahat YAPMADIĞI alanı bul.",
+        "Doğruları ele: ordu (Nizam-ı Cedid), eğitim (yeni okullar), diplomasi (ilk daimi elçilikler), idare — hepsinde ıslahat yaptı.",
+        "Kural: III. Selim döneminde **din alanında** ıslahat yoktur (E söylenemez).",
+        "Sonuç: doğru cevap **E — Din**."
+      ],
+      "relatedFactIds": [
+        "tar-odag-02"
+      ]
+    },
+    "2018lis-GK-10": {
+      "steps": [
+        "Yönlendirme: 'söylenemez' — Balta Limanı'nın (serbest ticaret + ham madde ihracı) etkileriyle **çelişen** yargıyı bul.",
+        "Doğruları ele: kapitülasyon kapsamının genişlemesi (A), açık pazara dönüşme (B), yerli sanayinin çökmesi (C), ham madde çıkışının kolaylaşması (D).",
+        "Kural: ham madde (yün-pamuk-tütün-hububat) serbestçe ihraç edilince tarım **düşmez, teşvik edilir** → 'tarımsal üretimde düşüş' (E) söylenemez.",
+        "Sonuç: doğru cevap **E**."
+      ],
+      "relatedFactIds": []
+    },
+    "2018lis-GK-11": {
+      "steps": [
+        "Yönlendirme: 'yanlıştır' — akım ↔ temsilci eşleştirmesinden **hatalı** olanı bul.",
+        "Doğruları ele: Osmanlıcılık-Namık Kemal, Türkçülük-Ziya Gökalp, Batıcılık-Abdullah Cevdet, Türkçülük-Yusuf Akçura ✓.",
+        "Kural: **Sait Halim Paşa** bir **İslamcılık** düşünürüdür, Batıcı değildir → A yanlış.",
+        "Sonuç: doğru cevap **A — Batıcılık - Sait Halim Paşa**."
+      ],
+      "relatedFactIds": []
+    },
+    "2018lis-GK-12": {
+      "steps": [
+        "Yönlendirme: **Kanun-i Esasi (1876)** ile hangi gelişmeler gerçekten yaşandı?",
+        "Değerlendir: I parlamento (Meclis-i Mebusan) açıldı ✓; II farklı din/unsurlar mecliste temsil edildi ✓.",
+        "Ele: III **padişahın yürütme yetkisi sona ermedi**; padişah güçlü yetkilerini korudu (çeldirici).",
+        "Sonuç: doğru cevap **B — I ve II**."
+      ],
+      "relatedFactIds": [
+        "tar-odag-06"
+      ]
+    },
+    "2018ol-GK-10": {
+      "steps": [
+        "Yönlendirme: 'söylenemez' — **dış siyasette denge politikası** olmayan (iç mesele olan) olayı bul.",
+        "Doğruları ele: Fransa'nın Mısır işgali (A), Kavalalı Mehmet Ali Paşa İsyanı (B), 1877-78 Osmanlı-Rus Savaşı (D), Kırım Savaşı (E) — hepsinde Osmanlı büyük devletleri birbirine karşı kullandı.",
+        "Kural: **Kabakçı Mustafa İsyanı (1807)** bir **iç ayaklanmadır**; dış siyaset/denge politikasıyla ilgisizdir (C söylenemez).",
+        "Sonuç: doğru cevap **C — Kabakçı Mustafa İsyanı**."
+      ],
+      "relatedFactIds": []
+    },
+    "2018ol-GK-11": {
+      "steps": [
+        "Yönlendirme: **yasama yetkisini Meclis-i Âyan + Meclis-i Mebusan'a** veren belge hangisi?",
+        "Ele: Tanzimat/Islahat fermanları (haklar), Sened-i İttifak (ayanlarla anlaşma), Mecelle (medeni kanun) — meclis/yasama kurmaz.",
+        "Kural: iki meclisli yasamayı (Âyan + Mebusan) kuran belge **Kanun-i Esasî (1876)**'dir.",
+        "Sonuç: doğru cevap **D — Kanunuesasi**."
+      ],
+      "relatedFactIds": [
+        "tar-odag-06"
+      ]
+    },
+    "2018ol-GK-12": {
+      "steps": [
+        "Yönlendirme: metinden **kesin çıkanı** işaretle (Osmanlıcılık + anayasal güvence + başarısızlık).",
+        "Ele: I 'Müslüman kimliği üstün tutuldu' — Osmanlıcılık **eşitlik** amaçlar (çelişir); III 'ayrılıkçılık önlendi' — metin 'istenen sonuç **elde edilemedi**' diyor (çeldiriciler).",
+        "Kural: 'haklar **anayasa ile** güvence altına alındı' → **anayasal sisteme geçiş (II)** kesin çıkar.",
+        "Sonuç: doğru cevap **B — Yalnız II**."
+      ],
+      "relatedFactIds": []
     }
   }
 }
