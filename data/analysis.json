@@ -1773,6 +1773,139 @@
       "relatedFactIds": [
         "tar-odag-08"
       ]
+    },
+    "2008lisGK-GK-06": {
+      "steps": [
+        "Yönlendirme: hangi devlette **halifelik ile saltanat aynı kişide** (hükümdarda) birleşti?",
+        "Ele: **Memluk** Abbasi halifesini **korudu** (halife ayrı, sembolik); **Selçuklu** Abbasi halifesini tanıdı (ayrı) — ikisinde de halifelik hükümdarda değildi.",
+        "Kural: **Osmanlı**'da Yavuz'un Mısır seferinden (1517) sonra halifelik saltanata katıldı; halife = padişah oldu (Yalnız I).",
+        "Sonuç: doğru cevap **A — Yalnız I**."
+      ],
+      "relatedFactIds": [
+        "tar-oyuk-04"
+      ]
+    },
+    "2010lis-GK-05": {
+      "steps": [
+        "Yönlendirme: **resmî tarih yazarı** (devletin olaylarını kaydeden) görevlinin adı nedir?",
+        "Ele: Mültezim (vergi mültezimi), Mütevelli (vakıf yöneticisi), Nişancı (tuğra-tapu), Reisülküttap (kâtipler/dış işleri başı) — tarihçi değildir.",
+        "Kural: Osmanlı'nın resmî tarih yazarına **vakanüvis** denir.",
+        "Sonuç: doğru cevap **E — Vakanüvis**."
+      ],
+      "relatedFactIds": []
+    },
+    "2010lis-GK-06": {
+      "steps": [
+        "Yönlendirme: **Kitab-ı Bahriye** + **haritacılık** → hangi bilim adamı?",
+        "Ele: Ali Kuşçu (astronom-matematik), Seydi Ali Reis (Mir'atü'l Memalik), Matrakçı Nasuh (minyatür), Sabuncuoğlu Şerafeddin (tıp) — Kitab-ı Bahriye yazarı değil.",
+        "Kural: **Piri Reis** ünlü Osmanlı denizci-haritacısıdır; Kitab-ı Bahriye ve dünya haritasıyla tanınır.",
+        "Sonuç: doğru cevap **A — Piri Reis**."
+      ],
+      "relatedFactIds": []
+    },
+    "2010ol-GK-04": {
+      "steps": [
+        "Yönlendirme: 'değildir' — **yönetici (askerî) sınıf** OLMAYANI bul.",
+        "Doğruları ele: İlmiye (ulema-eğitim/adalet), Seyfiye (askerî-idari), Kalemiye (bürokrasi), hanedan üyeleri — hepsi 'yönetenler'dir.",
+        "Kural: **Reaya**, vergi veren **yönetilenler** sınıfıdır; yönetici değildir (C).",
+        "Sonuç: doğru cevap **C — Reaya**."
+      ],
+      "relatedFactIds": [
+        "tar-okul-06"
+      ]
+    },
+    "2012lis-GK-04": {
+      "steps": [
+        "Yönlendirme: 'savunulamaz' — **ticaret/yol güvenliği** amacıyla yapılMAYANI bul.",
+        "Doğruları ele: Menziller (menzil/konak-haberleşme), Derbentler (geçit güvenliği), Bedestenler (kapalı çarşı-ticaret), Kervansaraylar (tüccar konaklama-güvenlik) — hepsi ticaret/yolla ilgilidir.",
+        "Kural: **Dârülkuralar** Kur'an eğitimi veren **dinî okullardır**; ticaretle ilgisi yoktur (C savunulamaz).",
+        "Sonuç: doğru cevap **C — Dârülkuralar**."
+      ],
+      "relatedFactIds": [],
+      "answer": "C"
+    },
+    "2012lis-GK-05": {
+      "steps": [
+        "Yönlendirme: Osmanlı hukukunun **temel iki kaynağını** düşün.",
+        "Değerlendir: I **şer'i hukuk** (Kur'an-sünnet) ve II **eski Türk gelenekleri** (töre → örfi hukuk) Osmanlı hukukunun iki ana dayanağıdır.",
+        "Ele: III 'fethedilen bölgelerin önceki uygulamaları' örfi hukuka kısmen yansısa da bağımsız bir **ana kaynak** sayılmaz.",
+        "Sonuç: doğru cevap **D — I ve II**."
+      ],
+      "relatedFactIds": []
+    },
+    "2012lis-GK-06": {
+      "steps": [
+        "Yönlendirme: 'değildir' — **timarlı dirlik sahibinin görevi OLMAYANI** bul.",
+        "Doğruları ele: dirlik vergilerini toplamak (B), bölge güvenliğini sağlamak (C), toprağın işlenmesini/üretimi sürdürmek (D), savaşta **cebelü** askerleriyle katılmak (E).",
+        "Kural: **Kapıkulu askerlerinin ulûfesi (maaşı) merkezî hazineden** ödenirdi; dirlik sahibi ödemezdi → A onun görevi değildir.",
+        "Sonuç: doğru cevap **A — Kapıkulu askerlerine ulufe dağıtmak**."
+      ],
+      "relatedFactIds": [],
+      "answer": "A"
+    },
+    "2012lis-GK-07": {
+      "steps": [
+        "Yönlendirme: hangileri **modernleşmeye (Batılılaşma)** yöneliktir? Her öncülü 'yeni/Batı tarzı mı?' diye sına.",
+        "Ele: III **Enderun mektebi** klasik dönem (Fatih) kurumudur; modernleşme değildir (çeldirici).",
+        "Kural: I **askerî eğitimde yenileşme** (modern askerî okullar) ve II **bürokraside düzenleme** Batılılaşma/modernleşme adımlarıdır.",
+        "Sonuç: doğru cevap **D — I ve II**."
+      ],
+      "relatedFactIds": [],
+      "answer": "D"
+    },
+    "2012ol-GK-05": {
+      "steps": [
+        "Yönlendirme: 'değildir' — **Kapıkulu Ocağı OLMAYANI** bul.",
+        "Doğruları ele: Yeniçeriler, Cebeciler, Topçular, Silahtarlar (Kapıkulu süvarisi) — hepsi maaşlı **Kapıkulu** askeridir.",
+        "Kural: **Müsellemler** kuruluş dönemi eyalet (yaya-müsellem) askeridir; Kapıkulu değildir (E).",
+        "Sonuç: doğru cevap **E — Müsellemler**."
+      ],
+      "relatedFactIds": []
+    },
+    "2012ol-GK-06": {
+      "steps": [
+        "Yönlendirme: taşra ileri gelenleri + vergi toplamada yardım + **XVIII. yy'da güçlenip siyasi söz sahibi** → hangi grup?",
+        "Ele: reaya (halk), timarlı sipahi (asker), yeniçeri (asker), esnaf (meslek) — bu tanıma uymaz.",
+        "Kural: taşrada güçlenip 1808'de **Sened-i İttifak**'ı imzalatacak kadar güçlenen yerel ileri gelenler **âyanlardır**.",
+        "Sonuç: doğru cevap **C — Âyan**."
+      ],
+      "relatedFactIds": []
+    },
+    "2013lis-GK-05": {
+      "steps": [
+        "Yönlendirme: Osmanlı kültürü bir **sentez**tir; hangi kaynaklardan beslendi? Üçünü de değerlendir.",
+        "Değerlendir: I Orta Asya Türk gelenekleri (töre, sanat), II İslam (din, hukuk, sanat), III fethedilen yerlerin (Bizans/Balkan) yerel unsurları — üçü de etkili.",
+        "Kural: Osmanlı kültürü **Türk + İslam + yerel** sentezidir; çeldirici yok.",
+        "Sonuç: doğru cevap **E — I, II ve III**."
+      ],
+      "relatedFactIds": []
+    },
+    "2013lis-GK-06": {
+      "steps": [
+        "Yönlendirme: **Reisülküttap** (dış işlerinden sorumlu kâtipler başı) hangi bakanlığa dönüştü?",
+        "İpucu: reisülküttap **dış yazışma/diplomasi** ile ilgilenirdi; 19. yy bakanlıklar sistemindeki karşılığını düşün.",
+        "Kural: **Reisülküttap → Hariciye Nazırı (Dışişleri Bakanı)**'na dönüştü.",
+        "Sonuç: doğru cevap **A — Hariciye nazırı**."
+      ],
+      "relatedFactIds": []
+    },
+    "2013lis-GK-07": {
+      "steps": [
+        "Yönlendirme: esnaf loncasının **usta sayısını sınırlaması** neyi amaçlar?",
+        "Ele: ihracat teşviki (A), para ekonomisine geçiş (C), tarımın önplana çıkması (D), askerlik (E) — usta sayısı sınırıyla ilgisiz.",
+        "Kural: usta sayısı sınırlanarak **üretim (arz) talebe göre dengelenir** (aşırı üretim/rekabet önlenir, kalite-fiyat korunur).",
+        "Sonuç: doğru cevap **B — Ürün arzının talebe göre ayarlanması**."
+      ],
+      "relatedFactIds": []
+    },
+    "2014lis-GK-10": {
+      "steps": [
+        "Yönlendirme: **atlara/ahıra bakan**, Balkanlardaki **gayrimüslimlerden** oluşan askerî zümre hangisi?",
+        "Ele: Ulah (Balkan çobanları), Martolos (gayrimüslim silahlı yardımcı), Levent (ücretli asker), Miralay (albay rütbesi) — tanıma göre ayır.",
+        "Kural: **Has ahır ve çayır** hizmetinde atlara bakan, Balkan gayrimüslimlerinden derlenen zümre **voynuklardır**.",
+        "Sonuç: doğru cevap **C — Voynuk**."
+      ],
+      "relatedFactIds": []
     }
   }
 }
