@@ -139,11 +139,26 @@ body {
   animation: hlpulse .45s ease;
 }
 @keyframes hlpulse { from { opacity: 0; transform: scale(1.06); } to { opacity: 1; transform: none; } }
+/* Kart iki sütuna bölünebilir: sol görsel (.card-media), sağ çözüm (.card-body) */
+.card-media { min-width: 0; }
+.card-body { min-width: 0; }
 /* Çözüm sırasında görseli üstte sabit tut (ipuçları kayarken görünür kalsın) */
-.card.solving .q-figure {
+.card.solving .card-media {
   position: sticky; top: 8px; z-index: 3;
   background: var(--panel); padding-bottom: 8px; border-radius: 10px;
 }
+/* Tablet ve üstü: odak pencerede görsel | çözüm YAN YANA (kenar çubuğu gizli → tam genişlik) */
+@media (min-width: 720px) {
+  body.q-focus .card.focus-card {
+    display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+    gap: 18px; align-items: start;
+  }
+  body.q-focus .card.focus-card .card-media {
+    position: sticky; top: 8px; align-self: start; z-index: 3;
+  }
+}
+/* Odak modunda konu listesi gereksiz → gizle, içerik tam genişlik (yan yana düzene yer aç) */
+body.q-focus .sidebar { display: none; }
 .q-text { white-space: pre-wrap; margin: 10px 0; line-height: 1.5; }
 .answer-box {
   margin-top: 10px; padding: 10px 12px; border-radius: 10px;
@@ -186,7 +201,7 @@ body {
 }
 @media (prefers-reduced-motion: reduce) { .q-hl, .solve-steps li { animation: none; } }
 @keyframes solveIn { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: none; } }
-.solve-controls { display: flex; align-items: center; gap: 10px; margin-top: 12px; flex-wrap: wrap; }
+.solve-controls { display: flex; align-items: center; gap: 10px; margin: 0 0 12px; flex-wrap: wrap; }
 .solve-next {
   cursor: pointer; padding: 8px 14px; border-radius: 8px; font-size: 13px; font-weight: 600;
   color: #fff; background: linear-gradient(135deg, var(--primary), var(--primary-2)); border: 1px solid transparent;

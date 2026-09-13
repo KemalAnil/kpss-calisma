@@ -323,6 +323,10 @@
     el("addVideoBtn").hidden = state.tab !== "videos";
 
     panel.innerHTML = "";
+    // Odak modu (yan yana düzen + kenar çubuğu gizli) yalnız tek soru görünümünde açık.
+    const focusing = state.tab === "questions" && !!state.qView && qs.some((q) => q.id === state.qView);
+    document.body.classList.toggle("q-focus", focusing);
+
     if (state.tab === "notes") { renderNotes(facts); return; }
 
     if (state.tab === "questions") {
@@ -332,7 +336,7 @@
         return;
       }
       qs.sort((a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0));  // sabit sınav sırası
-      if (state.qView && qs.some((q) => q.id === state.qView)) renderQuestionFocus(qs);
+      if (focusing) renderQuestionFocus(qs);
       else { state.qView = null; renderQuestionGrid(qs); }
       return;
     }
@@ -403,6 +407,8 @@
     nav.querySelector(".f-next").onclick = () => { if (idx < qs.length - 1) { state.qView = qs[idx + 1].id; renderContent(); window.scrollTo(0, 0); } };
 
     renderQuestionCard(q);   // görsel+highlight, hızlı cevap, adım adım çöz, ilgili bilgi
+    const card = panel.querySelector(".card");
+    if (card) card.classList.add("focus-card");   // yan yana (görsel | çözüm) düzeni
 
     const bar = document.createElement("div");
     bar.className = "solved-bar";
@@ -411,7 +417,8 @@
       return `<button type="button" class="solved-btn ${p.cls}${on ? " on" : ""}" data-person="${p.key}">
         ${on ? "✓" : "○"} ${esc(p.label)} çözdü</button>`;
     }).join("");
-    panel.appendChild(bar);
+    // Çözüldü çubuğu sağ sütunda (çözümün altında) dursun.
+    ((card && card.querySelector(".card-body")) || panel).appendChild(bar);
     PEOPLE.forEach((p) => {
       const btn = bar.querySelector(`.solved-btn[data-person="${p.key}"]`);
       btn.onclick = async () => {
@@ -459,13 +466,13 @@
     return `<div class="solve-box">
       <button type="button" class="solve-start">🧩 Adım adım çöz</button>
       <div class="solve-panel" hidden>
-        <ol class="solve-steps"></ol>
-        <div class="solve-related" hidden></div>
         <div class="solve-controls">
           <button type="button" class="solve-next">Sonraki ipucu →</button>
           <button type="button" class="solve-all">Hepsini göster</button>
           <span class="solve-progress"></span>
         </div>
+        <ol class="solve-steps"></ol>
+        <div class="solve-related" hidden></div>
       </div>
     </div>`;
   }
@@ -555,21 +562,23 @@
   function renderQuestionCard(q) {
     const card = document.createElement("div");
     card.className = "card";
-    let html = `<div class="card-top"><span class="card-tag">📝 Soru ${whoBadge(q.who)}</span></div>`;
-    if (q.image) html += `<figure class="q-figure"><img class="q-image" src="${q.image}" alt="soru" data-full="${q.image}"><div class="q-hl-layer" aria-hidden="true"></div></figure>`;
-    if (q.text) html += `<div class="q-text">${esc(q.text)}</div>`;
+    // Sol sütun: soru görseli (yan yana düzende sabit kalır). Sağ sütun: cevap + çözüm.
+    let media = `<div class="card-top"><span class="card-tag">📝 Soru ${whoBadge(q.who)}</span></div>`;
+    if (q.image) media += `<figure class="q-figure"><img class="q-image" src="${q.image}" alt="soru" data-full="${q.image}"><div class="q-hl-layer" aria-hidden="true"></div></figure>`;
+    let body = "";
+    if (q.text) body += `<div class="q-text">${esc(q.text)}</div>`;
     // Analiz overlay'i hatalı bir cevap anahtarını düzeltebilir (büyük paketi yeniden indirmeden).
     const ansOverride = (analysisData[q.id] || {}).answer;
     const answer = ansOverride || q.answer;
-    if (answer) html += `<div class="answer-box hidden-answer" title="Cevabı görmek için tıkla"><b>Cevap:</b> ${esc(answer)}</div>`;
-    html += solveHtml(q);
-    if (q.notes) html += `<div class="note-box">🗒️ ${esc(q.notes)}</div>`;
-    if (q.ref) html += `<div class="q-ref">${esc(q.ref)}</div>`;
-    html += `<div class="card-actions">
+    if (answer) body += `<div class="answer-box hidden-answer" title="Cevabı görmek için tıkla"><b>Cevap:</b> ${esc(answer)}</div>`;
+    body += solveHtml(q);
+    if (q.notes) body += `<div class="note-box">🗒️ ${esc(q.notes)}</div>`;
+    if (q.ref) body += `<div class="q-ref">${esc(q.ref)}</div>`;
+    body += `<div class="card-actions">
       <button class="btn ghost small" data-move>↔ Konu Değiştir</button>
       <button class="btn ghost small danger-text" data-del>Sil</button>
     </div>`;
-    card.innerHTML = html;
+    card.innerHTML = `<div class="card-media">${media}</div><div class="card-body">${body}</div>`;
     const img = card.querySelector(".q-image");
     if (img) img.onclick = () => openLightbox(img.dataset.full);
     const ans = card.querySelector(".answer-box");
@@ -626,7 +635,7 @@
       <select class="mv-topic"></select>
       <button class="btn primary small mv-save">Kaydet</button>
       <button class="btn ghost small mv-cancel">İptal</button>`;
-    card.appendChild(div);
+    (card.querySelector(".card-body") || card).appendChild(div);
     const subjSel = div.querySelector(".mv-subject");
     const topSel = div.querySelector(".mv-topic");
     const fillTopics = (subject, selected) => {
