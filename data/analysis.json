@@ -1259,6 +1259,145 @@
         "Sonuç: doğru cevap **E — Yabancı paraların tedavülünü yasaklama**."
       ],
       "relatedFactIds": []
+    },
+    "2008lisGK-GK-07": {
+      "steps": [
+        "Yönlendirme: **eski ve yeni kurumların bir arada** (ikili yapı) işlemesi hangi dönemle başladı?",
+        "İpucu: bu 'ikilik' (eğitim, hukuk, yönetimde eski + yeni yan yana) Batılılaşma reformlarının hız kazandığı dönemin özelliğidir.",
+        "Kural: **Tanzimat Dönemi (1839)**'nde medrese-mektep, eski-yeni mahkemeler gibi kurumlar birlikte yürütüldü.",
+        "Sonuç: doğru cevap **D — Tanzimat**."
+      ],
+      "relatedFactIds": [
+        "tar-odag-04"
+      ]
+    },
+    "2008lisGK-GK-08": {
+      "steps": [
+        "Yönlendirme: 'değildir' — **XIX. yy** ıslahatlarının özelliği OLMAYANI bul.",
+        "Doğruları ele: Avrupa'nın iç işlere karışmasını önleme (A), gayrimüslimleri memnun etme (B), Avrupa desteği arama (C), Avrupa kültürü etkisi (D) — hepsi 19. yy ıslahatlarının özelliğidir.",
+        "Kural: 19. yy ıslahatları **birçok alanda** (hukuk, eğitim, idare, ekonomi) yapıldı; **sadece askerî** değildi (E yanlış).",
+        "Sonuç: doğru cevap **E**."
+      ],
+      "relatedFactIds": []
+    },
+    "2008lisGK-GK-09": {
+      "steps": [
+        "Yönlendirme: Osmanlı'yı Avrupa'nın **açık pazarı** hâline getiren belge hangisi? — **ticaret/ekonomi** antlaşmasını ara.",
+        "Ele: Paris (1856 siyasi), Boğazlar Sözleşmesi (1841 siyasi), Hünkâr İskelesi (1833 siyasi-askerî), Meşrutiyet (anayasal) — ekonomik/ticari değildir.",
+        "Kural: **Balta Limanı Ticaret Sözleşmesi (1838, İngiltere)** serbest ticaret getirerek Osmanlı'yı Avrupa'nın açık pazarı yaptı.",
+        "Sonuç: doğru cevap **C — Balta Limanı Ticaret Sözleşmesi**."
+      ],
+      "relatedFactIds": []
+    },
+    "2009lis-GK-07": {
+      "steps": [
+        "Yönlendirme: **Osmanlıcılık** fikrinin (herkesi Osmanlı kimliğinde birleştirme) önemini yitirmesinde ne etkili oldu?",
+        "Ele: III **Yeniçeri Ocağı'nın kaldırılması (1826)** askerî bir olaydır; Osmanlıcılığın başarısızlığıyla ilgisizdir (çeldirici).",
+        "Kural: I **milliyetçilik/ulus devletlerin doğuşu** ve II **azınlıkların, haklara rağmen ayrılıkçılığı sürdürmesi** Osmanlıcılığı işlevsiz bıraktı.",
+        "Sonuç: doğru cevap **D — I ve II**."
+      ],
+      "relatedFactIds": []
+    },
+    "2009lis-GK-08": {
+      "steps": [
+        "Yönlendirme: **müsadere** (yöneticinin malına el koyma) kaldırılınca ne sağlanır? — mülkiyet/güven ile ilgili olanı seç.",
+        "Ele: III 'yöneticilik yetkileri artırıldı' — müsaderenin kaldırılmasıyla ilgisizdir (çeldirici).",
+        "Kural: müsadere kalkınca I **yöneticinin devlete güveni artar** (malı güvende) ve II **özel mülkiyet güvence** altına alınır.",
+        "Sonuç: doğru cevap **C — I ve II**."
+      ],
+      "relatedFactIds": [
+        "tar-odag-04"
+      ]
+    },
+    "2009lis-GK-09": {
+      "steps": [
+        "Yönlendirme: **1848 ihtilalleri (liberal-anayasal-milliyetçi)** hangi Osmanlı gelişmesini etkilemiş olabilir? Önce **kronolojiye** bak.",
+        "Ele: I **Tanzimat 1839** — 1848'den **önce**, etkilenemez; III **Islahat 1856** — Kırım Savaşı/Paris baskısıyla ilgilidir.",
+        "Kural: **1876 I. Meşrutiyet** anayasal-özgürlükçü niteliğiyle 1848'in liberal akımlarını yansıtır (II).",
+        "Sonuç: doğru cevap **B — Yalnız II**."
+      ],
+      "relatedFactIds": [
+        "tar-odag-06"
+      ]
+    },
+    "2010lis-GK-07": {
+      "steps": [
+        "Yönlendirme: Rusya neden 'eşit tebaa' yerine **milliyet esaslı örgütlenme** istiyor? — amacını düşün.",
+        "Ele: I 'toprak bütünlüğünü korumak' — Rusya'nın amacı **tam tersi** (parçalama); II 'rejim değiştirme' metinde yok (çeldiriciler).",
+        "Kural: azınlıkları milliyet temelinde ayırmak, Osmanlı'yı **içten bölmek** için **etnik unsurlardan yararlanma** amacını gösterir (III).",
+        "Sonuç: doğru cevap **C — Yalnız III**."
+      ],
+      "relatedFactIds": []
+    },
+    "2010lis-GK-08": {
+      "steps": [
+        "Yönlendirme: 'savunulamaz' — Sanayi İnkılabı'nın esnafı çökertmesiyle **çelişen** gelişmeyi bul.",
+        "Doğruları ele: işsizliğin artması (B), paranın değer kaybı (C), yerli malın sürümünün düşmesi (D), ham maddenin dışarı çıkması (E) — hepsi ucuz Avrupa mallarının girişinin sonucudur.",
+        "Kural: ucuz fabrika malları girdiği için **ithalat ARTTI**, azalmadı (A savunulamaz).",
+        "Sonuç: doğru cevap **A — İthalatın azalması**."
+      ],
+      "relatedFactIds": []
+    },
+    "2010lis-GK-09": {
+      "steps": [
+        "Yönlendirme: 'değildir' — **I. Meşrutiyet (1876)**'nin özelliği OLMAYANI bul.",
+        "Doğruları ele: Mebusan'ın seçimle gelmesi (A, D), Âyan'ın padişahça atanması (B), kanun teklifinin padişah iznine bağlı olması (C) — hepsi 1876 sistemidir.",
+        "Kural: **çok partili (fırka) hayat** I. Meşrutiyet'te yoktur; partiler ancak **II. Meşrutiyet (1908)**'te kuruldu (E yanlış).",
+        "Sonuç: doğru cevap **E**."
+      ],
+      "relatedFactIds": [
+        "tar-odag-06"
+      ]
+    },
+    "2010ol-GK-05": {
+      "steps": [
+        "Yönlendirme: 'değildir' — **XIX. yy** eğitim gelişmelerinden OLMAYANI bul (kronoloji).",
+        "Doğruları ele: Avrupa'ya öğrenci gönderme, yabancı dil eğitimi, tercüme faaliyetleri, kütüphaneler — 19. yy adımlarıdır.",
+        "Kural: **ilk Türk matbaası** İbrahim Müteferrika ile **1727 (18. yüzyıl)** kuruldu; 19. yy'a ait değildir (B yanlış).",
+        "Sonuç: doğru cevap **B — İlk Türk matbaasının kurulması**."
+      ],
+      "relatedFactIds": []
+    },
+    "2010ol-GK-07": {
+      "steps": [
+        "Yönlendirme: 19. yy'da **maliyenin iflası (borç ödeyememe)** neyin kurulmasına yol açtı?",
+        "Ele: İrad-ı Cedit (III. Selim), Fransa'ya ilk kapitülasyon (1535), Celali isyanları (17. yy), Avrupa'dan askerî yararlanma (18. yy) — iflastan önce/ilgisiz (kronoloji).",
+        "Kural: 1875-76 iflası sonrası dış borçları toplamak için **Düyûn-ı Umûmiye İdaresi (1881)** kuruldu.",
+        "Sonuç: doğru cevap **C — Düyun-ı Umumiye İdaresinin kurulması**."
+      ],
+      "relatedFactIds": [
+        "tar-odag-07"
+      ]
+    },
+    "2010ol-GK-08": {
+      "steps": [
+        "Yönlendirme: Balta Limanı'nın yabancı tacire verdiği kolaylıklardan hangileri **iç piyasaya egemen olmayı** kolaylaştırır? Üçünü de değerlendir.",
+        "Değerlendir: I düşük vergi → maliyet avantajı; II belgesiz alım-nakil → serbest dolaşım; III kısıtsız satış → her yerde pazarlama.",
+        "Kural: üç ayrıcalık da yerli üreticiyi zayıflatıp yabancının **iç pazara egemenliğini** kolaylaştırdı; çeldirici yok.",
+        "Sonuç: doğru cevap **E — I, II ve III**."
+      ],
+      "relatedFactIds": []
+    },
+    "2010ol-GK-09": {
+      "steps": [
+        "Yönlendirme: üç belgeyi **tarihe göre** sırala.",
+        "Tarihler: **Tanzimat Fermanı 1839 (II)** → **Islahat Fermanı 1856 (III)** → **Kanun-i Esasî 1876 (I)**.",
+        "Kural: doğru kronolojik sıra **II → III → I**'dir.",
+        "Sonuç: doğru cevap **C — II, III, I**."
+      ],
+      "relatedFactIds": [
+        "tar-odag-04",
+        "tar-odag-06"
+      ]
+    },
+    "2011lis-GK-06": {
+      "steps": [
+        "Yönlendirme: **güzel sanatlar** + **Osman Hamdi Bey** müdürlüğü → hangi okul?",
+        "Ele: Darülmuallimin (öğretmen okulu), Galatasaray Sultanisi (lise), Darülfünun (üniversite), Darülmaarif — güzel sanatlar okulu değil.",
+        "Kural: ilk güzel sanatlar okulu **Sanayi-i Nefise Mektebi**'dir; müdürü **Osman Hamdi Bey**'dir.",
+        "Sonuç: doğru cevap **B — Sanayi-i Nefise Mektebi**."
+      ],
+      "relatedFactIds": []
     }
   }
 }
