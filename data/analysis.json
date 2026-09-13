@@ -1123,6 +1123,28 @@
       "relatedFactIds": [
         "tar-okur-02"
       ]
+    },
+    "2011lis-GK-05": {
+      "steps": [
+        "Yönlendirme: **Fatih'in hocası** + din/tasavvuf/tıp → hangi âlim?",
+        "Ele: Ebussuud (Kanuni dönemi şeyhülislamı), Emir Sultan (Yıldırım dönemi mutasavvıfı), Kemalpaşazade (tarihçi-şeyhülislam), Molla Fenari (ilk şeyhülislam) — Fatih'in hocası değildir.",
+        "Kural: Fatih'in hocası ve İstanbul'un fethinde manevi önder olan âlim **Akşemseddin**'dir (tıpta 'mikrop' görüşüyle de anılır).",
+        "Sonuç: doğru cevap **C — Akşemseddin**."
+      ],
+      "relatedFactIds": [
+        "tar-oyuk-01"
+      ]
+    },
+    "2016lis-GK-04": {
+      "steps": [
+        "Yönlendirme: Fatih **Ortodoks Kilisesi'ni koruyup** hoşgörü göstererek neyi amaçladı?",
+        "Ele: Rusya'nın denizlere inmesini engelleme (B), askerî güç (C), Latin dünyasıyla iyi ilişki (D), mezhep kavgasını bitirme (E) — bu politikanın **doğrudan amacı** değildir (özellikle B aşırı yorum).",
+        "Kural: Patrikhane'yi koruyarak Fatih, **gayrimüslim (Ortodoks) uyrukların güvenini** kazanmayı ve onların Katolik Avrupa'yla birleşmesini önlemeyi amaçladı.",
+        "Sonuç: doğru cevap **A — Müslüman olmayan uyrukların güvenini sağlamayı**."
+      ],
+      "relatedFactIds": [
+        "tar-oyuk-01"
+      ]
     }
   }
 }
