@@ -448,15 +448,8 @@
     panel.appendChild(card);
   }
 
-  // Adım ya düz metin ("...") ya da nesne ({text, rect?|rects?}) olabilir.
+  // Adım ya düz metin ("...") ya da nesne ({text, ...}) olabilir; yalnız metni kullan.
   const stepText = (s) => (typeof s === "string" ? s : (s && s.text) || "");
-  // rect/rects'i [[x,y,w,h], ...] (yüzde) dizisine normalize et.
-  function stepRects(s) {
-    if (!s || typeof s === "string") return [];
-    if (Array.isArray(s.rects)) return s.rects.filter((r) => Array.isArray(r) && r.length === 4);
-    if (Array.isArray(s.rect) && s.rect.length === 4) return [s.rect];
-    return [];
-  }
 
   // İnteraktif adım adım çözüm iskeleti (spoiler-safe: panel gizli başlar).
   // Adımlar `wireSolve` ile tıklandıkça birer birer, üst üste (stack) açılır.
@@ -477,13 +470,12 @@
     </div>`;
   }
 
-  // Çözüm kutusunu işlevsel hale getir: adımları sırayla ekle, ilgili görsel bölgesini işaretle.
+  // Çözüm kutusunu işlevsel hale getir: adımları (ipuçlarını) sırayla, üst üste aç.
   function wireSolve(card, q) {
     const box = card.querySelector(".solve-box");
     if (!box) return;
     const a = analysisData[q.id] || {};
     const steps = a.steps || [];
-    const rectsByStep = steps.map(stepRects);
     const related = (a.relatedFactIds || []).map((id) => factById[id]).filter(Boolean);
     const startBtn = box.querySelector(".solve-start");
     const panel = box.querySelector(".solve-panel");
@@ -492,29 +484,7 @@
     const nextBtn = box.querySelector(".solve-next");
     const allBtn = box.querySelector(".solve-all");
     const prog = box.querySelector(".solve-progress");
-    const figure = card.querySelector(".q-figure");
-    const hlLayer = figure ? figure.querySelector(".q-hl-layer") : null;
     let shown = 0;
-
-    // Görselde yalnız verilen bölgeleri (yüzde) çerçevele; öncekileri temizle.
-    function setHighlight(rects) {
-      if (!hlLayer) return;
-      hlLayer.innerHTML = "";
-      (rects || []).forEach(([x, y, w, h]) => {
-        const b = document.createElement("div");
-        b.className = "q-hl";
-        b.style.cssText = `left:${x}%;top:${y}%;width:${w}%;height:${h}%`;
-        hlLayer.appendChild(b);
-      });
-    }
-    // i. adımı aktif yap: bölgesini işaretle, satırı vurgula, dar ekranda görseli göster.
-    function activate(i) {
-      list.querySelectorAll(".solve-steps > li").forEach((el) => el.classList.toggle("active", +el.dataset.idx === i));
-      setHighlight(rectsByStep[i]);
-      if (figure && rectsByStep[i].length && window.matchMedia("(max-width: 819px)").matches) {
-        figure.scrollIntoView({ block: "nearest", behavior: "smooth" });
-      }
-    }
 
     const finish = () => {
       if (box.dataset.done) return;
@@ -531,15 +501,10 @@
     };
     const revealOne = () => {
       if (shown >= steps.length) return;
-      const idx = shown;
       const li = document.createElement("li");
-      li.dataset.idx = idx;
-      li.innerHTML = fmtNote(stepText(steps[idx]));
-      if (rectsByStep[idx].length) li.classList.add("has-rect");
-      li.onclick = () => activate(idx);   // açılmış adıma dokununca bölgesi geri gelir
+      li.innerHTML = fmtNote(stepText(steps[shown]));
       list.appendChild(li);
       shown++;
-      activate(idx);
       if (shown >= steps.length) finish();
       else prog.textContent = shown + " / " + steps.length;
     };
@@ -551,7 +516,7 @@
       revealOne();
     };
     nextBtn.onclick = revealOne;
-    allBtn.onclick = () => { while (shown < steps.length) revealOne(); };  // son adımda kalır (aktif = son)
+    allBtn.onclick = () => { while (shown < steps.length) revealOne(); };
   }
 
   function whoBadge(who) {
@@ -564,7 +529,7 @@
     card.className = "card";
     // Sol sütun: soru görseli (yan yana düzende sabit kalır). Sağ sütun: cevap + çözüm.
     let media = `<div class="card-top"><span class="card-tag">📝 Soru ${whoBadge(q.who)}</span></div>`;
-    if (q.image) media += `<figure class="q-figure"><img class="q-image" src="${q.image}" alt="soru" data-full="${q.image}"><div class="q-hl-layer" aria-hidden="true"></div></figure>`;
+    if (q.image) media += `<figure class="q-figure"><img class="q-image" src="${q.image}" alt="soru" data-full="${q.image}"></figure>`;
     let body = "";
     if (q.text) body += `<div class="q-text">${esc(q.text)}</div>`;
     // Analiz overlay'i hatalı bir cevap anahtarını düzeltebilir (büyük paketi yeniden indirmeden).

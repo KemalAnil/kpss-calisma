@@ -130,15 +130,6 @@ body {
 .card-tag .who-badge { background: var(--panel-2); border-radius: 999px; padding: 2px 8px; margin-left: 6px; }
 .q-figure { position: relative; display: block; margin: 0; line-height: 0; }
 .q-image { max-width: 100%; border-radius: 10px; cursor: zoom-in; border: 1px solid var(--border); display: block; }
-/* İpucu ile eş zamanlı görsel işaretleme katmanı */
-.q-hl-layer { position: absolute; inset: 0; pointer-events: none; }
-.q-hl {
-  position: absolute; border: 2px solid var(--accent); border-radius: 6px;
-  background: color-mix(in srgb, var(--accent) 16%, transparent);
-  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 20%, transparent);
-  animation: hlpulse .45s ease;
-}
-@keyframes hlpulse { from { opacity: 0; transform: scale(1.06); } to { opacity: 1; transform: none; } }
 /* Kart iki sütuna bölünebilir: sol görsel (.card-media), sağ çözüm (.card-body) */
 .card-media { min-width: 0; }
 .card-body { min-width: 0; }
@@ -193,13 +184,7 @@ body.q-focus .sidebar { display: none; }
   font-size: 12px; font-weight: 700; color: #fff; background: var(--primary);
 }
 .solve-steps strong { color: var(--primary); font-weight: 700; }
-.solve-steps li.has-rect { cursor: pointer; }
-.solve-steps li.active { border-color: var(--accent); box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 22%, transparent); }
-.solve-steps li.active::before { background: var(--accent); }
-.solve-steps li.has-rect::after {
-  content: "👁"; position: absolute; right: 10px; top: 9px; font-size: 12px; opacity: .55;
-}
-@media (prefers-reduced-motion: reduce) { .q-hl, .solve-steps li { animation: none; } }
+@media (prefers-reduced-motion: reduce) { .solve-steps li { animation: none; } }
 @keyframes solveIn { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: none; } }
 .solve-controls { display: flex; align-items: center; gap: 10px; margin: 0 0 12px; flex-wrap: wrap; }
 .solve-next {
