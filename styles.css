@@ -130,6 +130,25 @@ body {
 .card-tag .who-badge { background: var(--panel-2); border-radius: 999px; padding: 2px 8px; margin-left: 6px; }
 .q-figure { position: relative; display: block; margin: 0; line-height: 0; }
 .q-image { max-width: 100%; border-radius: 10px; cursor: zoom-in; border: 1px solid var(--border); display: block; }
+/* Karalama alanı açıkken figür beyaz "kağıt" zemin olur (görselin altı boş çizim alanı) */
+.q-figure.has-scratch { background: #fff; border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+/* Çizim tuvali: görsel + altındaki karalama alanını kaplar; kapalıyken tıklamayı geçirir */
+.q-draw { position: absolute; top: 0; left: 0; z-index: 2; touch-action: none; pointer-events: none; }
+.card.drawing .q-draw { pointer-events: auto; cursor: crosshair; }
+.card.drawing .q-image { pointer-events: none; }
+/* Çizim araç çubuğu */
+.draw-toolbar { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin: 0 0 8px; line-height: normal; }
+.draw-toolbar button {
+  min-height: 40px; min-width: 40px; padding: 6px 10px; font-size: 15px;
+  border-radius: 10px; border: 1px solid var(--border); background: var(--panel-2);
+  color: var(--text); cursor: pointer;
+}
+.draw-toolbar button:hover { border-color: var(--primary); }
+.draw-toggle.on { background: var(--primary); border-color: var(--primary); color: #0b1020; font-weight: 600; }
+.draw-tools { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.draw-tools .swatch { padding: 0; width: 28px; height: 28px; min-width: 28px; min-height: 28px; border-radius: 999px; background: var(--sw); border: 2px solid var(--border); }
+.draw-tools .swatch.on { border-color: var(--text); box-shadow: 0 0 0 2px var(--primary); }
+.draw-tools .draw-hl.on, .draw-tools .draw-erase.on { outline: 2px solid var(--primary); outline-offset: 1px; }
 /* Kart iki sütuna bölünebilir: sol görsel (.card-media), sağ çözüm (.card-body) */
 .card-media { min-width: 0; }
 .card-body { min-width: 0; }
@@ -229,6 +248,7 @@ body.q-focus .sidebar { display: none; }
   line-height: 18px; text-align: center;
 }
 .q-cell-dot { position: absolute; top: 6px; right: 6px; z-index: 2; width: 12px; height: 12px; border-radius: 999px; box-shadow: 0 0 0 2px rgba(16,19,28,.5); display: none; }
+.q-cell-pen { position: absolute; bottom: 3px; right: 3px; z-index: 2; font-size: 12px; line-height: 1; background: rgba(16,19,28,.78); border-radius: 6px; padding: 2px 3px; }
 .q-cell:hover { border-color: var(--primary); }
 .q-cell:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
 .q-cell.kez { border-top-color: var(--solved-kez); }

@@ -7,7 +7,7 @@
 
   // ---------- IndexedDB yardımcıları ----------
   const DB_NAME = "kpss_onlisans";
-  const DB_VERSION = 2;
+  const DB_VERSION = 3;
   let db = null;
 
   function openDB() {
@@ -29,6 +29,10 @@
         // v2: soru bazlı "çözüldü" durumu (soru paketinden bağımsız, ayrı store)
         if (!d.objectStoreNames.contains("progress")) {
           d.createObjectStore("progress", { keyPath: "id" });
+        }
+        // v3: soru bazlı elle çizim/not (vektör strokelar, ayrı store)
+        if (!d.objectStoreNames.contains("drawings")) {
+          d.createObjectStore("drawings", { keyPath: "id" });
         }
       };
       req.onsuccess = () => resolve(req.result);
@@ -103,6 +107,21 @@
     row.updatedAt = Date.now();
     progressById[id] = row;
     await dbPut("progress", row);
+  }
+
+  // ---------- Elle çizim / not (vektör; her cihaz kendi çizimini görür) ----------
+  let drawingsById = {};   // soru id -> { id, strokes:[...], scratchH, deviceId, updatedAt }
+  let deviceId = "";       // bu cihazın rastgele kimliği (dosya paylaşımında karışmayı önler)
+  const getDrawing = (id) => drawingsById[id] || null;
+  const hasDrawing = (id) => {
+    const d = drawingsById[id];
+    return !!(d && d.strokes && d.strokes.length);
+  };
+  async function saveDrawing(rec) {
+    rec.deviceId = deviceId;
+    rec.updatedAt = Date.now();
+    drawingsById[rec.id] = rec;
+    await dbPut("drawings", rec);
   }
 
   // ---------- Görsel küçültme ----------
@@ -381,6 +400,7 @@
       cell.innerHTML = `
         <span class="q-cell-no">${i + 1}</span>
         ${q.image ? `<img src="${q.image}" alt="" loading="lazy">` : `<span class="q-cell-txt">${esc((q.text || "").slice(0, 40))}</span>`}
+        ${hasDrawing(q.id) ? `<span class="q-cell-pen" title="Notlu">✏️</span>` : ""}
         <span class="q-cell-dot"></span>`;
       cell.onclick = () => { state.qView = q.id; renderContent(); window.scrollTo(0, 0); };
       grid.appendChild(cell);
@@ -519,6 +539,148 @@
     allBtn.onclick = () => { while (shown < steps.length) revealOne(); };
   }
 
+  // ---------- Elle çizim: araç çubuğu + tuval ----------
+  const PEN_COLORS = ["#e11d48", "#2563eb", "#16a34a", "#111827"];
+  const HL_COLOR = "#fde047";
+  const PEN_W = 0.006, HL_W = 0.035, SCRATCH_STEP = 0.6;
+
+  function drawToolbarHtml() {
+    const swatches = PEN_COLORS.map((c, i) =>
+      `<button type="button" class="swatch${i === 0 ? " on" : ""}" data-color="${c}" style="--sw:${c}" title="Kalem"></button>`).join("");
+    return `<div class="draw-toolbar">
+      <button type="button" class="draw-toggle">✏️ Not al</button>
+      <span class="draw-tools" hidden>
+        ${swatches}
+        <button type="button" class="draw-hl" data-tool="hl" title="Fosforlu">🖍️</button>
+        <button type="button" class="draw-erase" data-tool="erase" title="Sil">⌫</button>
+        <button type="button" class="draw-undo" title="Geri al">↶</button>
+        <button type="button" class="draw-clear" title="Temizle">🗑️</button>
+        <button type="button" class="draw-add" title="Alan ekle">➕ Alan</button>
+      </span>
+    </div>`;
+  }
+
+  function wireDraw(card, q) {
+    const figure = card.querySelector(".q-figure");
+    const canvas = card.querySelector(".q-draw");
+    const img = card.querySelector(".q-image");
+    const toolbar = card.querySelector(".draw-toolbar");
+    if (!figure || !canvas || !img || !toolbar) return;
+    const ctx = canvas.getContext("2d");
+
+    const rec = getDrawing(q.id);
+    let strokes = rec ? rec.strokes.map((s) => ({ tool: s.tool, color: s.color, w: s.w, pts: s.pts.slice() })) : [];
+    let scratchH = rec ? (rec.scratchH || 0) : 0;
+    let tool = "pen", color = PEN_COLORS[0], drawOn = false, cur = null;
+
+    const W = () => img.clientWidth;
+    function drawStroke(s) {
+      if (!s.pts.length) return;
+      const w = W();
+      ctx.lineJoin = ctx.lineCap = "round";
+      ctx.globalAlpha = s.tool === "hl" ? 0.35 : 1;
+      const lw = Math.max(1, s.w * w);
+      if (s.pts.length === 1) {
+        ctx.fillStyle = s.color;
+        ctx.beginPath(); ctx.arc(s.pts[0][0] * w, s.pts[0][1] * w, lw / 2, 0, 7); ctx.fill();
+      } else {
+        ctx.strokeStyle = s.color; ctx.lineWidth = lw;
+        ctx.beginPath(); ctx.moveTo(s.pts[0][0] * w, s.pts[0][1] * w);
+        for (let i = 1; i < s.pts.length; i++) ctx.lineTo(s.pts[i][0] * w, s.pts[i][1] * w);
+        ctx.stroke();
+      }
+      ctx.globalAlpha = 1;
+    }
+    function redraw() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      strokes.forEach(drawStroke);
+      if (cur) drawStroke(cur);
+    }
+    function layout() {
+      const w = img.clientWidth, imgH = img.clientHeight;
+      if (!w || !imgH) return;
+      const totalH = imgH * (1 + scratchH);
+      if (scratchH > 0) { figure.style.height = totalH + "px"; figure.classList.add("has-scratch"); }
+      else { figure.style.height = ""; figure.classList.remove("has-scratch"); }
+      // Tuvali görsel kutusuna birebir oturt (kenarlık/figür farkından kaynaklı kaymayı önler)
+      canvas.style.left = img.offsetLeft + "px";
+      canvas.style.top = img.offsetTop + "px";
+      const dpr = window.devicePixelRatio || 1;
+      canvas.style.width = w + "px"; canvas.style.height = totalH + "px";
+      canvas.width = Math.round(w * dpr); canvas.height = Math.round(totalH * dpr);
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      redraw();
+    }
+    // Geometri bayatsa (ör. tablet döndürme) çizimden hemen önce yeniden hizala
+    const ensureLayout = () => { if (Math.abs(canvas.clientWidth - img.clientWidth) > 1) layout(); };
+    function persist() { saveDrawing({ id: q.id, strokes: strokes, scratchH: scratchH }); }
+
+    // İlk yerleşim (görsel yüklendiğinde ve yeniden boyutlandığında hizalı kalır)
+    if (img.complete && img.clientWidth) layout();
+    img.addEventListener("load", layout);
+    if (window.ResizeObserver) { const ro = new ResizeObserver(() => layout()); ro.observe(img); }
+
+    // Konum → görsel genişliğinin oranı (her iki eksen de → en-boy korunur)
+    function pos(e) {
+      const r = canvas.getBoundingClientRect(), w = W();
+      return [(e.clientX - r.left) / w, (e.clientY - r.top) / w];
+    }
+    function eraseAt(p) {
+      const thr = 0.02;
+      for (let i = strokes.length - 1; i >= 0; i--) {
+        const s = strokes[i];
+        if (s.pts.some((pt) => Math.hypot(pt[0] - p[0], pt[1] - p[1]) < thr + s.w)) {
+          strokes.splice(i, 1); persist(); redraw(); return;
+        }
+      }
+    }
+    canvas.addEventListener("pointerdown", (e) => {
+      if (!drawOn) return;
+      e.preventDefault();
+      ensureLayout();
+      try { canvas.setPointerCapture(e.pointerId); } catch (_) {}
+      const p = pos(e);
+      if (tool === "erase") { eraseAt(p); return; }
+      cur = { tool, color: tool === "hl" ? HL_COLOR : color, w: tool === "hl" ? HL_W : PEN_W, pts: [p] };
+      redraw();
+    });
+    canvas.addEventListener("pointermove", (e) => {
+      if (!drawOn) return;
+      if (tool === "erase") { if (e.buttons & 1) eraseAt(pos(e)); return; }
+      if (!cur) return;
+      cur.pts.push(pos(e)); redraw();
+    });
+    function endStroke() {
+      if (!cur) return;
+      if (cur.pts.length) { strokes.push(cur); persist(); }
+      cur = null; redraw();
+    }
+    canvas.addEventListener("pointerup", () => { if (drawOn) endStroke(); });
+    canvas.addEventListener("pointercancel", () => { cur = null; redraw(); });
+
+    // Araç çubuğu
+    const toggle = toolbar.querySelector(".draw-toggle");
+    const tools = toolbar.querySelector(".draw-tools");
+    const setActive = (elm) => { tools.querySelectorAll(".swatch,.draw-hl,.draw-erase").forEach((x) => x.classList.remove("on")); if (elm) elm.classList.add("on"); };
+    toggle.onclick = () => {
+      drawOn = !drawOn;
+      toggle.classList.toggle("on", drawOn);
+      toggle.textContent = drawOn ? "✓ Çiziyor" : "✏️ Not al";
+      tools.hidden = !drawOn;
+      card.classList.toggle("drawing", drawOn);
+      if (drawOn && scratchH === 0) scratchH = SCRATCH_STEP;
+      layout();
+    };
+    tools.querySelectorAll(".swatch").forEach((b) => b.onclick = () => { tool = "pen"; color = b.dataset.color; setActive(b); });
+    tools.querySelector(".draw-hl").onclick = (e) => { tool = "hl"; setActive(e.currentTarget); };
+    tools.querySelector(".draw-erase").onclick = (e) => { tool = "erase"; setActive(e.currentTarget); };
+    tools.querySelector(".draw-undo").onclick = () => { strokes.pop(); persist(); redraw(); };
+    tools.querySelector(".draw-clear").onclick = () => {
+      if (!strokes.length || confirm("Bu sorudaki tüm çizim silinsin mi?")) { strokes = []; persist(); redraw(); }
+    };
+    tools.querySelector(".draw-add").onclick = () => { scratchH += SCRATCH_STEP; persist(); layout(); };
+  }
+
   function whoBadge(who) {
     const label = who === "O" ? "O 💗" : (who || "Ben");
     return `<span class="who-badge">${esc(label)}</span>`;
@@ -529,7 +691,10 @@
     card.className = "card";
     // Sol sütun: soru görseli (yan yana düzende sabit kalır). Sağ sütun: cevap + çözüm.
     let media = `<div class="card-top"><span class="card-tag">📝 Soru ${whoBadge(q.who)}</span></div>`;
-    if (q.image) media += `<figure class="q-figure"><img class="q-image" src="${q.image}" alt="soru" data-full="${q.image}"></figure>`;
+    if (q.image) {
+      media += drawToolbarHtml();
+      media += `<figure class="q-figure"><img class="q-image" src="${q.image}" alt="soru" data-full="${q.image}"><canvas class="q-draw"></canvas></figure>`;
+    }
     let body = "";
     if (q.text) body += `<div class="q-text">${esc(q.text)}</div>`;
     // Analiz overlay'i hatalı bir cevap anahtarını düzeltebilir (büyük paketi yeniden indirmeden).
@@ -545,10 +710,11 @@
     </div>`;
     card.innerHTML = `<div class="card-media">${media}</div><div class="card-body">${body}</div>`;
     const img = card.querySelector(".q-image");
-    if (img) img.onclick = () => openLightbox(img.dataset.full);
+    if (img) img.onclick = () => { if (!card.classList.contains("drawing")) openLightbox(img.dataset.full); };
     const ans = card.querySelector(".answer-box");
     if (ans) ans.onclick = () => ans.classList.toggle("hidden-answer");
     wireSolve(card, q);
+    wireDraw(card, q);
     card.querySelector("[data-move]").onclick = () => openMover(card, q);
     card.querySelector("[data-del]").onclick = async () => {
       if (!confirm("Bu soru silinsin mi?")) return;
@@ -687,8 +853,8 @@
 
   // ---------- Dışa / İçe aktarma ----------
   async function exportData() {
-    const [questions, videos, progress] = await Promise.all([dbAll("questions"), dbAll("videos"), dbAll("progress")]);
-    const blob = new Blob([JSON.stringify({ app: "kpss_onlisans", version: 2, exportedAt: Date.now(), questions, videos, progress }, null, 2)], { type: "application/json" });
+    const [questions, videos, progress, drawings] = await Promise.all([dbAll("questions"), dbAll("videos"), dbAll("progress"), dbAll("drawings")]);
+    const blob = new Blob([JSON.stringify({ app: "kpss_onlisans", version: 3, exportedAt: Date.now(), deviceId, questions, videos, progress, drawings }, null, 2)], { type: "application/json" });
     const a = document.createElement("a");
     a.href = URL.createObjectURL(blob);
     a.download = "kpss-yedek-" + new Date().toISOString().slice(0, 10) + ".json";
@@ -714,6 +880,16 @@
       progressById[p.id] = merged;
       await dbPut("progress", merged);
       added++;
+    }
+    // Çizimler kişiseldir: yalnız KENDİ yedeğinden (aynı deviceId) geri yüklenir;
+    // partnerin karalamaları asla alınmaz → cihazlar karışmaz.
+    if (data.deviceId && data.deviceId === deviceId) {
+      for (const dr of (data.drawings || [])) {
+        if (!dr || !dr.id) continue;
+        drawingsById[dr.id] = dr;
+        await dbPut("drawings", dr);
+        added++;
+      }
     }
     return added;
   }
@@ -797,6 +973,9 @@
     [manifest, notesData, analysisData] = await Promise.all([loadManifest(), loadNotes(), loadAnalysis()]);
     buildFactIndex();
     (await dbAll("progress")).forEach((r) => { progressById[r.id] = r; });
+    (await dbAll("drawings")).forEach((r) => { drawingsById[r.id] = r; });
+    deviceId = await metaGet("deviceId", "");
+    if (!deviceId) { deviceId = "dv-" + uid(); await metaSet("deviceId", deviceId); }
     renderSubjects();
     // ilk dersi otomatik seç
     await selectSubject(window.SUBJECT_GROUPS["Genel Yetenek"][0]);
