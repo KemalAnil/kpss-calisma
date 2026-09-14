@@ -2887,6 +2887,59 @@
       "relatedFactIds": [
         "tar-kscep-03"
       ]
+    },
+    "2018ol-GK-18": {
+      "steps": [
+        "Yönlendirme: 'söylenemez' — **Kars Antlaşması (1921)** için YANLIŞ olanı bul.",
+        "Doğruları ele: doğu sınırının çizilmesi (A), Moskova sınırlarının düzenlenmesi (B), Ardahan TBMM'ye/Batum Gürcistan'a (D), Kafkas cumhuriyetleriyle imzalanması (E) — doğrudur.",
+        "Kural: Kars, **Moskova Antlaşması**'nı esas aldı; 1918 **Brest-Litovsk'u teyit etmez** (C).",
+        "Sonuç: doğru cevap **C — Brest-Litovsk'un teyit edildiği**."
+      ],
+      "relatedFactIds": [
+        "tar-kscep-01"
+      ]
+    },
+    "2020lis-GK-17": {
+      "steps": [
+        "Yönlendirme: 'yer almaz' — **İstiklal Yolu** güzergâhında OLMAYANI bul.",
+        "Doğruları ele: İnebolu, Kastamonu, Ilgaz, Çankırı — İnebolu'dan Ankara'ya uzanan cephane yolundadır.",
+        "Kural: **Eskişehir** Batı Cephesi'nde (cephe bölgesi) yer alır; ikmal güzergâhında değildir (E).",
+        "Sonuç: doğru cevap **E — Eskişehir**."
+      ],
+      "relatedFactIds": []
+    },
+    "2020lis-GK-18": {
+      "steps": [
+        "Yönlendirme: **16 Temmuz 1921**'de toplanan Maarif Kongresi sırasındaki '**Üçüncü Yunan Taarruzu**' hangisi? (tarihe bak)",
+        "İpucu: Yunan taarruzları: 1.'si I. İnönü (Ocak), 2.'si II. İnönü (Mart-Nisan), 3.'sü Temmuz 1921.",
+        "Kural: Temmuz 1921'deki üçüncü taarruz **Kütahya-Eskişehir Savaşları**'dır.",
+        "Sonuç: doğru cevap **D — Kütahya-Eskişehir Savaşı**."
+      ],
+      "relatedFactIds": [
+        "tar-kscep-05"
+      ]
+    },
+    "2020ol-GK-18": {
+      "steps": [
+        "Yönlendirme: **Mudanya (Ekim 1922)** görüşmelerinde Yunan-İngiliz müzakeresiyle Türkiye lehine çözülen konu?",
+        "Ele: Batı Trakya Müslümanları (B), İstanbul'un tarafsızlığı (C), Rumların gönderilmesi (D), İzmir hattı (E) — bu müzakerenin sonucu değil.",
+        "Kural: Yunanistan ikna edilerek **Doğu Trakya'dan çekildi**; bölge savaşsız Türkiye'ye kaldı (A).",
+        "Sonuç: doğru cevap **A — Yunan kuvvetlerinin Doğu Trakya'dan çekilmesi**."
+      ],
+      "relatedFactIds": [
+        "tar-kscep-08"
+      ]
+    },
+    "2020ol-GK-19": {
+      "steps": [
+        "Yönlendirme: 'bulunmamaktadır' — **doğu sınırıyla** ilgili hüküm İÇERMEYEN antlaşmayı bul.",
+        "Doğruları ele: Gümrü, Kars, Moskova doğu sınırını düzenledi; Sevr de Doğu Anadolu'da (Ermenistan) hüküm içeriyordu.",
+        "Kural: **Ankara Antlaşması (Fransa, 1921)** yalnız **Güney (Suriye) sınırını** düzenler; doğu sınırıyla ilgili hüküm yoktur (E).",
+        "Sonuç: doğru cevap **E — Ankara**."
+      ],
+      "relatedFactIds": [
+        "tar-kscep-02"
+      ]
     }
   }
 }
