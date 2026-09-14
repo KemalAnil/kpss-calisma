@@ -3095,6 +3095,161 @@
         "tar-adp-02"
       ],
       "answer": "A"
+    },
+    "2012lis-GK-27": {
+      "steps": [
+        "Yönlendirme: **1923-1930** arası Türk dış politikasının başlıca faaliyet alanı? — tarihe dikkat.",
+        "Ele: bölgesel paktlar (A - 1934/37), Boğazlar denetimi (B - Montrö 1936), Milletler Cemiyeti (C - 1932), Hatay (D - 1936-39) → hepsi 1930 SONRASI.",
+        "Kural: 1923-1930'da **Lozan'dan kalan sorunlar** (Musul, mübadele, borçlar, yabancı okullar) çözülmeye çalışıldı.",
+        "Sonuç: doğru cevap **E — Lozan'dan kalan sorunları gidermek** (paket 'D' hatalı)."
+      ],
+      "relatedFactIds": [
+        "tar-adp-02",
+        "tar-adp-03"
+      ],
+      "answer": "E"
+    },
+    "2012lis-GK-29": {
+      "steps": [
+        "Yönlendirme: II. Dünya Savaşı öncesi hangi devletlerin **yayılmacılığı**, Türkiye'yi Boğazlar sorununu (Montrö) gündeme getirmeye itti?",
+        "Değerlendir: **I İtalya** (Habeşistan 1935, Akdeniz/On İki Ada) yayılmacıydı → tehdit.",
+        "Ele: **II Fransa** statükocuydu; **III Avusturya** ise yayılmacı değil, 1938'de Almanya'ya katıldı (kurban).",
+        "Sonuç: doğru cevap **A — Yalnız I** (paket 'E' hatalı)."
+      ],
+      "relatedFactIds": [
+        "tar-adp-06"
+      ],
+      "answer": "A"
+    },
+    "2012lis-GK-30": {
+      "steps": [
+        "Yönlendirme: 'girmemiştir' — çözümünde **Milletler Cemiyeti** yer ALMAYAN sorunu bul.",
+        "Doğruları ele: Musul (MC Konseyi karar verdi), Bozkurt-Lotus (Daimi Adalet Divanı), Hatay (MC gözetimi), Etabli (Daimi Adalet Divanı görüşü) — MC/organları devreye girdi.",
+        "Kural: **Yabancı okullar** sorunu Türkiye'nin **iç/ikili** meselesi olarak çözüldü; MC girmedi (C).",
+        "Sonuç: doğru cevap **C — Yabancı okullar**."
+      ],
+      "relatedFactIds": [
+        "tar-adp-04"
+      ]
+    },
+    "2012ol-GK-25": {
+      "steps": [
+        "Yönlendirme: 'olmamıştır' — Türkiye'nin sorununda **Fransa'nın doğrudan taraf OLMADIĞINI** bul.",
+        "Doğruları ele: Hatay, Suriye sınırı, dış borçlar, yabancı okullar — Fransa doğrudan taraftır.",
+        "Kural: **Musul** sorunu Türkiye ile **İngiltere (Irak)** arasındaydı; Fransa taraf değildi (A).",
+        "Sonuç: doğru cevap **A — Musul**."
+      ],
+      "relatedFactIds": [
+        "tar-adp-02"
+      ]
+    },
+    "2012ol-GK-27": {
+      "steps": [
+        "Yönlendirme: **Balkan Antantı (Balkanlar)** + **Sadabat Paktı (Orta Doğu)** ile Türkiye neyi amaçladı?",
+        "Ele: petrol (A), ortak gümrük (B), enerji geçişi (C), demokrasi yayma (D) — pakların amacı değil.",
+        "Kural: her iki pakt da **İtalyan ve Alman yayılmacılığına karşı** ortak güvenlik/tedbir amaçlıdır.",
+        "Sonuç: doğru cevap **E — İtalyan ve Alman yayılmacılığına karşı tedbir almak**."
+      ],
+      "relatedFactIds": [
+        "tar-adp-05",
+        "tar-adp-07"
+      ]
+    },
+    "2013lis-GK-23": {
+      "steps": [
+        "Yönlendirme: 1929'dan sonra Türk-İngiliz yakınlaşması hangi devletlerin **Orta Doğu'da nüfuz artırma** çabası etkisiyle gelişti?",
+        "Değerlendir: **I Almanya** ve **II İtalya** Orta Doğu'da yayılmacıydı → İngiltere ve Türkiye'yi (ortak tehdit) yakınlaştırdı.",
+        "Ele: **III Fransa** statükocuydu; bu yakınlaşmanın nedeni değil.",
+        "Sonuç: doğru cevap **D — I ve II**."
+      ],
+      "relatedFactIds": [
+        "tar-adp-07"
+      ]
+    },
+    "2016lis-GK-24": {
+      "steps": [
+        "Yönlendirme: **Haliç Konferansı (19 Mayıs 1924)** + Fethi Okyar → hangi sınır sorunu?",
+        "İpucu: Türkiye ile İngiltere arasında bu dönemin ana sınır sorunu neydi?",
+        "Kural: Haliç Konferansı **Musul (Türkiye-Irak sınırı)** için toplandı ama sonuçsuz kaldı.",
+        "Sonuç: doğru cevap **A — Irak sınırı**."
+      ],
+      "relatedFactIds": [
+        "tar-adp-02"
+      ]
+    },
+    "2018lis-GK-24": {
+      "steps": [
+        "Yönlendirme: Atatürk döneminde **en uzun süre Dışişleri Bakanı** olan ve **Hatay**'ın çözümüne katkı sağlayan kim?",
+        "Ele: Yusuf Kemal, Şükrü Kaya, Mahmut Esat Bozkurt, Ali Fethi Okyar — uzun süreli Dışişleri Bakanı değil.",
+        "Kural: **Tevfik Rüştü Aras** (1925-1938) en uzun süre Dışişleri Bakanlığı yaptı; Hatay ve dış politikada etkiliydi.",
+        "Sonuç: doğru cevap **A — Tevfik Rüştü Aras**."
+      ],
+      "relatedFactIds": [
+        "tar-adp-08"
+      ]
+    },
+    "2018lis-GK-25": {
+      "steps": [
+        "Yönlendirme: 'Bulgaristan'da toplanan **Alman** kuvvetlerinin Yunanistan'ı işgale başlaması' hangi savaşa ait?",
+        "İpucu: Almanya'nın Balkanlar üzerinden Yunanistan'a saldırdığı dönemi düşün.",
+        "Kural: Almanya, **1941'de (II. Dünya Savaşı)** Bulgaristan üzerinden Yunanistan'ı işgal etti.",
+        "Sonuç: doğru cevap **E — İkinci Dünya Savaşı**."
+      ],
+      "relatedFactIds": []
+    },
+    "2018ol-GK-23": {
+      "steps": [
+        "Yönlendirme: **Bozkurt-Lotus Davası (1926)** hangi konuyla ilişkilidir?",
+        "İpucu: yabancı bir subayı yargılama yetkisi tartışması hangi eski ayrıcalıkla ilgilidir?",
+        "Kural: dava, yabancıların Türk mahkemelerinde yargılanması = **kapitülasyonların kalktığını** ve Türk yargı egemenliğini gösterdi.",
+        "Sonuç: doğru cevap **A — Kapitülasyonlar**."
+      ],
+      "relatedFactIds": []
+    },
+    "2018ol-GK-24": {
+      "steps": [
+        "Yönlendirme: **1 Ekim 1939**'da Montrö'de (Boğazların ortak savunulması + Karadeniz dışı gemilere kapatılması) değişiklik isteyen devlet?",
+        "Ele: Fransa, İngiltere, ABD, Japonya — bu talebi yapmadı.",
+        "Kural: **Sovyetler Birliği**, Boğazlarda ortak denetim/savunma istedi; Türkiye reddetti.",
+        "Sonuç: doğru cevap **B — Sovyetler Birliği**."
+      ],
+      "relatedFactIds": [
+        "tar-adp-06"
+      ]
+    },
+    "2020lis-GK-19": {
+      "steps": [
+        "Yönlendirme: Lozan'da ele alınanlardan hangileri **sonradan Türkiye lehine** çözüldü?",
+        "Değerlendir: **II Hatay** (1939 anavatana katıldı) ve **III Boğazlar** (Montrö 1936 tam egemenlik) Türkiye lehine sonuçlandı.",
+        "Ele: **I Musul** Türkiye aleyhine (1926'da Irak'a) kaldı.",
+        "Sonuç: doğru cevap **D — II ve III**."
+      ],
+      "relatedFactIds": [
+        "tar-adp-06",
+        "tar-adp-08"
+      ]
+    },
+    "2020lis-GK-24": {
+      "steps": [
+        "Yönlendirme: 'söylenemez' — İngiltere'nin Montrö'de Türkiye'yi desteklemesinde etkisi OLMAYANI bul.",
+        "Doğruları ele: Alman-İtalyan tehdidi (A), Akdeniz Paktı yakınlaşması (B), MC üyeliği (C), Türkiye'nin statükocu (anti-revizyonist) politikası (E) — İngiltere'yi Türkiye yanında tutan etkenlerdir.",
+        "Kural: **Bozkurt-Lotus Davası** Türkiye-**Fransa** hukuk davasıdır; İngiltere'nin Montrö desteğiyle ilgisizdir (D).",
+        "Sonuç: doğru cevap **D — Bozkurt-Lotus Davası'nı Türkiye'nin kazanması**."
+      ],
+      "relatedFactIds": [
+        "tar-adp-06"
+      ]
+    },
+    "2020ol-GK-24": {
+      "steps": [
+        "Yönlendirme: bu gelişmelerden hangisi **kronolojik olarak en önce**?",
+        "Değerlendir: Musul 1926, Milletler Cemiyeti 1932, Balkan Antantı 1934, Montrö 1936, Hatay 1939.",
+        "Kural: en erken tarih **Musul sorununun çözümü (1926)**'dır.",
+        "Sonuç: doğru cevap **A — Musul sorununun çözümlenmesi**."
+      ],
+      "relatedFactIds": [
+        "tar-adp-02"
+      ]
     }
   }
 }
