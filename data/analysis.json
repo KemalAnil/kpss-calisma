@@ -4269,6 +4269,174 @@
       "relatedFactIds": [
         "tar-ailke-08"
       ]
+    },
+    "2010ol-GK-26": {
+      "steps": [
+        "Yönlendirme: **Diyanet İşleri Başkanlığı**'nın devlet yönetiminde yer almasıyla hangileri önlenmek istendi?",
+        "Değerlendir: I din işlerinin istismarı ve II hurafe/yanlış inançların yayılması (resmî/doğru dinî bilgi ile) önlenmek istendi.",
+        "Ele: III ailelerin çocuklarına dinî bilgi vermesi engellenmek istenen bir durum değildir.",
+        "Sonuç: doğru cevap **D — I ve II**."
+      ],
+      "relatedFactIds": [
+        "tar-ailke-06"
+      ]
+    },
+    "2010ol-GK-27": {
+      "steps": [
+        "Yönlendirme: 'ulaşılamaz' — 'Batı'yı taklit için almıyoruz, uygun olanı benimsiyoruz' sözünden ÇIKARILAMAYANI bul.",
+        "Doğruları ele: çağdaşlığı ilke edinme (A), özgünlüğü koruma (C), Batı'dan yararlanma gereği (D), gelişmiş ülkeler arasında olma (E).",
+        "Kural: Atatürk **taklitçiliği/yabancı kültüre bağlanmayı reddeder** → 'yabancı kültürlere bağlanma' çıkarılamaz (B).",
+        "Sonuç: doğru cevap **B — Yabancı kültürlere bağlanma**."
+      ],
+      "relatedFactIds": [
+        "tar-ailke-07"
+      ]
+    },
+    "2010ol-GK-29": {
+      "steps": [
+        "Yönlendirme: **1929-1930 dünya krizi** Türkiye'de hangisine ortam hazırladı? Tarihe bak.",
+        "Ele: İzmir İktisat Kongresi (1923), Kabotaj (1926), İş Bankası (1924), Teşvik-i Sanayi (1927) — krizden ÖNCE.",
+        "Kural: kriz, özel sermayenin yetersizliğini gösterip **devletçiliğin** benimsenmesine ortam hazırladı.",
+        "Sonuç: doğru cevap **A — Devletçilik ilkesinin kabul edilmesi**."
+      ],
+      "relatedFactIds": [
+        "tar-ailke-05"
+      ]
+    },
+    "2011lis-GK-16": {
+      "steps": [
+        "Yönlendirme: 'en iyi birey = toplumu kendinden çok düşünen' tanımı hangisiyle eşleşir?",
+        "Ele: başkalarının hakkına değer vermeyen (B), sınıf çıkarı gözeten (C), sorumluluğunu yapmayan (D), kişisel çıkarcı (E) — bu tanıma aykırıdır.",
+        "Kural: toplumu önceleyen birey **vatandaşlık bilincine** erişmiş kişidir (A).",
+        "Sonuç: doğru cevap **A — Vatandaşlık bilincine erişmiş kişi**."
+      ],
+      "relatedFactIds": [
+        "tar-ailke-04"
+      ]
+    },
+    "2011lis-GK-23": {
+      "steps": [
+        "Yönlendirme: 'dünyadaki bütün Türkleri sınır tanımadan tek devlette birleştirmek ulaşılamaz' → hangi akım eleştiriliyor?",
+        "Ele: Osmanlıcılık, Milliyetçilik, Batıcılık, İslamcılık — bu tanıma uymaz.",
+        "Kural: tüm Türkleri birleştirme ülküsü **Turancılık (Pan-Türkizm)**'tir; Atatürk bunu gerçekçi bulmadı.",
+        "Sonuç: doğru cevap **B — Turancılık**."
+      ],
+      "relatedFactIds": [
+        "tar-ailke-03"
+      ]
+    },
+    "2011lis-GK-24": {
+      "steps": [
+        "Yönlendirme: 'hükûmet millettir, millet hükûmettir; ayrı değildir' → hangi kavramı vurgular?",
+        "Ele: tam bağımsızlık (A), barışseverlik (B), bilimsellik (C), vatanseverlik (E) — bu sözün ana vurgusu değil.",
+        "Kural: millet ile hükümetin **bir/ayrılmaz** olması **millî birlik ve beraberliği** vurgular (D).",
+        "Sonuç: doğru cevap **D — Millî birlik ve beraberlik**."
+      ],
+      "relatedFactIds": [
+        "tar-ailke-08"
+      ]
+    },
+    "2012lis-GK-20": {
+      "steps": [
+        "Yönlendirme: 'toplum kadın-erkek **beraber** yürümezse ilerleyemez' sözü hangisiyle gerçekleşti?",
+        "Ele: saltanatın kaldırılması (A), şapka (B - kılık kıyafet), soyadı (C), halifeliğin kaldırılması (E) — kadın-erkek eşitliğiyle doğrudan ilgili değil.",
+        "Kural: **Medeni Kanun (1926)** kadına erkekle eşit haklar vererek kadın-erkek birlikte ilerlemeyi sağladı.",
+        "Sonuç: doğru cevap **D — Medeni Kanun'un kabul edilmesi** (paket 'B' hatalı)."
+      ],
+      "relatedFactIds": [
+        "tar-ailke-04"
+      ],
+      "answer": "D"
+    },
+    "2012lis-GK-23": {
+      "steps": [
+        "Yönlendirme: '**din ve ırk ayırt edilmeksizin** vatandaşlıkta herkese Türk denir' maddesi hangi ilkelerle ilişkilidir? Üçünü değerlendir.",
+        "Değerlendir: I milliyetçilik (**ırk değil vatandaşlık** temelli Türklük), II laiklik (**din ayırt edilmeksizin**), III halkçılık (herkes eşit vatandaş).",
+        "Kural: madde üç ilkeyle de ilişkilendirilebilir; çeldirici yok.",
+        "Sonuç: doğru cevap **E — I, II ve III** (paket 'D' hatalı)."
+      ],
+      "relatedFactIds": [
+        "tar-ailke-03",
+        "tar-ailke-06"
+      ],
+      "answer": "E"
+    },
+    "2012ol-GK-20": {
+      "steps": [
+        "Yönlendirme: 'sınıf ayrıcalığı yok, herkes kanun önünde eşit, imtiyaz yok' → hangi ilke?",
+        "Ele: inkılapçılık (yenilik), devletçilik (ekonomi), laiklik (din-devlet), milliyetçilik (millî birlik) — bu tanım değil.",
+        "Kural: kanun önünde eşitlik ve ayrıcalık tanımama **Halkçılık** ilkesidir.",
+        "Sonuç: doğru cevap **A — Halkçılık**."
+      ],
+      "relatedFactIds": [
+        "tar-ailke-04"
+      ]
+    },
+    "2012ol-GK-21": {
+      "steps": [
+        "Yönlendirme: Rousseau'nun 'genel irade' + Atatürk'ün 'millî irade tek şahıstan değil bütün milletten' sözü hangi ilkeyi vurgular?",
+        "Ele: halkçılık (eşitlik), milliyetçilik (birlik), laiklik, devletçilik — egemenlik kaynağı değil.",
+        "Kural: egemenliğin **millî iradeye/bütün millete** dayanması **Cumhuriyetçilik**'tir.",
+        "Sonuç: doğru cevap **D — Cumhuriyetçilik**."
+      ],
+      "relatedFactIds": [
+        "tar-ailke-02"
+      ]
+    },
+    "2012ol-GK-22": {
+      "steps": [
+        "Yönlendirme: 1928'de **milletvekili/cumhurbaşkanı yemininin** değiştirilmesi hangi ilkeyi pekiştirdi?",
+        "İpucu: yemin 'Vallahi'den 'namusum üzerine'ye çevrildi (dinî ifade çıkarıldı).",
+        "Kural: yeminin dinden arındırılması **Laiklik** ilkesini pekiştirir.",
+        "Sonuç: doğru cevap **B — Laiklik**."
+      ],
+      "relatedFactIds": [
+        "tar-ailke-06"
+      ]
+    },
+    "2012ol-GK-23": {
+      "steps": [
+        "Yönlendirme: 'savunulamaz' — **Yerli Malı ve Tasarruf Haftası (1930)**'nın nedeni OLMAYANI bul.",
+        "Doğruları ele: yerli üretimi teşvik (A), 1929 krizinden kurtulma (B), millî iktisat politikası (C), girişimci vatandaş yetiştirme (D).",
+        "Kural: yerli malı kampanyası **ithalatı azaltmayı** amaçlar; 'ithalata öncelik verme' tam tersidir (E).",
+        "Sonuç: doğru cevap **E — Ekonomide ithalata öncelik verilmek istenmesi**."
+      ],
+      "relatedFactIds": [
+        "tar-ailke-05"
+      ]
+    },
+    "2016lis-GK-23": {
+      "steps": [
+        "Yönlendirme: **millî egemenlik + millî irade + özgür seçim** esas alan ilke hangisi?",
+        "Ele: milliyetçilik (birlik), halkçılık (eşitlik), devletçilik (ekonomi), laiklik (din-devlet) — egemenlik/seçim vurgusu değil.",
+        "Kural: bu tanım **Cumhuriyetçilik** ilkesidir.",
+        "Sonuç: doğru cevap **A — Cumhuriyetçilik**."
+      ],
+      "relatedFactIds": [
+        "tar-ailke-02"
+      ]
+    },
+    "2018lis-GK-23": {
+      "steps": [
+        "Yönlendirme: 1929 krizinin getirdiği **otarşi (kendine yetme)** eğiliminin Türkiye'deki karşılığı hangi ilke?",
+        "Ele: laiklik, cumhuriyetçilik, milliyetçilik, halkçılık — ekonomik otarşiyle ilgili değil.",
+        "Kural: devletin ekonomiye girip kendine yeterliği hedeflemesi **Devletçilik**'tir.",
+        "Sonuç: doğru cevap **A — Devletçilik**."
+      ],
+      "relatedFactIds": [
+        "tar-ailke-05"
+      ]
+    },
+    "2020lis-GK-23": {
+      "steps": [
+        "Yönlendirme: 'söylenemez' — altı ilke için YANLIŞ olanı bul.",
+        "Doğruları ele: CHF 1931 programına alınması (B), 1937 anayasaya girmesi (C), Fransız İhtilali etkisi (D), dönemin ihtiyaçlarına göre oluşması (E).",
+        "Kural: **Nutuk (1927)** ilkeleri kapsamlı anlatmaz (ilkeler 1931/1937'de resmîleşti) → A söylenemez.",
+        "Sonuç: doğru cevap **A — Nutuk'ta ilkelerin tamamı anlatılmıştır**."
+      ],
+      "relatedFactIds": [
+        "tar-ailke-01"
+      ]
     }
   }
 }
