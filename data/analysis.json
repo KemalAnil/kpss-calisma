@@ -2248,6 +2248,183 @@
       ],
       "relatedFactIds": [],
       "answer": "C"
+    },
+    "2012lis-GK-11": {
+      "steps": [
+        "Yönlendirme: 'söylenemez' — Kuvâ-yı Milliye için YANLIŞ olanı bul.",
+        "Doğruları ele: yerel isyanları bastırmada etkili (A), işgallere halk tepkisiyle oluştu (B), düşmanı yavaşlattı (C), bölgesel nitelikli (E) — hepsi doğrudur.",
+        "Kural: Kuvâ-yı Milliye **Batı Anadolu**'da (Yunan/İtilaf işgaline karşı) örgütlendi; **Doğu cephesi** düzenli ordu (Kâzım Karabekir) ile yürütüldü → D söylenemez.",
+        "Sonuç: doğru cevap **D — Doğu cephesinde etkin rol oynadığı** (paket 'B' hatalı)."
+      ],
+      "relatedFactIds": [
+        "tar-kshaz-02"
+      ],
+      "answer": "D"
+    },
+    "2012lis-GK-12": {
+      "steps": [
+        "Yönlendirme: 'değildir' — Erzurum Kongresi'nin (Temmuz 1919) toplanma NEDENİ OLMAYANI bul.",
+        "Doğruları ele: Doğu'nun Ermenilere verilmesi olasılığı (B), Pontus faaliyetleri (C), İtilaf işgalleri (D), Erzurum-Trabzon cemiyetlerinin birleşme isteği (E) — hepsi neden/bağlamdır.",
+        "Kural: **İstanbul'un resmen işgali 16 Mart 1920**'dir → Erzurum Kongresi'nden (Temmuz 1919) SONRA; ondan önceki kongreye neden olamaz (A).",
+        "Sonuç: doğru cevap **A** (paket 'C' hatalı)."
+      ],
+      "relatedFactIds": [
+        "tar-kshaz-05"
+      ],
+      "answer": "A"
+    },
+    "2012lis-GK-13": {
+      "steps": [
+        "Yönlendirme: **Sivas Kongresi'nden SONRA** Temsilciler Kurulu'nun İstanbul'a karşı **ilk siyasi başarısı**?",
+        "Ele: Amasya Genelgesi (A) Sivas'tan ÖNCEDİR (Haziran 1919); Mebusan'ın açılması (C), Misak-ı Millî (D), Saltanat Şûrası (E) daha sonradır/ilgisizdir.",
+        "Kural: Damat Ferit düşünce yeni İstanbul Hükümeti (Salih Paşa) Temsilciler Kurulu'nu muhatap aldı → **Amasya Görüşmeleri (Ekim 1919)** ilk siyasi başarıdır.",
+        "Sonuç: doğru cevap **B — Amasya Görüşmelerinin yapılması** (paket 'A' hatalı)."
+      ],
+      "relatedFactIds": [
+        "tar-kshaz-06"
+      ],
+      "answer": "B"
+    },
+    "2012lis-GK-14": {
+      "steps": [
+        "Yönlendirme: 8-9 Temmuz 1919'da askerlikten istifa eden M. Kemal, hangi savaştan SONRA **millî iradeyle (TBMM)** yeniden askerî görev aldı?",
+        "İpucu: TBMM'nin ona **Başkomutanlık** verdiği tarihi (5 Ağustos 1921) düşün; hangi yenilgi bunu getirdi?",
+        "Kural: **Kütahya-Eskişehir Savaşları** (Temmuz 1921) yenilgisinden sonra ordu Sakarya'ya çekildi ve TBMM M. Kemal'i Başkomutan yaptı.",
+        "Sonuç: doğru cevap **C — Kütahya-Eskişehir** (paket 'E' hatalı; Büyük Taarruz çok sonradır)."
+      ],
+      "relatedFactIds": [],
+      "answer": "C"
+    },
+    "2012ol-GK-10": {
+      "steps": [
+        "Yönlendirme: 'söylenemez' — Mondros SONRASI Millî Mücadele'nin doğuşunda ETKİLİ OLMAYANI bul.",
+        "Doğruları ele: İzmir'in Yunan işgali (A), Doğu'da Ermenistan söylentileri (B), Pontus çabaları (D), Antep-Maraş-Urfa'nın Fransız işgali (E) — hepsi Mondros sonrası tetikleyicidir.",
+        "Kural: **Trablusgarp ve Bingazi 1912'de (Uşi Antlaşması)** kaybedildi; Mondros/Millî Mücadele ile ilgisizdir (C).",
+        "Sonuç: doğru cevap **C — Trablusgarp ve Bingazi'nin elden çıkması**."
+      ],
+      "relatedFactIds": [
+        "tar-kshaz-02"
+      ],
+      "answer": "C"
+    },
+    "2012ol-GK-11": {
+      "steps": [
+        "Yönlendirme: Adana, İçel, Maraş, Ayıntab (Antep), Antakya, İskenderun... **Çukurova (Kilikya)** Türklerini temsil eden cemiyet?",
+        "Ele: Millî Kongre (basın/genel), Vilâyât-ı Şarkiye (Doğu-Erzurum), Redd-i İlhak (İzmir/Batı), Vahdet-i Milliye — bu bölge değil.",
+        "Kural: **Kilikyalılar Cemiyeti**, Adana-Çukurova (Kilikya) bölgesini Fransız işgaline karşı savundu.",
+        "Sonuç: doğru cevap **D — Kilikyalılar**."
+      ],
+      "relatedFactIds": [],
+      "answer": "D"
+    },
+    "2012ol-GK-12": {
+      "steps": [
+        "Yönlendirme: 'yer almaz' — halkın seçtiği temsilcilerin yürüttüğü Millî Mücadele'ye AİT OLMAYANI bul.",
+        "Doğruları ele: Erzurum (A) ve Sivas (C) kongreleri, TBMM (D), Alaşehir Kongresi (E) — millî iradeye dayanır.",
+        "Kural: **Saltanat Şûrası**, padişahın topladığı bir meclistir (ör. Sevr'i onaylayan); halkın temsilcilerinin hareketi değildir (B).",
+        "Sonuç: doğru cevap **B — Saltanat Şûrası'nın toplanması**."
+      ],
+      "relatedFactIds": [
+        "tar-kshaz-05",
+        "tar-kshaz-06"
+      ],
+      "answer": "B"
+    },
+    "2012ol-GK-13": {
+      "steps": [
+        "Yönlendirme: Temsilciler Kurulu Ali Fuat Cebesoy'u **Kuvâ-yı Milliye Genel Komutanı ATADI** → hangi yetki?",
+        "Değerlendir: **atama yapmak** bir **yürütme** işlemidir (I).",
+        "Ele: yasama (II - kural/kanun koyma) ve yargı (III - yargılama) bu olayla ilgisizdir.",
+        "Sonuç: doğru cevap **A — Yalnız I**."
+      ],
+      "relatedFactIds": [
+        "tar-kshaz-06"
+      ],
+      "answer": "A"
+    },
+    "2013lis-GK-13": {
+      "steps": [
+        "Yönlendirme: Mondros'un **7. maddesine** (işgale zemin) işlerlik için **fiilî (silahlı) hareket** yapanlar hangileri?",
+        "Değerlendir: **I Mavri Mira** (Batı'yı Yunanistan'a katmak için silahlı) ve **II Pontus Rum** (Karadeniz'de çeteler) fiilî eylemler yaptı.",
+        "Ele: **III Hürriyet ve İtilaf** (parti) ve **IV İngiliz Muhipleri** (siyasi/işbirlikçi) fiilî silahlı harekette bulunmadı.",
+        "Sonuç: doğru cevap **A — I ve II**."
+      ],
+      "relatedFactIds": [
+        "tar-kshaz-01"
+      ],
+      "answer": "A"
+    },
+    "2013lis-GK-14": {
+      "steps": [
+        "Yönlendirme: **Ali Galip'in görevlendirilmesi** + valilerle kongreyi basma/tutuklama → hangi kongreyi engelleme girişimi?",
+        "İpucu: Damat Ferit Hükümeti'nin M. Kemal'i tutuklatma çabası (Ali Galip Olayı) hangi kongre sırasındaydı?",
+        "Kural: **Ali Galip Olayı**, **Sivas Kongresi**'ni (Eylül 1919) engellemek için düzenlendi ama başarısız oldu.",
+        "Sonuç: doğru cevap **E — Sivas**."
+      ],
+      "relatedFactIds": [
+        "tar-kshaz-06"
+      ],
+      "answer": "E"
+    },
+    "2013lis-GK-15": {
+      "steps": [
+        "Yönlendirme: İzmir'in Yunan işgalinin (15 Mayıs 1919) **öncelikle (hemen)** yol açtığı sonuç?",
+        "Ele: Müdafaa-i Hukuk'un birleşmesi (A - Sivas, Eylül), İsmet Paşa Batı Cephesi (B - 1920/21), Tekâlif-i Milliye (D - 1921), Hıyanet-i Vataniye (E - 1920) — hepsi daha sonradır.",
+        "Kural: İşgale ilk tepki İzmir'de **Redd-i İlhak Cemiyeti**'nin kurulması oldu (hemen ardından).",
+        "Sonuç: doğru cevap **C — Redd-i İlhak Cemiyeti'nin kurulması**."
+      ],
+      "relatedFactIds": [
+        "tar-kshaz-02"
+      ],
+      "answer": "C"
+    },
+    "2014lis-GK-15": {
+      "steps": [
+        "Yönlendirme: **Misak-ı Millî'yi kabul eden ilk Avrupa devleti** hangisi? — tarih sırasına bak.",
+        "Ele: Yunanistan/İngiltere düşman; Fransa **Ankara Antlaşması (Ekim 1921)** ile tanır ama daha SONRADIR; İtalya da sonradır.",
+        "Kural: **Sovyet Rusya**, **Moskova Antlaşması (16 Mart 1921)** ile Misak-ı Millî'yi tanıyan ilk (büyük) Avrupa devleti oldu.",
+        "Sonuç: doğru cevap **D — Rusya**."
+      ],
+      "relatedFactIds": [
+        "tar-kshaz-07"
+      ],
+      "answer": "D"
+    },
+    "2016lis-GK-13": {
+      "steps": [
+        "Yönlendirme: M. Kemal 'barışı sağlayacak hükümetin **bugünkü Meclis-i Mebusan'a dayanması zorunludur**' → neyi vurgular?",
+        "Ele: çok partili hayat (B), her koşulda barış (C), YENİ meclis (D - metin 'bugünkü' der), padişahın uyması (E) — metinle örtüşmez.",
+        "Kural: hükümetin **meclise dayanması/uyumlu olması** = millî iradeye/meclise dayalı yönetim vurgusu (A).",
+        "Sonuç: doğru cevap **A — Hükûmetin meclisle uyumlu olması**."
+      ],
+      "relatedFactIds": [
+        "tar-kshaz-07"
+      ],
+      "answer": "A"
+    },
+    "2016lis-GK-14": {
+      "steps": [
+        "Yönlendirme: 'söylenemez' — Kuvâ-yı Milliye birliklerine liderlik ETMEYENİ bul.",
+        "Doğruları ele: İpsiz Recep (Karadeniz), Çerkez Ethem, Yörük Ali Efe (Aydın), Şahin Bey (Antep) — hepsi Kuvâ-yı Milliye lideridir.",
+        "Kural: **Nene Hatun**, **1877-78 Osmanlı-Rus Savaşı** (Aziziye Tabyaları) kahramanıdır; Kuvâ-yı Milliye lideri değildir (D).",
+        "Sonuç: doğru cevap **D — Nene Hatun**."
+      ],
+      "relatedFactIds": [
+        "tar-kshaz-02"
+      ],
+      "answer": "D"
+    },
+    "2016lis-GK-15": {
+      "steps": [
+        "Yönlendirme: Amasya Genelgesi hükümlerinden hangileri Millî Mücadele'nin **YÖNTEMİNİ** (nasıl yapılacağını) verir?",
+        "Ele: I 'vatan tehlikede' ve II 'İstanbul yetersiz' → durum tespiti/**gerekçe**dir, yöntem değil.",
+        "Kural: III 'milletin azim ve kararı kurtaracak' (millî direniş yöntemi) + IV 'denetimden uzak millî kurul' (örgütlenme yöntemi) = **yöntem**.",
+        "Sonuç: doğru cevap **E — III ve IV**."
+      ],
+      "relatedFactIds": [
+        "tar-kshaz-04"
+      ],
+      "answer": "E"
     }
   }
 }
