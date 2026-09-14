@@ -3699,6 +3699,164 @@
         "tar-tink-06"
       ],
       "answer": "A"
+    },
+    "2012lis-GK-21": {
+      "steps": [
+        "Yönlendirme: 'savunulamaz' — **ekonomik ilişkilerdeki karışıklığı önleme** amacı OLMAYANI bul.",
+        "Doğruları ele: miladi takvim (ticari tarih birliği), soyadı (kayıt/tanıma), hafta tatilinin pazara alınması (Batı iş günü), ölçü sistemi (ticaret standardı) — ekonomiyle bağdaştırılabilir.",
+        "Kural: **kılık-kıyafet düzenlemeleri** toplumsal/çağdaşlaşma amaçlıdır; ekonomik ilişkilerle ilgisi yoktur (C).",
+        "Sonuç: doğru cevap **C — Kılık ve kıyafet alanındaki düzenlemeler** (paket 'A' hatalı)."
+      ],
+      "relatedFactIds": [
+        "tar-tink-07"
+      ],
+      "answer": "C"
+    },
+    "2012lis-GK-22": {
+      "steps": [
+        "Yönlendirme: **Birinci Beş Yıllık Sanayi Planı (1934)** için teknik-ekonomik desteği hangi devlet verdi?",
+        "İpucu: 1930'larda Türkiye'ye kredi ve uzman desteği veren devleti düşün (Kayseri, Nazilli fabrikaları).",
+        "Kural: **Sovyetler Birliği** plan için kredi ve teknik yardım sağladı.",
+        "Sonuç: doğru cevap **A — Sovyetler Birliği** (paket 'B' hatalı)."
+      ],
+      "relatedFactIds": [],
+      "answer": "A"
+    },
+    "2012lis-GK-24": {
+      "steps": [
+        "Yönlendirme: 'savunulamaz' — **dilde sadeleştirmeye** etkisi OLMAYANI bul.",
+        "Doğruları ele: müesseselerde mecburi Türkçe (A), Türkçe bilim terimleri (C), Türk Dil Kurumu (D), Harf İnkılabı (E) — dille doğrudan ilgilidir.",
+        "Kural: **Türk Ceza Kanunu** hukuki bir düzenlemedir (İtalya'dan alındı); dil sadeleştirmeyle ilgisi yoktur (B).",
+        "Sonuç: doğru cevap **B — Türk Ceza Kanunu'nun çıkarılması** (paket 'C' hatalı)."
+      ],
+      "relatedFactIds": [
+        "tar-tink-05"
+      ],
+      "answer": "B"
+    },
+    "2012lis-GK-25": {
+      "steps": [
+        "Yönlendirme: **Nutuk (1927'de okundu, 1919-1927 dönemini anlatır)**'ta hangileri yer alır?",
+        "Değerlendir: I TBMM'nin açılması (1920) ve II Halifeliğin kaldırılması (1924) Nutuk kapsamındadır.",
+        "Ele: III **Serbest Cumhuriyet Fırkası 1930**'da → Nutuk'tan (1927) SONRA; yer almaz.",
+        "Sonuç: doğru cevap **D — I ve II** (paket 'E' hatalı)."
+      ],
+      "relatedFactIds": [],
+      "answer": "D"
+    },
+    "2012lis-GK-28": {
+      "steps": [
+        "Yönlendirme: **Atatürk Dönemi'nin SON başbakanı** kim?",
+        "İpucu: İsmet İnönü 1937'de görevden ayrıldı; Atatürk'ün ölümünde (Kasım 1938) başbakan kimdi?",
+        "Kural: İsmet İnönü'nün yerine 1937'de **Celâl Bayar** başbakan oldu ve Atatürk'ün ölümünde görevdeydi.",
+        "Sonuç: doğru cevap **D — Celâl Bayar** (paket 'A' hatalı)."
+      ],
+      "relatedFactIds": [],
+      "answer": "D"
+    },
+    "2012ol-GK-16": {
+      "steps": [
+        "Yönlendirme: gelişmeleri **kronolojik** sırala.",
+        "Değerlendir: III saltanatın kaldırılması (1 Kasım 1922), I Ankara'nın başkent olması (13 Ekim 1923), II halifeliğin kaldırılması (3 Mart 1924).",
+        "Kural: sıra III → I → II.",
+        "Sonuç: doğru cevap **D — III - I - II**."
+      ],
+      "relatedFactIds": [
+        "tar-tink-01"
+      ]
+    },
+    "2012ol-GK-17": {
+      "steps": [
+        "Yönlendirme: 'savunulamaz' — **Halifeliğin kaldırılmasının** etkisi/sonucu OLMAYANI bul.",
+        "Doğruları ele: laik anlayışın pekişmesi (A), siyasal otoritede bölünmenin önlenmesi (C), millî egemenliğin güçlenmesi (D), dış politikada serbestlik (E).",
+        "Kural: halifeliğin kaldırılması **çok partili hayata geçişi** sağlamaz; ilgisizdir (B).",
+        "Sonuç: doğru cevap **B — Çok partili hayata geçişin sağlanması**."
+      ],
+      "relatedFactIds": [
+        "tar-tink-04"
+      ]
+    },
+    "2012ol-GK-18": {
+      "steps": [
+        "Yönlendirme: 'değildir' — **1926**'da kabul edilen kanun OLMAYANI bul.",
+        "Doğruları ele: Medeni Kanun, Kabotaj Kanunu, Ceza Kanunu, Borçlar Kanunu — hepsi 1926'dır.",
+        "Kural: **Takrir-i Sükûn Kanunu 1925**'tir → 1926 değil (C).",
+        "Sonuç: doğru cevap **C — Takrir-i Sükûn Kanunu**."
+      ],
+      "relatedFactIds": [
+        "tar-tink-05"
+      ]
+    },
+    "2012ol-GK-19": {
+      "steps": [
+        "Yönlendirme: **Birinci Beş Yıllık Sanayi Planı (1934)**'ndan SONRAKI girişim hangisi? Tarihe bak.",
+        "Ele: Sanayi ve Maadin Bankası (1925), Ticaret-Sanayi Odaları Kanunu (1925), Teşvik-i Sanayi (1927) — 1934'ten öncedir.",
+        "Kural: **Maden Tetkik ve Arama Enstitüsü (MTA) 1935**'te kuruldu → plandan sonra.",
+        "Sonuç: doğru cevap **E — Maden Tetkik ve Arama Enstitüsünün kurulması**."
+      ],
+      "relatedFactIds": []
+    },
+    "2012ol-GK-24": {
+      "steps": [
+        "Yönlendirme: **29 Ekim'in Cumhuriyet Bayramı** olarak kutlanması hangi yıl yasalaştı?",
+        "İpucu: Cumhuriyet 1923'te ilan edildi; bayram olarak yasalaşması biraz sonradır.",
+        "Kural: 29 Ekim'i resmî bayram yapan kanun **1925**'te çıktı (ilk kutlama 1925).",
+        "Sonuç: doğru cevap **C — 1925**."
+      ],
+      "relatedFactIds": [
+        "tar-tink-03"
+      ]
+    },
+    "2012ol-GK-26": {
+      "steps": [
+        "Yönlendirme: Osmanlı'daki **Sanayi-i Nefise Mektebi** Atatürk döneminde neye dönüştü?",
+        "İpucu: bu okul güzel sanatlar (resim-heykel) eğitimi veriyordu.",
+        "Kural: Sanayi-i Nefise Mektebi **Güzel Sanatlar Akademisi**'ne dönüştürüldü (1928).",
+        "Sonuç: doğru cevap **A — Güzel Sanatlar Akademisi**."
+      ],
+      "relatedFactIds": []
+    },
+    "2012ol-GK-28": {
+      "steps": [
+        "Yönlendirme: Atatürk döneminde **dünyanın ilk kadın savaş pilotu** kim oldu?",
+        "Ele: Pakize İzzet Tarzi (ilk kadın doçent), Halide Edip (yazar), Afet İnan (tarihçi), Sabiha Güreyman (mühendis) — savaş pilotu değil.",
+        "Kural: Atatürk'ün manevi kızı **Sabiha Gökçen** dünyanın ilk kadın savaş pilotudur.",
+        "Sonuç: doğru cevap **B — Sabiha Gökçen**."
+      ],
+      "relatedFactIds": [
+        "tar-tink-08"
+      ]
+    },
+    "2012ol-GK-29": {
+      "steps": [
+        "Yönlendirme: hangileriyle Türkiye'nin **çağdaş dünyayla bütünleşmesi** amaçlandı?",
+        "Değerlendir: I Medeni Kanun (Batı hukukuna uyum) ve II miladi takvim (Batı takvimi) çağdaş dünyayla uyum sağlar.",
+        "Ele: III Takrir-i Sükûn (1925) iç düzen/güvenlik kanunudur; bütünleşme amacı taşımaz.",
+        "Sonuç: doğru cevap **D — I ve II**."
+      ],
+      "relatedFactIds": [
+        "tar-tink-05"
+      ]
+    },
+    "2012ol-GK-30": {
+      "steps": [
+        "Yönlendirme: **Terakkiperver Cumhuriyet Fırkası (1924)** programının belirgin özellikleri?",
+        "İpucu: parti cumhuriyeti savunur ve ekonomide **liberal** (devlet müdahalesine karşı) çizgidedir.",
+        "Kural: TCF **cumhuriyetçi ve liberal** bir partidir (ademimerkeziyetçi, özel teşebbüsçü).",
+        "Sonuç: doğru cevap **A — Cumhuriyetçi - liberal**."
+      ],
+      "relatedFactIds": []
+    },
+    "2013lis-GK-17": {
+      "steps": [
+        "Yönlendirme: **Yeni Türk Devleti'nin kuruluşuna** işaret eden gelişme hangisi?",
+        "Ele: Takrir-i Sükûn (1925), Halifeliğin kaldırılması (1924), Başkomutanlık Kanunu (1921), Tevhid-i Tedrisat (1924) — devletin kuruluş anı değil.",
+        "Kural: **TBMM'nin açılması (23 Nisan 1920)** millî egemenliğe dayalı yeni devletin doğuşudur.",
+        "Sonuç: doğru cevap **D — TBMM'nin açılması**."
+      ],
+      "relatedFactIds": [
+        "tar-tink-01"
+      ]
     }
   }
 }
