@@ -4102,6 +4102,173 @@
       "relatedFactIds": [
         "tar-tink-07"
       ]
+    },
+    "2008lisGK-GK-16": {
+      "steps": [
+        "Yönlendirme: 'hükûmet millettir, millet hükûmettir, millet efendidir' → hangilerine ulaşılır? Üçünü değerlendir.",
+        "Değerlendir: I milletin yönetime katıldığı, II millete değer verildiği, III hükümetlerin demokrasinin önemini kavradığı.",
+        "Kural: söz millî egemenlik/demokrasiyi vurgular; üçü de çıkarılabilir.",
+        "Sonuç: doğru cevap **E — I, II ve III**."
+      ],
+      "relatedFactIds": [
+        "tar-ailke-02",
+        "tar-ailke-08"
+      ]
+    },
+    "2008lisGK-GK-20": {
+      "steps": [
+        "Yönlendirme: 'Atatürkçü milliyetçilik **laiktir**' yargısını hangisi destekler?",
+        "Ele: ırk/köken birliği (A), toplumun bölünmesi (C), resmî din (D), ümmetçilik (E) — laik milliyetçiliğe aykırıdır.",
+        "Kural: **vatandaşların dinini/mezhebini serbestçe seçmesi** (din temelli olmama) laik anlayışı destekler (B).",
+        "Sonuç: doğru cevap **B — Vatandaşların istedikleri dini ve mezhebi seçmesi**."
+      ],
+      "relatedFactIds": [
+        "tar-ailke-03",
+        "tar-ailke-06"
+      ]
+    },
+    "2008lisGK-GK-22": {
+      "steps": [
+        "Yönlendirme: **Halkçılığın demokratik** yönünü hangileri destekler?",
+        "Değerlendir: I ayrıcalıklara karşı olması ve III herkesin kanun önünde eşitliği demokratiktir.",
+        "Ele: II 'egemenliğin halkın bir kesimine ait olması' demokrasiye aykırıdır (egemenlik tüm halkındır).",
+        "Sonuç: doğru cevap **D — I ve III**."
+      ],
+      "relatedFactIds": [
+        "tar-ailke-04"
+      ]
+    },
+    "2009lis-GK-17": {
+      "steps": [
+        "Yönlendirme: kapitülasyonların kaldırılması + Kabotaj Kanunu hangi ilkeyi temel alır?",
+        "İpucu: her ikisi de ekonomik/millî egemenliği (dış müdahaleye son) hedefler.",
+        "Kural: bu adımlar **bağımsızlık** (tam bağımsızlık) ilkesine dayanır.",
+        "Sonuç: doğru cevap **A — Bağımsızlık**."
+      ],
+      "relatedFactIds": [
+        "tar-ailke-08"
+      ]
+    },
+    "2009lis-GK-18": {
+      "steps": [
+        "Yönlendirme: milliyetçiliğin **ırk-mezhep-sınıf ayrılıklarına karşı** olması hangilerini destekler? Üçünü değerlendir.",
+        "Değerlendir: I millî birlik-beraberlik, II kültürel birlik, III sosyal dayanışma.",
+        "Kural: ayrılıklara karşı olmak üçünü de destekler; çeldirici yok.",
+        "Sonuç: doğru cevap **E — I, II ve III**."
+      ],
+      "relatedFactIds": [
+        "tar-ailke-03"
+      ]
+    },
+    "2009lis-GK-19": {
+      "steps": [
+        "Yönlendirme: 'uygarlık birdir, millet bu tek uygarlığa katılmalı; Osmanlı düşüşü Avrupa'yla bağını kesince başladı' → neyi vurgular?",
+        "Ele: eski tarih mirası (A), Batı'nın yayılmacılığı (B), imparatorlukların güçlüğü (D), Batı'nın önceki uygarlıklardan yararlanması (E) — vurgu değil.",
+        "Kural: söz **çağdaşlaşmanın (evrensel uygarlığa katılmanın) gereğini** vurgular.",
+        "Sonuç: doğru cevap **C — Çağdaşlaşmanın gereği**."
+      ],
+      "relatedFactIds": [
+        "tar-ailke-07"
+      ]
+    },
+    "2009lis-GK-24": {
+      "steps": [
+        "Yönlendirme: 'bağdaşmaz' — **demokratik devlet** anlayışıyla ÇELİŞENİ bul.",
+        "Doğruları ele: düzenli seçim (A), seçimle göreve gelme (C), partilerin serbestçe kurulması (D), iktidarın el değiştirmesi (E) — demokrasinin gerekleridir.",
+        "Kural: **gelir ve servet ediniminin kısıtlanması** birey hak/özgürlüklerine aykırıdır; demokratik anlayışla bağdaşmaz (B).",
+        "Sonuç: doğru cevap **B — Gelir ve servet ediniminin kısıtlanması**."
+      ],
+      "relatedFactIds": [
+        "tar-ailke-04"
+      ]
+    },
+    "2009lis-GK-29": {
+      "steps": [
+        "Yönlendirme: hangileri **Atatürk Dönemi** gelişmesidir? Tarihe bak.",
+        "Değerlendir: I ilkelerin anayasaya girmesi (1937) ve II milletvekili yemininin laikleştirilmesi (1928) Atatürk dönemidir.",
+        "Ele: III **Anayasa Mahkemesi 1961**'de kuruldu → Atatürk'ten sonra.",
+        "Sonuç: doğru cevap **C — I ve II**."
+      ],
+      "relatedFactIds": [
+        "tar-ailke-01"
+      ]
+    },
+    "2010lis-GK-17": {
+      "steps": [
+        "Yönlendirme: **vicdan özgürlüğü** bireyin hangi haklarını destekler?",
+        "Değerlendir: I kendine özgü siyasal/felsefi düşünceyi açıklama ve II dinini yerine getirme ya da getirmeme.",
+        "Ele: III 'kendi etnik kökenini üstün görme' ırkçılıktır; vicdan özgürlüğüyle ilgisizdir.",
+        "Sonuç: doğru cevap **C — I ve II**."
+      ],
+      "relatedFactIds": [
+        "tar-ailke-06"
+      ]
+    },
+    "2010lis-GK-18": {
+      "steps": [
+        "Yönlendirme: 'Cumhuriyetçilik saltanat ve hilafete karşıdır' yargısı hangileriyle ilgilidir?",
+        "Değerlendir: I egemenliğin millete ait olması (saltanata karşı) ve II yönetimin din kurallarına dayanmaması (hilafete karşı).",
+        "Ele: III azınlık okullarının devamı bu ilkeyle ilgisizdir.",
+        "Sonuç: doğru cevap **D — I ve II**."
+      ],
+      "relatedFactIds": [
+        "tar-ailke-02"
+      ]
+    },
+    "2010lis-GK-19": {
+      "steps": [
+        "Yönlendirme: 'milleti kaderde-kıvançta-tasada ortak, bölünmez bütün, millî bilinç ve ülkü etrafında toplamak' → hangi ilke?",
+        "İpucu: bu tanım millî birlik/kimlik vurgusudur.",
+        "Kural: bu ifade **Milliyetçilik** ilkesinin tanımıdır.",
+        "Sonuç: doğru cevap **A — Milliyetçilik**."
+      ],
+      "relatedFactIds": [
+        "tar-ailke-03"
+      ]
+    },
+    "2010lis-GK-20": {
+      "steps": [
+        "Yönlendirme: hangileri **uluslararası ilişkilerde** temel alınan ilkelerdir?",
+        "Değerlendir: I bağımsızlık ve II barışseverlik ('Yurtta sulh, cihanda sulh') dış politika ilkeleridir.",
+        "Ele: III **devletçilik ekonomik** bir ilkedir; dış politika ilkesi değildir.",
+        "Sonuç: doğru cevap **C — I ve II**."
+      ],
+      "relatedFactIds": [
+        "tar-ailke-08"
+      ]
+    },
+    "2010ol-GK-17": {
+      "steps": [
+        "Yönlendirme: 'çağdaş bir Cumhuriyet = insanca yaşamayı bilmek' → çağdaş olmanın gerekleri hangileri? Üçünü değerlendir.",
+        "Değerlendir: I özgür birey olma, II çağdaş gelişmeleri izleme, III demokrasi bilinci.",
+        "Kural: üçü de çağdaş olmanın gereğidir; çeldirici yok.",
+        "Sonuç: doğru cevap **E — I, II ve III**."
+      ],
+      "relatedFactIds": [
+        "tar-ailke-07"
+      ]
+    },
+    "2010ol-GK-23": {
+      "steps": [
+        "Yönlendirme: 'demokrasi egemenliğin millette olmasını gerektirir' anlayışını **doğrudan** hangi ilke destekler?",
+        "Ele: halkçılık (eşitlik), milliyetçilik (birlik), devletçilik (ekonomi), inkılapçılık (yenilik) — doğrudan egemenlik kaynağı değil.",
+        "Kural: egemenliğin millete ait olması **Cumhuriyetçilik** ilkesinin özüdür.",
+        "Sonuç: doğru cevap **B — Cumhuriyetçilik**."
+      ],
+      "relatedFactIds": [
+        "tar-ailke-02"
+      ]
+    },
+    "2010ol-GK-25": {
+      "steps": [
+        "Yönlendirme: Atatürk'ün 1921 konuşması (gerçekçi, sınırlar içinde, hayat-istiklal) dış politikada hangilerini gösterir?",
+        "Değerlendir: I sınırlarımız içinde ulusal varlığı koruma ve II gerçekleştirilemeyecek emeller peşinde koşmama (gerçekçilik).",
+        "Ele: III 'Türk tarihini çok eskilere dayandırma' bu konuşmada yoktur.",
+        "Sonuç: doğru cevap **C — I ve II**."
+      ],
+      "relatedFactIds": [
+        "tar-ailke-08"
+      ]
     }
   }
 }
