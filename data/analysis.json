@@ -2940,6 +2940,161 @@
       "relatedFactIds": [
         "tar-kscep-02"
       ]
+    },
+    "2008lisGK-GK-29": {
+      "steps": [
+        "Yönlendirme: hangileri **Atatürk Dönemi** (1923-1938) gelişmesidir? Her öncülü tarihiyle sına.",
+        "Değerlendir: I Boğazların Türk egemenliğine geçmesi = **Montrö (1936)**; III Ege adalarının silahsızlandırılması = **Lozan (1923)** → ikisi de Atatürk dönemi.",
+        "Ele: II Rodos ve On İki Ada'nın Yunanistan'a bırakılması **1947 (Paris)**'tir → Atatürk'ten sonra.",
+        "Sonuç: doğru cevap **D — I ve III**."
+      ],
+      "relatedFactIds": [
+        "tar-adp-06"
+      ]
+    },
+    "2008lisGK-GK-30": {
+      "steps": [
+        "Yönlendirme: **Sadabat Paktı (1937)**'nın kurulmasına neden olan gelişme?",
+        "Ele: Boğazlar rejimi (B - Montrö ayrı), 1929 krizi (C), BM (D - 1945), İngiltere Kıbrıs (E) — Sadabat nedeni değil.",
+        "Kural: **İtalya'nın Asya-Afrika'ya yayılmacı siyaseti** Orta Doğu devletlerini (TR-İran-Irak-Afganistan) bir araya getirdi.",
+        "Sonuç: doğru cevap **A — İtalya'nın yayılma siyaseti izlemesi**."
+      ],
+      "relatedFactIds": [
+        "tar-adp-07"
+      ]
+    },
+    "2009lis-GK-14": {
+      "steps": [
+        "Yönlendirme: Türkiye **Musul'un Misak-ı Millî içinde** olduğunu hangi gerekçeyle savundu?",
+        "Ele: başka ulusların yaşaması (A), Fransızlara verilmesi (B), petrol zenginliği (D), İngiliz mandası (E) — Misak-ı Millî gerekçesi değil.",
+        "Kural: Misak-ı Millî, **Mondros'un imzalandığı tarihte** Osmanlı elinde olan yerleri esas alır; Musul o gün Osmanlı sınırındaydı (C).",
+        "Sonuç: doğru cevap **C — Mondros'un imzalandığı tarihte Osmanlı sınırları içinde olması**."
+      ],
+      "relatedFactIds": [
+        "tar-adp-02"
+      ]
+    },
+    "2009lis-GK-28": {
+      "steps": [
+        "Yönlendirme: 'savunulamaz' — Boğazların **günümüzdeki** stratejik önemini artırMAYANI bul.",
+        "Doğruları ele: Doğu Bloku'nun Batı'ya açılması (A), Boğazların Batı kapısı olması (C), Kafkas sınır sorunları (D), Rusya'nın Kafkas etkinliği (E) — önemi artıran etkenlerdir.",
+        "Kural: **Varşova Paktı'nın dağılması** askerî bir bloğun sona ermesidir; Boğazların önemini doğrudan artıran bir etken olarak gösterilemez (B).",
+        "Sonuç: doğru cevap **B — Varşova Paktı'nın dağılması**."
+      ],
+      "relatedFactIds": [
+        "tar-adp-06"
+      ]
+    },
+    "2009lis-GK-30": {
+      "steps": [
+        "Yönlendirme: 'savunulamaz' — **Balkan Antantı (1934)**'nın kurulmasına etkisi OLMAYANI bul.",
+        "Doğruları ele: İtalya'nın Doğu Akdeniz emelleri (B), Nazilerin iktidara gelmesi (C), silahlanma yarışı (D), İtalya'da faşizm (E) — tehditler Balkanları yakınlaştırdı.",
+        "Kural: **Birleşmiş Milletler 1945'te** kuruldu → 1934'teki Balkan Antantı'na etki edemez (A).",
+        "Sonuç: doğru cevap **A — Birleşmiş Milletler Teşkilatının kurulmuş olması**."
+      ],
+      "relatedFactIds": [
+        "tar-adp-05"
+      ]
+    },
+    "2010lis-GK-26": {
+      "steps": [
+        "Yönlendirme: Türk-Yunan sorunlarından hangisi **Atatürk zamanında** yaşandı? Tarihe bak.",
+        "Ele: II Kardak (1996) ve III kara sularının 12 mile çıkarılması (sonraki Ege sorunları) → Atatürk sonrası.",
+        "Kural: **I Nüfus mübadelesi** (etabli sorunu) 1920'lerde, Atatürk döneminde yaşandı.",
+        "Sonuç: doğru cevap **A — Yalnız I**."
+      ],
+      "relatedFactIds": [
+        "tar-adp-03"
+      ]
+    },
+    "2010lis-GK-27": {
+      "steps": [
+        "Yönlendirme: **Bulgaristan neden Balkan Antantı'na girmedi?** — revizyonist (sınır değiştirici) istekleri düşün.",
+        "Değerlendir: I Romanya'dan **Dobruca**'yı isteme ve II **Ege Denizi'ne inme** (Batı Trakya) istekleri, statükocu pakta aykırıdır.",
+        "Ele: III 'savaşın Balkanlara sıçramasından endişe' pakta GİRME nedeni olurdu, girmeme değil.",
+        "Sonuç: doğru cevap **D — I ve II**."
+      ],
+      "relatedFactIds": [
+        "tar-adp-05"
+      ]
+    },
+    "2010lis-GK-29": {
+      "steps": [
+        "Yönlendirme: 'değildir' — **Atatürk döneminde** yaşanMAYAN dış olayı bul.",
+        "Doğruları ele: Türk-Amerikan ilişkileri (A), Mısır'ın İngiliz yönetimi (B), Milletler Cemiyeti üyeliği (C, 1932), Boğazların Türk egemenliğine geçmesi (D, 1936).",
+        "Kural: **Kore Savaşı'na asker gönderme 1950**'dir → Atatürk'ten (1938) sonra (E).",
+        "Sonuç: doğru cevap **E — Türkiye'nin Kore Savaşı'na asker göndermesi**."
+      ],
+      "relatedFactIds": [
+        "tar-adp-06"
+      ]
+    },
+    "2010ol-GK-18": {
+      "steps": [
+        "Yönlendirme: **1926 Ankara Antlaşması** (Musul) hangi maddeleri kapsar? Üçünü de değerlendir.",
+        "Değerlendir: I Musul'un İngiliz mandasındaki Irak'a bırakılması, II Türkiye-Irak sınırının çizilmesi, III petrol gelirinin %10'unun 25 yıl Türkiye'ye verilmesi.",
+        "Kural: üçü de antlaşmanın maddesidir; çeldirici yok.",
+        "Sonuç: doğru cevap **E — I, II ve III**."
+      ],
+      "relatedFactIds": [
+        "tar-adp-02"
+      ]
+    },
+    "2010ol-GK-30": {
+      "steps": [
+        "Yönlendirme: **Sadabat Paktı (1937)** üyesi hangisi?",
+        "Ele: Suriye, Mısır, Pakistan, Hindistan — üye değil.",
+        "Kural: üyeler **Türkiye, İran, Irak ve Afganistan**'dır.",
+        "Sonuç: doğru cevap **D — Afganistan**."
+      ],
+      "relatedFactIds": [
+        "tar-adp-07"
+      ]
+    },
+    "2011lis-GK-28": {
+      "steps": [
+        "Yönlendirme: Türkiye'nin bu kuruluşlara **üye olma sırasını** kur (tarihe bak).",
+        "Değerlendir: II Milletler Cemiyeti **1932**, III Balkan Antantı **1934**, I NATO **1952**.",
+        "Kural: sıra en eskiden yeniye: II → III → I.",
+        "Sonuç: doğru cevap **C — II, III, I**."
+      ],
+      "relatedFactIds": [
+        "tar-adp-04",
+        "tar-adp-05"
+      ]
+    },
+    "2011lis-GK-29": {
+      "steps": [
+        "Yönlendirme: 'değildir' — Lozan sonrası **Türkiye-Fransa** gerginliği OLMAYANI bul.",
+        "Doğruları ele: Osmanlı borçları (A), yabancı (Fransız) okullar (B), Adana-Mersin demir yolları (C), Bozkurt-Lotus davası (D) — Fransa ile sorunlardır.",
+        "Kural: **On İki Ada** İtalya'nın elindeydi → silahlandırılması Türkiye-**İtalya** sorunudur, Fransa değil (E).",
+        "Sonuç: doğru cevap **E — Oniki Ada'nın silahlandırılması**."
+      ],
+      "relatedFactIds": []
+    },
+    "2011lis-GK-30": {
+      "steps": [
+        "Yönlendirme: 'savunulamaz' — Türkiye'nin **Milletler Cemiyeti'ne üyeliğinde (1932)** etkisi OLMAYANI bul.",
+        "Doğruları ele: Avrupa'da gruplaşma (B), Batı'yla barışçıl çözüm arayışı (C), uluslararası öneminin artması (D), komşularla dostluk antlaşmaları (E) — üyeliğe zemin hazırladı.",
+        "Kural: **Boğazlar sorunu Montrö (1936)** ile çözüldü → 1932 üyeliğinden SONRA; etkisi olamaz (A).",
+        "Sonuç: doğru cevap **A — Boğazlar sorununun barışçıl bir tutumla çözülmesi**."
+      ],
+      "relatedFactIds": [
+        "tar-adp-04",
+        "tar-adp-06"
+      ]
+    },
+    "2012lis-GK-26": {
+      "steps": [
+        "Yönlendirme: 'savunulamaz' — **Türkiye-İngiltere** ilişkilerinin gelişmesine katkısı OLMAYANI bul.",
+        "Doğruları ele: Musul'un Irak'a bırakılması (B - en büyük anlaşmazlığı çözdü), Almanya'nın yayılması (C - ortak tehdit yakınlaştırdı), Milletler Cemiyeti üyeliği (D), Sadabat Paktı (E) — İngiltere ile yakınlaşmaya katkı sağladı.",
+        "Kural: **Briand-Kellogg Paktı** savaşı yasa dışı sayan **genel/çok taraflı** bir paktır; Türkiye-İngiltere ilişkisine özel katkısı gösterilemez (A).",
+        "Sonuç: doğru cevap **A — Briand-Kellogg Paktı'na katılması** (paket 'B' hatalı)."
+      ],
+      "relatedFactIds": [
+        "tar-adp-02"
+      ],
+      "answer": "A"
     }
   }
 }
