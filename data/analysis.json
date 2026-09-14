@@ -2425,6 +2425,158 @@
         "tar-kshaz-04"
       ],
       "answer": "E"
+    },
+    "2016lis-GK-16": {
+      "steps": [
+        "Yönlendirme: 'yer almaz' — Misak-ı Millî'de **halkoyu** öngörülen yerler arasında OLMAYANI bul.",
+        "Doğruları ele: Kars, Ardahan, Batum (Elviye-i Selâse) ve Batı Trakya için halkoyu öngörüldü.",
+        "Kural: **Trabzon** tartışmasız Türk toprağı sayıldı; halkoyuna sunulmadı (A).",
+        "Sonuç: doğru cevap **A — Trabzon**."
+      ],
+      "relatedFactIds": [
+        "tar-kshaz-14"
+      ]
+    },
+    "2016lis-GK-18": {
+      "steps": [
+        "Yönlendirme: 'yer almaz' — Millî Mücadele'yi DESTEKLEMEYEN (karşıt) basın organını bul.",
+        "Doğruları ele: İleri, Tasvir-i Efkâr, İkdam, Yeni Gün (Yunus Nadi) millî davayı destekledi.",
+        "Kural: **Peyam-ı Sabah** (Ali Kemal) İtilaf/Damat Ferit yanlısı, Millî Mücadele **karşıtı** gazetedir (B).",
+        "Sonuç: doğru cevap **B — Peyam-ı Sabah**."
+      ],
+      "relatedFactIds": [
+        "tar-kshaz-09"
+      ]
+    },
+    "2018lis-GK-14": {
+      "steps": [
+        "Yönlendirme: 'kayıtsız şartsız düşmanlara teslim' → Osmanlı'yı teslimiyete iten **mütareke** hangisi?",
+        "Ele: Mudanya (1922) ve Montrö (1936) sonraki/farklı; Londra, Selanik bu bağlamda değil.",
+        "Kural: Osmanlı'yı fiilen teslim alan ateşkes **Mondros Mütarekesi (30 Ekim 1918)**'dir.",
+        "Sonuç: doğru cevap **C — Mondros Anlaşması**."
+      ],
+      "relatedFactIds": [
+        "tar-kshaz-01"
+      ]
+    },
+    "2018lis-GK-15": {
+      "steps": [
+        "Yönlendirme: metin Kuvâ-yı Milliye'nin **olumsuzluklarını** (disiplinsizlik, durduramama, zorla mal alma) sıralıyor → neyin gerekçesi?",
+        "Ele: oluşum süreci (A), Ankara'ya gelme (B), işgaller (C), kongreler (D) — metnin vurgusu değil.",
+        "Kural: bu eksiklikler **düzenli ordunun kurulma sebepleridir** (E).",
+        "Sonuç: doğru cevap **E — Düzenli ordunun kurulmasının sebepleri**."
+      ],
+      "relatedFactIds": [
+        "tar-kshaz-10"
+      ]
+    },
+    "2018lis-GK-16": {
+      "steps": [
+        "Yönlendirme: **General Harbord** (ABD) 1919'da Sivas'ta M. Kemal ile görüştü → hangi konuyu araştırdı?",
+        "İpucu: ABD heyeti Doğu Anadolu/Ermeni bölgesi için hangi olasılığı inceliyordu?",
+        "Kural: **Harbord Komisyonu**, ABD'nin bölgede **manda** üstlenip üstlenmeyeceğini araştırdı.",
+        "Sonuç: doğru cevap **C — Manda konusu**."
+      ],
+      "relatedFactIds": []
+    },
+    "2018ol-GK-14": {
+      "steps": [
+        "Yönlendirme: 'söylenemez' — gerçekleşmesinde Kuvâ-yı Milliye'nin ETKİLİ OLMADIĞINI bul.",
+        "Doğruları ele: ordu dağılınca boşluğu doldurma (B), halkı direnişe inandırma (D), TBMM'ye karşı isyanları bastırma (E), işgalleri yavaşlatma (A) — Kuvâ-yı Milliye etkilidir.",
+        "Kural: **Tekâlif-i Millîye Emirleri (1921)** Başkomutan/TBMM ve **düzenli ordu** dönemine aittir; Kuvâ-yı Milliye çoktan düzenli orduya katılmıştı (C).",
+        "Sonuç: doğru cevap **C — Tekâlif-i Millîye Emirleri'nin yayımlanması**."
+      ],
+      "relatedFactIds": [
+        "tar-kshaz-10"
+      ]
+    },
+    "2018ol-GK-15": {
+      "steps": [
+        "Yönlendirme: **Amasya Görüşmeleri** maddelerinden hangisi 'İstanbul İtilaf etkisinde ülke aleyhine davranabilir' endişesini kanıtlar?",
+        "Ele: vatan bütünlüğü (A), asayiş (B), serbest seçim (C), Temsil Heyeti'nin yasal tanınması (D) — bu endişenin kanıtı değildir.",
+        "Kural: 'İstanbul, **Temsil Heyeti'nin bilgisi dışında barış imzalamayacak**' maddesi tam da bu güvensizliğin kanıtıdır (E).",
+        "Sonuç: doğru cevap **E**."
+      ],
+      "relatedFactIds": [
+        "tar-kshaz-13"
+      ]
+    },
+    "2020lis-GK-14": {
+      "steps": [
+        "Yönlendirme: 'değildir' — Mondros Mütarekesi'nde YER ALMAYAN konuyu bul.",
+        "Doğruları ele: Boğazlar (A), demir yolları (B), stratejik bölgeler-madde 7 (C), savaş esirleri (D) — Mondros maddeleridir.",
+        "Kural: **Osmanlı borçları** Mondros'ta düzenlenmedi (ekonomik/sonraki antlaşma konusu) (E).",
+        "Sonuç: doğru cevap **E — Osmanlı borçları**."
+      ],
+      "relatedFactIds": [
+        "tar-kshaz-01"
+      ]
+    },
+    "2020lis-GK-15": {
+      "steps": [
+        "Yönlendirme: 'değildir' — **Temsil Heyeti'nin yetkili olduğu dönemde** (Sivas'tan TBMM'ye) gerçekleşMEYENİ bul.",
+        "Doğruları ele: Sivas Komutanlar Toplantısı (B), Amasya Protokolleri (C), Ali Fuat Paşa'nın Batı Cephesi görevi (D), Ankara'nın merkez seçilmesi (E) — hepsi bu dönemdedir.",
+        "Kural: **Hıyanet-i Vataniye Kanunu (29 Nisan 1920)** TBMM tarafından, Temsil Heyeti dönemi bittikten sonra çıkarıldı (A).",
+        "Sonuç: doğru cevap **A — Hıyanet-i Vataniye Kanunu'nun kabul edilmesi**."
+      ],
+      "relatedFactIds": [
+        "tar-kshaz-06"
+      ]
+    },
+    "2020lis-GK-16": {
+      "steps": [
+        "Yönlendirme: **16 Mart 1920 İstanbul'un işgali** üzerine Ankara'ya gelen **Mebusan Meclisi başkanı** kim?",
+        "Ele: Rauf Bey, Yunus Nadi, Cafer Tayyar, Ali Fuat — Meclis-i Mebusan başkanı değil.",
+        "Kural: son Osmanlı Mebusan Meclisi başkanı **Celalettin Arif Bey** Ankara'ya geçti.",
+        "Sonuç: doğru cevap **B — Celalettin Arif Bey**."
+      ],
+      "relatedFactIds": [
+        "tar-kshaz-08"
+      ]
+    },
+    "2020ol-GK-14": {
+      "steps": [
+        "Yönlendirme: **Merzifon Amerikan Koleji** + **Fener Rum Patrikhanesi** destekli, Karadeniz'de **Rum devleti** amaçlı cemiyet?",
+        "Ele: Mavri Mira (İstanbul-Batı), Etniki Eterya (eski), Hınçak (Ermeni), Kilikyalılar (Türk/Adana) — bu tanıma uymaz.",
+        "Kural: Karadeniz'de Pontus Rum devleti kurmayı amaçlayan cemiyet **Pontus**tur.",
+        "Sonuç: doğru cevap **D — Pontus**."
+      ],
+      "relatedFactIds": [
+        "tar-kshaz-09"
+      ]
+    },
+    "2020ol-GK-15": {
+      "steps": [
+        "Yönlendirme: M. Kemal resmî görevlerinden istifa edip **sine-i millete** dönünce ordusuyla ona destek veren komutan?",
+        "Ele: Rauf Orbay (denizci/siyasi), İsmet İnönü, Cevat Çobanlı, Fevzi Çakmak — bu anda Erzurum'da 15. Kolordu başında değil.",
+        "Kural: Erzurum'daki **15. Kolordu** komutanı **Kâzım Karabekir** 'Emrinizdeyim paşam' diyerek destek verdi.",
+        "Sonuç: doğru cevap **C — Kâzım Karabekir**."
+      ],
+      "relatedFactIds": [
+        "tar-kshaz-05"
+      ]
+    },
+    "2020ol-GK-16": {
+      "steps": [
+        "Yönlendirme: 'değildir' — İstanbul'un teslimiyetçi politikasına karşı Anadolu hareketinin TEPKİSİ OLMAYANI bul.",
+        "Doğruları ele: müdafaa-i hukuk cemiyetleri (A), yerel kongreler (B), İnebolu üzerinden gizli silah sevki (C), İstanbul ile haberleşmenin kesilmesi (E) — hepsi direniş tepkisidir.",
+        "Kural: **Mebusan Meclisi'nin İstanbul'da açılması** kararı mevcut düzene uyumdur; işgal ortamında İstanbul'da açılması sonradan sakınca doğurdu → tepki değildir (D).",
+        "Sonuç: doğru cevap **D**."
+      ],
+      "relatedFactIds": [
+        "tar-kshaz-12"
+      ]
+    },
+    "2020ol-GK-17": {
+      "steps": [
+        "Yönlendirme: **Misak-ı Millî (28 Ocak 1920)** sınırları hangi belgenin imzalandığı sıradaki durumu esas alır?",
+        "Ele: Sevr (1920), Moskova (1921), Lozan (1923) Misak-ı Millî'den SONRADIR → esas olamaz; Erzincan farklı.",
+        "Kural: Misak-ı Millî, **Mondros Mütarekesi'nin** imzalandığı gün (30 Ekim 1918) elde tutulan sınırları esas alır.",
+        "Sonuç: doğru cevap **A — Mondros Mütarekesi**."
+      ],
+      "relatedFactIds": [
+        "tar-kshaz-14"
+      ]
     }
   }
 }
