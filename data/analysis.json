@@ -3546,6 +3546,159 @@
       "relatedFactIds": [
         "tar-tink-06"
       ]
+    },
+    "2010ol-GK-24": {
+      "steps": [
+        "Yönlendirme: **metre-kilo (metrik sistem, 1931)** kabulüyle hangileri sağlandı? Üçünü değerlendir.",
+        "Değerlendir: I ülkede ölçü birliği ve II ticari işlerin kolaylaşması (standart/uluslararası ölçü) sağlanır.",
+        "Ele: III tarımsal üretimin artması ölçü birimiyle doğrudan ilgili değildir.",
+        "Sonuç: doğru cevap **D — I ve II**."
+      ],
+      "relatedFactIds": []
+    },
+    "2010ol-GK-28": {
+      "steps": [
+        "Yönlendirme: hangileri **Atatürk Dönemi** gelişmesidir? Tarihe bak.",
+        "Değerlendir: I İstanbul Üniversitesi (1933) ve II Türk Tarih Kurumu (1931) Atatürk dönemidir.",
+        "Ele: III **Köy Enstitüleri 1940**'ta → Atatürk'ten sonra.",
+        "Sonuç: doğru cevap **D — I ve II**."
+      ],
+      "relatedFactIds": []
+    },
+    "2011lis-GK-15": {
+      "steps": [
+        "Yönlendirme: 'değildir' — **Tevhid-i Tedrisat (1924)**'ın sonucu OLMAYANI bul.",
+        "Doğruları ele: öğretimde birlik (A), okulların Millî Eğitim'e bağlanması (B), millî kültür birliğine ortam (D), dinî esaslı eğitimin terki (E).",
+        "Kural: **İlk Maarif Kongresi 1921**'de (Tevhid-i Tedrisat'tan ÖNCE) toplandı → sonucu değildir (C).",
+        "Sonuç: doğru cevap **C — İlk Maarif Kongresi'nin düzenlenmesi**."
+      ],
+      "relatedFactIds": [
+        "tar-tink-04"
+      ]
+    },
+    "2011lis-GK-17": {
+      "steps": [
+        "Yönlendirme: **İstiklal Marşı** yarışmasını hangi kurum açtı?",
+        "Ele: Millî Savunma, Genelkurmay, İçişleri, Dışişleri — bu yarışmayı açmadı.",
+        "Kural: yarışmayı **Maarif Vekaleti (Millî Eğitim Bakanlığı)** açtı (1920-1921).",
+        "Sonuç: doğru cevap **C — Millî Eğitim Bakanlığı**."
+      ],
+      "relatedFactIds": []
+    },
+    "2011lis-GK-18": {
+      "steps": [
+        "Yönlendirme: 'savunulamaz' — Atatürk'ün Takrir-i Sükûn/İstiklal Mahkemeleri için gerekçe GÖSTERMEDİĞİNİ bul.",
+        "Doğruları ele: devletin hayatı-bağımsızlığı (A), inkılapları/medeni gelişmeyi koruma (B), düzen-güvenlik (C), tehlikelere önlem (D) — iç düzenle ilgili gerekçelerdir.",
+        "Kural: Takrir-i Sükûn **iç düzen** kanunudur; **uluslararası ilişkileri düzenleme** gerekçesi değildir (E).",
+        "Sonuç: doğru cevap **E — Uluslararası ilişkileri düzenleme zorunluluğu**."
+      ],
+      "relatedFactIds": []
+    },
+    "2011lis-GK-19": {
+      "steps": [
+        "Yönlendirme: 'değildir' — **Teşvik-i Sanayi Kanunu (1927)** uygulaması OLMAYANI bul.",
+        "Doğruları ele: devlet arazisi tahsisi (A), taşımada indirim (B), vergi muafiyeti (D), devlet dairelerine yerli ürün zorunluluğu (E).",
+        "Kural: **Türkiye İş Bankası 1924**'te kuruldu; tasarruf/bankacılık kurumudur, Teşvik-i Sanayi uygulaması değildir (C).",
+        "Sonuç: doğru cevap **C — Türkiye İş Bankasının kurulması**."
+      ],
+      "relatedFactIds": []
+    },
+    "2011lis-GK-20": {
+      "steps": [
+        "Yönlendirme: Türk İnkılabı hangi bakımdan **Rus İnkılabı'ndan FARKLIDIR**?",
+        "Değerlendir: I Rus İnkılabı belli bir **ideolojiye (Marksizm)** bağlıydı; Türk İnkılabı belli bir ideolojiye bağlı değildi → FARK.",
+        "Ele: II başka uluslara örnek olma ve III tek kişi egemenliğini değiştirme her ikisinde de var → benzerlik.",
+        "Sonuç: doğru cevap **A — Yalnız I**."
+      ],
+      "relatedFactIds": []
+    },
+    "2011lis-GK-21": {
+      "steps": [
+        "Yönlendirme: Soyadı Kanunu + medreselerin kapatılması + Medeni Kanun hangi ilkeyle **ilişkilendirilemez**?",
+        "Doğruları ele: laiklik (medrese/Medeni Kanun), milliyetçilik (soyadı), halkçılık (eşitlik), inkılapçılık (tümü) ile bağlanır.",
+        "Kural: bu sosyal-hukuki inkılaplar **devletçilik (ekonomide devlet)** ile ilişkilendirilemez (B).",
+        "Sonuç: doğru cevap **B — Devletçilik**."
+      ],
+      "relatedFactIds": [
+        "tar-tink-05",
+        "tar-tink-07"
+      ]
+    },
+    "2011lis-GK-22": {
+      "steps": [
+        "Yönlendirme: 'savunulamaz' — **sosyal ayrıcalıkları önleme** amacı OLMAYANI bul.",
+        "Doğruları ele: tekke-zaviyelerin kapatılması, unvanların (hacı/ağa/hafız/molla) kaldırılması, Medeni Kanun (eşitlik), dinî giysilerin sınırlanması — ayrıcalık/farkları kaldırır.",
+        "Kural: **Devlet İstatistik Enstitüsü** idari/istatistik kurumudur; sosyal ayrıcalıkla ilgisi yoktur (D).",
+        "Sonuç: doğru cevap **D — Devlet İstatistik Enstitüsünün kurulması**."
+      ],
+      "relatedFactIds": [
+        "tar-tink-07"
+      ]
+    },
+    "2011lis-GK-25": {
+      "steps": [
+        "Yönlendirme: 'değildir' — **Cumhuriyet Dönemi** gelişmesi OLMAYANI bul.",
+        "Doğruları ele: Kabotaj Kanunu (1926), Halifeliğin kaldırılması (1924), siyasi partiler, Sadabat Paktı (1937) — Cumhuriyet dönemidir.",
+        "Kural: **Kanun-i Esasi 1876**'da (Osmanlı, I. Meşrutiyet) kabul edildi → Cumhuriyet dönemi değildir (E).",
+        "Sonuç: doğru cevap **E — Kanunuesasi'nin kabul edilmesi**."
+      ],
+      "relatedFactIds": []
+    },
+    "2011lis-GK-26": {
+      "steps": [
+        "Yönlendirme: 'değildir' — Atatürk döneminde **tarımı geliştirme** çalışması OLMAYANI bul.",
+        "Doğruları ele: âşarın kaldırılması (1925), numune çiftlikleri, Yüksek Ziraat Enstitüsü, tarım satış kooperatifleri — Atatürk dönemi tarım adımlarıdır.",
+        "Kural: **Ziraat Bankası 1888**'de (Osmanlı) kuruldu → Atatürk dönemi çalışması değildir (B).",
+        "Sonuç: doğru cevap **B — Ziraat Bankasının kurulması**."
+      ],
+      "relatedFactIds": []
+    },
+    "2012lis-GK-16": {
+      "steps": [
+        "Yönlendirme: 'gösterilemez' — **Saltanatın kaldırılması (1922)**'nın KANITI OLMAYANI bul.",
+        "Doğruları ele: millî egemenliğin güçlenmesi (A), demokrasiye adım (B), **kişisel egemenliğin sona ermesi** (C - padişahın şahsi egemenliği bitti), yetkilerin TBMM'de toplanması (D) — saltanatın kaldırılmasıyla kanıtlanır.",
+        "Kural: **devlet rejiminin adı (Cumhuriyet) 29 Ekim 1923**'te kondu, 1922'de değil → saltanatın kaldırılması buna kanıt olamaz (E).",
+        "Sonuç: doğru cevap **E — Devlet rejiminin adının konulduğuna** (paket 'C' hatalı)."
+      ],
+      "relatedFactIds": [
+        "tar-tink-01"
+      ],
+      "answer": "E"
+    },
+    "2012lis-GK-17": {
+      "steps": [
+        "Yönlendirme: **1921 Anayasası'ndaki ilk değişiklik** neyi gerçekleştirdi?",
+        "Ele: Saltanatın kaldırılması (A - ayrı TBMM kararı), İstiklal Marşı (C - 1921), Halifeliğin kaldırılması (D - 1924), Lozan onayı (E - anayasa değişikliği değil).",
+        "Kural: **29 Ekim 1923**'te 1921 Anayasası'nın 1. maddesi değiştirilerek **Cumhuriyet ilan edildi** (ilk değişiklik).",
+        "Sonuç: doğru cevap **B — Cumhuriyetin ilanı** (paket 'E' hatalı)."
+      ],
+      "relatedFactIds": [
+        "tar-tink-03"
+      ],
+      "answer": "B"
+    },
+    "2012lis-GK-18": {
+      "steps": [
+        "Yönlendirme: 'değildir' — **3 Mart 1924** kanunları kapsamında OLMAYANI bul.",
+        "Doğruları ele: Halifeliğin kaldırılması + Osmanlı hanedanının sınır dışına çıkarılması (B, D), Şer'iye ve Evkaf Vekaletinin kaldırılması (C), Tevhid-i Tedrisat — 3 Mart 1924'te çıktı.",
+        "Kural: **Şeyhülislamlık makamı** daha önce (saltanatla birlikte, 1922) kalkmıştı; 3 Mart 1924 kanunları arasında değildir (A).",
+        "Sonuç: doğru cevap **A — Şeyhülislamlık makamının lağvedilmesi**."
+      ],
+      "relatedFactIds": [
+        "tar-tink-04"
+      ]
+    },
+    "2012lis-GK-19": {
+      "steps": [
+        "Yönlendirme: yeni Türk alfabesinden (1928) sonra **okuryazarlığı artırmaya** yönelik olan hangisi?",
+        "Ele: Ankara Hukuk Mektebi (B - hukukçu yetiştirme), Tevhid-i Tedrisat (C - 1924), Türk Ocakları (D - kültür derneği, 1912), azınlık okullarının denetimi (E) — okuryazarlık kampanyası değil.",
+        "Kural: yeni harfleri halka öğretip okuryazarlığı artırmak için **Millet Mektepleri (1928)** açıldı.",
+        "Sonuç: doğru cevap **A — Millet Mekteplerinin açılması** (paket 'D' hatalı)."
+      ],
+      "relatedFactIds": [
+        "tar-tink-06"
+      ],
+      "answer": "A"
     }
   }
 }
