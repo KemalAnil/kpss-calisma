@@ -2734,6 +2734,159 @@
       "relatedFactIds": [
         "tar-kscep-08"
       ]
+    },
+    "2012lis-GK-15": {
+      "steps": [
+        "Yönlendirme: Sovyet yardımı **1921'de büyük oranda ARTTI** → 1921'de ne değişti? (artışın nedenini ara)",
+        "Ele: TBMM'nin açılması (A - Nis.1920), Kuvâ-yı Milliye (B - 1919), cemiyetlerin birleşmesi (D - 1919), Misak-ı Millî (E - Oca.1920) — hepsi 1921 ÖNCESİ, artışı açıklamaz.",
+        "Kural: 1921'deki **I./II. İnönü ve Sakarya zaferleri** (TBMM ordusunun askerî başarıları) Sovyetleri kazanan tarafa daha çok yardıma yöneltti.",
+        "Sonuç: doğru cevap **C — TBMM ordusunun askerî başarıları** (paket 'D' hatalı)."
+      ],
+      "relatedFactIds": [
+        "tar-kscep-03",
+        "tar-kscep-04"
+      ],
+      "answer": "C"
+    },
+    "2012ol-GK-14": {
+      "steps": [
+        "Yönlendirme: 'değildir' — Türk ordusunun **askerî başarısından SONRA** yapılan antlaşma OLMAYANI bul.",
+        "Doğruları ele: Gümrü (Doğu zaferi sonrası), Moskova, Ankara ve Kars (İnönü/Sakarya sonrası) — hepsi zafer sonrasıdır.",
+        "Kural: **Brest-Litovsk (1918)** I. Dünya Savaşı antlaşmasıdır (Rusya-İttifak); Millî Mücadele zaferiyle ilgisizdir (C).",
+        "Sonuç: doğru cevap **C — Brest-Litowsk**."
+      ],
+      "relatedFactIds": []
+    },
+    "2012ol-GK-15": {
+      "steps": [
+        "Yönlendirme: 'aykırı' — **millî birlik ve beraberliğe** TERS düşen durumu bul.",
+        "Doğruları ele: TBMM (A), direniş cemiyetleri (B), Kuvâ-yı Milliye (C), kongreler (D) — birliği pekiştiren gelişmelerdir.",
+        "Kural: **iç ayaklanmalar** milleti böler, millî birliğe aykırıdır (E).",
+        "Sonuç: doğru cevap **E — İç ayaklanmaların başlaması**."
+      ],
+      "relatedFactIds": []
+    },
+    "2013lis-GK-16": {
+      "steps": [
+        "Yönlendirme: vekiller 8 ay maaşsız çalışıp maaşın %20'sini bütçe açığına iade etti → bu neyi gösterir?",
+        "Ele: farklı düşünceden oluşma (B), kişisel çıkar (C - tam tersi), üstünde güç tanımama (D), anayasal düzen (E) — bu davranışla doğrudan bağlı değil.",
+        "Kural: fedakârlık, vekillerin **ülke çıkarını her şeyin üstünde** tuttuğunu gösterir (A).",
+        "Sonuç: doğru cevap **A — Ülke çıkarlarını her şeyin üstünde gördükleri**."
+      ],
+      "relatedFactIds": []
+    },
+    "2013lis-GK-18": {
+      "steps": [
+        "Yönlendirme: **Lozan (24 Temmuz 1923)** Türk heyeti kimlerden oluşuyordu?",
+        "İpucu: heyet başkanı İsmet İnönü + iki üye.",
+        "Kural: Türk heyeti **İsmet Paşa (başkan), Dr. Rıza Nur ve Hasan (Saka) Bey**'den oluştu.",
+        "Sonuç: doğru cevap **C — İsmet Paşa, Rıza Nur Bey, Hasan Bey**."
+      ],
+      "relatedFactIds": [
+        "tar-kscep-08"
+      ]
+    },
+    "2014lis-GK-16": {
+      "steps": [
+        "Yönlendirme: Lozan'da **mübadele DIŞINDA** bırakılanları bul.",
+        "Değerlendir: **III İstanbul Rumları** ve **II Batı Trakya (Gümülcine-İskeçe) Türkleri** mübadele dışı tutuldu.",
+        "Ele: **I Batı Anadolu Rumları** mübadeleye tabidir (Yunanistan'a gönderildi).",
+        "Sonuç: doğru cevap **D — II ve III**."
+      ],
+      "relatedFactIds": [
+        "tar-kscep-08"
+      ]
+    },
+    "2014lis-GK-17": {
+      "steps": [
+        "Yönlendirme: **'İstiklal Harbimiz'** adlı anı eseri hangi komutana aittir?",
+        "Ele: Kâzım Özalp, Ali Fuat Cebesoy, İsmet İnönü, Fevzi Çakmak — bu eserin yazarı değil.",
+        "Kural: 'İstiklal Harbimiz', Doğu Cephesi komutanı **Kâzım Karabekir**'in anılarıdır.",
+        "Sonuç: doğru cevap **B — Kâzım Karabekir**."
+      ],
+      "relatedFactIds": [
+        "tar-kscep-01"
+      ]
+    },
+    "2014lis-GK-23": {
+      "steps": [
+        "Yönlendirme: Kurtuluş Savaşı'nda Anadolu'nun dışa açılan **en önemli ikmal limanı** hangisi?",
+        "Ele: İzmir (işgal), Trabzon, Samsun, Antalya — ana ikmal limanı değil.",
+        "Kural: Rusya/İstanbul'dan gelen silah-cephane **İnebolu** limanından iç bölgelere (İstiklal Yolu) taşındı.",
+        "Sonuç: doğru cevap **D — İnebolu**."
+      ],
+      "relatedFactIds": []
+    },
+    "2016lis-GK-17": {
+      "steps": [
+        "Yönlendirme: 'söylenemez' — 'savaş emperyalistlere karşıydı' yargısını DESTEKLEMEYENİ bul.",
+        "Doğruları ele: Londra Konferansı (B), Mudanya'ya İngiltere-Fransa-İtalya katılımı (C), Fransa ile Ankara Antlaşması (D), İtalya'nın çekilmesi (E) — İtilaf/emperyalistlerle ilgilidir.",
+        "Kural: **Kars Antlaşması** Kafkas (Ermenistan-Gürcistan-Azerbaycan) devletleriyledir; emperyalist güçlerle ilgili değildir (A).",
+        "Sonuç: doğru cevap **A — Kars Antlaşması'yla Doğu sınırlarının belirlenmesi**."
+      ],
+      "relatedFactIds": []
+    },
+    "2016lis-GK-22": {
+      "steps": [
+        "Yönlendirme: İsmet İnönü'nün Lozan heyetine **başkan** olabilmesi için **Dışişleri Bakanlığından istifa** eden kim?",
+        "İpucu: İsmet'in Dışişleri Bakanı olup heyeti yönetebilmesi için koltuğu boşaltan bakanı düşün.",
+        "Kural: dönemin Dışişleri Bakanı **Yusuf Kemal Tengirşenk** istifa etti; yerine İsmet Paşa geldi.",
+        "Sonuç: doğru cevap **E — Yusuf Kemal Tengirşenk**."
+      ],
+      "relatedFactIds": [
+        "tar-kscep-08"
+      ]
+    },
+    "2018lis-GK-17": {
+      "steps": [
+        "Yönlendirme: 'ulaşılamaz' — İstiklal Mahkemeleri için metinden ÇIKARILAMAYANI bul.",
+        "Doğruları ele: Meclisçe seçilen üyeler = TBMM'nin yargı gücü (A), isyanları bastırma (B), gerektiğinde kurulup yargılama (D), kararların kesin/temyizsiz olması (E).",
+        "Kural: metin mahkemelerin **inkılapların uygulanmasında** da etkili olduğunu söyler → faaliyetleri Millî Mücadele ile SINIRLI değildir (C).",
+        "Sonuç: doğru cevap **C — Faaliyetleri Millî Mücadele Dönemi'yle sınırlı kalmıştır**."
+      ],
+      "relatedFactIds": []
+    },
+    "2018lis-GK-18": {
+      "steps": [
+        "Yönlendirme: M. Kemal'in **'Rum Sındığı'** (Rum'un bozguna uğradığı) diye andığı, Yunan ordusunun yok edildiği savaş?",
+        "Ele: İnönü/Kütahya/Sakarya bu nitelemeyle anılmaz.",
+        "Kural: Yunan ordusunun kesin yenilgiye uğratıldığı **Başkomutanlık Meydan Muharebesi (30 Ağustos 1922, Dumlupınar)**'dır.",
+        "Sonuç: doğru cevap **E — Başkomutan Meydan Muharebesi**."
+      ],
+      "relatedFactIds": [
+        "tar-kscep-07"
+      ]
+    },
+    "2018lis-GK-19": {
+      "steps": [
+        "Yönlendirme: Lozan'a ara verildiğinde **İkinci Grup**'un yoğun eleştirisi neyin gerçekleşmesinde etkili oldu?",
+        "Ele: Takrir-i Sükûn (A - 1925), Başkomutanlık uzatımı (C), Felah-ı Vatan (D - 1918 Mebusan), Hıyanet-i Vataniye (E - 1920) — bu bağlamda değil.",
+        "Kural: muhalefeti aşmak için **Meclis yenilendi** → yeni **milletvekili seçimi** kararı alındı (Nisan 1923).",
+        "Sonuç: doğru cevap **B — Milletvekili seçimleri için karar alınması**."
+      ],
+      "relatedFactIds": []
+    },
+    "2018ol-GK-16": {
+      "steps": [
+        "Yönlendirme: **Bekir Sami Bey – Kont Sforza (İtalya)** anlaşması hangi diplomatik görüşme sırasında imzalandı?",
+        "İpucu: I. İnönü sonrası Sevr'i gözden geçirmek için toplanan, TBMM'nin Bekir Sami Bey ile katıldığı konferansı düşün.",
+        "Kural: bu anlaşmalar **Londra Konferansı (1921)** sırasında imzalandı (sonra TBMM'ce reddedildi).",
+        "Sonuç: doğru cevap **C — Londra Konferansı**."
+      ],
+      "relatedFactIds": [
+        "tar-kscep-03"
+      ]
+    },
+    "2018ol-GK-17": {
+      "steps": [
+        "Yönlendirme: 'yer almaz' — **I. İnönü Zaferi (Ocak 1921)** sonucu OLMAYANI bul.",
+        "Doğruları ele: düzenli ordunun Batı'da ilk başarısı (A), halkın güveninin artması (C), ordunun güç kazanması (D), Londra Konferansı'nın toplanması (E) — I. İnönü sonuçlarıdır.",
+        "Kural: **Gümrü Antlaşması (3 Aralık 1920)** I. İnönü'den ÖNCEDİR → sonucu olamaz (B).",
+        "Sonuç: doğru cevap **B — Ermenistan ile Gümrü Antlaşması'nın imzalanması**."
+      ],
+      "relatedFactIds": [
+        "tar-kscep-03"
+      ]
     }
   }
 }
