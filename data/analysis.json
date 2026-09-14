@@ -3250,6 +3250,155 @@
       "relatedFactIds": [
         "tar-adp-02"
       ]
+    },
+    "2008lisGK-GK-17": {
+      "steps": [
+        "Yönlendirme: 'varılamaz' — 1921 Anayasası maddelerinden ÇIKARILAMAYANI bul.",
+        "Doğruları ele: egemenliğin millete geçmesi → padişahın yetkisiz kalması (A), yeni yapının ilkelerinin belirlenmesi (C), Osmanlı'nın fiilen yok sayılması (D), halk egemenliği vurgusu (E).",
+        "Kural: 1921 Anayasası **kısa/geçici** bir metindir (cumhuriyet henüz ilan edilmedi) → 'siyasi yapı TAMAMLANMIŞTIR' denemez (B).",
+        "Sonuç: doğru cevap **B — Siyasi yapısı tamamlanmıştır**."
+      ],
+      "relatedFactIds": [
+        "tar-tink-01"
+      ]
+    },
+    "2008lisGK-GK-19": {
+      "steps": [
+        "Yönlendirme: **Soyadı Kanunu (1934)** zorunluluğu hangi durumlardan kaynaklandı?",
+        "Değerlendir: I sınıf/unvan bildiren adların kullanılması (lakap-unvan kaldırıldı) ve II isim benzerliğinin karışıklık yaratması → gerçek nedenlerdir.",
+        "Ele: III 'azınlıkların bulunması' soyadı zorunluluğunun nedeni değildir.",
+        "Sonuç: doğru cevap **C — I ve II**."
+      ],
+      "relatedFactIds": [
+        "tar-tink-07"
+      ]
+    },
+    "2008lisGK-GK-21": {
+      "steps": [
+        "Yönlendirme: **Tevhid-i Tedrisat (öğretim birliği)** hangi inkılapla **aynı gün** görüşülüp yasalaştı?",
+        "İpucu: 3 Mart 1924'te birlikte çıkan düzenlemeleri düşün.",
+        "Kural: 3 Mart 1924'te **Halifelik kaldırıldı**, Tevhid-i Tedrisat ve Şer'iye/Erkan-ı Harbiye Vekaletleri kaldırıldı.",
+        "Sonuç: doğru cevap **A — Halifeliğin kaldırılması**."
+      ],
+      "relatedFactIds": [
+        "tar-tink-04"
+      ]
+    },
+    "2008lisGK-GK-23": {
+      "steps": [
+        "Yönlendirme: **Teşvik-i Sanayi Kanunu** (üretime %10 prim + devlet kurumlarına yerli mal zorunluluğu) neyi gösterir? Üçünü de değerlendir.",
+        "Değerlendir: I prim → üretimi artırma, II ithal yerine yerli kullanma → ithalatı kısıtlama, III devlet desteğiyle sermaye birikimi.",
+        "Kural: üçü de doğrudur; çeldirici yok.",
+        "Sonuç: doğru cevap **E — I, II ve III**."
+      ],
+      "relatedFactIds": []
+    },
+    "2008lisGK-GK-24": {
+      "steps": [
+        "Yönlendirme: **Harf İnkılabı neden 1928'e kadar gecikti?** Nedenleri değerlendir.",
+        "Değerlendir: I inkılaba çok önem verilip başarının rastlantıya bırakılmak istenmemesi (hazırlık) ve II daha önceki çalışmaların sonuçsuz kalması → gecikmeye etki eder.",
+        "Ele: III 'Arap alfabesinin harf sayısının fazlalığı' gecikmenin nedeni değildir (teknik özellik).",
+        "Sonuç: doğru cevap **C — I ve II**."
+      ],
+      "relatedFactIds": [
+        "tar-tink-06"
+      ]
+    },
+    "2008lisGK-GK-25": {
+      "steps": [
+        "Yönlendirme: fetva makamının kaldırılması + Terakkiperver Fırka'nın kapatılması hangisine **ortam hazırladı**?",
+        "İpucu: dinin siyasete alet edilmesini engelleyen bu adımlar hangi ilkeye zemin hazırlar?",
+        "Kural: bunlar **anayasadan laikliğe aykırı hükümlerin çıkarılmasına** (laikleşme) ortam hazırladı (1928).",
+        "Sonuç: doğru cevap **B — Anayasadan laikliğe aykırı hükümlerin çıkarılması**."
+      ],
+      "relatedFactIds": [
+        "tar-tink-04"
+      ]
+    },
+    "2008lisGK-GK-26": {
+      "steps": [
+        "Yönlendirme: **Merkez Bankası (1930)**'nın önemli olmasında hangi görevleri etkili? Üçünü değerlendir.",
+        "Ele: I çiftçiye kredi **Ziraat Bankası**'nın işidir, Merkez Bankası'nın değil.",
+        "Kural: II ulusal bankalara destek (bankaların bankası) ve III **kâğıt para basma (emisyon) ayrıcalığını Osmanlı Bankası'ndan almak** Merkez Bankası'nın görevidir.",
+        "Sonuç: doğru cevap **D — II ve III**."
+      ],
+      "relatedFactIds": []
+    },
+    "2008lisGK-GK-27": {
+      "steps": [
+        "Yönlendirme: **29 Ekim 1923** değişikliği (1921 Anayasası'nda) neleri belirledi? Üçünü değerlendir.",
+        "Değerlendir: I siyasi rejim = **Cumhuriyet** ilan edildi; II hükümetin kuruluş biçimi = **kabine sistemi** (cumhurbaşkanı-başbakan).",
+        "Ele: III seçim sistemi bu değişiklikle belirlenmedi.",
+        "Sonuç: doğru cevap **C — I ve II**."
+      ],
+      "relatedFactIds": [
+        "tar-tink-03"
+      ]
+    },
+    "2008lisGK-GK-28": {
+      "steps": [
+        "Yönlendirme: **Serbest Cumhuriyet Fırkası (1930)** programında hangi ilkeler vardı?",
+        "İpucu: SCF **liberal** bir partiydi → ekonomide devlet müdahalesine karşıydı.",
+        "Değerlendir: I cumhuriyetçilik ve III laiklik programındaydı; II **devletçilik** liberal SCF'ye aykırıdır (yok).",
+        "Sonuç: doğru cevap **E — I ve III**."
+      ],
+      "relatedFactIds": []
+    },
+    "2009lis-GK-16": {
+      "steps": [
+        "Yönlendirme: kadın haklarının **kronolojik** sırasını kur.",
+        "Değerlendir: I mirasta eşitlik/tanıklık = **Medeni Kanun (1926)**; III belediye seçimleri = **1930**; II milletvekili seçme-seçilme = **1934**.",
+        "Kural: sıra I (1926) → III (1930) → II (1934).",
+        "Sonuç: doğru cevap **B — I, III, II**."
+      ],
+      "relatedFactIds": [
+        "tar-tink-05",
+        "tar-tink-08"
+      ]
+    },
+    "2009lis-GK-20": {
+      "steps": [
+        "Yönlendirme: 1924'te hangileri **yönetim birliğini** güçlendirmek için kaldırıldı?",
+        "Değerlendir: I Hilafet ve II Şer'iye ve Evkaf Vekaleti, devletin yanında **ayrı/rakip otoriteleri** kaldırdı → yönetim birliği.",
+        "Ele: III Erkan-ı Harbiye Vekaleti'nin kaldırılması **orduyu siyasetten ayırma** amaçlıdır, yönetim birliği değil.",
+        "Sonuç: doğru cevap **D — I ve II**."
+      ],
+      "relatedFactIds": [
+        "tar-tink-04"
+      ]
+    },
+    "2009lis-GK-21": {
+      "steps": [
+        "Yönlendirme: sarık→fes (19.yy) ve fes→şapka (Cumhuriyet) değişimlerine karşı çıkılması neyi gösterir? Üçünü değerlendir.",
+        "Değerlendir: I yenilikler değişen anlayışın ürünüdür, II yenilikler tepkiyle karşılandı, III benimsenmesi süreç gerektirir (bir zaman fes'e karşı çıkıldı, sonra fes savunuldu).",
+        "Kural: üç yargı da bu iki durumdan çıkarılabilir.",
+        "Sonuç: doğru cevap **E — I, II ve III**."
+      ],
+      "relatedFactIds": [
+        "tar-tink-07"
+      ]
+    },
+    "2009lis-GK-22": {
+      "steps": [
+        "Yönlendirme: 'değildir' — **Cumhuriyet'in ilanının (1923)** sonucu OLMAYANI bul.",
+        "Doğruları ele: hükümet kurmanın yeni yönteme (kabine) bağlanması (A), rejimin adının konması (B), devlet başkanının (cumhurbaşkanı) belirlenmesi (D), Halifeliğin kaldırılması (E - sonrasında).",
+        "Kural: **İstiklal Marşı 1921'de** kabul edildi → Cumhuriyet'ten (1923) ÖNCE; sonucu olamaz (C).",
+        "Sonuç: doğru cevap **C — İstiklal Marşı'nın kabul edilmesi**."
+      ],
+      "relatedFactIds": [
+        "tar-tink-03"
+      ]
+    },
+    "2009lis-GK-23": {
+      "steps": [
+        "Yönlendirme: TBMM **padişah ve halifenin siyasi-hukuki yetkilerini** hangisiyle üstlendi?",
+        "Ele: Tekâlif-i Milliye (B - ekonomik seferberlik), İstanbul'un işgali (C), Lozan (D), Hıyanet-i Vataniye (E) — bu yetki devrini sağlamaz.",
+        "Kural: **Teşkilat-ı Esasiye (1921 Anayasası)** 'egemenlik milletindir' diyerek yasama-yürütmeyi TBMM'ye verdi.",
+        "Sonuç: doğru cevap **A — Teşkilat-ı Esasiye Kanunu'nun kabul edilmesi**."
+      ],
+      "relatedFactIds": [
+        "tar-tink-01"
+      ]
     }
   }
 }
