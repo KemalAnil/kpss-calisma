@@ -4000,6 +4000,108 @@
       "relatedFactIds": [
         "tar-tink-01"
       ]
+    },
+    "2018ol-GK-20": {
+      "steps": [
+        "Yönlendirme: 26 Ekim 1923'teki **hükümet bunalımı** (Fethi Bey'in istifası) neyle son buldu?",
+        "İpucu: meclis hükümeti sisteminin yarattığı kabine krizini çözen düzenlemeyi düşün.",
+        "Kural: **Cumhuriyet'in ilanı (29 Ekim 1923)** kabine sistemini getirerek bunalımı bitirdi.",
+        "Sonuç: doğru cevap **D — Cumhuriyet'in ilan edilmesi**."
+      ],
+      "relatedFactIds": [
+        "tar-tink-03"
+      ]
+    },
+    "2018ol-GK-21": {
+      "steps": [
+        "Yönlendirme: 'söylenemez' — Atatürk inkılapları için YANLIŞ olanı bul.",
+        "Doğruları ele: gerçekçi (A), akılcı ve millî (B), çağdaşlaşmacı (C), tam bağımsızlıkçı (D) — inkılapların nitelikleridir.",
+        "Kural: Atatürk ekonomisi **ulusal çıkara aykırı olmayan yabancı sermayeye açıktı** → 'yabancı yatırıma karşı' denemez (E).",
+        "Sonuç: doğru cevap **E — Yabancı yatırıma karşı olduğu**."
+      ],
+      "relatedFactIds": []
+    },
+    "2018ol-GK-22": {
+      "steps": [
+        "Yönlendirme: **1929 Dünya Ekonomik Buhranı** ekonomide hangisinin öne çıkmasına zemin hazırladı?",
+        "Ele: sosyalist devletçilik (B - Türk devletçiliği sosyalist değil), liberalizm (C - kriz onu zayıflattı), merkantilizm (D), feodalizm (E) — uygun değil.",
+        "Kural: kriz, **devletin ekonomiye müdahalesini (devletçilik/müdahalecilik)** öne çıkardı.",
+        "Sonuç: doğru cevap **A — Devlet müdahaleciliği**."
+      ],
+      "relatedFactIds": []
+    },
+    "2020lis-GK-20": {
+      "steps": [
+        "Yönlendirme: **Osmanlı ailesinin yurt dışına çıkarılması** hangi gelişmeye bağlı alındı?",
+        "Ele: saltanatın kaldırılması (1922 - yalnız Vahdettin gitti), Lozan, Cumhuriyet, Ankara'nın başkent olması — hanedanın topluca çıkarılması değil.",
+        "Kural: **Halifeliğin kaldırılması (3 Mart 1924)** kanunuyla Osmanlı hanedanı üyeleri yurt dışına çıkarıldı.",
+        "Sonuç: doğru cevap **C — Halifeliğin kaldırılması**."
+      ],
+      "relatedFactIds": [
+        "tar-tink-04"
+      ]
+    },
+    "2020lis-GK-21": {
+      "steps": [
+        "Yönlendirme: **1924 Anayasası'na SONRADAN (değişiklikle) eklenen** konu hangisi?",
+        "Doğruları ele: millî egemenlik (A), Ankara'nın başkentliği (B), resmî dil Türkçe (C), Türk vatandaşlığı (E) — 1924'te vardı.",
+        "Kural: **kadınlara seçme-seçilme hakkı 1934**'te anayasa değişikliğiyle eklendi (D).",
+        "Sonuç: doğru cevap **D — Kadınlara seçme ve seçilme hakkı verilmesi**."
+      ],
+      "relatedFactIds": [
+        "tar-tink-08"
+      ]
+    },
+    "2020lis-GK-22": {
+      "steps": [
+        "Yönlendirme: **1923-1930** iktisat politikasına örnek OLAMAYANI bul (tarihe bak).",
+        "Doğruları ele: Kabotaj (1926), Teşvik-i Sanayi (1927), kapitülasyonların kaldırılması (1923), İş Bankası (1924) — bu dönemdedir.",
+        "Kural: **I. Beş Yıllık Sanayi Planı 1934**'te → 1930 sonrası; bu döneme örnek gösterilemez (E).",
+        "Sonuç: doğru cevap **E — I. Beş Yıllık Sanayi Planı'nın uygulanması**."
+      ],
+      "relatedFactIds": []
+    },
+    "2020ol-GK-20": {
+      "steps": [
+        "Yönlendirme: **İstanbul Hükümetinin Lozan'a katılma girişimi** neyle engellendi?",
+        "Ele: İstiklal mahkemeleri, Başkomutanlık Kanunu, Ankara'nın başkentliği, Halifeliğin kaldırılması — bu engeli sağlamaz.",
+        "Kural: **Saltanatın kaldırılması (1 Kasım 1922)** İstanbul Hükümetini sona erdirdi → Lozan'da yalnız TBMM temsil edildi.",
+        "Sonuç: doğru cevap **B — Saltanatın kaldırılması**."
+      ],
+      "relatedFactIds": [
+        "tar-tink-01"
+      ]
+    },
+    "2020ol-GK-21": {
+      "steps": [
+        "Yönlendirme: 1923 seçim kanunu değişikliklerinden hangileri **seçmen sayısını** artırmayı amaçlar?",
+        "Değerlendir: II seçme yaşının 18'e indirilmesi ve III vergi şartının kaldırılması daha çok kişiyi seçmen yapar.",
+        "Ele: I '20.000 nüfusa bir vekil' **milletvekili sayısını** artırır, seçmen sayısını değil.",
+        "Sonuç: doğru cevap **D — II ve III**."
+      ],
+      "relatedFactIds": []
+    },
+    "2020ol-GK-22": {
+      "steps": [
+        "Yönlendirme: **azınlık ve yabancı okulların Millî Eğitim'e bağlanması** hangi kanunla oldu?",
+        "Ele: Maarif Teşkilatı, Nisab-ı Müzakere, Medeni Kanun, Millet Mektepleri Talimatnamesi — bu birleştirmeyi sağlamaz.",
+        "Kural: **Tevhid-i Tedrisat Kanunu (1924)** tüm okulları (azınlık/yabancı dâhil) Millî Eğitim'e bağladı.",
+        "Sonuç: doğru cevap **C — Tevhid-i Tedrisat Kanunu**."
+      ],
+      "relatedFactIds": [
+        "tar-tink-04"
+      ]
+    },
+    "2020ol-GK-23": {
+      "steps": [
+        "Yönlendirme: unvan/lakapların (ağa, hacı, paşa...) kaldırılmasının amacı nedir?",
+        "Ele: nüfus belirleme (A), tam bağımsızlık (B), toprak bütünlüğü (C), eğitim birliği (E) — bu kanunun amacı değil.",
+        "Kural: unvanların kaldırılması **imtiyazsız, sınıfsız bir toplum** (halkçılık) amaçlar (D).",
+        "Sonuç: doğru cevap **D — İmtiyazsız ve sınıfsız bir toplum oluşturmak**."
+      ],
+      "relatedFactIds": [
+        "tar-tink-07"
+      ]
     }
   }
 }
